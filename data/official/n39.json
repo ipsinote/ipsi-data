@@ -1,0 +1,64 @@
+{
+ "id": "n39",
+ "org": "충북대 영재원",
+ "what": "앞으로 120일 안 일정 3단계",
+ "checkedAt": "2026-11-15T01:09:59+09:00",
+ "opened": [
+  {
+   "url": "https://school.cbe.go.kr/dongseong-m/M010301/view/5847323",
+   "status": "ok"
+  },
+  {
+   "url": "https://gifted.cbnu.ac.kr",
+   "status": "robots"
+  },
+  {
+   "url": "https://www.seit.kr/sub01_06_03.html",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.seit.kr/sub07_01.html",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.seit.kr/sub07_01.html",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.seit.kr/sub07_01.html",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://school.cbe.go.kr/dongseong-m/M010301/view/5847323",
+   "title": "공지사항<학교소식<동성중학교"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://school.cbe.go.kr/_cmm/fileDownload/dongseong-m/M010301/25932b1344ebe6b45b4a2be6b5f4f025",
+   "name": "과학영재교육원 과학영재교육원_2027학년도_충북대학교_과학영재교육원_상반기_선교육대상자_전형요강.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 378644,
+   "sha1": "eaf3ca49d7df"
+  }
+ ],
+ "lines": [
+  {
+   "text": "합격자 발표 | 2027. 1. 8(금)",
+   "dates": [
+    "2027-01-08"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://school.cbe.go.kr/_cmm/fileDownload/dongseong-m/M010301/25932b1344ebe6b45b4a2be6b5f4f025"
+  }
+ ],
+ "status": "dates",
+ "route": 1
+}

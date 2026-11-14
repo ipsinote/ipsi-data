@@ -1,13 +1,11 @@
 {
- "at": "2026-11-14T23:19:05+09:00",
- "targets": 83,
- "withDates": 51,
+ "at": "2026-11-15T01:20:20+09:00",
+ "targets": 86,
+ "withDates": 56,
  "blockedAll": [
   "n33",
-  "n41",
   "n69",
   "n83",
-  "n31",
   "n62",
   "n63"
  ],
@@ -473,10 +471,10 @@
   {
    "id": "n40",
    "org": "충남 교육청 영재원",
-   "status": "robots",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
-   "opened": 1,
+   "opened": 4,
    "route": 1,
    "tried": null
   },
@@ -619,25 +617,27 @@
    "tried": null
   },
   {
+   "id": "n39",
+   "org": "충북대 영재원",
+   "status": "dates",
+   "lines": 1,
+   "files": 1,
+   "opened": 6,
+   "route": 1,
+   "tried": null
+  },
+  {
    "id": "n41",
    "org": "충남과학고",
-   "status": "blocked-all",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
+   "files": 1,
    "opened": 2,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "found-no-dates"
     }
    ]
   },
@@ -758,7 +758,7 @@
    "id": "n66",
    "org": "순천대 영재원",
    "status": "dates",
-   "lines": 24,
+   "lines": 22,
    "files": 4,
    "opened": 5,
    "route": 1,
@@ -861,6 +861,16 @@
    ]
   },
   {
+   "id": "n85",
+   "org": "울산대 영재원",
+   "status": "dates",
+   "lines": 1,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": null
+  },
+  {
    "id": "n90",
    "org": "포항제철고",
    "status": "robots",
@@ -926,6 +936,16 @@
    ]
   },
   {
+   "id": "n98",
+   "org": "경상국립대 영재원",
+   "status": "dates",
+   "lines": 1,
+   "files": 2,
+   "opened": 1,
+   "route": 1,
+   "tried": null
+  },
+  {
    "id": "n101",
    "org": "청심국제중",
    "status": "found-no-dates",
@@ -938,46 +958,34 @@
   {
    "id": "n31",
    "org": "충남대학교 과학영재교육원",
-   "status": "blocked-all",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
+   "status": "dates",
+   "lines": 60,
+   "files": 5,
+   "opened": 4,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "dates"
     }
    ]
   },
   {
    "id": "n34",
    "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
-   "route": 3,
+   "status": "dates",
+   "lines": 60,
+   "files": 4,
+   "opened": 4,
+   "route": 2,
    "tried": [
-    {
-     "rank": 2,
-     "status": "robots"
-    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
-     "rank": 3,
-     "status": "not-found"
+     "rank": 2,
+     "status": "dates"
     }
    ]
   },

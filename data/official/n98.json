@@ -1,8 +1,8 @@
 {
  "id": "n98",
  "org": "경상국립대 영재원",
- "what": "앞으로 120일 안 일정 1단계",
- "checkedAt": "2026-11-09T09:20:49+09:00",
+ "what": "앞으로 120일 안 일정 4단계",
+ "checkedAt": "2026-11-15T01:19:00+09:00",
  "opened": [
   {
    "url": "https://www.gnu.ac.kr/gifted/na/ntt/selectNttInfo.do?nttSn=8560962&mi=7217",
@@ -20,16 +20,27 @@
  "files": [
   {
    "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=fd91397453a15d51680dc9ee80400872",
-   "name": "[붙임1] 2027학년도 경상국립대학교 과학영재교육원 신입생 모집요강.pdf (다운로드 : 857회)",
+   "name": "[붙임1] 2027학년도 경상국립대학교 과학영재교육원 신입생 모집요강.pdf (다운로드 : 894회)",
    "status": "robots"
   },
   {
    "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=586bde64d6931114bb177e4ee17c2044",
-   "name": "[붙임2] 2027학년도 경상국립대학교 과학영재교육원 신입생 모집 관련 서식 (1~6) 한글파일.hwp (다운로드 : 232회)",
+   "name": "[붙임2] 2027학년도 경상국립대학교 과학영재교육원 신입생 모집 관련 서식 (1~6) 한글파일.hwp (다운로드 : 235회)",
    "status": "robots"
   }
  ],
- "lines": [],
- "status": "found-no-dates",
+ "lines": [
+  {
+   "text": "등록일 | 2026.09.16",
+   "dates": [
+    "2026-09-16"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.gnu.ac.kr/gifted/na/ntt/selectNttInfo.do?nttSn=8560962&mi=7217"
+  }
+ ],
+ "status": "dates",
  "route": 1
 }

@@ -1,8 +1,8 @@
 {
  "id": "n66",
  "org": "순천대 영재원",
- "what": "앞으로 120일 안 일정 5단계",
- "checkedAt": "2026-11-14T23:16:55+09:00",
+ "what": "앞으로 120일 안 일정 4단계",
+ "checkedAt": "2026-11-15T01:17:22+09:00",
  "opened": [
   {
    "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
@@ -187,16 +187,6 @@
    "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
   },
   {
-   "text": "문제해결능력검사 | 30,000원 2026. 11. 12(목) ~ 13(금)",
-   "dates": [
-    "2026-11-12"
-   ],
-   "words": [
-    "검사"
-   ],
-   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
-  },
-  {
    "text": "관찰평가 | 70,000원 2026. 12. 08(화) ~ 09(수)",
    "dates": [
     "2026-12-08"
@@ -296,16 +286,6 @@
    ],
    "words": [
     "등록"
-   ],
-   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
-  },
-  {
-   "text": "문제해결능력검사 | 30,000원 2026. 11. 12(목) ~ 13(금)",
-   "dates": [
-    "2026-11-12"
-   ],
-   "words": [
-    "검사"
    ],
    "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
   },

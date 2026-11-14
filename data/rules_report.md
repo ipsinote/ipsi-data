@@ -1,24 +1,18 @@
-# 규정 점검 2026-11-12
+# 규정 점검 2026-11-15
 
 규정 60개 · 원문 71곳 중 자동 감시 53곳, 이번에 23곳을 열었습니다 (읽음 23 · 본문 짧아 못 읽음 0 · robots로 안 엶 0 · 못 엶 0).
 
-높음 2 · 보통 2 · 낮음 0 — 높음·보통은 월요일 04:10 자료 점검(v5.11 4i)이 원문을 열어 우리 영향을 판단하고 운영실에 올립니다.
+높음 0 · 보통 2 · 낮음 0 — 높음·보통은 월요일 04:10 자료 점검(v5.11 4i)이 원문을 열어 우리 영향을 판단하고 운영실에 올립니다.
 
-## 높음: 우리가 기대는 사실이 바뀌었을 수 있음 (2)
-- YouTube Data API 할당량·감사(업로드 하루 100번 · 감사는 한도를 늘릴 때만) — 수정일 Last updated 2026-11-03 → Last updated 2026-11-10 · 바뀐 부분: Quota and Compliance Audits Stay organized with collections Save and categorize / Begin an audit / Request an additional quota extension / Appeal a failed audit / Periodic audit / Change of control
-  - 주소: https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits?hl=en
-  - 관련 규정 R-YT5: 유튜브 — videos.insert는 '동영상 업로드' 따로 한도 — 1번에 1단위·하루 100번(2026-06-01 분리), 그 밖 기능 하루 10,000단위, 기본 한도 안에서는 감사 불필요. 검증 안 된 프로젝트로 올린 영상도 비공개로 잠기지 않음 — 2026-11-02 개정 기록이 2020-07-28 잠금을 거둠(2026-11-06 확인). 공개 상태를 비우면 '공개'가 기본, 예약 공개는 비공개·미공개 영상만
-- YouTube Data API 개정 이력 — 수정일 Last updated 2026-11-03 → Last updated 2026-11-10 · 바뀐 부분: November 3, 2026 / November 2, 2026 / October 15, 2026 / September 30, 2026 / September 14, 2026 / September 11, 2026
-  - 주소: https://developers.google.com/youtube/v3/revision_history?hl=en
-  - 관련 규정 R-YT5: 유튜브 — videos.insert는 '동영상 업로드' 따로 한도 — 1번에 1단위·하루 100번(2026-06-01 분리), 그 밖 기능 하루 10,000단위, 기본 한도 안에서는 감사 불필요. 검증 안 된 프로젝트로 올린 영상도 비공개로 잠기지 않음 — 2026-11-02 개정 기록이 2020-07-28 잠금을 거둠(2026-11-06 확인). 공개 상태를 비우면 '공개'가 기본, 예약 공개는 비공개·미공개 영상만
+## 높음: 우리가 기대는 사실이 바뀌었을 수 있음 (0)
 
 ## 보통: 내용이 바뀐 부분이 있음 (2)
-- Google 검색 Search Status Dashboard 순위 업데이트 이력 — 바뀐 부분: 2026
-  - 주소: https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history
-  - 관련 규정 R-G3: 구글 검색 — 스팸·코어 업데이트가 자주 있음(2026년 스팸 업데이트 3·6·8·9월)
-- Meta Instagram 추천과 원본성 — 새 부분: Follow us · 없어진 부분: Follow @Creators / Go Create
+- Meta Instagram 추천과 원본성 — 새 부분: Follow @Creators / Go Create · 없어진 부분: Follow us
   - 주소: https://creators.instagram.com/recommendations-and-originality
   - 관련 규정 R-IG1: 인스타그램 — 똑같은 사본은 원본만 추천, 남의 것 모음·워터마크 있는 영상은 추천 제외
+- Meta Threads API Posts — 바뀐 부분: (첫 부분)
+  - 주소: https://developers.facebook.com/docs/threads/posts
+  - 관련 규정 R-TH1: 스레드 — API 게시 24시간 250개, 고급 권한 전엔 테스터 계정만, 링크 5개 넘으면 오류
 
 ## 낮음: 처음 기록·읽지 못함 (0)
 

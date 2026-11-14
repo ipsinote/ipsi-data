@@ -1,12 +1,13 @@
 {
- "at": "2026-11-14T08:34:16+09:00",
+ "at": "2026-11-14T23:19:05+09:00",
  "targets": 83,
- "withDates": 53,
+ "withDates": 51,
  "blockedAll": [
   "n33",
   "n41",
   "n69",
   "n83",
+  "n31",
   "n62",
   "n63"
  ],
@@ -426,7 +427,7 @@
     },
     {
      "rank": 2,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 3,
@@ -937,26 +938,11 @@
   {
    "id": "n31",
    "org": "충남대학교 과학영재교육원",
-   "status": "dates",
-   "lines": 60,
-   "files": 5,
-   "opened": 4,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
    "route": 1,
-   "tried": [
-    {
-     "rank": 1,
-     "status": "dates"
-    }
-   ]
-  },
-  {
-   "id": "n34",
-   "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
-   "status": "dates",
-   "lines": 60,
-   "files": 4,
-   "opened": 4,
-   "route": 2,
    "tried": [
     {
      "rank": 1,
@@ -964,7 +950,34 @@
     },
     {
      "rank": 2,
-     "status": "dates"
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
+    }
+   ]
+  },
+  {
+   "id": "n34",
+   "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 3,
+   "tried": [
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },

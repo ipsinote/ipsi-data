@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.199)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.201)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-14",
-"ver": "v28.199",
-"count": 509,
+"ver": "v28.201",
+"count": 513,
 "sources": [
 {
 "id": "1084a42981",
@@ -2297,6 +2297,19 @@
 "cycle": "w"
 },
 {
+"id": "6a28a47e05",
+"url": "https://admission-sshs.info/24",
+"host": "admission-sshs.info",
+"name": "",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"sshs"
+],
+"dated": "",
+"cycle": "m"
+},
+{
 "id": "1bc6911120",
 "url": "https://www.ansan.go.kr/",
 "host": "ansan.go.kr",
@@ -2655,7 +2668,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -4278,6 +4291,19 @@
 "cycle": "m"
 },
 {
+"id": "7428d8faa1",
+"url": "https://jajucenter.ebs.co.kr/",
+"host": "jajucenter.ebs.co.kr",
+"name": "EBS 자기주도학습센터 누리집(센터 소개·신청 방법)",
+"kind": "공식",
+"cat": "무료 학습",
+"used": [
+"q-jaju-center"
+],
+"dated": "2026-11-13",
+"cycle": "m"
+},
+{
 "id": "113adf1e10",
 "url": "https://www.kmooc.kr",
 "host": "kmooc.kr",
@@ -4711,6 +4737,19 @@
 "cycle": "w"
 },
 {
+"id": "4dcb0d9194",
+"url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156751713",
+"host": "korea.kr",
+"name": "교육부 보도자료: 2026년 자기주도 학습센터 신규 공모(정책브리핑)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-jaju-center"
+],
+"dated": "2026-03-30",
+"cycle": "w"
+},
+{
 "id": "43b4a4d62f",
 "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156766806",
 "host": "korea.kr",
@@ -4721,6 +4760,19 @@
 "q-csat-answer-objection"
 ],
 "dated": "2026-06-16",
+"cycle": "w"
+},
+{
+"id": "8cad48a057",
+"url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148941672",
+"host": "korea.kr",
+"name": "정책브리핑: 자기주도 학습센터 신규 설치·운영(교육부)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-jaju-center"
+],
+"dated": "2025-04-11",
 "cycle": "w"
 },
 {
@@ -5083,6 +5135,19 @@
 ],
 "dated": "2025-06-01",
 "cycle": "m"
+},
+{
+"id": "305153cc40",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=104022&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+"host": "moe.go.kr",
+"name": "교육부 보도자료: 2025년 자기주도 학습센터 선정 결과 발표",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-jaju-center"
+],
+"dated": "2025-09-02",
+"cycle": "w"
 },
 {
 "id": "aee731883f",
@@ -5717,26 +5782,26 @@
 "id": "cbe1243b00",
 "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172552",
 "host": "gifted.gknu.ac.kr",
-"name": "국립경국대 과학영재교육원 모집공고",
+"name": "국립경국대 과학영재교육원 2027학년도 모집요강 — 기관추천전형(중1~2, 융합사사연구과정)(모집 공고 첨부, 2026-10-06)",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
 "n92"
 ],
-"dated": "2026-10-06",
+"dated": "2026-11-15",
 "cycle": "w"
 },
 {
 "id": "986f07832f",
 "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172553",
 "host": "gifted.gknu.ac.kr",
-"name": "국립경국대 과학영재교육원 모집공고",
+"name": "국립경국대 과학영재교육원 2027학년도 모집요강 — 교사관찰추천전형(초4~6)(모집 공고 첨부, 2026-10-06)",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
 "n92"
 ],
-"dated": "2026-10-06",
+"dated": "2026-11-15",
 "cycle": "w"
 },
 {
@@ -6981,19 +7046,6 @@
 ],
 "dated": "2026-10-26",
 "cycle": "w"
-},
-{
-"id": "6624e38bc9",
-"url": "https://sshs.sen.hs.kr",
-"host": "sshs.sen.hs.kr",
-"name": "",
-"kind": "공식",
-"cat": "학교",
-"used": [
-"sshs"
-],
-"dated": "",
-"cycle": "m"
 },
 {
 "id": "0ba9ca499d",

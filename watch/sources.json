@@ -2,7 +2,7 @@
 "note": "페이지(공개판 v28.201)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-14",
 "ver": "v28.201",
-"count": 513,
+"count": 515,
 "sources": [
 {
 "id": "1084a42981",
@@ -1973,19 +1973,6 @@
 "cycle": "w"
 },
 {
-"id": "f8e7892c9f",
-"url": "https://www.seit.kr/sub01_06_01.html",
-"host": "seit.kr",
-"name": "과학영재교육원 공동누리집 명단(수도·강원)",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"n49"
-],
-"dated": "",
-"cycle": "w"
-},
-{
 "id": "b33c39b487",
 "url": "https://www.seit.kr/sub01_06_02.html",
 "host": "seit.kr",
@@ -2879,6 +2866,46 @@
 ],
 "dated": "2026-10-27",
 "cycle": "m"
+},
+{
+"id": "9c52b879ed",
+"url": "http://seit.kr/intro/orgran/organ2",
+"host": "seit.kr",
+"name": "과학영재교육원 공동 누리집 교육기관 안내 — 영남·제주권(8개)",
+"kind": "공식",
+"cat": "대학",
+"used": [
+"univ_gifted"
+],
+"dated": "2026-11-15",
+"cycle": "w"
+},
+{
+"id": "f3b1459a0c",
+"url": "http://seit.kr/intro/orgran/orgran3",
+"host": "seit.kr",
+"name": "과학영재교육원 공동 누리집 교육기관 안내 — 충청·호남권(9개)",
+"kind": "공식",
+"cat": "대학",
+"used": [
+"univ_gifted"
+],
+"dated": "2026-11-15",
+"cycle": "w"
+},
+{
+"id": "f8e7892c9f",
+"url": "https://www.seit.kr/sub01_06_01.html",
+"host": "seit.kr",
+"name": "과학영재교육원 공동누리집 명단(수도·강원)",
+"kind": "공식",
+"cat": "대학",
+"used": [
+"n49",
+"univ_gifted"
+],
+"dated": "",
+"cycle": "w"
 },
 {
 "id": "32efed6031",

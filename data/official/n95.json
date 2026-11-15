@@ -2,11 +2,11 @@
  "id": "n95",
  "org": "경남과학고",
  "what": "앞으로 120일 안 일정 3단계",
- "checkedAt": "2026-11-15T13:14:38+09:00",
+ "checkedAt": "2026-11-15T19:03:43+09:00",
  "opened": [
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100276118&mi=160978",
-   "status": "ok"
+   "status": "error"
   },
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/cm/cntnts/cntntsView.do?mi=269952&cntntsId=34673",
@@ -34,7 +34,7 @@
   },
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978",
-   "status": "limit"
+   "status": "ok"
   }
  ],
  "notices": [
@@ -54,10 +54,6 @@
  "ged": [],
  "titles": [
   {
-   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100276118&mi=160978",
-   "title": "공지사항 | 경남과학고등학교"
-  },
-  {
    "url": "https://gshs-h.gne.go.kr/gshs-h/cm/cntnts/cntntsView.do?mi=269952&cntntsId=34673",
    "title": "전형요강 | 경남과학고등학교"
   },
@@ -68,24 +64,13 @@
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100455545&mi=160978",
    "title": "공지사항 | 경남과학고등학교"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978",
+   "title": "공지사항 | 경남과학고등학교"
   }
  ],
  "files": [
-  {
-   "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=422c55a327f66a2dda07e96d21d89fff",
-   "name": "2027학년도 경남과학고등학교 입학전형 요강_최종.pdf (다운로드 : 3210회)",
-   "status": "robots"
-  },
-  {
-   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 283683,
-   "sha1": "d58cc4a4cc1c",
-   "lines": 0
-  },
   {
    "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
    "name": "본문 그림",
@@ -130,6 +115,21 @@
    "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=be87212c5303a8f2b3518357f2b99b4d",
    "name": "경남고입_원서접수_사용자매뉴얼_과학고지원자용.pdf (다운로드 : 1215회)",
    "status": "robots"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=6f916839f11640c5b45a7f88204a7f00",
+   "name": "경남고입_추천서_추천인매뉴얼_과학고추천인용.pdf (다운로드 : 764회)",
+   "status": "robots"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 283683,
+   "sha1": "d58cc4a4cc1c",
+   "lines": 0
   },
   {
    "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",

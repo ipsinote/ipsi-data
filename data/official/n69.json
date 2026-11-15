@@ -2,19 +2,22 @@
  "id": "n69",
  "org": "제주 고입",
  "what": "앞으로 120일 안 일정 7단계",
- "checkedAt": "2026-11-15T13:13:53+09:00",
+ "checkedAt": "2026-11-15T19:03:26+09:00",
  "opened": [
   {
    "url": "https://www.jje.go.kr/board/view.jje?menuCd=DOM_000000104007002001&boardId=BBS_0000485&dataSid=1478269",
-   "status": "robots"
+   "status": "robots",
+   "why": "rules"
   },
   {
    "url": "https://www.jje.go.kr/board/view.jje?menuCd=DOM_000000104007002001&boardId=BBS_0000485&dataSid=1463546",
-   "status": "robots"
+   "status": "robots",
+   "why": "rules"
   },
   {
    "url": "https://www.jje.go.kr/board/view.jje?menuCd=DOM_000000104007002001&boardId=BBS_0000485&dataSid=1478269",
-   "status": "robots"
+   "status": "robots",
+   "why": "rules"
   }
  ],
  "notices": [],

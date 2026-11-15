@@ -2,7 +2,7 @@
  "id": "n55",
  "org": "전북과학고",
  "what": "앞으로 120일 안 일정 2단계",
- "checkedAt": "2026-11-15T13:09:01+09:00",
+ "checkedAt": "2026-11-15T18:57:27+09:00",
  "opened": [
   {
    "url": "https://school.jbedu.kr/ejbs/M010402/",
@@ -45,96 +45,10 @@
   {
    "url": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c",
    "name": "2027학년도 전북과학고등학교 신입생 입학전형 요강(공고).pdf",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 174946,
-   "sha1": "c797ccdb5a9d"
+   "status": "robots"
   }
  ],
- "lines": [
-  {
-   "text": "발표 | 9. 7.(월)",
-   "dates": [
-    "2026-09-07"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
-  },
-  {
-   "text": "발표 | ~ 11. 10.(화)",
-   "dates": [
-    "2026-11-10"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
-  },
-  {
-   "text": "소집면접 11. 20.(금)",
-   "dates": [
-    "2026-11-20"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
-  },
-  {
-   "text": "합격자 발표 12. 2.(수)",
-   "dates": [
-    "2026-12-02"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
-  },
-  {
-   "text": "면접 대상자 발표 | 11. 13.(금)",
-   "dates": [
-    "2026-11-13"
-   ],
-   "words": [
-    "면접",
-    "발표"
-   ],
-   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
-  },
-  {
-   "text": "2단계 소집면접 평가 | 11. 20.(금)",
-   "dates": [
-    "2026-11-20"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
-  },
-  {
-   "text": "최종 합격자 발표 | 12. 2.(수)",
-   "dates": [
-    "2026-12-02"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
-  },
-  {
-   "text": "합격자 발표 | 2027. 2. 1.(월) ~ 2. 2.(화) 17:00",
-   "dates": [
-    "2027-02-01",
-    "2027-02-02"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
-  }
- ],
- "status": "dates",
+ "lines": [],
+ "status": "found-no-dates",
  "route": 1
 }

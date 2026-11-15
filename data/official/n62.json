@@ -2,11 +2,12 @@
  "id": "n62",
  "org": "전남과학고",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-11-15T13:16:03+09:00",
+ "checkedAt": "2026-11-15T19:05:35+09:00",
  "opened": [
   {
    "url": "https://www.hischool.go.kr/school/view.do?idx=1973",
-   "status": "robots"
+   "status": "robots",
+   "why": "rules"
   }
  ],
  "notices": [],

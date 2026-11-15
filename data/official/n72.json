@@ -2,7 +2,7 @@
  "id": "n72",
  "org": "부산과학고",
  "what": "앞으로 120일 안 일정 5단계",
- "checkedAt": "2026-11-15T13:13:58+09:00",
+ "checkedAt": "2026-11-15T19:03:27+09:00",
  "opened": [
   {
    "url": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503",
@@ -14,15 +14,18 @@
   },
   {
    "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53760721&mi=652753",
-   "status": "ok"
+   "status": "robots",
+   "why": "rules"
   },
   {
    "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742817&mi=652753",
-   "status": "ok"
+   "status": "robots",
+   "why": "rules"
   },
   {
    "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742816&mi=652753",
-   "status": "ok"
+   "status": "robots",
+   "why": "rules"
   },
   {
    "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12453&cntntsId=1853",
@@ -47,18 +50,6 @@
  "titles": [
   {
    "url": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503",
-   "title": "부산과학고등학교"
-  },
-  {
-   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53760721&mi=652753",
-   "title": "부산과학고등학교"
-  },
-  {
-   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742817&mi=652753",
-   "title": "부산과학고등학교"
-  },
-  {
-   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742816&mi=652753",
    "title": "부산과학고등학교"
   },
   {
@@ -117,36 +108,6 @@
     "등록"
    ],
    "src": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503"
-  },
-  {
-   "text": "등록일 | 2026.09.03 17:13:00",
-   "dates": [
-    "2026-09-03"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53760721&mi=652753"
-  },
-  {
-   "text": "등록일 | 2026.08.18 13:53:07",
-   "dates": [
-    "2026-08-18"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742817&mi=652753"
-  },
-  {
-   "text": "등록일 | 2026.08.18 13:52:03",
-   "dates": [
-    "2026-08-18"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742816&mi=652753"
   }
  ],
  "status": "dates",

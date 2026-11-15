@@ -2,7 +2,7 @@
  "id": "n39",
  "org": "충북대 영재원",
  "what": "앞으로 120일 안 일정 3단계",
- "checkedAt": "2026-11-15T18:56:13+09:00",
+ "checkedAt": "2026-11-15T19:52:23+09:00",
  "opened": [
   {
    "url": "https://school.cbe.go.kr/dongseong-m/M010301/view/5847323",
@@ -15,19 +15,8 @@
   },
   {
    "url": "https://www.seit.kr/sub01_06_03.html",
-   "status": "ok"
-  },
-  {
-   "url": "https://www.seit.kr/sub07_01.html",
-   "status": "ok"
-  },
-  {
-   "url": "https://www.seit.kr/sub07_01.html",
-   "status": "ok"
-  },
-  {
-   "url": "https://www.seit.kr/sub07_01.html",
-   "status": "ok"
+   "status": "robots",
+   "why": "html"
   }
  ],
  "notices": [],

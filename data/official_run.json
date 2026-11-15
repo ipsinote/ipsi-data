@@ -1,12 +1,19 @@
 {
- "at": "2026-11-15T19:05:35+09:00",
+ "at": "2026-11-15T20:02:09+09:00",
  "targets": 86,
- "withDates": 47,
+ "withDates": 44,
  "blockedAll": [
+  "n10",
+  "n11",
+  "n13",
+  "n80",
+  "n12",
   "n33",
+  "n41",
   "n69",
   "n83",
   "n31",
+  "n34",
   "n62",
   "n63"
  ],
@@ -59,32 +66,41 @@
   {
    "id": "n09",
    "org": "인천 융합영재교육원",
-   "status": "not-found",
+   "status": "robots",
    "lines": 0,
    "files": 0,
    "opened": 3,
    "route": 1,
-   "tried": null
+   "tried": null,
+   "robotsWhy": [
+    "html"
+   ]
   },
   {
    "id": "n26",
    "org": "경인교대 영재원",
-   "status": "dates",
-   "lines": 15,
-   "files": 5,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
    "opened": 1,
    "route": 1,
-   "tried": null
+   "tried": null,
+   "robotsWhy": [
+    "html"
+   ]
   },
   {
    "id": "n78",
    "org": "대구교대 영재원",
-   "status": "dates",
-   "lines": 7,
-   "files": 5,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
    "opened": 2,
    "route": 1,
-   "tried": null
+   "tried": null,
+   "robotsWhy": [
+    "html"
+   ]
   },
   {
    "id": "n79",
@@ -222,7 +238,7 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "not-found",
+   "status": "blocked-all",
    "lines": 0,
    "files": 0,
    "opened": 3,
@@ -230,22 +246,25 @@
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 2,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 3,
-     "status": "not-found"
+     "status": "robots"
     }
+   ],
+   "robotsWhy": [
+    "html"
    ]
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "not-found",
+   "status": "blocked-all",
    "lines": 0,
    "files": 0,
    "opened": 3,
@@ -253,16 +272,19 @@
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 2,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 3,
-     "status": "not-found"
+     "status": "robots"
     }
+   ],
+   "robotsWhy": [
+    "html"
    ]
   },
   {
@@ -314,7 +336,7 @@
   {
    "id": "n13",
    "org": "인천하늘고",
-   "status": "not-found",
+   "status": "blocked-all",
    "lines": 0,
    "files": 0,
    "opened": 2,
@@ -322,16 +344,19 @@
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 2,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 3,
      "status": "robots"
     }
+   ],
+   "robotsWhy": [
+    "html"
    ]
   },
   {
@@ -476,18 +501,19 @@
   {
    "id": "n80",
    "org": "DGIST AI/SW SCHOOL",
-   "status": "not-found",
+   "status": "blocked-all",
    "lines": 0,
    "files": 0,
-   "opened": 8,
+   "opened": 5,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
+     "status": "robots"
     }
    ],
    "robotsWhy": [
+    "html",
     "rules",
     "unreachable"
    ]
@@ -538,7 +564,7 @@
   {
    "id": "n12",
    "org": "인천 고입",
-   "status": "not-found",
+   "status": "blocked-all",
    "lines": 0,
    "files": 0,
    "opened": 2,
@@ -546,16 +572,19 @@
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 2,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 3,
-     "status": "not-found"
+     "status": "robots"
     }
+   ],
+   "robotsWhy": [
+    "html"
    ]
   },
   {
@@ -670,12 +699,15 @@
   {
    "id": "n38",
    "org": "청주교대 영재원",
-   "status": "dates",
-   "lines": 6,
-   "files": 1,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
    "opened": 2,
    "route": 1,
-   "tried": null
+   "tried": null,
+   "robotsWhy": [
+    "html"
+   ]
   },
   {
    "id": "n39",
@@ -683,29 +715,38 @@
    "status": "dates",
    "lines": 1,
    "files": 1,
-   "opened": 6,
+   "opened": 3,
    "route": 1,
    "tried": null,
    "robotsWhy": [
+    "html",
     "rules"
    ]
   },
   {
    "id": "n41",
    "org": "충남과학고",
-   "status": "found-no-dates",
+   "status": "blocked-all",
    "lines": 0,
-   "files": 1,
+   "files": 0,
    "opened": 2,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ],
    "robotsWhy": [
-    "rules"
+    "unreachable"
    ]
   },
   {
@@ -718,7 +759,6 @@
    "route": 1,
    "tried": null,
    "robotsWhy": [
-    "rules",
     "unreachable"
    ]
   },
@@ -922,12 +962,15 @@
   {
    "id": "n82",
    "org": "울산과학고",
-   "status": "not-found",
+   "status": "robots",
    "lines": 0,
    "files": 0,
    "opened": 1,
    "route": 1,
-   "tried": null
+   "tried": null,
+   "robotsWhy": [
+    "html"
+   ]
   },
   {
    "id": "n83",
@@ -1085,11 +1128,11 @@
   {
    "id": "n34",
    "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
-   "status": "not-found",
+   "status": "blocked-all",
    "lines": 0,
    "files": 0,
    "opened": 1,
-   "route": 3,
+   "route": 1,
    "tried": [
     {
      "rank": 1,
@@ -1101,8 +1144,11 @@
     },
     {
      "rank": 3,
-     "status": "not-found"
+     "status": "robots"
     }
+   ],
+   "robotsWhy": [
+    "unreachable"
    ]
   },
   {
@@ -1195,12 +1241,9 @@
    "blockAt": "2026-11-15"
   },
   "http://www.cnsh.cnehs.kr": {
-   "http": 200,
-   "bytes": 36,
-   "sha": "d8cfb862",
-   "rules": 1,
-   "disallow": 1,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPConnectionPool(host='www.cnsh.cnehs.kr', port=80): Max retries exceeded with url: /robots.txt (Caused by ConnectTime",
+   "kind": "unreachable",
    "blockAt": "2026-11-15"
   },
   "http://www.sjgl.hs.kr": {
@@ -1531,6 +1574,11 @@
    "disallow": 0,
    "kind": "html"
   },
+  "https://jinhak.cne.go.kr": {
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='jinhak.cne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTim",
+   "kind": "unreachable"
+  },
   "https://jinhak.sen.go.kr": {
    "http": 200,
    "bytes": 21,
@@ -1717,12 +1765,9 @@
    "kind": "unreachable"
   },
   "https://www.cne.go.kr": {
-   "http": 200,
-   "bytes": 605,
-   "sha": "25688aea",
-   "rules": 1,
-   "disallow": 1,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='www.cne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeou",
+   "kind": "unreachable",
    "blockAt": "2026-11-15"
   },
   "https://www.cnfl.cnehs.kr": {

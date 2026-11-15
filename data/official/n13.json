@@ -2,15 +2,17 @@
  "id": "n13",
  "org": "인천하늘고",
  "what": "원서 접수·1단계 발표 — 학교 입학공지 게시판",
- "checkedAt": "2026-11-15T18:44:02+09:00",
+ "checkedAt": "2026-11-15T19:40:31+09:00",
  "opened": [
   {
    "url": "https://haneul.icehs.kr/boardCnts/list.do?boardID=317332&m=0302",
-   "status": "ok"
+   "status": "robots",
+   "why": "html"
   },
   {
    "url": "https://haneul.icehs.kr/boardCnts/list.do?boardID=317332&m=0302",
-   "status": "ok"
+   "status": "robots",
+   "why": "html"
   }
  ],
  "notices": [],
@@ -18,16 +20,16 @@
  "titles": [],
  "files": [],
  "lines": [],
- "status": "not-found",
+ "status": "blocked-all",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "not-found"
+   "status": "robots"
   },
   {
    "rank": 2,
-   "status": "not-found"
+   "status": "robots"
   },
   {
    "rank": 3,

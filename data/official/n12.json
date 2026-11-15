@@ -2,15 +2,17 @@
  "id": "n12",
  "org": "인천 고입",
  "what": "앞으로 120일 안 일정 7단계",
- "checkedAt": "2026-11-15T18:50:25+09:00",
+ "checkedAt": "2026-11-15T19:46:42+09:00",
  "opened": [
   {
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
-   "status": "ok"
+   "status": "robots",
+   "why": "html"
   },
   {
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttList.do?mi=10889&bbsId=1618",
-   "status": "ok"
+   "status": "robots",
+   "why": "html"
   }
  ],
  "notices": [],
@@ -18,20 +20,20 @@
  "titles": [],
  "files": [],
  "lines": [],
- "status": "not-found",
+ "status": "blocked-all",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "not-found"
+   "status": "robots"
   },
   {
    "rank": 2,
-   "status": "not-found"
+   "status": "robots"
   },
   {
    "rank": 3,
-   "status": "not-found"
+   "status": "robots"
   }
  ]
 }

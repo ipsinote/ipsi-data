@@ -24,6 +24,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 
 from neis import fetch, get_key, kst_now, kst_today, DailyLimit, NeisError
 
@@ -34,7 +35,13 @@ PAUSE = float(os.environ.get('PAUSE', '0.3'))
 MAX_PER_RUN = int(os.environ.get('MAX_PER_RUN', '2500'))   # 2026-10-21: 하루 5,728+843번 불러도 한도에 안 걸림 → 초등학교를 4일 안에 채움
 LEVELS = tuple(x for x in os.environ.get('LEVELS', 'e,m,h').split(',') if x in ('e', 'm', 'h'))
 
-INCLUDE = re.compile(r'(중간|기말|지필|정기)\s*(고사|평가|시험)|[1-4]\s*(차|회)\s*(지필|정기)?\s*(고사|평가|시험)|학기\s*(고사|시험)')
+# v4 (2026-11-15 대표 '이름 규칙만 고치기'): data/exam_names.md '뺀 이름'(10/18~11/14 28번)에서 실제 시험인데 빠진 모양을 더함 —
+# 지필2고사·정기2시험(숫자가 뒤) · 1회(중간)고사·(제2회) 고사(괄호) · 2회 정시시험(정기 오타) · 학년말고사 · 학기중고사 · 전각 숫자(２차시험 — is_exam이 NFKC로 맞춤).
+# 일부러 안 넣음(시험인지 애매하거나 지필평가 아님): 총괄평가(초등일 수 있음) · 졸업고사 · '3학년 고사'·'3학년 시험' · 종합고사 · 월례고사 · 반편성고사. 점검: python scripts/test_exam_names.py
+INCLUDE = re.compile(r'(중간|기말|지필|정기)\s*\)?\s*(고사|평가|시험)'
+                     r'|[1-4]\s*(차|회)\s*\)?\s*(지필|정기|정시)?\s*(고사|평가|시험)'
+                     r'|(지필|정기)\s*[1-4]\s*(차|회)?\s*(고사|평가|시험)'
+                     r'|학기\s*중?\s*(고사|시험)|학년\s*말\s*(고사|시험)')
 EXCLUDE = re.compile(r'모의|학력평가|연합|수능|수학능력|진단|기초학력|학업성취|체력|듣기|면접|실기|수행|입학|입시|결과|답안|확인|대비|성적|원서|응시|재시험|추가시험|채점|이의|감독|출제|협의')
 NEAR = re.compile(r'고사|평가|시험')
 # v2 (2026-10-21): other events families plan around. type: vac 방학·개학 · off 재량휴업 · cer 입학·졸업·종업 · pick 과목 선택 ·
@@ -54,6 +61,7 @@ def safe(msg):
 
 
 def is_exam(name):
+    name = unicodedata.normalize('NFKC', name or '')   # 전각 숫자·괄호(２차시험 · （1,2학년）)도 같은 규칙으로
     return bool(INCLUDE.search(name)) and not EXCLUDE.search(name)
 
 

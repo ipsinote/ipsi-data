@@ -31,7 +31,7 @@ import zlib
 import requests
 from bs4 import BeautifulSoup
 
-UA = 'ipsi-data-bot/1.0 (+https://github.com/mrsingiru/ipsi-data; public admission notice dates)'
+UA = 'ipsi-data-bot/1.0 (+https://github.com/ipsinote/ipsi-data; public admission notice dates)'
 TIMEOUT = 30
 MAX_BYTES = 20 * 1024 * 1024
 PER_HOST = 15

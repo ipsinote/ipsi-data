@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.202)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.221)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-15",
-"ver": "v28.202",
-"count": 515,
+"ver": "v28.221",
+"count": 539,
 "sources": [
 {
 "id": "1084a42981",
@@ -181,8 +181,8 @@
 "cycle": "w"
 },
 {
-"id": "4eb55510a6",
-"url": "https://www.dge.go.kr/dicce/index.do",
+"id": "e35116a79f",
+"url": "https://www.dge.go.kr/dicce/na/ntt/selectNttInfo.do?mi=3252&nttSn=2211601",
 "host": "dge.go.kr",
 "name": "2027. 대구과학영재교육원 영재교육대상자 선발 전형 공고(대구창의융합교육원 공고 제2026-21호, 2026-09-01) — Ⅵ 전형 일정",
 "kind": "공식",
@@ -353,7 +353,7 @@
 "id": "c9e173bb1e",
 "url": "https://gice.gen.go.kr/menu.es?mid=a10403010000",
 "host": "gice.gen.go.kr",
-"name": "광주창의융합교육원 '영재선발 소개'(광주교대는 별도 선발 계획을 2026년 9월 중 광주교대 홈페이지에 안내 예정)",
+"name": "광주창의융합교육원 '영재선발 소개'",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -963,7 +963,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1162,10 +1162,10 @@
 "cycle": "w"
 },
 {
-"id": "51cd4f952f",
-"url": "https://www.ice.go.kr",
+"id": "f75405a0fd",
+"url": "https://ice.go.kr/ice/na/ntt/selectNttList.do?mi=11765&bbsId=1680",
 "host": "ice.go.kr",
-"name": "2027학년도 인천광역시교육청 영재교육대상자 선발 학부모 설명회 자료(융합인재교육과, 2026-10-29) — 선교육후선발 외 과정 선발 일정",
+"name": "'2027학년도 인천광역시교육청 영재교육대상자 선발 학부모 설명회 안내자료(GED)'(인천광역시교육청 창의융합교육 알림방, 2026-10-29) — 선교육후선발 외 과정 선발 일정",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1178,7 +1178,7 @@
 "id": "9597a8e753",
 "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
 "host": "ice.go.kr",
-"name": "인천광역시교육청 공고 제2026-366호 2027학년도 고등학교 입학전형 실시계획 — 주요 일정표",
+"name": "인천광역시교육청 고등학교입학자료실 '2027학년도 인천과학고, 인천진산과학고 신입생 입학전형 요강'(2026-05-22)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1417,12 +1417,11 @@
 "id": "018941d198",
 "url": "https://kwthe.gwe.go.kr/boardCnts/list.do?boardID=2519&m=100801&s=kwthe",
 "host": "kwthe.gwe.go.kr",
-"name": "동해교육지원청 영재교육 교육자료실 '2027학년도 강원대학교 과학영재교육원 신입생 선발 안내'",
+"name": "동해교육지원청 영재교육 교육자료실",
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"n45",
-"n49"
+"n45"
 ],
 "dated": "2026-10-12",
 "cycle": "w"
@@ -1921,6 +1920,19 @@
 "cycle": "w"
 },
 {
+"id": "a1cf27864f",
+"url": "https://school.jbedu.kr/sangsan/M010405/",
+"host": "school.jbedu.kr",
+"name": "상산고 누리집 입학정보 › 입학설명회 '2026년(2027학년도) 학교입학설명회' 안내",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n57"
+],
+"dated": "2026-11-15",
+"cycle": "w"
+},
+{
 "id": "57a15c2050",
 "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttList.do?mi=108100&bbsId=118541",
 "host": "school.jje.go.kr",
@@ -2219,8 +2231,8 @@
 "cycle": "w"
 },
 {
-"id": "dd5c49d58c",
-"url": "https://www.use.go.kr/",
+"id": "26d8f252ee",
+"url": "https://use.go.kr/user/bbs/BD_selectBbsList.do?q_bbsSn=1566&q_searchKeyTy=ttl___1002&q_searchVal=%EC%98%81%EC%9E%AC",
 "host": "use.go.kr",
 "name": "울산교육청 공고 제2026-418호 '2027학년도 울산 영재교육대상자 1차 선발 공고'(2026-10-06) — Ⅱ. 선발 과정 2. 전형 일정(공식 스캔 PDF)",
 "kind": "공식",
@@ -2228,7 +2240,20 @@
 "used": [
 "n81"
 ],
-"dated": "2026-10-26",
+"dated": "2026-11-15",
+"cycle": "w"
+},
+{
+"id": "dd5c49d58c",
+"url": "https://www.use.go.kr/",
+"host": "use.go.kr",
+"name": "울산교육청 2027 영재교육대상자 1차 선발 공고(제2026-418호)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n81"
+],
+"dated": "",
 "cycle": "w"
 },
 {
@@ -2310,6 +2335,19 @@
 "cycle": "m"
 },
 {
+"id": "e87fc7f493",
+"url": "https://www.ansan.go.kr/www/common/bbs/selectPageListBbs.do?bbs_code=B0214&sch_type=sj&sch_text=%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90",
+"host": "ansan.go.kr",
+"name": "한양대ERICA 영재교육원 2027학년도 신입생 모집 요강 — 3. 선발 진행 과정(2026-09-16 공고, 공식 PDF · 글 자동 대조 통과)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"n27"
+],
+"dated": "2026-10-26",
+"cycle": "m"
+},
+{
 "id": "934153f8a8",
 "url": "https://apps.apple.com/us/app/%EC%BB%A4%EB%A6%AC%EC%96%B4%EB%84%B7/id590413285",
 "host": "apps.apple.com",
@@ -2349,6 +2387,19 @@
 "cycle": "m"
 },
 {
+"id": "3bcc9fe0f8",
+"url": "https://www.cncae.go.kr/main/search.do?searchKeyword=%EC%98%81%EC%9E%AC",
+"host": "cncae.go.kr",
+"name": "2027년 천안교육지원청영재교육원 교육대상자 선발 요강(천안교육지원청 누리집 교육마당 › 영재교육원, 2026-10-02)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"n40"
+],
+"dated": "2026-11-15",
+"cycle": "m"
+},
+{
 "id": "bd53eaa52e",
 "url": "https://www.ctysc.gidea.co.kr",
 "host": "ctysc.gidea.co.kr",
@@ -2359,6 +2410,19 @@
 "n105"
 ],
 "dated": "2026-11-14",
+"cycle": "m"
+},
+{
+"id": "963c70cfb7",
+"url": "https://daeil.or.kr/hosts/daeil.or.kr/link_doc/2027_admission_guide.pdf",
+"host": "daeil.or.kr",
+"name": "대일외고 2027학년도 신입생 입학전형 요강 — 3 전형 일정 및 원서 접수(7쪽)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"n03"
+],
+"dated": "2026-11-15",
 "cycle": "m"
 },
 {
@@ -2385,6 +2449,19 @@
 "q-life-school-phone-ban"
 ],
 "dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "f7a55fe840",
+"url": "https://www.dshs.kr/admission/guideline/",
+"host": "dshs.kr",
+"name": "대전대신고 2027학년도 신입생 모집요강 — 06 전형일정(학교 누리집 입학 › 모집요강)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"n30"
+],
+"dated": "2026-11-15",
 "cycle": "m"
 },
 {
@@ -2518,6 +2595,45 @@
 "cycle": "m"
 },
 {
+"id": "6e68ef0381",
+"url": "https://www.isepclub.com/NEW/bbs/iusboard_data/new_notice/1791853952.pdf",
+"host": "isepclub.com",
+"name": "2027학년도 중3 사사과정 과학영재 선발 모집요강(2026-10-13 공고) 선발 일정",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"n14"
+],
+"dated": "2026-11-15",
+"cycle": "m"
+},
+{
+"id": "f84b7a91c7",
+"url": "https://www.isepclub.com/isep/secon_A/files/2027_guideline_A.pdf",
+"host": "isepclub.com",
+"name": "2027 중등 심화 모집요강(PDF)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"n14"
+],
+"dated": "",
+"cycle": "m"
+},
+{
+"id": "ef1748fdb6",
+"url": "https://www.isepclub.com/selection/files/2027_guideline_C.pdf",
+"host": "isepclub.com",
+"name": "2027학년도 초등·중등 심화과정 과학영재 선발 모집요강(2026-07-21 공고) 4쪽 선발 일정",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"n14"
+],
+"dated": "2026-11-15",
+"cycle": "m"
+},
+{
 "id": "e62d45e431",
 "url": "https://jamanetwork.com/journals/jamapediatrics/article-abstract/2751330",
 "host": "jamanetwork.com",
@@ -2567,6 +2683,19 @@
 "n52"
 ],
 "dated": "2026-10-15",
+"cycle": "m"
+},
+{
+"id": "36d9c07aec",
+"url": "https://www.jnue.kr/portal/gifted/bbs/view.do?menuId=M0103000400000000&boardSeq=16191",
+"host": "jnue.kr",
+"name": "2027학년도 전주교육대학교 영재교육원 영재교육대상자 모집요강(안)(영재교육원 공지 첨부, 2026-10-07 게시) — Ⅶ. 교육비 및 합격자 등록 안내",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"n60"
+],
+"dated": "2026-11-15",
 "cycle": "m"
 },
 {
@@ -2636,6 +2765,19 @@
 "q-life-breakfast"
 ],
 "dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "55da0f13a5",
+"url": "http://www.mdfh.or.kr",
+"host": "mdfh.or.kr",
+"name": "명덕외고 2027학년도 입학전형요강 — 3 전형 일정 및 원서접수(인쇄 7쪽)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"n03"
+],
+"dated": "2026-11-15",
 "cycle": "m"
 },
 {
@@ -2829,6 +2971,19 @@
 "cycle": "m"
 },
 {
+"id": "8c4f6ebf86",
+"url": "https://www.sflhs.kr/file/freshman_file01.pdf",
+"host": "sflhs.kr",
+"name": "서울외고 2027학년도 신입생 입학전형 요강 — 3 전형 일정 및 원서접수(7쪽)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"n03"
+],
+"dated": "2026-11-15",
+"cycle": "m"
+},
+{
 "id": "b93ca70a71",
 "url": "https://www.uclahealth.org/news/release/cramming-for-a-test-dont-do-it-say-ucla-researchers",
 "host": "uclahealth.org",
@@ -2897,10 +3052,11 @@
 "id": "f8e7892c9f",
 "url": "https://www.seit.kr/sub01_06_01.html",
 "host": "seit.kr",
-"name": "과학영재교육원 공동누리집 명단(수도·강원)",
+"name": "과학영재교육원 공동 누리집 교육기관 안내(수도·강원)",
 "kind": "공식",
 "cat": "대학",
 "used": [
+"n106",
 "n49",
 "univ_gifted"
 ],
@@ -3298,6 +3454,19 @@
 "cycle": "w"
 },
 {
+"id": "9e8fa60f79",
+"url": "https://cucocr.cje.ac.kr/files/handbook/472945001789348944.pdf",
+"host": "cucocr.cje.ac.kr",
+"name": "2027학년도 청주교육대학교 부설 과학영재교육원 영재교육대상자 모집요강(30기 초·중등부 기초·심화 및 사사과정, 2026-09-14 공고) — Ⅲ. 선발일정",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"n38"
+],
+"dated": "2026-11-15",
+"cycle": "w"
+},
+{
 "id": "fdc239cac0",
 "url": "https://cucocr.cje.ac.kr/files/handbook/673040001789372523.pdf",
 "host": "cucocr.cje.ac.kr",
@@ -3321,7 +3490,7 @@
 "n34",
 "n38"
 ],
-"dated": "2026-09-14",
+"dated": "",
 "cycle": "w"
 },
 {
@@ -3400,6 +3569,19 @@
 "n26"
 ],
 "dated": "2026-08-21",
+"cycle": "w"
+},
+{
+"id": "aa93b54be0",
+"url": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ==",
+"host": "edu.ginue.ac.kr",
+"name": "2027학년도 경인교육대학교 과학영재교육원 신입생 모집요강(2027학년도 신입생 선발 모집 공고 첨부, 2026-08-21)",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"n26"
+],
+"dated": "2026-11-15",
 "cycle": "w"
 },
 {
@@ -3681,6 +3863,19 @@
 "cycle": "w"
 },
 {
+"id": "adc369fc73",
+"url": "https://www.jbnu.ac.kr/web/Board/218965/detailView.do",
+"host": "jbnu.ac.kr",
+"name": "전북대 누리집 JBNU News(홍보실) '과학영재교육원, 2027학년도 신입생 141명 모집'(2026-10-27)",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"n58"
+],
+"dated": "2026-10-27",
+"cycle": "w"
+},
+{
 "id": "d6a7d27142",
 "url": "https://www.kyungnam.ac.kr/pdfView/nobel/22/fileDownload.do",
 "host": "kyungnam.ac.kr",
@@ -3731,8 +3926,7 @@
 "q-univ-chungwon-call",
 "q-univ-nsu",
 "q-univ-rural",
-"q-yk",
-"r-snu-ku-choejeo"
+"q-yk"
 ],
 "dated": "2026-06-25",
 "cycle": "w"
@@ -3741,7 +3935,7 @@
 "id": "77aa250ee2",
 "url": "https://oku.korea.ac.kr/attach/202609/1788832925216_0.pdf",
 "host": "oku.korea.ac.kr",
-"name": "2027학년도 수시모집요강(서울캠퍼스), 고려대학교 입학처",
+"name": "고려대 2027학년도 수시모집요강 서울캠퍼스(2026. 09. 08.)",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
@@ -3749,7 +3943,8 @@
 "q-sch-joint",
 "q-sch-reenter",
 "q-univ-blind",
-"r-joint-more"
+"r-joint-more",
+"r-snu-ku-choejeo"
 ],
 "dated": "2026-09-08",
 "cycle": "w"
@@ -3794,7 +3989,7 @@
 "q-yk",
 "r-snu-ku-choejeo"
 ],
-"dated": "",
+"dated": "2026-04-30",
 "cycle": "w"
 },
 {
@@ -4249,7 +4444,7 @@
 "used": [
 "elearn"
 ],
-"dated": "2026-10-17",
+"dated": "2026-11-15",
 "cycle": "m"
 },
 {
@@ -4394,7 +4589,7 @@
 "used": [
 "ebs-mid"
 ],
-"dated": "2026-10-17",
+"dated": "2026-11-15",
 "cycle": "m"
 },
 {
@@ -4411,8 +4606,8 @@
 "cycle": "m"
 },
 {
-"id": "369933452b",
-"url": "https://online.goe.go.kr",
+"id": "bb00651c7a",
+"url": "https://online.goe.go.kr/goe",
 "host": "online.goe.go.kr",
 "name": "경기온라인학교",
 "kind": "공식",
@@ -4420,7 +4615,7 @@
 "used": [
 "gg-online"
 ],
-"dated": "2026-10-17",
+"dated": "2026-11-15",
 "cycle": "m"
 },
 {
@@ -4515,173 +4710,6 @@
 "cycle": "m"
 },
 {
-"id": "37875138d6",
-"url": "https://eiec.kdi.re.kr/policy//materialView.do?num=262490&device=mob&type=J&depth1=C0000&code=C0200",
-"host": "eiec.kdi.re.kr",
-"name": "교육부 2028학년도 대학수학능력시험 시험 및 점수 체제 안내(KDI 경제정보센터 게재본)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-suneung"
-],
-"dated": "2025-01-21",
-"cycle": "w"
-},
-{
-"id": "298db92e2a",
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=246533",
-"host": "eiec.kdi.re.kr",
-"name": "교육부 보도자료: 2028 입시부터 선택과목 없는 통합형 수능, 내신 5등급 체제 확정(KDI 경제정보센터 게재본)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"moe28",
-"q-baechi",
-"q-ipgyeol-read",
-"q-naesin",
-"q-suneung",
-"q-univ-last-year",
-"r-csat5"
-],
-"dated": "2023-12-27",
-"cycle": "w"
-},
-{
-"id": "789ab5e001",
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=248741",
-"host": "eiec.kdi.re.kr",
-"name": "교육부 보도자료: 차세대 '어디가' 개통, 대입정보 검색부터 상담까지 한 번에(KDI 경제정보센터 게재본)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-ipgyeol-read"
-],
-"dated": "2024-03-04",
-"cycle": "w"
-},
-{
-"id": "fff0997ce0",
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=255989",
-"host": "eiec.kdi.re.kr",
-"name": "교육부 보도자료 '2027학년도 대학수학능력시험은 2026년 11월 19일(목)에 시행됩니다'(성적 통지 12월 11일)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"csat27",
-"csat27moe",
-"q-g3-after",
-"q-retake"
-],
-"dated": "2024-08-16",
-"cycle": "w"
-},
-{
-"id": "8bb353a50c",
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=267335",
-"host": "eiec.kdi.re.kr",
-"name": "교육부 보도자료: 2028학년도 대학수학능력시험은 2027년 11월 18일(목)에 시행됩니다(KDI 경제정보센터 게재본)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"csat28d",
-"q-g2-winter",
-"r-csat5"
-],
-"dated": "2025-06-02",
-"cycle": "w"
-},
-{
-"id": "53c63b6e04",
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=278528",
-"host": "eiec.kdi.re.kr",
-"name": "과학기술정보통신부 보도자료: 2025년 디지털 정보격차·웹 접근성·스마트폰 과의존 실태조사 결과 발표(2026-03-26, KDI 경제정보센터 게재)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-life-phone-grades"
-],
-"dated": "2026-10-27",
-"cycle": "w"
-},
-{
-"id": "ad629bb7c0",
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285494",
-"host": "eiec.kdi.re.kr",
-"name": "교육부 2029학년도 수능 시행(KDI 게재본)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"csat29d",
-"q-info-month"
-],
-"dated": "2026-08-18",
-"cycle": "w"
-},
-{
-"id": "01787d92b3",
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285733",
-"host": "eiec.kdi.re.kr",
-"name": "평가원 2027 9월 모의평가 실시(KDI 게재본)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"mock9",
-"q-mock",
-"q-retake"
-],
-"dated": "2026-08-25",
-"cycle": "w"
-},
-{
-"id": "d585cfb80b",
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285864",
-"host": "eiec.kdi.re.kr",
-"name": "대교협 「2029학년도 대학입학전형기본사항」 발표(KDI 경제정보센터 게재본)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-univ-2029-basics",
-"q-univ-plan-when"
-],
-"dated": "2026-08-28",
-"cycle": "w"
-},
-{
-"id": "75c13dcd2c",
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285888",
-"host": "eiec.kdi.re.kr",
-"name": "보건복지부 — 학교군 거주요건 보완 입법예고(KDI 경제정보센터 게재)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-med-local-move"
-],
-"dated": "2026-08-27",
-"cycle": "w"
-},
-{
-"id": "8fc0854404",
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=286278",
-"host": "eiec.kdi.re.kr",
-"name": "보건복지부·교육부 보도자료(2027학년도 지역의사선발전형 지원 길잡이, KDI 경제정보센터 게재)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"ldGov",
-"q-med",
-"q-med-ldoc",
-"q-med-ldoc-capital",
-"q-med-local-move",
-"q-med-quota",
-"r-capital-ldoc",
-"r-local-doctor",
-"r-med-seoul",
-"r-transfer-local"
-],
-"dated": "2026-09-03",
-"cycle": "w"
-},
-{
 "id": "5e5f3afd95",
 "url": "https://www.kmcc.go.kr/download.do?fileSeq=56444",
 "host": "kmcc.go.kr",
@@ -4764,6 +4792,19 @@
 "cycle": "w"
 },
 {
+"id": "f2ab527044",
+"url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156751063",
+"host": "korea.kr",
+"name": "과학기술정보통신부 보도자료: 2025년 디지털 정보격차·웹 접근성·스마트폰 과의존 실태조사 결과 발표(정책브리핑)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-life-phone-grades"
+],
+"dated": "2026-03-26",
+"cycle": "w"
+},
+{
 "id": "4dcb0d9194",
 "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156751713",
 "host": "korea.kr",
@@ -4787,6 +4828,41 @@
 "q-csat-answer-objection"
 ],
 "dated": "2026-06-16",
+"cycle": "w"
+},
+{
+"id": "1122c5ad4c",
+"url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775689",
+"host": "korea.kr",
+"name": "보건복지부 — 학교군 거주요건 보완 입법예고(정책브리핑)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-med-local-move"
+],
+"dated": "2026-08-27",
+"cycle": "w"
+},
+{
+"id": "8b49486c24",
+"url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156779969",
+"host": "korea.kr",
+"name": "보건복지부·교육부 보도자료(2027학년도 지역의사선발전형 지원 길잡이, 정책브리핑)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"ldGov",
+"q-med",
+"q-med-ldoc",
+"q-med-ldoc-capital",
+"q-med-local-move",
+"q-med-quota",
+"r-capital-ldoc",
+"r-local-doctor",
+"r-med-seoul",
+"r-transfer-local"
+],
+"dated": "2026-09-03",
 "cycle": "w"
 },
 {
@@ -5150,6 +5226,19 @@
 "cycle": "w"
 },
 {
+"id": "a270cbbd16",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=102385&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+"host": "moe.go.kr",
+"name": "교육부 2028학년도 대학수학능력시험 시험 및 점수 체제 안내",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-suneung"
+],
+"dated": "2025-01-21",
+"cycle": "w"
+},
+{
 "id": "4ac3e0c75e",
 "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=103512&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
 "host": "moe.go.kr",
@@ -5157,11 +5246,14 @@
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
+"csat28d",
 "csat28moe",
-"dy"
+"dy",
+"q-g2-winter",
+"r-csat5"
 ],
-"dated": "2025-06-01",
-"cycle": "m"
+"dated": "2025-06-02",
+"cycle": "w"
 },
 {
 "id": "305153cc40",
@@ -5190,6 +5282,25 @@
 "cycle": "w"
 },
 {
+"id": "0eca4da5df",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=97551&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+"host": "moe.go.kr",
+"name": "교육부 보도자료: 2028 입시부터 선택과목 없는 통합형 수능, 내신 5등급 체제 확정",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"moe28",
+"q-baechi",
+"q-ipgyeol-read",
+"q-naesin",
+"q-suneung",
+"q-univ-last-year",
+"r-csat5"
+],
+"dated": "2023-12-27",
+"cycle": "w"
+},
+{
 "id": "f0bfdb0714",
 "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=97746&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
 "host": "moe.go.kr",
@@ -5205,6 +5316,19 @@
 "cycle": "w"
 },
 {
+"id": "2fd2b28b6a",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=98251&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+"host": "moe.go.kr",
+"name": "교육부 보도자료: 차세대 '어디가' 개통, 대입정보 검색부터 상담까지 한 번에",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-ipgyeol-read"
+],
+"dated": "2024-03-04",
+"cycle": "w"
+},
+{
 "id": "c7186e987a",
 "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=99218&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
 "host": "moe.go.kr",
@@ -5216,6 +5340,22 @@
 "q-balance"
 ],
 "dated": "2024-06-26",
+"cycle": "w"
+},
+{
+"id": "e2611a57f7",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=100526",
+"host": "moe.go.kr",
+"name": "교육부 보도자료 '2027학년도 대학수학능력시험은 2026년 11월 19일(목)에 시행됩니다'(성적 통지 12월 11일)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"csat27",
+"csat27moe",
+"q-g3-after",
+"q-retake"
+],
+"dated": "2024-08-16",
 "cycle": "w"
 },
 {
@@ -5244,6 +5384,35 @@
 "q-sch-neulbom"
 ],
 "dated": "2026-02-03",
+"cycle": "w"
+},
+{
+"id": "7489d30c93",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=106921",
+"host": "moe.go.kr",
+"name": "교육부 2029학년도 수능 시행",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"csat29d",
+"q-info-month"
+],
+"dated": "2026-08-18",
+"cycle": "w"
+},
+{
+"id": "4de8e84798",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=107016",
+"host": "moe.go.kr",
+"name": "평가원 2027 9월 모의평가 실시",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"mock9",
+"q-mock",
+"q-retake"
+],
+"dated": "2026-08-25",
 "cycle": "w"
 },
 {
@@ -5702,6 +5871,19 @@
 "cycle": "w"
 },
 {
+"id": "b2147ec7db",
+"url": "https://gifted.cnu.ac.kr/",
+"host": "gifted.cnu.ac.kr",
+"name": "2027학년도 충남대학교 과학영재교육원 영재교육대상자 모집요강(과기부 지정 심화·사사연구과정, 대전시교육청 지정 융합과학 심화과정 — 3개 같은 일정, 2026-08-14 공고) — 7. 합격자 선정",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n31"
+],
+"dated": "2026-11-15",
+"cycle": "w"
+},
+{
 "id": "ff0e9a92b0",
 "url": "https://gifted.daejin.ac.kr/giftedindex.do",
 "host": "gifted.daejin.ac.kr",
@@ -5757,13 +5939,13 @@
 "id": "41f94c75a6",
 "url": "https://gifted.dnue.ac.kr/gifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMjM0NTYsWQ==",
 "host": "gifted.dnue.ac.kr",
-"name": "2027학년도 대구경북 과학·수학영재 신입생 모집요강(대구교대 과학영재교육원)",
+"name": "2027학년도 대구경북 과학·수학영재 신입생 모집요강(대구교대 영재교육원 공지 첨부, 2026-09-30)",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
 "n78"
 ],
-"dated": "2026-11-11",
+"dated": "2026-11-15",
 "cycle": "w"
 },
 {
@@ -5827,6 +6009,59 @@
 "cat": "영재교육",
 "used": [
 "n92"
+],
+"dated": "2026-11-15",
+"cycle": "w"
+},
+{
+"id": "591b81fc45",
+"url": "https://gifted.gnue.ac.kr/images/newgifted/download/appendix_04_20260915.pdf",
+"host": "gifted.gnue.ac.kr",
+"name": "2027학년도 광주교육대학교 영재교육원 신입생 모집 요강 — Ⅲ. 선발 일정(영재교육원 누리집 입학안내 › 모집요강)",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n53"
+],
+"dated": "2026-11-15",
+"cycle": "w"
+},
+{
+"id": "1310983d0e",
+"url": "https://gifted.gnue.ac.kr/index.9is?contentUid=4a9f18ab6fcb578b016fe268c5de32ab",
+"host": "gifted.gnue.ac.kr",
+"name": "모집요강(입학안내)",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n53"
+],
+"dated": "",
+"cycle": "w"
+},
+{
+"id": "be30aabc8b",
+"url": "https://gifted.gnue.ac.kr/planweb/board/view.9is?dataUid=4a9f18ab5ea9092f015eb81025a12642&nttId=9016702&boardUid=4a9f18ab6fcb578b016fe1f1e6b03142&contentUid=4a9f18ab6fcb578b016fe3026624336a&portalBoardId=BBSMSTR_000001431298",
+"host": "gifted.gnue.ac.kr",
+"name": "2027 신입생 모집 안내(영재교육원 공지)",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n53"
+],
+"dated": "",
+"cycle": "w"
+},
+{
+"id": "0d27f88e0c",
+"url": "https://gifted.gwnu.ac.kr/bbs/gifted/1283/155935/download.do",
+"host": "gifted.gwnu.ac.kr",
+"name": "2027학년도 강원대학교 과학영재교육원 영재교육대상자 선발 모집요강(2026-09-10 공고) — 1. 선발 일정(3쪽) · 강릉·원주캠퍼스 선발일정 및 지원방법(7쪽)",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n106",
+"n49"
 ],
 "dated": "2026-11-15",
 "cycle": "w"
@@ -6504,6 +6739,20 @@
 "cycle": "w"
 },
 {
+"id": "b39e7c6053",
+"url": "https://www.kcue.or.kr/news/sub02/sub01.php?pagenumber=1&st=%EB%8C%80%ED%95%99%EC%9E%85%ED%95%99%EC%A0%84%ED%98%95&at=view&idx=2765226",
+"host": "kcue.or.kr",
+"name": "대교협 「2029학년도 대학입학전형기본사항」 발표",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"q-univ-2029-basics",
+"q-univ-plan-when"
+],
+"dated": "2026-08-28",
+"cycle": "w"
+},
+{
 "id": "5bcc67f99b",
 "url": "https://www.kice.re.kr",
 "host": "kice.re.kr",
@@ -6610,8 +6859,8 @@
 "cycle": "w"
 },
 {
-"id": "c89292c5b8",
-"url": "https://admission.csia.hs.kr/?act=board.read&code=1611&page=1&num=415&id=418",
+"id": "d26bd3a1d8",
+"url": "https://admission.csia.hs.kr/?act=board.read&code=1611&num=419&id=403",
 "host": "admission.csia.hs.kr",
 "name": "2027학년도 청심국제중학교 신입생 전형요항(입학센터) — 06 전형일정",
 "kind": "공식",
@@ -6681,7 +6930,7 @@
 "id": "502dcdc4ad",
 "url": "https://admission.ksa.hs.kr/iphak_kor/files/2023_KSA_application.pdf",
 "host": "admission.ksa.hs.kr",
-"name": "한국과학영재학교 2023학년도 요강",
+"name": "한국과학영재학교 2023학년도 요강(지난 자료 · 2027학년도 요강으로 다시 확인 전)",
 "kind": "공식",
 "cat": "학교",
 "used": [
@@ -6838,6 +7087,32 @@
 "cycle": "m"
 },
 {
+"id": "f4d8335684",
+"url": "https://dwfl.hs.kr/?act=doc&mcode=131010",
+"host": "dwfl.hs.kr",
+"name": "대원외고 2027학년도 신입생 입학전형 요강 — 3 전형 일정 및 원서 접수(인쇄 6쪽)",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n03"
+],
+"dated": "2026-11-15",
+"cycle": "w"
+},
+{
+"id": "2fe139f965",
+"url": "https://ewha-gfh.hs.kr/0401",
+"host": "ewha-gfh.hs.kr",
+"name": "이화여자외고 2027학년도 입학전형요강 — 3 전형 일정 및 원서 접수(인쇄 6쪽)",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n03"
+],
+"dated": "2026-11-15",
+"cycle": "w"
+},
+{
 "id": "8005a76545",
 "url": "https://gasuwones.djsch.kr/boardCnts/list.do?type=default&page=1&m=020101&s=gasuwones&boardID=121349",
 "host": "gasuwones.djsch.kr",
@@ -6958,6 +7233,32 @@
 "cycle": "w"
 },
 {
+"id": "1c876a02e0",
+"url": "http://www.hcu.hs.kr/hcu-h/M010501/",
+"host": "hcu.hs.kr",
+"name": "2027학년도 현대청운고등학교 입학전형 요강 — 10. 전형 일정(학교 누리집 입학공지사항)",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n84"
+],
+"dated": "2026-11-15",
+"cycle": "w"
+},
+{
+"id": "3a7938497b",
+"url": "https://hyfl.sen.hs.kr/183235/subMenu.do",
+"host": "hyfl.sen.hs.kr",
+"name": "한영외고 2027학년도 신입생 입학전형요강 — 전형 일정 및 원서 접수(인쇄 6쪽)",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n03"
+],
+"dated": "2026-11-15",
+"cycle": "w"
+},
+{
 "id": "8fc8113f25",
 "url": "https://iasa.icehs.kr/boardCnts/list.do?boardID=308156&m=0302&s=isaa",
 "host": "iasa.icehs.kr",
@@ -7000,13 +7301,13 @@
 "id": "9663f84418",
 "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=3b390d00f3f373000b57b66a45c8029d",
 "host": "kangwon-sh.gwe.hs.kr",
-"name": "강원과학고 2027학년도 신입생 입학전형 요강",
+"name": "강원과학고등학교 2027학년도 신입생 입학전형 요강(공고문, 2026-05-18 공고) — Ⅴ 전형 일정",
 "kind": "공식",
 "cat": "학교",
 "used": [
 "n46"
 ],
-"dated": "2026-10-25",
+"dated": "2026-11-15",
 "cycle": "w"
 },
 {
@@ -7019,7 +7320,7 @@
 "used": [
 "n46"
 ],
-"dated": "2026-10-12",
+"dated": "",
 "cycle": "w"
 },
 {
@@ -7060,6 +7361,19 @@
 ],
 "dated": "",
 "cycle": "m"
+},
+{
+"id": "0a5a08cae4",
+"url": "https://sghs.sen.hs.kr",
+"host": "sghs.sen.hs.kr",
+"name": "서울국제고 2027학년도 입학 전형 요강 — 3 전형 일정 및 원서 접수(인쇄 6쪽)",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n03"
+],
+"dated": "2026-11-15",
+"cycle": "w"
 },
 {
 "id": "28b08a002a",

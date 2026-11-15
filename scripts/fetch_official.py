@@ -5,7 +5,7 @@
     여기서 날짜 줄을 뽑아 두면 자료 점검이 이 결과를 원문 근거로 씁니다(대표의 수동 확인을 줄이기 위해).
 
 지키는 것
-- robots.txt를 먼저 읽고, 막힌 주소는 열지 않습니다(403·401이면 막힌 것으로 봄). 우회 주소·캐시·미러를 쓰지 않습니다.
+- robots.txt를 먼저 읽고, 막힌 주소는 열지 않습니다(403·401이면 막힌 것으로 봄 · 2026-11-15부터 5xx·429·네트워크 오류도 막힘, 규칙은 RFC 9309로도 봄 — Fetcher 위 설명). 우회 주소·캐시·미러를 쓰지 않습니다.
 - 정직한 이름(User-Agent)으로, 사이트마다 1초 넘게 쉬며, 한 번 실행에 사이트당 최대 15번만 엽니다.
 - 로그인·회원 전용 페이지는 열지 않습니다. 제목에 '명단'·'합격자'가 든 글·파일은 열지 않습니다(개인정보).
 - 원문 전체를 저장하지 않습니다. 날짜가 든 짧은 줄(160자 안)과 주소만 남깁니다(사실만 옮김, 저작권).
@@ -49,11 +49,88 @@ def kst_now():
     return datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=9)
 
 
+# ── robots.txt 판정(2026-11-15 법무·보안 — 충남대 영재원 등 6곳이 실행마다 '열림'·'막힘'으로 흔들림) ──
+# 원칙: robots를 못 받거나 애매하면 막힘(안전한 쪽). 표준은 RFC 9309(Robots Exclusion Protocol, 2022-09).
+#  ① 5xx·429·네트워크 오류 = '닿지 않음' → 모두 막힘(RFC 9309 2.3.1.4) — 예전엔 5xx·429를 '없음'으로 보고 다 열었음
+#  ② 401·403 = 막힘(예전과 같음) · 그 밖 4xx(404 등) = robots 없음 → 열림(RFC 9309 2.3.1.3, 예전과 같음)
+#  ③ 규칙 해석은 파이썬 기본 해석기와 RFC 9309 해석(* · $ · 같은 이름 묶음 합치기 · 가장 긴 규칙 · BOM)을 함께 보고
+#     둘 다 열림일 때만 연다 — 파이썬 해석기는 *·$를 모르고 첫 규칙을 따르며, 두 번째 '*' 묶음·BOM 뒤 첫 묶음을 버린다.
+#     그래서 이 고침으로 새로 열리는 주소는 없다(닫히기만 함).
+#  ④ 30일 안에 우리에게 걸리는 Disallow 규칙을 본 곳이 이번에 '없음(4xx)'·HTML 화면으로 답하면 애매 → 막힘
+#     (점검 화면·방화벽 화면이 robots.txt 자리에 나오는 날 다 열던 것 — 지난 기록은 data/official_run.json 'robots')
+#  ⑤ 곳마다 무엇을 받았는지(http 코드·종류·지문·규칙 수)를 실행 기록 'robots'에 남겨 흔들림을 숫자로 본다.
+UA_TOKEN = UA.split('/')[0].lower()        # 'ipsi-data-bot' — robots의 User-agent 이름과 견줄 이름
+ROBOTS_MEMORY_DAYS = 30
+ROBOTS_MAX = 512 * 1024
+
+
+def _robots_norm(s):
+    return urllib.parse.quote(urllib.parse.unquote(s), safe="/?=&;:@!,'()*+$~-._")
+
+
+def robots_groups(text):
+    """RFC 9309 묶음 [(이름 set, [(allow, 패턴)])] — 주석·빈 줄·모르는 줄(sitemap 등)은 건너뜀, 맨 앞 BOM 뗌."""
+    groups, cur, ruled = [], None, False
+    for raw in text.lstrip('﻿').splitlines():
+        line = raw.split('#', 1)[0].strip()
+        if ':' not in line:
+            continue
+        k, v = line.split(':', 1)
+        k, v = k.strip().lower(), v.strip()
+        if k in ('user-agent', 'useragent', 'user agent'):
+            if cur is None or ruled:
+                cur = (set(), []); groups.append(cur); ruled = False
+            cur[0].add(v.lower())
+        elif k in ('allow', 'disallow') and cur is not None:
+            ruled = True
+            if v:
+                cur[1].append((k == 'allow', v))
+    return groups
+
+
+def robots_rules_for(groups, token=UA_TOKEN):
+    """우리 이름에 걸리는 묶음의 규칙(같은 이름 묶음은 합침). 이름 묶음이 없으면 '*' 묶음들."""
+    def mine(a):
+        return a != '*' and a and (a.split('/')[0] == token or a in token)   # 파이썬 해석기처럼 이름 일부도 걸림(안전한 쪽)
+    pick = [g for g in groups if any(mine(a) for a in g[0])] or [g for g in groups if '*' in g[0]]
+    return [r for g in pick for r in g[1]]
+
+
+def _robots_re(pat):
+    end = pat.endswith('$')
+    body = pat[:-1] if end else pat
+    return re.compile('.*'.join(re.escape(_robots_norm(x)) for x in body.split('*')) + (r'\Z' if end else ''))
+
+
+def robots_rfc_allowed(rules, url):
+    """RFC 9309 2.2.2: 맞는 규칙 중 가장 긴 것 — 길이가 같으면 막힘(안전한 쪽). 맞는 규칙이 없으면 열림."""
+    p = urllib.parse.urlsplit(url)
+    path = _robots_norm((p.path or '/') + ('?' + p.query if p.query else ''))
+    if path == '/robots.txt':
+        return True
+    best = None
+    for allow, pat in rules:
+        if not pat.startswith(('/', '*')):
+            pat = '/' + pat
+        if _robots_re(pat).match(path) and (best is None or len(pat) > best[0] or (len(pat) == best[0] and not allow)):
+            best = (len(pat), allow)
+    return True if best is None else best[1]
+
+
+def load_robots_memory(path='data/official_run.json'):
+    try:
+        return json.load(open(path, encoding='utf-8')).get('robots') or {}
+    except Exception:
+        return {}
+
+
 class Fetcher:
-    def __init__(self):
+    def __init__(self, robots_memory=None):
         self.s = requests.Session()
         self.s.headers.update({'User-Agent': UA, 'Accept-Language': 'ko-KR,ko;q=0.9'})
         self.robots = {}
+        self.robots_log = {}
+        self.robots_memory = load_robots_memory() if robots_memory is None else robots_memory
         self.count = {}
         self.last = {}
         self.debug = []
@@ -63,23 +140,75 @@ class Fetcher:
         p = urllib.parse.urlsplit(url)
         return p.scheme + '://' + p.netloc
 
+    def _robots_read(self, host):
+        """robots.txt 받기 → (파이썬 해석기, 우리 규칙, 종류, 기록). 종류: rules(규칙 파일) · html(HTML 화면) · none(4xx — robots 없음)
+        · denied(401·403) · unreachable(5xx·429·네트워크 오류)."""
+        try:
+            r = self.s.get(host + '/robots.txt', timeout=TIMEOUT)
+        except requests.RequestException as e:
+            return None, None, 'unreachable', {'http': 'error', 'error': str(e)[:120]}
+        info = {'http': r.status_code}
+        if r.url and r.url != host + '/robots.txt':
+            info['final'] = r.url[:160]
+        if r.status_code in (401, 403):
+            return None, None, 'denied', info
+        if r.status_code == 429 or r.status_code >= 500:
+            return None, None, 'unreachable', info
+        if r.status_code >= 400:
+            return None, None, 'none', info
+        raw = r.content[:ROBOTS_MAX]
+        text = raw.decode('utf-8', 'replace').lstrip('﻿')
+        html = 'html' in r.headers.get('Content-Type', '').lower() or text.lstrip()[:1] == '<'
+        rp = urllib.robotparser.RobotFileParser()
+        rp.parse(text.splitlines())
+        rules = robots_rules_for(robots_groups(text))
+        info.update({'bytes': len(r.content), 'sha': hashlib.sha1(r.content).hexdigest()[:8], 'rules': len(rules),
+                     'disallow': sum(1 for a, _ in rules if not a)})
+        return rp, rules, ('html' if html else 'rules'), info
+
     def allowed(self, url):
         host = self._host(url)
         if host not in self.robots:
-            rp = urllib.robotparser.RobotFileParser()
+            rp, rules, kind, info = self._robots_read(host)
+            today = kst_now().date()
+            block_at = (self.robots_memory.get(host) or {}).get('blockAt')
+            if kind == 'rules' and info.get('disallow'):
+                block_at = today.isoformat()
+            if kind in ('none', 'html') and block_at:
+                try:
+                    if (today - datetime.date.fromisoformat(block_at)).days <= ROBOTS_MEMORY_DAYS:
+                        kind = 'ambiguous'   # 30일 안에 우리를 막는 규칙을 본 곳 — 이번 '없음'·HTML 답은 믿지 않음
+                except ValueError:
+                    pass
+            info['kind'] = kind
+            if block_at:
+                info['blockAt'] = block_at
+            self.robots[host] = (rp, rules, kind)
+            self.robots_log[host] = info
+        rp, rules, kind = self.robots[host]
+        if kind in ('denied', 'unreachable', 'ambiguous'):
+            return False
+        if kind == 'none':
+            return True
+        return rp.can_fetch(UA, url) and robots_rfc_allowed(rules, url)
+
+    def robots_why(self, url):
+        """'robots'로 안 연 까닭 — rules(규칙이 막음) · denied · unreachable(못 받음) · ambiguous(애매)."""
+        k = (self.robots.get(self._host(url)) or (None, None, None))[2]
+        return 'rules' if k in ('rules', 'html') else k
+
+    def robots_record(self):
+        """실행 기록 'robots' 칸: 이번에 본 곳 + 이번에 안 봤지만 30일 안 blockAt이 있는 곳(다음 실행의 ④ 기억)."""
+        out = {}
+        today = kst_now().date()
+        for h, v in (self.robots_memory or {}).items():
             try:
-                r = self.s.get(host + '/robots.txt', timeout=TIMEOUT)
-                if r.status_code in (401, 403):
-                    rp.disallow_all = True
-                elif r.status_code >= 400:
-                    rp.allow_all = True
-                else:
-                    rp.parse(r.text.splitlines())
-            except requests.RequestException:
-                rp = None   # robots.txt could not be read: do not open the site this run
-            self.robots[host] = rp
-        rp = self.robots[host]
-        return bool(rp) and rp.can_fetch(UA, url)
+                if v.get('blockAt') and (today - datetime.date.fromisoformat(v['blockAt'])).days <= ROBOTS_MEMORY_DAYS:
+                    out[h] = {'blockAt': v['blockAt'], 'kept': True}
+            except (ValueError, AttributeError):
+                pass
+        out.update(self.robots_log)
+        return dict(sorted(out.items()))
 
     def post(self, url, data, binary=False):
         """A form the site's own button sends (GED '다운로드' opens its file list this way). Same robots and pace rules."""
@@ -838,7 +967,8 @@ def run(targets_path, out_dir):
     cfg = load_targets(targets_path)
     today = kst_now().date()
     os.makedirs(out_dir, exist_ok=True)
-    F = Fetcher()
+    run_path = os.path.join(os.path.dirname(out_dir.rstrip('/')) or '.', 'official_run.json')
+    F = Fetcher(robots_memory=load_robots_memory(run_path))
     summary = []
     for tgt in cfg['targets']:
         res = read_target(F, cfg, tgt, today, out_dir)
@@ -848,10 +978,14 @@ def run(targets_path, out_dir):
         json.dump(res, open(os.path.join(out_dir, tgt['id'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         summary.append({'id': tgt['id'], 'org': tgt['org'], 'status': res['status'], 'lines': len(res['lines']), 'files': len(res['files']),
                         'opened': len(res['opened']), 'route': res.get('route'), 'tried': res.get('tried')})
+        why = sorted({o['why'] for o in res['opened'] if o.get('status') == 'robots' and o.get('why')})
+        if why:
+            summary[-1]['robotsWhy'] = why   # 2026-11-15: robots로 안 연 까닭(rules·denied·unreachable·ambiguous)
         print(tgt['id'], tgt['org'], res['status'], 'route', res.get('route'), 'lines', len(res['lines']), 'files', len(res['files']))
     run_info = {'at': kst_now().strftime('%Y-%m-%dT%H:%M:%S+09:00'), 'targets': len(summary),
-                'withDates': sum(1 for s in summary if s['status'] == 'dates'), 'blockedAll': [s['id'] for s in summary if s['status'] == 'blocked-all'], 'items': summary}
-    json.dump(run_info, open(os.path.join(os.path.dirname(out_dir.rstrip('/')) or '.', 'official_run.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+                'withDates': sum(1 for s in summary if s['status'] == 'dates'), 'blockedAll': [s['id'] for s in summary if s['status'] == 'blocked-all'], 'items': summary,
+                'robots': F.robots_record()}
+    json.dump(run_info, open(run_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     os.makedirs('debug', exist_ok=True)
     json.dump(F.debug, open('debug/debug.json', 'w', encoding='utf-8', errors='replace'), ensure_ascii=False, indent=1)
     return run_info
@@ -876,6 +1010,9 @@ def read_pages(F, cfg, tgt, pages, today):
                         res['opened'].append({'url': 'ged', 'status': 'paused', 'error': 'GED 자동 읽기 멈춤(이용 조건 확인 중)'})
             except Exception as e:
                 res['opened'].append({'url': pg.get('url', 'ged'), 'status': 'error', 'error': str(e)[:160]})
+    for o in res['opened']:
+        if o.get('status') == 'robots' and str(o.get('url', '')).startswith('http'):
+            o['why'] = F.robots_why(o['url'])
     sts = [o['status'] for o in res['opened']]
     if res['lines']:
         res['status'] = 'dates'

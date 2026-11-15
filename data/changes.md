@@ -2,6 +2,31 @@
 
 나이스 학교기본정보를 매일 받아 지난번과 비교한 결과입니다. 최신이 위에 있습니다.
 
+## 2026-11-15
+
+- 새로 생김: 인천 미추홀구 인천학나래초등학교 (초등학교)
+- 새로 생김: 울산 울주군 서사중학교 (중학교)
+- 새로 생김: 경기 성남시 금토초등학교 (초등학교)
+- 새로 생김: 경기 안성시 승두중학교 (중학교)
+- 새로 생김: 경기 안성시 승두초등학교 (초등학교)
+- 새로 생김: 경기 시흥시 시흥빛가람초등학교 (초등학교)
+- 새로 생김: 경기 화성시 화담초등학교 (초등학교)
+- 바뀜: 부산 만덕고등학교 — home: http://www.mandeok.hs.kr/ → https://school.busanedu.net/mandeok-h/main.do
+- 바뀜: 부산 부산보건고등학교 — home: http://busanhc.com → https://school.busanedu.net/busanhc.com/
+- 바뀜: 부산 브니엘여자고등학교 — home: http://ipeniel.hs.kr/ → http://school.busanedu.net/ipeniel-h
+- 바뀜: 부산 브니엘예술중학교 — home: http://peniel.ms.kr → https://school.busanedu.net/peniel-m
+- 바뀜: 전남광주 광주예술중학교 — home: http://kj-art.gen.ms.kr → http://kj-art.jge.ms.kr
+- 바뀜: 전남광주 선창초등학교 — home: http://k-sunchang.gen.es.kr → http://k-sunchang.jge.es.kr
+- 바뀜: 전남광주 전남여자상업고등학교 — home: http://cgch.gen.hs.kr → https://cgch.jge.hs.kr
+- 바뀜: 울산 울산삼일고등학교 — home: http://www.samil-us.hs.kr → https://school.use.go.kr/samil-h
+- 바뀜: 경기 화성반월고등학교 — address: 경기도 화성시 효행로 1281-66 → 경기도 화성시 병점구 효행로 1281-66
+- 바뀜: 강원 설악중학교 — home: http://sorak.gwe.ms.kr → https://sorak.gwe.ms.kr
+- 바뀜: 충북 충주중앙초등학교 — home: http://www.chungjuja.es.kr → https://school.cbe.go.kr/chungjuja-e
+- 바뀜: 전북 백운중학교 — home: http://paegunm.ms.kr → https://school.jbedu.kr/paegunm
+- 바뀜: 전북 학산중학교 — home: http://haksan.ms.kr/ → https://school.jbedu.kr/haksan
+- 바뀜: 전남광주 조도중학교 — home: http://jodo.hs.jne.kr → http://jodo.jge.hs.kr
+- 바뀜: 제주 애월고등학교 — home: http://aewol.jje.hs.kr → https://aewol.jje.hs.kr
+
 ## 2026-11-08
 
 - 새로 생김: 부산 강서구 명문중학교 (중학교)

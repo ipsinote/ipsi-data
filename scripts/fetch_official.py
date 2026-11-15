@@ -59,6 +59,12 @@ def kst_now():
 #  ④ 30일 안에 우리에게 걸리는 Disallow 규칙을 본 곳이 이번에 '없음(4xx)'·HTML 화면으로 답하면 애매 → 막힘
 #     (점검 화면·방화벽 화면이 robots.txt 자리에 나오는 날 다 열던 것 — 지난 기록은 data/official_run.json 'robots')
 #  ⑤ 곳마다 무엇을 받았는지(http 코드·종류·지문·규칙 수)를 실행 기록 'robots'에 남겨 흔들림을 숫자로 본다.
+#  ⑥ (2026-11-15 저녁 독립 검토 R1 4번) robots.txt 자리에 HTML 화면(규칙 파일이 아닌 답 — 점검·방화벽·자바스크립트 이동·
+#     '없는 페이지' 화면을 200으로 줌)이 오면 기억이 없어도 '규칙을 못 읽음' → 막힘. 예전엔 HTML을 규칙으로 읽어 규칙 0 = 다 열었음
+#     (인천 교육청·학교 7곳이 같은 77바이트 HTML을 주는데, 대화 창 웹 읽기가 본 같은 곳 규칙은 '*'에 /sub/·/upload/ 막힘).
+#     RFC 9309를 글자 그대로 읽으면 200 답의 '읽을 수 있는 규칙'만 따르므로 HTML = 규칙 없음 = 열림이지만, 우리 원칙(공통 규칙 4절
+#     'robots를 못 받은 곳은 열지 않는다' · 위 ①)에 따라 안전한 쪽으로 둔다. 다만 HTML 종류 머리(Content-Type)로 잘못 보낸
+#     진짜 규칙 파일(본문이 '<'로 시작하지 않고 User-agent 묶음이 있음)은 규칙대로 읽는다(예전과 같음). 빈 답은 빈 robots = 열림(예전과 같음).
 UA_TOKEN = UA.split('/')[0].lower()        # 'ipsi-data-bot' — robots의 User-agent 이름과 견줄 이름
 ROBOTS_MEMORY_DAYS = 30
 ROBOTS_MAX = 512 * 1024
@@ -141,7 +147,7 @@ class Fetcher:
         return p.scheme + '://' + p.netloc
 
     def _robots_read(self, host):
-        """robots.txt 받기 → (파이썬 해석기, 우리 규칙, 종류, 기록). 종류: rules(규칙 파일) · html(HTML 화면) · none(4xx — robots 없음)
+        """robots.txt 받기 → (파이썬 해석기, 우리 규칙, 종류, 기록). 종류: rules(규칙 파일) · html(규칙 파일이 아닌 HTML 화면 — 막힘, ⑥) · none(4xx — robots 없음)
         · denied(401·403) · unreachable(5xx·429·네트워크 오류)."""
         try:
             r = self.s.get(host + '/robots.txt', timeout=TIMEOUT)
@@ -158,10 +164,13 @@ class Fetcher:
             return None, None, 'none', info
         raw = r.content[:ROBOTS_MAX]
         text = raw.decode('utf-8', 'replace').lstrip('﻿')
-        html = 'html' in r.headers.get('Content-Type', '').lower() or text.lstrip()[:1] == '<'
+        groups = robots_groups(text)
+        head = text.lstrip()[:2048]
+        looks_html = head[:1] == '<' or bool(re.search(r'<\s*(!doctype|html|head|body|script|meta)\b', head, re.I))
+        html = looks_html or ('html' in r.headers.get('Content-Type', '').lower() and not groups and bool(text.strip()))
         rp = urllib.robotparser.RobotFileParser()
         rp.parse(text.splitlines())
-        rules = robots_rules_for(robots_groups(text))
+        rules = robots_rules_for(groups)
         info.update({'bytes': len(r.content), 'sha': hashlib.sha1(r.content).hexdigest()[:8], 'rules': len(rules),
                      'disallow': sum(1 for a, _ in rules if not a)})
         return rp, rules, ('html' if html else 'rules'), info
@@ -186,16 +195,16 @@ class Fetcher:
             self.robots[host] = (rp, rules, kind)
             self.robots_log[host] = info
         rp, rules, kind = self.robots[host]
-        if kind in ('denied', 'unreachable', 'ambiguous'):
+        if kind in ('denied', 'unreachable', 'ambiguous', 'html'):   # html: ⑥ 규칙 파일이 아닌 HTML 화면 = 못 읽음 → 막힘
             return False
         if kind == 'none':
             return True
         return rp.can_fetch(UA, url) and robots_rfc_allowed(rules, url)
 
     def robots_why(self, url):
-        """'robots'로 안 연 까닭 — rules(규칙이 막음) · denied · unreachable(못 받음) · ambiguous(애매)."""
+        """'robots'로 안 연 까닭 — rules(규칙이 막음) · denied · unreachable(못 받음) · ambiguous(애매) · html(robots 자리에 HTML 화면 — ⑥)."""
         k = (self.robots.get(self._host(url)) or (None, None, None))[2]
-        return 'rules' if k in ('rules', 'html') else k
+        return k
 
     def robots_record(self):
         """실행 기록 'robots' 칸: 이번에 본 곳 + 이번에 안 봤지만 30일 안 blockAt이 있는 곳(다음 실행의 ④ 기억)."""
@@ -980,7 +989,7 @@ def run(targets_path, out_dir):
                         'opened': len(res['opened']), 'route': res.get('route'), 'tried': res.get('tried')})
         why = sorted({o['why'] for o in res['opened'] if o.get('status') == 'robots' and o.get('why')})
         if why:
-            summary[-1]['robotsWhy'] = why   # 2026-11-15: robots로 안 연 까닭(rules·denied·unreachable·ambiguous)
+            summary[-1]['robotsWhy'] = why   # 2026-11-15: robots로 안 연 까닭(rules·denied·unreachable·ambiguous·html)
         print(tgt['id'], tgt['org'], res['status'], 'route', res.get('route'), 'lines', len(res['lines']), 'files', len(res['files']))
     run_info = {'at': kst_now().strftime('%Y-%m-%dT%H:%M:%S+09:00'), 'targets': len(summary),
                 'withDates': sum(1 for s in summary if s['status'] == 'dates'), 'blockedAll': [s['id'] for s in summary if s['status'] == 'blocked-all'], 'items': summary,

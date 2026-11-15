@@ -1,0 +1,20 @@
+{
+ "id": "n106",
+ "org": "강원대(강릉·원주) 영재원",
+ "what": "앞으로 120일 안 일정 3단계",
+ "checkedAt": "2026-11-16T08:12:25+09:00",
+ "opened": [
+  {
+   "url": "https://www.seit.kr/sub01_06_01.html",
+   "status": "robots",
+   "why": "html"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "robots",
+ "route": 1
+}

@@ -1,0 +1,161 @@
+{
+ "id": "n53",
+ "org": "광주교대 영재원",
+ "what": "앞으로 120일 안 일정 3단계",
+ "checkedAt": "2026-11-16T08:05:21+09:00",
+ "opened": [
+  {
+   "url": "https://gifted.gnue.ac.kr/planweb/board/view.9is?dataUid=4a9f18ab5ea9092f015eb81025a12642&nttId=9016702&boardUid=4a9f18ab6fcb578b016fe1f1e6b03142&contentUid=4a9f18ab6fcb578b016fe3026624336a&portalBoardId=BBSMSTR_000001431298",
+   "status": "ok"
+  },
+  {
+   "url": "https://gifted.gnue.ac.kr/index.9is?contentUid=4a9f18ab6fcb578b016fe268c5de32ab",
+   "status": "ok"
+  },
+  {
+   "url": "https://gice.gen.go.kr/menu.es?mid=a10403010000",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://gifted.gnue.ac.kr/planweb/board/view.9is?dataUid=4a9f18ab5ea9092f015eb81025a12642&nttId=9016702&boardUid=4a9f18ab6fcb578b016fe1f1e6b03142&contentUid=4a9f18ab6fcb578b016fe3026624336a&portalBoardId=BBSMSTR_000001431298",
+   "title": "영재교육원_신규 > 영재교육원>정보마당>공지사항"
+  },
+  {
+   "url": "https://gifted.gnue.ac.kr/index.9is?contentUid=4a9f18ab6fcb578b016fe268c5de32ab",
+   "title": "영재교육원>입학안내>모집요강"
+  },
+  {
+   "url": "https://gice.gen.go.kr/menu.es?mid=a10403010000",
+   "title": "영재선발 소개 | 영재선발 | 영재교육 : 전남광주통합특별시교육청광주창의융합교육원"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://portal.gnue.ac.kr/jfile/readDownloadFile.do?fileId=1a083c9421484&fileSeq=1",
+   "name": "2027학년도 광주교육대학교 영재교육원 신입생 모집 요강_최종.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 399533,
+   "sha1": "bf9d9bf72ddc"
+  },
+  {
+   "url": "https://portal.gnue.ac.kr/jfile/readDownloadFile.do?fileId=1a083c9421484&fileSeq=2",
+   "name": "(서식 1) 광주교육대학교 영재교육원 교사추천서.hwpx",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 41738,
+   "sha1": "730008f6d6cb"
+  },
+  {
+   "url": "https://portal.gnue.ac.kr/jfile/readDownloadFile.do?fileId=1a083c9421484&fileSeq=3",
+   "name": "(서식 2) 사회통합대상자 지원 학부모 확인서.hwpx",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 49306,
+   "sha1": "0d31c9d3891f"
+  },
+  {
+   "url": "https://portal.gnue.ac.kr/jfile/readDownloadFile.do?fileId=1a083c9421484&fileSeq=4",
+   "name": "(서식 3) 개인정보 제공 및 이용 동의서.hwpx",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 55540,
+   "sha1": "dfda15abd726"
+  }
+ ],
+ "lines": [
+  {
+   "text": "발표 | 2026. 12. 12.(토) ~ 12. 13.(일)",
+   "dates": [
+    "2026-12-12",
+    "2026-12-13"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://portal.gnue.ac.kr/jfile/readDownloadFile.do?fileId=1a083c9421484&fileSeq=1"
+  },
+  {
+   "text": "등록 | 1. 18.(월) 17시까지",
+   "dates": [
+    "2027-01-18"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://portal.gnue.ac.kr/jfile/readDownloadFile.do?fileId=1a083c9421484&fileSeq=1"
+  },
+  {
+   "text": "신입생 선발평가 | 2026. 12. 12.(토) ~ 12. 13.(일)",
+   "dates": [
+    "2026-12-12",
+    "2026-12-13"
+   ],
+   "words": [
+    "선발",
+    "평가"
+   ],
+   "src": "https://gifted.gnue.ac.kr/index.9is?contentUid=4a9f18ab6fcb578b016fe268c5de32ab"
+  },
+  {
+   "text": "합격자발표 | 2027. 1. 11. (월) 14시",
+   "dates": [
+    "2027-01-11"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://gifted.gnue.ac.kr/index.9is?contentUid=4a9f18ab6fcb578b016fe268c5de32ab"
+  },
+  {
+   "text": "합격자등록 | 2027. 1. 11.(월) 14시부터 ~ 1. 18.(월) 17시까지",
+   "dates": [
+    "2027-01-11",
+    "2027-01-18"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://gifted.gnue.ac.kr/index.9is?contentUid=4a9f18ab6fcb578b016fe268c5de32ab"
+  },
+  {
+   "text": "※ 합격자 등록 절차는 합격자 발표 시 안내함 | 접수 기간 : 2026. 10. 15.(목) 10시부터 ~ 10. 30.(금) 17시까지",
+   "dates": [
+    "2026-10-15",
+    "2026-10-30"
+   ],
+   "words": [
+    "등록",
+    "발표"
+   ],
+   "src": "https://gifted.gnue.ac.kr/index.9is?contentUid=4a9f18ab6fcb578b016fe268c5de32ab"
+  },
+  {
+   "text": "결과발표: 2026. 12. 21.(월) 예정 기관별 선발 전형 일정이 상이하니 별도 계획 참고",
+   "dates": [
+    "2026-12-21"
+   ],
+   "words": [
+    "발표",
+    "선발"
+   ],
+   "src": "https://gice.gen.go.kr/menu.es?mid=a10403010000"
+  },
+  {
+   "text": "* 실기, 면접평가 | - 미디어아트: 2026.12.12.(토)",
+   "dates": [
+    "2026-12-12"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://gice.gen.go.kr/menu.es?mid=a10403010000"
+  }
+ ],
+ "status": "dates",
+ "route": 1
+}

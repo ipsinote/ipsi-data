@@ -2,10 +2,10 @@
  "id": "n101",
  "org": "청심국제중",
  "what": "앞으로 120일 안 일정 1단계",
- "checkedAt": "2026-11-15T23:46:46+09:00",
+ "checkedAt": "2026-11-16T08:12:11+09:00",
  "opened": [
   {
-   "url": "https://admission.csia.hs.kr/?act=board.read&code=1611&page=1&num=415&id=418",
+   "url": "https://admission.csia.hs.kr/?act=board.read&code=1611&num=419&id=403",
    "status": "ok"
   }
  ],
@@ -13,32 +13,68 @@
  "ged": [],
  "titles": [
   {
-   "url": "https://admission.csia.hs.kr/?act=board.read&code=1611&page=1&num=415&id=418",
+   "url": "https://admission.csia.hs.kr/?act=board.read&code=1611&num=419&id=403",
    "title": "청심국제중고등학교 입학센터"
   }
  ],
  "files": [
   {
-   "url": "https://admission.csia.hs.kr/?act=file_proxy&path=download/board/14058/1611/418/1/2027%C7%D0%B3%E2%B5%B5+%C1%DF%C0%D4+%B0%E6%C0%EF%B7%FC%28%B8%B6%B0%A8%29.jpg",
-   "name": "2027학년도 중입 경쟁률(마감).jpg",
+   "url": "https://admission.csia.hs.kr/?act=file_proxy&path=download/board/14058/1611/403/1/2027+%C3%BB%BD%C9%B1%B9%C1%A6%C1%DF%C7%D0%B1%B3+%BD%C5%C0%D4%BB%FD+%BC%B1%B9%DF+%C0%FD%C2%F7+%BE%C8%B3%BB.pdf",
+   "name": "2027 청심국제중학교 신입생 선발 절차 안내.pdf",
    "status": "ok",
-   "type": "image",
-   "bytes": 81253,
-   "sha1": "2c7601d8db85",
-   "reader": "ocr"
+   "type": "pdf",
+   "bytes": 58981,
+   "sha1": "5c5403adcb8b"
   },
   {
-   "url": "https://admission.csia.hs.kr/?act=image_proxy&path=hosts/14058/board/board.-1.1793004606.6600",
-   "name": "본문 그림",
+   "url": "https://admission.csia.hs.kr/?act=file_proxy&path=download/board/14058/1611/403/2/2027%C7%D0%B3%E2%B5%B5+%C3%BB%BD%C9%B1%B9%C1%A6%C1%DF%C7%D0%B1%B3+%BD%C5%C0%D4%BB%FD+%C0%FC%C7%FC%BF%E4%C7%D7.pdf",
+   "name": "2027학년도 청심국제중학교 신입생 전형요항.pdf",
    "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 81253,
-   "sha1": "2c7601d8db85",
-   "lines": 0
+   "type": "pdf",
+   "bytes": 526223,
+   "sha1": "053bf9c48076"
+  },
+  {
+   "url": "https://admission.csia.hs.kr/?act=file_proxy&path=download/board/14058/1611/403/3/2027%C7%D0%B3%E2%B5%B5+%C3%BB%BD%C9%B1%B9%C1%A6%C1%DF%C7%D0%B1%B3+%BD%C5%C0%D4%BB%FD+%C1%F6%BF%F8%BE%E7%BD%C4%28SAMPLE%29.pdf",
+   "name": "2027학년도 청심국제중학교 신입생 지원양식(SAMPLE).pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 794299,
+   "sha1": "82c147f10582"
   }
  ],
- "lines": [],
- "status": "found-no-dates",
+ "lines": [
+  {
+   "text": "최종합격자 발표 | ※ 2026.11.2.(월) 17시 이후 공지사항 상세 내용 확인 후 문의 바람",
+   "dates": [
+    "2026-11-02"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://admission.csia.hs.kr/?act=file_proxy&path=download/board/14058/1611/403/1/2027+%C3%BB%BD%C9%B1%B9%C1%A6%C1%DF%C7%D0%B1%B3+%BD%C5%C0%D4%BB%FD+%BC%B1%B9%DF+%C0%FD%C2%F7+%BE%C8%B3%BB.pdf"
+  },
+  {
+   "text": "1단계 합격자 발표 | 2026.10.29.(목)",
+   "dates": [
+    "2026-10-29"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://admission.csia.hs.kr/?act=file_proxy&path=download/board/14058/1611/403/2/2027%C7%D0%B3%E2%B5%B5+%C3%BB%BD%C9%B1%B9%C1%A6%C1%DF%C7%D0%B1%B3+%BD%C5%C0%D4%BB%FD+%C0%FC%C7%FC%BF%E4%C7%D7.pdf"
+  },
+  {
+   "text": "최종 합격자 발표 | 2026.11.17.(화)",
+   "dates": [
+    "2026-11-17"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://admission.csia.hs.kr/?act=file_proxy&path=download/board/14058/1611/403/2/2027%C7%D0%B3%E2%B5%B5+%C3%BB%BD%C9%B1%B9%C1%A6%C1%DF%C7%D0%B1%B3+%BD%C5%C0%D4%BB%FD+%C0%FC%C7%FC%BF%E4%C7%D7.pdf"
+  }
+ ],
+ "status": "dates",
  "route": 1
 }

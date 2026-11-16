@@ -1,7 +1,7 @@
 {
- "at": "2026-11-16T08:12:25+09:00",
+ "at": "2026-11-17T01:58:05+09:00",
  "targets": 91,
- "withDates": 51,
+ "withDates": 49,
  "blockedAll": [
   "n80",
   "n31",
@@ -16,10 +16,10 @@
   {
    "id": "n93",
    "org": "대구대 글로벌브릿지 영재원",
-   "status": "dates",
-   "lines": 18,
-   "files": 6,
-   "opened": 6,
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
    "route": 1,
    "tried": null
   },
@@ -383,8 +383,8 @@
    "id": "n35",
    "org": "충북 교육청 영재원",
    "status": "dates",
-   "lines": 16,
-   "files": 3,
+   "lines": 28,
+   "files": 4,
    "opened": 4,
    "route": 1,
    "tried": null
@@ -452,7 +452,7 @@
     },
     {
      "rank": 2,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 3,
@@ -703,8 +703,8 @@
   {
    "id": "n39",
    "org": "충북대 영재원",
-   "status": "dates",
-   "lines": 1,
+   "status": "found-no-dates",
+   "lines": 0,
    "files": 1,
    "opened": 3,
    "route": 1,
@@ -1139,14 +1139,14 @@
    "lines": 0,
    "files": 0,
    "opened": 1,
-   "route": 2,
+   "route": 1,
    "tried": [
     {
-     "rank": 2,
+     "rank": 1,
      "status": "robots"
     },
     {
-     "rank": 1,
+     "rank": 2,
      "status": "robots"
     },
     {
@@ -1213,12 +1213,9 @@
  ],
  "robots": {
   "http://dhi.hs.kr": {
-   "http": 200,
-   "bytes": 375,
-   "sha": "aa974429",
-   "rules": 14,
-   "disallow": 14,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPConnectionPool(host='dhi.hs.kr', port=80): Read timed out. (read timeout=30)",
+   "kind": "unreachable",
    "blockAt": "2026-11-16"
   },
   "http://dongbu.ice.go.kr": {
@@ -1233,7 +1230,7 @@
    "rules": 5,
    "disallow": 4,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "http://gbit.daegu.ac.kr": {
    "http": 200,
@@ -1242,7 +1239,7 @@
    "rules": 5,
    "disallow": 4,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "http://www.cnsh.cnehs.kr": {
    "http": 200,
@@ -1251,7 +1248,7 @@
    "rules": 1,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "http://www.hcu.hs.kr": {
    "http": 200,
@@ -1293,7 +1290,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://bdja-h.goesn.kr": {
    "http": 200,
@@ -1330,7 +1327,7 @@
    "rules": 16,
    "disallow": 16,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://ddsciencehs.djsch.kr": {
    "http": 200,
@@ -1339,7 +1336,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://dei.djsch.kr": {
    "http": 200,
@@ -1348,7 +1345,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://dgist.ac.kr": {
    "http": "error",
@@ -1356,13 +1353,8 @@
    "kind": "unreachable"
   },
   "https://dhi.dge.hs.kr": {
-   "http": 200,
-   "bytes": 375,
-   "sha": "aa974429",
-   "rules": 14,
-   "disallow": 14,
-   "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-16",
+   "kept": true
   },
   "https://djsch.kr": {
    "http": 200,
@@ -1371,7 +1363,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://dongpyung.dge.es.kr": {
    "http": 200,
@@ -1380,7 +1372,7 @@
    "rules": 14,
    "disallow": 14,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://dswes.djsch.kr": {
    "http": 200,
@@ -1389,7 +1381,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://dwfl.hs.kr": {
    "http": 200,
@@ -1414,7 +1406,7 @@
    "rules": 26,
    "disallow": 25,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://gasuwones.djsch.kr": {
    "http": 200,
@@ -1423,7 +1415,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://gbs-h.goeujb.kr": {
    "http": 200,
@@ -1440,7 +1432,7 @@
    "rules": 3,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://gice.gen.go.kr": {
    "http": 404,
@@ -1458,7 +1450,7 @@
    "rules": 2,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://gifted.cnu.ac.kr": {
    "http": "error",
@@ -1520,7 +1512,7 @@
    "rules": 15,
    "disallow": 15,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://gwangcheol.hs.jne.kr": {
    "http": "error",
@@ -1539,7 +1531,7 @@
    "rules": 3,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://haneul.icehs.kr": {
    "http": 200,
@@ -1548,7 +1540,7 @@
    "rules": 13,
    "disallow": 13,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://hansol.dge.es.kr": {
    "http": 200,
@@ -1557,7 +1549,7 @@
    "rules": 14,
    "disallow": 14,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://highschool.gne.go.kr": {
    "http": 404,
@@ -1574,7 +1566,7 @@
    "rules": 79,
    "disallow": 79,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://hyfl.sen.hs.kr": {
    "http": 200,
@@ -1583,7 +1575,7 @@
    "rules": 5,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://i-science.icehs.kr": {
    "http": 200,
@@ -1592,7 +1584,7 @@
    "rules": 13,
    "disallow": 13,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://ice.go.kr": {
    "http": 200,
@@ -1601,7 +1593,7 @@
    "rules": 17,
    "disallow": 16,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://ijss.icehs.kr": {
    "http": 200,
@@ -1610,7 +1602,7 @@
    "rules": 13,
    "disallow": 13,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://jinhak.sen.go.kr": {
    "http": 200,
@@ -1627,7 +1619,7 @@
    "rules": 16,
    "disallow": 16,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://kangwon-sh.gwe.hs.kr": {
    "http": 200,
@@ -1636,7 +1628,7 @@
    "rules": 3,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://kred.jne.go.kr": {
    "http": "error",
@@ -1650,7 +1642,7 @@
    "rules": 3,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://mped.jne.go.kr": {
    "http": "error",
@@ -1664,7 +1656,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://plus.cnu.ac.kr": {
    "http": 200,
@@ -1673,7 +1665,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://portal.gnue.ac.kr": {
    "http": 404,
@@ -1686,7 +1678,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://sced.jge.go.kr": {
    "http": "error",
@@ -1700,12 +1692,12 @@
   },
   "https://school.busanedu.net": {
    "http": 200,
-   "bytes": 3148,
-   "sha": "360c58ee",
+   "bytes": 3170,
+   "sha": "53cd1ba0",
    "rules": 22,
    "disallow": 22,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://school.cbe.go.kr": {
    "http": 200,
@@ -1714,7 +1706,7 @@
    "rules": 3,
    "disallow": 3,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://school.gyo6.net": {
    "http": 200,
@@ -1723,7 +1715,7 @@
    "rules": 1,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://school.jbedu.kr": {
    "http": 200,
@@ -1732,7 +1724,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://school.jje.go.kr": {
    "http": 200,
@@ -1741,7 +1733,7 @@
    "rules": 9,
    "disallow": 8,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://school.use.go.kr": {
    "http": 200,
@@ -1762,7 +1754,7 @@
    "rules": 15,
    "disallow": 14,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://use.go.kr": {
    "http": "error",
@@ -1776,7 +1768,7 @@
    "rules": 3,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.bugil.hs.kr": {
    "http": 200,
@@ -1785,7 +1777,7 @@
    "rules": 6,
    "disallow": 4,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.cbe.go.kr": {
    "http": 200,
@@ -1794,7 +1786,7 @@
    "rules": 19,
    "disallow": 18,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.cncae.go.kr": {
    "http": "error",
@@ -1809,7 +1801,7 @@
    "rules": 1,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.cnfl.cnehs.kr": {
    "http": "error",
@@ -1823,7 +1815,7 @@
    "rules": 14,
    "disallow": 14,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.dgist.ac.kr": {
    "http": 200,
@@ -1832,7 +1824,7 @@
    "rules": 1,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.edurang.net": {
    "http": 200,
@@ -1841,7 +1833,7 @@
    "rules": 3,
    "disallow": 3,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.gbe.kr": {
    "http": 200,
@@ -1858,7 +1850,7 @@
    "rules": 18,
    "disallow": 17,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.gise.kr": {
    "http": 404,
@@ -1871,7 +1863,7 @@
    "rules": 16,
    "disallow": 16,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.goe.go.kr": {
    "http": 200,
@@ -1880,7 +1872,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.goebc.kr": {
    "http": 200,
@@ -1905,7 +1897,7 @@
    "rules": 1,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.hana.hs.kr": {
    "http": 404,
@@ -1918,7 +1910,7 @@
    "rules": 1,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.ice.go.kr": {
    "http": 200,
@@ -1927,7 +1919,7 @@
    "rules": 17,
    "disallow": 16,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.jbe.go.kr": {
    "http": 200,
@@ -1952,7 +1944,7 @@
    "rules": 3,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.jne.go.kr": {
    "http": "error",
@@ -1974,7 +1966,7 @@
    "rules": 40,
    "disallow": 39,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.posef.or.kr": {
    "http": 400,
@@ -1987,7 +1979,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.seit.kr": {
    "http": 200,
@@ -2005,7 +1997,7 @@
    "rules": 38,
    "disallow": 4,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://www.sje.go.kr": {
    "http": "error",
@@ -2024,7 +2016,7 @@
    "rules": 3,
    "disallow": 3,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://younghoon.ms.kr": {
    "http": 200,
@@ -2033,7 +2025,7 @@
    "rules": 3,
    "disallow": 3,
    "kind": "rules",
-   "blockAt": "2026-11-16"
+   "blockAt": "2026-11-17"
   },
   "https://ysed.jge.go.kr": {
    "http": "error",

@@ -1,7 +1,7 @@
 {
  "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
- "made": "2026-11-16",
- "ver": "v28.221",
+ "made": "2026-11-17",
+ "ver": "v28.228",
  "horizonDays": 120,
  "targets": [
   {
@@ -262,7 +262,7 @@
   {
    "id": "n09",
    "org": "인천 융합영재교육원",
-   "what": "앞으로 120일 안 일정 3단계",
+   "what": "앞으로 120일 안 일정 2단계",
    "pages": [
     {
      "kind": "board",
@@ -286,14 +286,9 @@
    ],
    "near": [
     "검사",
-    "발표",
-    "추천"
+    "발표"
    ],
    "expect": [
-    [
-     "2026-11-09",
-     "2026-11-16"
-    ],
     [
      "2026-12-05",
      "2026-12-05"
@@ -310,6 +305,10 @@
    "org": "인천과학고",
    "what": "앞으로 120일 안 일정 3단계",
    "pages": [
+    {
+     "kind": "board",
+     "url": "https://i-science.icehs.kr/boardCnts/list.do?boardID=208160&m=0201&s=isciencehs"
+    },
     {
      "kind": "site",
      "url": "https://i-science.icehs.kr"
@@ -612,105 +611,6 @@
    "auto": true
   },
   {
-   "id": "n18",
-   "org": "경기북과학고",
-   "what": "앞으로 120일 안 일정 3단계",
-   "pages": [
-    {
-     "kind": "post",
-     "url": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8059&cntntsId=1594"
-    }
-   ],
-   "title": [
-    "2027"
-   ],
-   "near": [
-    "면접",
-    "발표"
-   ],
-   "expect": [
-    [
-     "2026-11-16",
-     "2026-11-16"
-    ],
-    [
-     "2026-11-20",
-     "2026-11-20"
-    ],
-    [
-     "2026-11-26",
-     "2026-11-26"
-    ]
-   ],
-   "auto": true
-  },
-  {
-   "id": "n19",
-   "org": "부천과학고",
-   "what": "앞으로 120일 안 일정 3단계",
-   "pages": [
-    {
-     "kind": "post",
-     "url": "https://www.goebc.kr/bch-h/cm/cntnts/cntntsView.do?mi=13794&cntntsId=2618"
-    }
-   ],
-   "title": [
-    "2027"
-   ],
-   "near": [
-    "면접",
-    "발표"
-   ],
-   "expect": [
-    [
-     "2026-11-16",
-     "2026-11-16"
-    ],
-    [
-     "2026-11-20",
-     "2026-11-20"
-    ],
-    [
-     "2026-11-26",
-     "2026-11-26"
-    ]
-   ],
-   "auto": true
-  },
-  {
-   "id": "n20",
-   "org": "분당중앙과학고",
-   "what": "앞으로 120일 안 일정 3단계",
-   "pages": [
-    {
-     "kind": "post",
-     "url": "https://bdja-h.goesn.kr/bdja-h/cm/cntnts/cntntsView.do?mi=27552&cntntsId=4832"
-    }
-   ],
-   "title": [
-    "2027"
-   ],
-   "near": [
-    "면접",
-    "발표"
-   ],
-   "expect": [
-    [
-     "2026-11-16",
-     "2026-11-16"
-    ],
-    [
-     "2026-11-20",
-     "2026-11-20"
-    ],
-    [
-     "2026-11-26",
-     "2026-11-26"
-    ]
-   ],
-   "auto": true
-  },
-  {
    "id": "n22",
    "org": "외대부고",
    "what": "앞으로 120일 안 일정 6단계",
@@ -760,7 +660,7 @@
   {
    "id": "n23",
    "org": "가천대 영재원",
-   "what": "앞으로 120일 안 일정 5단계",
+   "what": "앞으로 120일 안 일정 4단계",
    "pages": [
     {
      "kind": "post",
@@ -782,10 +682,6 @@
     "접수"
    ],
    "expect": [
-    [
-     "2026-11-16",
-     "2026-11-16"
-    ],
     [
      "2026-11-16",
      "2026-11-18"
@@ -1525,7 +1421,7 @@
   {
    "id": "n44",
    "org": "공주대 영재원",
-   "what": "앞으로 120일 안 일정 6단계",
+   "what": "앞으로 120일 안 일정 5단계",
    "pages": [
     {
      "kind": "board",
@@ -1543,15 +1439,9 @@
     "등록",
     "면접",
     "발표",
-    "원서",
-    "접수",
-    "추천"
+    "접수"
    ],
    "expect": [
-    [
-     "2026-11-06",
-     "2026-11-16"
-    ],
     [
      "2026-12-04",
      "2026-12-04"
@@ -2335,6 +2225,10 @@
      "url": "https://org.jje.go.kr/cisec/index.jje"
     },
     {
+     "kind": "post",
+     "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940"
+    },
+    {
      "kind": "board",
      "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttList.do?mi=108132&bbsId=120371"
     }
@@ -2371,7 +2265,7 @@
   {
    "id": "n68",
    "org": "제주과학고",
-   "what": "앞으로 120일 안 일정 3단계",
+   "what": "앞으로 120일 안 일정 2단계",
    "pages": [
     {
      "kind": "board",
@@ -2387,14 +2281,9 @@
    ],
    "near": [
     "등록",
-    "면접",
     "발표"
    ],
    "expect": [
-    [
-     "2026-11-16",
-     "2026-11-16"
-    ],
     [
      "2026-11-27",
      "2026-11-27"
@@ -2461,7 +2350,7 @@
   {
    "id": "n72",
    "org": "부산과학고",
-   "what": "앞으로 120일 안 일정 5단계",
+   "what": "앞으로 120일 안 일정 4단계",
    "pages": [
     {
      "kind": "post",
@@ -2486,10 +2375,6 @@
    ],
    "expect": [
     [
-     "2026-11-16",
-     "2026-11-16"
-    ],
-    [
      "2026-11-17",
      "2026-11-17"
     ],
@@ -2511,7 +2396,7 @@
   {
    "id": "n73",
    "org": "부산일과학고",
-   "what": "앞으로 120일 안 일정 5단계",
+   "what": "앞으로 120일 안 일정 4단계",
    "pages": [
     {
      "kind": "post",
@@ -2531,10 +2416,6 @@
     "발표"
    ],
    "expect": [
-    [
-     "2026-11-16",
-     "2026-11-16"
-    ],
     [
      "2026-11-17",
      "2026-11-17"
@@ -2712,6 +2593,10 @@
    "org": "대구 고입",
    "what": "앞으로 120일 안 일정 9단계",
    "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.dge.go.kr/main/na/ntt/selectNttInfo.do?mi=5053&bbsId=1045&nttSn=2205908"
+    },
     {
      "kind": "post",
      "url": "https://www.dge.go.kr/main/"
@@ -3268,15 +3153,15 @@
   {
    "id": "n92",
    "org": "경국대 영재원",
-   "what": "앞으로 120일 안 일정 10단계",
+   "what": "앞으로 120일 안 일정 9단계",
    "pages": [
     {
      "kind": "post",
-     "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172552"
+     "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172553"
     },
     {
      "kind": "post",
-     "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172553"
+     "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172552"
     },
     {
      "kind": "board",
@@ -3293,10 +3178,6 @@
     "추천"
    ],
    "expect": [
-    [
-     "2026-11-16",
-     "2026-11-16"
-    ],
     [
      "2026-11-17",
      "2026-11-17"

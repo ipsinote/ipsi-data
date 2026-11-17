@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.228)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-11-16",
-"ver": "v28.228",
-"count": 547,
+"note": "페이지(공개판 v28.235)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-11-17",
+"ver": "v28.235",
+"count": 549,
 "sources": [
 {
 "id": "1084a42981",
@@ -989,7 +989,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1028,6 +1028,20 @@
 "q-hs-assign"
 ],
 "dated": "2026-10-20",
+"cycle": "w"
+},
+{
+"id": "da9ef1a00a",
+"url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12738&cntntsId=1851",
+"host": "home.pen.go.kr",
+"name": "부산교육청 고입포털: 사회통합전형 대상자 안내",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"penSoc",
+"q-balance"
+],
+"dated": "2026-11-17",
 "cycle": "w"
 },
 {
@@ -1601,7 +1615,6 @@
 "fl",
 "penHs",
 "penhs26",
-"q-balance",
 "q-dir-free",
 "q-hs-attend",
 "q-hs-autonomous",
@@ -3379,6 +3392,7 @@
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
+"q-choejeo",
 "q-snu",
 "q-univ-chungwon-call",
 "r-snu-ku-choejeo",
@@ -5249,6 +5263,20 @@
 "q-sch-neulbom"
 ],
 "dated": "2026-03-27",
+"cycle": "w"
+},
+{
+"id": "e98f36cb9c",
+"url": "https://www.moe.go.kr/boardCnts/view.do?boardID=294&boardSeq=43179&lev=0&searchType=null&statusYN=W&page=304&s=moe&m=0501&opType=N",
+"host": "moe.go.kr",
+"name": "교육부 보도자료: 사회적 배려대상자 제도 시·도 공동 개선 방안(자사고·외고·국제고·과학고 정원의 20% 이상 · 기회균등 먼저 · 사회다양성은 소득 8분위 이하)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"balHs",
+"q-balance"
+],
+"dated": "2013-04-11",
 "cycle": "w"
 },
 {

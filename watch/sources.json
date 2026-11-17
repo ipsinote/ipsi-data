@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.236)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.237)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-17",
-"ver": "v28.236",
-"count": 549,
+"ver": "v28.237",
+"count": 551,
 "sources": [
 {
 "id": "1084a42981",
@@ -220,6 +220,19 @@
 "cycle": "w"
 },
 {
+"id": "a7b6ed140e",
+"url": "https://enews.sen.go.kr/news/view.do?bbsSn=190138&step1=3&step2=1",
+"host": "enews.sen.go.kr",
+"name": "서울시교육청 서울 38개 사립초 2026학년도 신입생 원서접수 실시",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-sch-private-elem"
+],
+"dated": "2025-11-06",
+"cycle": "w"
+},
+{
 "id": "c54e8681ba",
 "url": "https://enews.sen.go.kr/news/view.do?bbsSn=190882&step1=3&step2=1",
 "host": "enews.sen.go.kr",
@@ -246,6 +259,19 @@
 "q-csat-day-rules"
 ],
 "dated": "2026-11-07",
+"cycle": "w"
+},
+{
+"id": "15e19e87e7",
+"url": "https://enews.sen.go.kr/news/view.do?bbsSn=192533&step1=3&step2=1",
+"host": "enews.sen.go.kr",
+"name": "서울시교육청 서울 38개 사립초 2027학년도 신입생 원서접수 실시",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-sch-private-elem"
+],
+"dated": "2026-11-10",
 "cycle": "w"
 },
 {
@@ -989,7 +1015,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1007,7 +1033,7 @@
 "id": "997cb8ad04",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
 "host": "home.pen.go.kr",
-"name": "부산광역시교육청 고입포털 후기고(특목고·자사고·학교장전형고) 안내",
+"name": "후기고(특목고, 자사고, 학교장전형고), 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -4210,6 +4236,7 @@
 "q-susi",
 "q-univ-attend",
 "q-univ-gyogwa-what",
+"q-univ-jungsi-only",
 "q-univ-jungsi-record",
 "q-univ-nsu",
 "q-univ-rural",
@@ -4217,7 +4244,7 @@
 "r-yonsei-choejeo",
 "ys28"
 ],
-"dated": "",
+"dated": "2026-04-30",
 "cycle": "w"
 },
 {
@@ -6762,6 +6789,7 @@
 "q-med-ldoc-zone",
 "q-med-quota",
 "q-univ-gyogwa-what",
+"q-univ-jungsi-only",
 "q-univ-local-hs",
 "q-univ-rural",
 "r-capital-ldoc",

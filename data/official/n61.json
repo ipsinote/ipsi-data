@@ -2,7 +2,7 @@
  "id": "n61",
  "org": "전남 교육청 영재교육원",
  "what": "2027 교육지원청 영재교육원 영재교육대상자 선발(목포·순천)",
- "checkedAt": "2026-11-17T10:02:16+09:00",
+ "checkedAt": "2026-11-17T11:48:09+09:00",
  "opened": [
   {
    "url": "https://mped.jne.go.kr/mped/main.do?sysId=mped",
@@ -38,19 +38,29 @@
   },
   {
    "url": "https://ysed.jge.go.kr/ysed/main.do?sysId=ysed",
+   "status": "ok"
+  },
+  {
+   "url": "https://ysed.jge.go.kr/ysed/na/ntt/selectNttInfo.do?mi=10861&nttSn=1801249650&bbsId=10861",
    "status": "robots",
-   "why": "unreachable"
+   "why": "rules"
   },
   {
    "url": "https://sced.jge.go.kr/sced/main.do?sysId=sced",
-   "status": "error"
+   "status": "robots",
+   "why": "unreachable"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "2027학년도 전라남도여수영재교육원 대상자 선발계획 안내 2026.10.13",
+   "url": "https://ysed.jge.go.kr/ysed/na/ntt/selectNttInfo.do?mi=10861&nttSn=1801249650&bbsId=10861"
+  }
+ ],
  "ged": [],
  "titles": [],
  "files": [],
  "lines": [],
- "status": "not-found",
+ "status": "found-no-dates",
  "route": 1
 }

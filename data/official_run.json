@@ -1,7 +1,7 @@
 {
- "at": "2026-11-17T12:05:56+09:00",
+ "at": "2026-11-17T23:30:23+09:00",
  "targets": 89,
- "withDates": 44,
+ "withDates": 41,
  "blockedAll": [
   "n10",
   "n11",
@@ -13,7 +13,8 @@
   "n69",
   "n83",
   "n34",
-  "n62"
+  "n62",
+  "n63"
  ],
  "items": [
   {
@@ -39,15 +40,19 @@
   {
    "id": "n75",
    "org": "대구 교육청 영재원",
-   "status": "dates",
-   "lines": 3,
+   "status": "not-found",
+   "lines": 0,
    "files": 0,
-   "opened": 10,
+   "opened": 11,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
     }
    ]
   },
@@ -148,25 +153,25 @@
   {
    "id": "n43",
    "org": "북일고",
-   "status": "dates",
-   "lines": 32,
-   "files": 2,
-   "opened": 3,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
+   "opened": 2,
    "route": 1,
-   "tried": null
+   "tried": null,
+   "robotsWhy": [
+    "ambiguous"
+   ]
   },
   {
    "id": "n45",
    "org": "강원 교육지원청 영재원",
    "status": "dates",
-   "lines": 53,
-   "files": 6,
-   "opened": 7,
+   "lines": 60,
+   "files": 7,
+   "opened": 8,
    "route": 1,
-   "tried": null,
-   "robotsWhy": [
-    "unreachable"
-   ]
+   "tried": null
   },
   {
    "id": "n46",
@@ -433,14 +438,13 @@
   {
    "id": "n61",
    "org": "전남 교육청 영재교육원",
-   "status": "found-no-dates",
+   "status": "robots",
    "lines": 0,
    "files": 0,
-   "opened": 10,
+   "opened": 6,
    "route": 1,
    "tried": null,
    "robotsWhy": [
-    "rules",
     "unreachable"
    ]
   },
@@ -497,7 +501,7 @@
     },
     {
      "rank": 2,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 3,
@@ -894,19 +898,24 @@
   {
    "id": "n64",
    "org": "광양제철고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
-   "files": 1,
-   "opened": 2,
-   "route": 1,
+   "files": 0,
+   "opened": 1,
+   "route": 3,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
-   ],
-   "robotsWhy": [
-    "unreachable"
    ]
   },
   {
@@ -942,7 +951,7 @@
     }
    ],
    "robotsWhy": [
-    "rules"
+    "unreachable"
    ]
   },
   {
@@ -1218,27 +1227,35 @@
   {
    "id": "n63",
    "org": "전남 고입(2027 고입 기본계획)",
-   "status": "dates",
-   "lines": 8,
-   "files": 1,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
    "opened": 1,
    "route": 3,
    "tried": [
     {
      "rank": 3,
-     "status": "dates"
+     "status": "robots"
+    },
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
     }
+   ],
+   "robotsWhy": [
+    "unreachable"
    ]
   }
  ],
  "robots": {
   "http://dhi.hs.kr": {
-   "http": 200,
-   "bytes": 375,
-   "sha": "aa974429",
-   "rules": 14,
-   "disallow": 14,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPConnectionPool(host='dhi.hs.kr', port=80): Read timed out. (read timeout=30)",
+   "kind": "unreachable",
    "blockAt": "2026-11-17"
   },
   "http://dongbu.ice.go.kr": {
@@ -1273,6 +1290,11 @@
    "disallow": 1,
    "kind": "rules",
    "blockAt": "2026-11-17"
+  },
+  "http://www.dge.go.kr": {
+   "http": "error",
+   "error": "HTTPConnectionPool(host='www.dge.go.kr', port=80): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutE",
+   "kind": "unreachable"
   },
   "http://www.hcu.hs.kr": {
    "http": 200,
@@ -1377,13 +1399,8 @@
    "kind": "unreachable"
   },
   "https://dhi.dge.hs.kr": {
-   "http": 200,
-   "bytes": 375,
-   "sha": "aa974429",
-   "rules": 14,
-   "disallow": 14,
-   "kind": "rules",
-   "blockAt": "2026-11-17"
+   "blockAt": "2026-11-17",
+   "kept": true
   },
   "https://djsch.kr": {
    "http": 200,
@@ -1537,17 +1554,14 @@
   },
   "https://gwangcheol.hs.jne.kr": {
    "http": "error",
-   "error": "HTTPSConnectionPool(host='gwangcheol.hs.jne.kr', port=443): Read timed out. (read timeout=30)",
+   "error": "HTTPSConnectionPool(host='gwangcheol.hs.jne.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by Connec",
    "kind": "unreachable",
    "blockAt": "2026-11-17"
   },
   "https://gwangcheol.jge.hs.kr": {
-   "http": 200,
-   "bytes": 56,
-   "sha": "3e3dfea4",
-   "rules": 2,
-   "disallow": 2,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='gwangcheol.jge.hs.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by Connec",
+   "kind": "unreachable",
    "blockAt": "2026-11-17"
   },
   "https://gwgned.gwe.go.kr": {
@@ -1673,12 +1687,9 @@
    "blockAt": "2026-11-17"
   },
   "https://kred.jne.go.kr": {
-   "http": 200,
-   "bytes": 56,
-   "sha": "3e3dfea4",
-   "rules": 2,
-   "disallow": 2,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='kred.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeo",
+   "kind": "unreachable",
    "blockAt": "2026-11-17"
   },
   "https://kwthe.gwe.go.kr": {
@@ -1691,12 +1702,9 @@
    "blockAt": "2026-11-17"
   },
   "https://mped.jne.go.kr": {
-   "http": 200,
-   "bytes": 56,
-   "sha": "3e3dfea4",
-   "rules": 2,
-   "disallow": 2,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='mped.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeo",
+   "kind": "unreachable",
    "blockAt": "2026-11-17"
   },
   "https://office.jbedu.kr": {
@@ -1732,13 +1740,13 @@
   },
   "https://sced.jge.go.kr": {
    "http": "error",
-   "error": "HTTPSConnectionPool(host='sced.jge.go.kr', port=443): Read timed out. (read timeout=30)",
+   "error": "HTTPSConnectionPool(host='sced.jge.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeo",
    "kind": "unreachable",
    "blockAt": "2026-11-17"
   },
   "https://sced.jne.go.kr": {
    "http": "error",
-   "error": "HTTPSConnectionPool(host='sced.jne.go.kr', port=443): Read timed out. (read timeout=30)",
+   "error": "HTTPSConnectionPool(host='sced.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeo",
    "kind": "unreachable"
   },
   "https://school.busanedu.net": {
@@ -1813,18 +1821,22 @@
    "kind": "unreachable"
   },
   "https://wjgift.gwe.go.kr": {
-   "http": "error",
-   "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-   "kind": "unreachable",
+   "http": 200,
+   "bytes": 113,
+   "sha": "db895613",
+   "rules": 3,
+   "disallow": 2,
+   "kind": "rules",
    "blockAt": "2026-11-17"
   },
   "https://www.bugil.hs.kr": {
    "http": 200,
-   "bytes": 209,
-   "sha": "c8b7d9a7",
-   "rules": 6,
-   "disallow": 4,
-   "kind": "rules",
+   "final": "http://web2002.co.kr/traffic/index.htm",
+   "bytes": 2363,
+   "sha": "cf83278e",
+   "rules": 0,
+   "disallow": 0,
+   "kind": "ambiguous",
    "blockAt": "2026-11-17"
   },
   "https://www.cbe.go.kr": {
@@ -1987,12 +1999,9 @@
    "kind": "rules"
   },
   "https://www.jje.go.kr": {
-   "http": 200,
-   "bytes": 480,
-   "sha": "19c1fedf",
-   "rules": 3,
-   "disallow": 1,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='www.jje.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutio",
+   "kind": "unreachable",
    "blockAt": "2026-11-17"
   },
   "https://www.jne.go.kr": {
@@ -2016,6 +2025,10 @@
    "disallow": 39,
    "kind": "rules",
    "blockAt": "2026-11-17"
+  },
+  "https://www.posef.or.kr": {
+   "http": 400,
+   "kind": "none"
   },
   "https://www.scnu.ac.kr": {
    "http": 200,
@@ -2073,17 +2086,14 @@
    "blockAt": "2026-11-17"
   },
   "https://ysed.jge.go.kr": {
-   "http": 200,
-   "bytes": 56,
-   "sha": "3e3dfea4",
-   "rules": 2,
-   "disallow": 2,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='ysed.jge.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeo",
+   "kind": "unreachable",
    "blockAt": "2026-11-17"
   },
   "https://ysed.jne.go.kr": {
    "http": "error",
-   "error": "HTTPSConnectionPool(host='ysed.jne.go.kr', port=443): Read timed out. (read timeout=30)",
+   "error": "HTTPSConnectionPool(host='ysed.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeo",
    "kind": "unreachable"
   }
  }

@@ -1146,6 +1146,39 @@
     "등록"
    ],
    "fixNote": "2026-11-13 실행 1 창: 새 대상 — 천안교육지원청 누리집(cncae.go.kr, 충남교육청 cne.go.kr과 다른 주소 — robots 허용일 때만 읽음)"
+  },
+  {
+   "id": "n39",
+   "org": "충북대 영재원",
+   "what": "충북대 과학영재교육원 공지사항(2027 선발 — 올해 공고 원문 쪽) · 2026-11-17 낮 작업: 학교 재게시 글 대신 영재원 공지 목록을 먼저",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://gifted.cbnu.ac.kr/index.php/sub07/0701/1.html"
+    },
+    {
+     "kind": "post",
+     "url": "https://school.cbe.go.kr/dongseong-m/M010301/view/5847323"
+    },
+    {
+     "kind": "site",
+     "url": "https://gifted.cbnu.ac.kr"
+    },
+    {
+     "kind": "site",
+     "url": "https://www.seit.kr/sub01_06_03.html"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "발표",
+    "합격",
+    "등록",
+    "면접",
+    "검사"
+   ]
   }
  ],
  "ged": false

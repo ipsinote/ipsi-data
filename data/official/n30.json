@@ -2,32 +2,55 @@
  "id": "n30",
  "org": "대전 고입(2027 고입 기본계획)",
  "what": "대전진로융합교육원 고입 자료실(2027 고등학교 입학전형 길라잡이 2026-09-04 · 일반고 입학전형 요강 2026-08-14)",
- "checkedAt": "2026-11-17T08:02:25+09:00",
+ "checkedAt": "2026-11-17T10:05:04+09:00",
  "opened": [
   {
-   "url": "https://daeseong.hs.kr/bbs/board.php?bo_table=apply_notice",
+   "url": "https://www.edurang.net/course/na/ntt/selectNttList.do?mi=41274&bbsId=1611",
    "status": "ok"
+  },
+  {
+   "url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307499",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307337",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.dje.go.kr/boardCnts/list.do?boardID=451&m=030102&s=dje",
+   "status": "robots",
+   "why": "rules"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "2027학년도 고등학교 입학전형 길라잡이",
+   "url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307499"
+  },
+  {
+   "title": "2027학년도 대전광역시 일반고 및 자율형 공립고 입학전형 요강 안내",
+   "url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307337"
+  }
+ ],
  "ged": [],
- "titles": [],
+ "titles": [
+  {
+   "url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307499",
+   "title": "고입 자료실"
+  },
+  {
+   "url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307337",
+   "title": "고입 자료실"
+  }
+ ],
  "files": [],
  "lines": [],
- "status": "not-found",
- "route": 3,
+ "status": "found-no-dates",
+ "route": 1,
  "tried": [
   {
-   "rank": 2,
-   "status": "robots"
-  },
-  {
    "rank": 1,
-   "status": "robots"
-  },
-  {
-   "rank": 3,
-   "status": "not-found"
+   "status": "found-no-dates"
   }
  ]
 }

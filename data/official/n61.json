@@ -2,12 +2,25 @@
  "id": "n61",
  "org": "전남 교육청 영재교육원",
  "what": "2027 교육지원청 영재교육원 영재교육대상자 선발(목포·순천)",
- "checkedAt": "2026-11-17T07:57:31+09:00",
+ "checkedAt": "2026-11-17T10:02:16+09:00",
  "opened": [
   {
    "url": "https://mped.jne.go.kr/mped/main.do?sysId=mped",
+   "status": "ok"
+  },
+  {
+   "url": "https://mped.jne.go.kr/mped/na/ntt/selectNttList.do?mi=10043&bbsId=10043",
    "status": "robots",
-   "why": "unreachable"
+   "why": "rules"
+  },
+  {
+   "url": "https://mped.jne.go.kr/mped/na/ntt/selectNttList.do?mi=10155&bbsId=10155",
+   "status": "robots",
+   "why": "rules"
+  },
+  {
+   "url": "https://mped.jne.go.kr/mped/cm/cntnts/cntntsView.do?mi=10181&cntntsId=10181",
+   "status": "ok"
   },
   {
    "url": "https://sced.jne.go.kr/board/list.jne?boardId=BBS_0001190&menuCd=DOM_000000303009001000&contentsSid=975",
@@ -21,8 +34,7 @@
   },
   {
    "url": "https://kred.jne.go.kr/index.jne?menuCd=DOM_000000803003001000",
-   "status": "robots",
-   "why": "unreachable"
+   "status": "http-404"
   },
   {
    "url": "https://ysed.jge.go.kr/ysed/main.do?sysId=ysed",
@@ -31,8 +43,7 @@
   },
   {
    "url": "https://sced.jge.go.kr/sced/main.do?sysId=sced",
-   "status": "robots",
-   "why": "unreachable"
+   "status": "error"
   }
  ],
  "notices": [],
@@ -40,6 +51,6 @@
  "titles": [],
  "files": [],
  "lines": [],
- "status": "robots",
+ "status": "not-found",
  "route": 1
 }

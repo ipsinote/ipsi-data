@@ -1,9 +1,14 @@
 {
  "id": "n39",
  "org": "충북대 영재원",
- "what": "앞으로 120일 안 일정 3단계",
- "checkedAt": "2026-11-17T08:11:21+09:00",
+ "what": "충북대 과학영재교육원 공지사항(2027 선발 — 올해 공고 원문 쪽) · 2026-11-17 낮 작업: 학교 재게시 글 대신 영재원 공지 목록을 먼저",
+ "checkedAt": "2026-11-17T10:06:15+09:00",
  "opened": [
+  {
+   "url": "https://gifted.cbnu.ac.kr/index.php/sub07/0701/1.html",
+   "status": "robots",
+   "why": "rules"
+  },
   {
    "url": "https://school.cbe.go.kr/dongseong-m/M010301/view/5847323",
    "status": "ok"
@@ -31,10 +36,47 @@
   {
    "url": "https://school.cbe.go.kr/_cmm/fileDownload/dongseong-m/M010301/25932b1344ebe6b45b4a2be6b5f4f025",
    "name": "과학영재교육원 과학영재교육원_2027학년도_충북대학교_과학영재교육원_상반기_선교육대상자_전형요강.pdf",
-   "status": "limit"
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 378644,
+   "sha1": "eaf3ca49d7df"
   }
  ],
- "lines": [],
- "status": "found-no-dates",
+ "lines": [
+  {
+   "text": "합격자 발표 | 2027. 1. 8(금)",
+   "dates": [
+    "2027-01-08"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://school.cbe.go.kr/_cmm/fileDownload/dongseong-m/M010301/25932b1344ebe6b45b4a2be6b5f4f025"
+  },
+  {
+   "text": "합격자 등록 | 2027. 1. 12(화) ∼ 1. 15(금)",
+   "dates": [
+    "2027-01-12",
+    "2027-01-15"
+   ],
+   "words": [
+    "합격",
+    "등록"
+   ],
+   "src": "https://school.cbe.go.kr/_cmm/fileDownload/dongseong-m/M010301/25932b1344ebe6b45b4a2be6b5f4f025"
+  },
+  {
+   "text": "합격자 동계집중교육 2027. 2. 20(토)",
+   "dates": [
+    "2027-02-20"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://school.cbe.go.kr/_cmm/fileDownload/dongseong-m/M010301/25932b1344ebe6b45b4a2be6b5f4f025"
+  }
+ ],
+ "status": "dates",
  "route": 1
 }

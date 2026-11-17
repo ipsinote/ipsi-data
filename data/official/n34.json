@@ -2,21 +2,45 @@
  "id": "n34",
  "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-11-18T07:10:01+09:00",
+ "checkedAt": "2026-11-18T08:56:30+09:00",
  "opened": [
   {
-   "url": "https://gifted.kongju.ac.kr/main/board/list.php?q=90f73afc767f94d4f754be1801c8fba0f923df45463f527de14cabc7d5011189",
-   "status": "robots",
-   "why": "unreachable"
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=594580&article.offset=0&articleLimit=10",
+   "status": "limit"
+  },
+  {
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=602936&article.offset=0&articleLimit=10",
+   "status": "limit"
+  },
+  {
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=600745&article.offset=0&articleLimit=10",
+   "status": "limit"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "충남대학교 과학영재교육원 2027학년도 신입생 선발 공고",
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=594580&article.offset=0&articleLimit=10"
+  },
+  {
+   "title": "2027학년도 학생선발 심화과정 2차 전형 및 사사연구과정 면접전형 안내",
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=602936&article.offset=0&articleLimit=10"
+  },
+  {
+   "title": "2027학년도 학생선발 1차 전형 - 관찰전형 안내",
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=600745&article.offset=0&articleLimit=10"
+  }
+ ],
  "ged": [],
  "titles": [],
  "files": [],
  "lines": [],
- "status": "blocked-all",
- "route": 1,
+ "status": "found-no-dates",
+ "route": 2,
  "tried": [
   {
    "rank": 1,
@@ -24,11 +48,7 @@
   },
   {
    "rank": 2,
-   "status": "robots"
-  },
-  {
-   "rank": 3,
-   "status": "robots"
+   "status": "found-no-dates"
   }
  ]
 }

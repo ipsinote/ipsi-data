@@ -2,17 +2,15 @@
  "id": "n93",
  "org": "대구대 글로벌브릿지 영재원",
  "what": "GED 원서 접수",
- "checkedAt": "2026-11-18T20:03:27+09:00",
+ "checkedAt": "2026-11-19T00:59:01+09:00",
  "opened": [
   {
    "url": "http://gbit.daegu.ac.kr/",
-   "status": "robots",
-   "why": "unreachable"
+   "status": "http-403"
   },
   {
    "url": "http://gbgt.daegu.ac.kr/index",
-   "status": "robots",
-   "why": "unreachable"
+   "status": "ok"
   },
   {
    "url": "ged",
@@ -25,6 +23,6 @@
  "titles": [],
  "files": [],
  "lines": [],
- "status": "error",
+ "status": "not-found",
  "route": 1
 }

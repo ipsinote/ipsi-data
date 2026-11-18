@@ -1,0 +1,49 @@
+{
+  "note": "출처 점검 판정 규칙(scripts/check_sources.py가 읽음). 2026-11-18 대표 결정 '링크 오류 대응 B안' — 판정 4가지(소프트 404 · 도메인 없음 · 내려받기·옆 창 주소 · 학년도 안 맞음)와 판정 이름 ok·caution·broken·restricted(영국 정부 링크 점검 도구의 단계에 맞춤). 게시는 막지 않고 broken(두 번 연속 못 엶)만 자료 점검이 할 일로 만든다. 되돌리는 법: 이 파일에서 그 칸(줄)을 빼면 그 판정이 꺼진다. 고칠 때는 먼저 python scripts/test_verdicts.py(시험 세트 watch/verdict_cases.json)를 돌린다.",
+  "ver": "2026-11-18",
+  "verdicts": {
+    "ok": "열림 — 이상 없음",
+    "caution": "열리지만 의심되거나 첫 실패 — 알림만(할 일 아님)",
+    "broken": "부모가 누르면 안 됨(두 번 연속) — 자료 점검이 할 일로",
+    "restricted": "자동 읽기만 막힘(robots·403·봇 확인 화면) — 사람 확인 묶음",
+    "pending": "아직 한 번도 안 봄"
+  },
+  "soft404": {
+    "why": "열리긴 하지만(200) '시스템 점검'·'없는 글' 같은 안내 화면 — 실패로 셈. 사례: 국가법령정보센터 조문 옆 창 7개(2026-11-18 '시스템 점검' 화면).",
+    "added": "2026-11-18",
+    "phrases": ["시스템 점검", "존재하지 않는 게시물", "존재하지 않는 게시글", "게시물이 존재하지 않", "게시글이 존재하지 않", "삭제된 게시물", "삭제된 게시글", "페이지를 찾을 수 없", "페이지가 존재하지 않", "잘못된 접근", "정상적인 접근이 아닙니다", "권한이 없습니다", "page not found", "404 not found"],
+    "maxTextLen": 2500
+  },
+  "dns": {
+    "why": "도메인 없음(이름을 못 찾음) — robots 막힘과 따로 셈. www를 붙이거나 빼서 찾아지면 그 주소를 '바꿀 주소 후보'로 적음. 사례: 창원대 영재원 www.ctysc.gidea.co.kr(2026-11-18 — 그동안 'robots'로 잘못 분류됨).",
+    "added": "2026-11-18",
+    "tryWww": true
+  },
+  "fileUrl": {
+    "why": "내려받기·옆 창 주소 — 그 글을 거쳐야 열리는 곳이 많아 부모가 바로 누르면 오류가 날 수 있음. 알림만(caution). 사례: 서울대 입학본부 md=down 4개 · 국가법령정보센터 lsSideInfoP 7개. 일반 'download' 낱말은 넣지 않음(교육청·대학의 정상 파일 주소가 많음 — 2026-11-18 대장 552곳 중 14곳이 열림).",
+    "added": "2026-11-18",
+    "patterns": ["md=down", "fileidx=", "lsSideInfoP"]
+  },
+  "year": {
+    "why": "우리 출처 이름의 'N학년도'와 쪽 제목의 학년도가 하나도 안 겹치면 알림(caution). 둘 중 하나라도 학년도가 없으면 보지 않음. 사례: 공주대 영재원(2027 선발을 옮겨 예전 누리집엔 2026학년도 요강만 — 2026-11-18).",
+    "added": "2026-11-18"
+  },
+  "oldUrl": {
+    "why": "기관 누리집 개편으로 죽은 것을 확인한 주소 꼴 — 서버는 200을 주지만 브라우저가 첫 화면으로 넘김. 실패로 셈(사례집 7절 '알려진 옛 주소 꼴').",
+    "added": "2026-11-18",
+    "rules": [
+      {"host": "moe.go.kr", "path": "/boardCnts/view.do", "fix": "같은 글 번호로 /boardCnts/viewRenew.do", "seen": "2026-11-16 교육부 보도자료 4개를 클라우드 브라우저로 열어 확인"}
+    ]
+  },
+  "restricted": {
+    "why": "자동 읽기만 막힌 것 — '끊김'으로 세지 않고 사람 확인 묶음으로(60일 안 링크는 4주마다 대표 확인 — ipsi-site tools/link_check60.py). 403·401·429는 2026-11-18부터 연속 실패로 세지 않음.",
+    "added": "2026-11-18",
+    "statuses": ["robots", "http-401", "http-403", "http-429", "skip-terms", "skip-deny"],
+    "botTitles": ["client challenge", "just a moment", "attention required", "access denied", "are you a robot"]
+  },
+  "loginOk": {
+    "why": "원래 로그인해서 쓰는 서비스 — 로그인 화면이 나와도 ok. 그 밖의 로그인 넘김은 caution(알림만 — '로그인으로 넘김 = broken'은 사례집 7절 2단계, 아직 안 넣음).",
+    "added": "2026-11-18",
+    "hosts": ["webdt.edunet.net"]
+  }
+}

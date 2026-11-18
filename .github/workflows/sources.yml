@@ -23,6 +23,9 @@ jobs:
           python-version: '3.12'
       - name: 도구 설치
         run: pip install requests beautifulsoup4 lxml pdfminer.six olefile
+      - name: 판정 시험(시험 세트 — 네트워크 없이 · 실패해도 점검은 돎)
+        continue-on-error: true
+        run: python scripts/test_verdicts.py
       - name: 출처 주소 열어 보기(robots 지킴, 원문은 저장하지 않음)
         run: python scripts/check_sources.py watch/sources.json data/sources_status.json data/sources_report.md
       - name: 바뀐 것이 있으면 저장

@@ -1,0 +1,151 @@
+{
+  "note": "출처 점검 시험 세트(답을 아는 시험) — 링크 오류 사례집(2026-11-18 v2 · 프로젝트 문서 claude/링크_오류_사례집.md) 7절의 '주소 → 기대 판정' 9개 + 실제 기록에서 뽑은 3개. 점검 도구(scripts/check_sources.py)나 판정 규칙(watch/verdict_rules.json)을 고칠 때마다 먼저 python scripts/test_verdicts.py로 돌린다(네트워크 없이). runs는 실제로 받은 답을 줄인 것(지난 주간 점검 data/sources_status.json의 상태·제목·최종 주소, 또는 사람이 연 날의 기록) — 원문은 넣지 않고 판정에 필요한 짧은 글만 우리 말로. 판정은 runs를 차례로 두 번 돌린 뒤의 값(두 번 연속 실패여야 broken). --live로 돌리면 진짜로 열어 본다(GitHub Actions에서만 — robots 지킴).",
+  "ver": "2026-11-18",
+  "cases": [
+    {
+      "id": "c1-ctysc-www",
+      "from": "사례집 원인 1 · 2026-11-18 대표 크롬 DNS_PROBE_FINISHED_NXDOMAIN · 주간 점검은 'robots'로 잘못 분류",
+      "url": "https://www.ctysc.gidea.co.kr",
+      "name": "2027학년도 국립창원대학교 과학영재교육원 심화·전공사사·중등사사과정(영재이수자·일반학생전형) 신입생 모집 요강 — 선발 일정",
+      "expect": "broken",
+      "whyHas": ["dns"],
+      "alt": "https://ctysc.gidea.co.kr",
+      "runs": [
+        {"st": "robots", "robots": "unreachable", "resolve": {"www.ctysc.gidea.co.kr": false, "ctysc.gidea.co.kr": true}},
+        {"st": "robots", "robots": "unreachable", "resolve": {"www.ctysc.gidea.co.kr": false, "ctysc.gidea.co.kr": true}}
+      ]
+    },
+    {
+      "id": "c2-moe-old",
+      "from": "사례집 원인 2 · 2026-11-16 교육부 옛 주소 꼴 — 서버는 200과 글 제목을 주지만 브라우저가 첫 화면으로 넘김(클라우드 브라우저로 확인)",
+      "url": "https://www.moe.go.kr/boardCnts/view.do?boardID=294&boardSeq=82605&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+      "name": "교육부 보도자료: 영재학교·과학고 입학전형 개선방안",
+      "expect": "broken",
+      "whyHas": ["old-url"],
+      "runs": [
+        {"st": "ok", "html": "<html><head><title>영재학교.과학고 입학전형 개선방안 발표</title></head><body><article>보도자료 본문 자리(우리 시험용 짧은 글)</article></body></html>"},
+        {"st": "ok", "html": "<html><head><title>영재학교.과학고 입학전형 개선방안 발표</title></head><body><article>보도자료 본문 자리(우리 시험용 짧은 글)</article></body></html>"}
+      ]
+    },
+    {
+      "id": "c3-law-side",
+      "from": "사례집 원인 2·7 · 2026-11-15 주간 점검 404 → 2026-11-18 22:3x 직접 열면 '시스템 점검' 화면만(법제처 11/14 개편)",
+      "url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=268711&joNo=0008&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
+      "name": "공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 제8조(선행교육 및 선행학습 유발행위 금지 등) [시행 2025.1.31.] [법률 제20722호], 국가법령정보센터",
+      "expect": "broken",
+      "whyHas": ["soft404", "file-url"],
+      "runs": [
+        {"st": "http-404"},
+        {"st": "ok", "html": "<html><head><title>국가법령정보센터</title></head><body><div>시스템 점검 안내 — 더 나은 서비스를 위해 작업 중입니다(시험용 짧은 글).</div></body></html>"}
+      ]
+    },
+    {
+      "id": "c4-law-body",
+      "from": "사례집 원인 2 · 법령 본문 주소 꼴은 개편 뒤에도 정상(2026-11-15 주간 점검 ok · 11/18 다른 법령 본문 직접 확인)",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=268711",
+      "name": "공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 본문, 국가법령정보센터",
+      "expect": "ok",
+      "whyHas": [],
+      "runs": [
+        {"st": "ok", "html": "<html><head><title>공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 &gt; 법령 &gt; 본문 | 국가법령정보센터</title></head><body><main>제1조(목적) 시험용 짧은 글. 제2조(정의) 시험용 짧은 글.</main></body></html>"},
+        {"st": "ok", "html": "<html><head><title>공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 &gt; 법령 &gt; 본문 | 국가법령정보센터</title></head><body><main>제1조(목적) 시험용 짧은 글. 제2조(정의) 시험용 짧은 글.</main></body></html>"}
+      ]
+    },
+    {
+      "id": "c5-snu-down",
+      "from": "사례집 원인 7 · 주간 점검 404 두 번(2026-11-15 failStreak 2) · 11/18 22:3x 직접 요청도 오류. 사례집 7절은 'caution'으로 적었지만, 우리 페이지에서 바로 누르면 오류라 broken이 맞음(내려받기 주소 알림은 이유 칸에 함께) — 2026-11-18 실행 1 창 판단",
+      "url": "https://admission.snu.ac.kr/undergraduate/notice?md=down&bbsidx=168854&fileidx=51182",
+      "name": "서울대 2028학년도 입학전형 시행계획(PDF, 18쪽)",
+      "expect": "broken",
+      "whyHas": ["file-url"],
+      "runs": [
+        {"st": "http-404"},
+        {"st": "http-404"}
+      ]
+    },
+    {
+      "id": "c6-snu-post",
+      "from": "사례집 원인 7의 바꿀 주소 · 주간 점검 ok(2026-11-15 · 제목 맞음)",
+      "url": "https://admission.snu.ac.kr/undergraduate/notice?md=v&bbsidx=168854",
+      "name": "서울대 2028학년도 입학전형 시행계획 공지",
+      "expect": "ok",
+      "whyHas": [],
+      "runs": [
+        {"st": "ok", "html": "<html><head><title>2028학년도 대학 신입학생 입학전형 시행계획 - 공지사항 - 대학 - 입학 - 서울대학교 입학본부</title></head><body><main>공지 글 자리(시험용 짧은 글) · 첨부 파일 1개</main></body></html>"},
+        {"st": "ok", "html": "<html><head><title>2028학년도 대학 신입학생 입학전형 시행계획 - 공지사항 - 대학 - 입학 - 서울대학교 입학본부</title></head><body><main>공지 글 자리(시험용 짧은 글) · 첨부 파일 1개</main></body></html>"}
+      ]
+    },
+    {
+      "id": "c7-ksa-adm",
+      "from": "사례집 원인 3·4 · 학교가 2026-10-28부터 학교 밖 접속을 막음 + robots — 주간 점검 robots(2026-11-15)",
+      "url": "https://admission.ksa.hs.kr/iphak_kor/guidelines_jang_2027.php",
+      "name": "한국과학영재학교 2027학년도 장영실전형 요강",
+      "expect": "restricted",
+      "whyHas": ["robots"],
+      "runs": [
+        {"st": "robots", "robots": "unreachable", "resolve": {"admission.ksa.hs.kr": true}},
+        {"st": "robots", "robots": "unreachable", "resolve": {"admission.ksa.hs.kr": true}}
+      ]
+    },
+    {
+      "id": "c8-journal-403",
+      "from": "사례집 원인 3 · 해외 학술지 403(2026-11-02 주간 점검) — 봇 차단으로 봄 · 바꿀 주소는 DOI",
+      "url": "https://bjsm.bmj.com/content/53/10/640",
+      "name": "Singh 외 2019, 신체활동 중재와 인지·학업 성취 체계적 검토(Br J Sports Med 53(10):640)",
+      "expect": "restricted",
+      "whyHas": ["http-403"],
+      "runs": [
+        {"st": "http-403"},
+        {"st": "http-403"}
+      ]
+    },
+    {
+      "id": "c9-dt-login",
+      "from": "사례집 원인 3 · 디지털교과서는 원래 로그인해서 쓰는 서비스(주간 점검 login · 최종 주소 /login)",
+      "url": "https://webdt.edunet.net",
+      "name": "디지털교과서(웹 뷰어)",
+      "expect": "ok",
+      "whyHas": [],
+      "runs": [
+        {"st": "ok", "final": "https://webdt.edunet.net:443/login", "html": "<html><head><title>디지털교과서 웹 뷰어</title></head><body>로그인 화면(시험용)</body></html>"},
+        {"st": "ok", "final": "https://webdt.edunet.net:443/login", "html": "<html><head><title>디지털교과서 웹 뷰어</title></head><body>로그인 화면(시험용)</body></html>"}
+      ]
+    },
+    {
+      "id": "x1-dg1s-year",
+      "from": "실제 기록 · 주간 점검 제목이 '2007학년도…'(학교 쪽 오타 — 내용은 2027) — 학년도 판정이 잡는지(알림만)",
+      "url": "https://admission.dg1s.hs.kr/EBook/Dg1S/Admission/mobile/index.html",
+      "name": "대구일과학고 2027학년도 입학전형 요강 — 04 전형 일정(학교 입학 누리집 전자책)",
+      "expect": "caution",
+      "whyHas": ["year"],
+      "runs": [
+        {"st": "ok", "html": "<html><head><title>2007학년도대구일과학고등학교전형요강</title></head><body><main>전자책 자리(시험용 짧은 글)</main></body></html>"},
+        {"st": "ok", "html": "<html><head><title>2007학년도대구일과학고등학교전형요강</title></head><body><main>전자책 자리(시험용 짧은 글)</main></body></html>"}
+      ]
+    },
+    {
+      "id": "x2-mora-login",
+      "from": "실제 기록 · 사례집 원인 3 · 학교 누리집 글이 로그인 뒤로(주간 점검 login) — 지금은 알림만(로그인 넘김 = broken은 사례집 7절 2단계)",
+      "url": "https://school.busanedu.net/mora-m/cm/cntnts/cntntsView.do?mi=661752&cntntsId=6233",
+      "name": "고입전형안내(2027학년도 부산광역시 고등학교 입학전형 기본 계획 내용), 부산 모라중학교 누리집",
+      "expect": "caution",
+      "whyHas": ["login"],
+      "runs": [
+        {"st": "ok", "final": "https://school.busanedu.net/mora-m/common/combLogin.do", "html": "<html><head><title>시스템안내</title></head><body>로그인 안내(시험용)</body></html>"},
+        {"st": "ok", "final": "https://school.busanedu.net/mora-m/common/combLogin.do", "html": "<html><head><title>시스템안내</title></head><body>로그인 안내(시험용)</body></html>"}
+      ]
+    },
+    {
+      "id": "x3-bot-challenge",
+      "from": "실제 기록 · 주간 점검 제목 'Client Challenge'(봇 확인 화면) — 사람은 열림",
+      "url": "https://ko.khanacademy.org",
+      "name": "칸아카데미 한국어",
+      "expect": "restricted",
+      "whyHas": ["bot"],
+      "runs": [
+        {"st": "ok", "final": "https://ko.khanacademy.org/", "html": "<html><head><title>Client Challenge</title></head><body>확인 중(시험용)</body></html>"},
+        {"st": "ok", "final": "https://ko.khanacademy.org/", "html": "<html><head><title>Client Challenge</title></head><body>확인 중(시험용)</body></html>"}
+      ]
+    }
+  ]
+}

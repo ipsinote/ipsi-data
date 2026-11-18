@@ -1,7 +1,7 @@
 {
  "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
- "made": "2026-11-18",
- "ver": "v28.241",
+ "made": "2026-11-19",
+ "ver": "v28.243",
  "horizonDays": 120,
  "targets": [
   {
@@ -48,7 +48,7 @@
   {
    "id": "n01",
    "org": "한성과학고",
-   "what": "앞으로 120일 안 일정 3단계",
+   "what": "앞으로 120일 안 일정 2단계",
    "pages": [
     {
      "kind": "post",
@@ -71,10 +71,6 @@
     "발표"
    ],
    "expect": [
-    [
-     "2026-11-16",
-     "2026-11-18"
-    ],
     [
      "2026-11-28",
      "2026-11-28"
@@ -464,7 +460,7 @@
   {
    "id": "n14",
    "org": "인천대 영재원",
-   "what": "앞으로 120일 안 일정 6단계",
+   "what": "앞으로 120일 안 일정 5단계",
    "pages": [
     {
      "kind": "post",
@@ -479,14 +475,9 @@
     "면접",
     "발표",
     "원서",
-    "접수",
-    "추천"
+    "접수"
    ],
    "expect": [
-    [
-     "2026-11-13",
-     "2026-11-18"
-    ],
     [
      "2026-11-20",
      "2026-11-25"
@@ -564,12 +555,8 @@
   {
    "id": "n16",
    "org": "동두천양주 영재교육원",
-   "what": "앞으로 120일 안 일정 2단계",
+   "what": "앞으로 120일 안 일정 1단계",
    "pages": [
-    {
-     "kind": "post",
-     "url": "https://www.goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1688584"
-    },
     {
      "kind": "post",
      "url": "https://www.goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510"
@@ -587,14 +574,9 @@
     "2027"
    ],
    "near": [
-    "발표",
-    "평가"
+    "발표"
    ],
    "expect": [
-    [
-     "2026-10-26",
-     "2026-11-18"
-    ],
     [
      "2026-12-10",
      "2026-12-10"
@@ -652,8 +634,12 @@
   {
    "id": "n23",
    "org": "가천대 영재원",
-   "what": "앞으로 120일 안 일정 4단계",
+   "what": "앞으로 120일 안 일정 3단계",
    "pages": [
+    {
+     "kind": "post",
+     "url": "https://gifted.gachon.ac.kr/main/contents/handbook.action?q=EMNItRaljCjt6wSP792w0cPwSOHmzsF51X9GKTYe9ms%3D"
+    },
     {
      "kind": "post",
      "url": "https://gifted.gachon.ac.kr/main/main.action"
@@ -670,14 +656,9 @@
     "등록",
     "면접",
     "모집",
-    "발표",
-    "접수"
+    "발표"
    ],
    "expect": [
-    [
-     "2026-11-16",
-     "2026-11-18"
-    ],
     [
      "2026-11-21",
      "2026-11-21"
@@ -797,8 +778,12 @@
   {
    "id": "n30",
    "org": "대전 고입",
-   "what": "앞으로 120일 안 일정 18단계",
+   "what": "앞으로 120일 안 일정 19단계",
    "pages": [
+    {
+     "kind": "post",
+     "url": "https://daeseong.hs.kr/catalog/7"
+    },
     {
      "kind": "board",
      "url": "https://djflhs.djsch.kr/boardCnts/list.do?boardID=98882&m=0506&s=djflhs"
@@ -816,6 +801,10 @@
     "접수"
    ],
    "expect": [
+    [
+     "2026-11-23",
+     "2026-12-02"
+    ],
     [
      "2026-12-07",
      "2026-12-08"
@@ -876,6 +865,10 @@
    "org": "충남대 영재원",
    "what": "앞으로 120일 안 일정 2단계",
    "pages": [
+    {
+     "kind": "post",
+     "url": "https://gifted.cnu.ac.kr/gifted/program/foundation2.do?mode=view&articleNo=594572&article.offset=0&articleLimit=10"
+    },
     {
      "kind": "site",
      "url": "https://gifted.cnu.ac.kr/"
@@ -1249,8 +1242,8 @@
      "url": "https://www.cnfl.cnehs.kr/sub/info.do?m=0210&s=cnfl"
     },
     {
-     "kind": "site",
-     "url": "https://www.cne.go.kr/"
+     "kind": "post",
+     "url": "https://www.cne.go.kr/boardCnts/view.do?boardID=47&viewBoardID=47&boardSeq=2359094&lev=0&action=view&searchType=&statusYN=W&page=1&s=cne&m=021202"
     }
    ],
    "title": [
@@ -1410,6 +1403,10 @@
    "org": "공주대 영재원",
    "what": "앞으로 120일 안 일정 5단계",
    "pages": [
+    {
+     "kind": "post",
+     "url": "https://gifted1.kongju.ac.kr/gifted/18650/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGZ2lmdGVkJTJGMjM2NCUyRjQzMzc1OSUyRmFydGNsVmlldy5kbyUzRg%3D%3D"
+    },
     {
      "kind": "board",
      "url": "https://gifted.kongju.ac.kr/main/board/list.php?q=90f73afc767f94d4f754be1801c8fba0f923df45463f527de14cabc7d5011189"
@@ -1814,7 +1811,7 @@
   {
    "id": "n54",
    "org": "전북 교육지원청 영재원",
-   "what": "앞으로 120일 안 일정 9단계",
+   "what": "앞으로 120일 안 일정 8단계",
    "pages": [
     {
      "kind": "post",
@@ -1839,10 +1836,6 @@
     "추천"
    ],
    "expect": [
-    [
-     "2026-11-10",
-     "2026-11-18"
-    ],
     [
      "2026-11-18",
      "2026-11-23"
@@ -2028,8 +2021,8 @@
      "url": "https://www.jbnu.ac.kr/web/Board/218965/detailView.do"
     },
     {
-     "kind": "site",
-     "url": "https://gifted.ac.kr/"
+     "kind": "post",
+     "url": "https://www.gifted.ac.kr/main/contents/handbook.action?q=818dc7f5562c279207e33664e418a79d1e632e07722a8e4f24224fb3ef873e05"
     },
     {
      "kind": "post",
@@ -2467,7 +2460,7 @@
   {
    "id": "n75",
    "org": "대구 교육청 영재원",
-   "what": "앞으로 120일 안 일정 8단계",
+   "what": "앞으로 120일 안 일정 7단계",
    "pages": [
     {
      "kind": "post",
@@ -2488,14 +2481,9 @@
    "near": [
     "검사",
     "면접",
-    "발표",
-    "추천"
+    "발표"
    ],
    "expect": [
-    [
-     "2026-11-11",
-     "2026-11-18"
-    ],
     [
      "2026-12-05",
      "2026-12-05"
@@ -3450,6 +3438,48 @@
     [
      "2026-12-15",
      "2026-12-15"
+    ]
+   ],
+   "auto": true
+  },
+  {
+   "id": "n100",
+   "org": "대원국제중",
+   "what": "앞으로 120일 안 일정 6단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "http://daewon.ms.kr/?act=doc&mcode=111017"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "등록",
+    "발표",
+    "지원"
+   ],
+   "expect": [
+    [
+     "2026-11-24",
+     "2026-11-24"
+    ],
+    [
+     "2026-11-25",
+     "2026-11-30"
+    ],
+    [
+     "2026-12-01",
+     "2026-12-01"
+    ],
+    [
+     "2026-12-02",
+     "2026-12-03"
+    ],
+    [
+     "2026-12-22",
+     "2026-12-22"
     ]
    ],
    "auto": true

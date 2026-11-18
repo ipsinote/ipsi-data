@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.241)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.243)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-18",
-"ver": "v28.241",
-"count": 552,
+"ver": "v28.243",
+"count": 550,
 "sources": [
 {
 "id": "1084a42981",
@@ -116,8 +116,8 @@
 "cycle": "w"
 },
 {
-"id": "aad9f9b045",
-"url": "https://www.cne.go.kr/",
+"id": "ea312e0ae8",
+"url": "https://www.cne.go.kr/boardCnts/view.do?boardID=47&viewBoardID=47&boardSeq=2359094&lev=0&action=view&searchType=&statusYN=W&page=1&s=cne&m=021202",
 "host": "cne.go.kr",
 "name": "충청남도교육청 2027학년도 충청남도 고등학교 입학전형 기본계획(2026. 3.) — Ⅷ 입학전형 일정",
 "kind": "공식",
@@ -125,7 +125,7 @@
 "used": [
 "n42"
 ],
-"dated": "2026-11-05",
+"dated": "2026-11-18",
 "cycle": "w"
 },
 {
@@ -2439,19 +2439,6 @@
 "cycle": "m"
 },
 {
-"id": "6962b68f9e",
-"url": "https://bjsm.bmj.com/content/53/10/640",
-"host": "bjsm.bmj.com",
-"name": "Singh 외 2019, 신체활동 중재와 인지·학업 성취 체계적 검토(Br J Sports Med 53(10):640)",
-"kind": "기타",
-"cat": "기타",
-"used": [
-"q-life-exercise-study"
-],
-"dated": "2026-10-27",
-"cycle": "m"
-},
-{
 "id": "7a9e995c26",
 "url": "https://clik.nanet.go.kr/clikr-collection/policyinfo/202/1010/2025/CLIKC1971683520105534_attach_2.pdf",
 "host": "clik.nanet.go.kr",
@@ -2478,16 +2465,29 @@
 "cycle": "m"
 },
 {
-"id": "bd53eaa52e",
-"url": "https://www.ctysc.gidea.co.kr",
+"id": "7b3726f02f",
+"url": "https://ctysc.gidea.co.kr",
 "host": "ctysc.gidea.co.kr",
-"name": "2027학년도 국립창원대학교 과학영재교육원 심화·전공사사·중등사사과정(영재이수자·일반학생전형) 신입생 모집 요강 — 선발 일정",
+"name": "국립창원대 과학영재교육원 선발 누리집(모집요강·공지)",
 "kind": "공식",
 "cat": "기타",
 "used": [
 "n105"
 ],
-"dated": "2026-11-14",
+"dated": "",
+"cycle": "m"
+},
+{
+"id": "18b5b29b6d",
+"url": "https://ctysc.gidea.co.kr/main/ipsi/handbook.action?no=18",
+"host": "ctysc.gidea.co.kr",
+"name": "2027학년도 국립창원대학교 과학영재교육원 심화·전공사사·중등사사과정(영재이수자·일반학생전형) 신입생 모집 요강 — 선발 일정",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"n105"
+],
+"dated": "2026-11-18",
 "cycle": "m"
 },
 {
@@ -2517,9 +2517,35 @@
 "cycle": "m"
 },
 {
-"id": "ebe280245a",
-"url": "https://doaj.org/article/8b3371303a5a4d2c88dd26e236f64089",
-"host": "doaj.org",
+"id": "313f4b5ad4",
+"url": "https://doi.org/10.1001/jamapediatrics.2019.3176",
+"host": "doi.org",
+"name": "Adelantado-Renau 외 2019, 화면 미디어 사용과 학업 성취 메타분석(JAMA Pediatrics, doi:10.1001/jamapediatrics.2019.3176)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-phone-grades"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "167b4dfea6",
+"url": "https://doi.org/10.1136/bjsports-2017-098136",
+"host": "doi.org",
+"name": "Singh 외 2019, 신체활동 중재와 인지·학업 성취 체계적 검토(Br J Sports Med 53(10):640)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-exercise-study"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "f60b93afe9",
+"url": "https://doi.org/10.3390/educsci14080906",
+"host": "doi.org",
 "name": "Böttger·Zierer 2024, To Ban or Not to Ban?(Education Sciences 14(8):906, doi:10.3390/educsci14080906)",
 "kind": "기타",
 "cat": "기타",
@@ -2553,19 +2579,6 @@
 "q-life-breakfast"
 ],
 "dated": "2026-10-27",
-"cycle": "m"
-},
-{
-"id": "9341dfc905",
-"url": "https://www.edurang.net/",
-"host": "edurang.net",
-"name": "대전대성고 2027학년도 신입생 모집 입학 안내 — 전형 일정(공식 PDF)",
-"kind": "기타",
-"cat": "기타",
-"used": [
-"n30"
-],
-"dated": "2026-11-05",
 "cycle": "m"
 },
 {
@@ -2712,19 +2725,6 @@
 "cycle": "m"
 },
 {
-"id": "e62d45e431",
-"url": "https://jamanetwork.com/journals/jamapediatrics/article-abstract/2751330",
-"host": "jamanetwork.com",
-"name": "Adelantado-Renau 외 2019, 화면 미디어 사용과 학업 성취 메타분석(JAMA Pediatrics, doi:10.1001/jamapediatrics.2019.3176)",
-"kind": "기타",
-"cat": "기타",
-"used": [
-"q-life-phone-grades"
-],
-"dated": "2026-10-27",
-"cycle": "m"
-},
-{
 "id": "aeef486ae3",
 "url": "https://www.jge.go.kr/jgemain/main.do",
 "host": "jge.go.kr",
@@ -2846,8 +2846,8 @@
 "cycle": "m"
 },
 {
-"id": "55da0f13a5",
-"url": "http://www.mdfh.or.kr",
+"id": "96066a1d6a",
+"url": "http://mdfh.or.kr/?act=doc&mcode=1435",
 "host": "mdfh.or.kr",
 "name": "명덕외고 2027학년도 입학전형요강 — 3 전형 일정 및 원서접수(인쇄 7쪽)",
 "kind": "기타",
@@ -2855,7 +2855,7 @@
 "used": [
 "n03"
 ],
-"dated": "2026-11-15",
+"dated": "2026-11-18",
 "cycle": "m"
 },
 {
@@ -2875,7 +2875,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -3075,8 +3075,8 @@
 "cycle": "m"
 },
 {
-"id": "be7c37a229",
-"url": "https://ulsan.gidea.co.kr/main/main.action",
+"id": "b77ac7765b",
+"url": "https://ulsan.gidea.co.kr/main/ipsi/handbook.action?q=a84049369d6677efe9e83fb712ebf2c174fe4a5443794c105231896fa548b0ec",
 "host": "ulsan.gidea.co.kr",
 "name": "2027학년도 울산대학교 과학영재교육원 과학영재(심화과정) 모집요강",
 "kind": "기타",
@@ -3084,7 +3084,7 @@
 "used": [
 "n85"
 ],
-"dated": "2026-11-14",
+"dated": "2026-11-18",
 "cycle": "m"
 },
 {
@@ -3304,8 +3304,8 @@
 "cycle": "m"
 },
 {
-"id": "faa8cedf50",
-"url": "https://admission.snu.ac.kr/materials/downloads/samples?md=down&bbsidx=167138&fileidx=49637",
+"id": "74b7d37a52",
+"url": "https://admission.snu.ac.kr/materials/downloads/samples?md=v&bbsidx=167138",
 "host": "admission.snu.ac.kr",
 "name": "2026 영향평가 보고서",
 "kind": "공식",
@@ -3317,8 +3317,8 @@
 "cycle": "m"
 },
 {
-"id": "f0006a9e03",
-"url": "https://admission.snu.ac.kr/materials/downloads/samples?md=down&bbsidx=167141&fileidx=49646",
+"id": "b67f85f2f6",
+"url": "https://admission.snu.ac.kr/materials/downloads/samples?md=v&bbsidx=167141",
 "host": "admission.snu.ac.kr",
 "name": "2026 수시 일반전형 면접·구술고사 문항",
 "kind": "공식",
@@ -3328,35 +3328,6 @@
 ],
 "dated": "",
 "cycle": "m"
-},
-{
-"id": "9ba6b5e9c7",
-"url": "https://admission.snu.ac.kr/materials/downloads/samples?md=down&bbsidx=167141&fileidx=50747",
-"host": "admission.snu.ac.kr",
-"name": "2026 적성·인성면접 문항",
-"kind": "공식",
-"cat": "대학 입학처",
-"used": [
-"snu"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "cb3609fc75",
-"url": "https://admission.snu.ac.kr/undergraduate/notice?md=down&bbsidx=168854&fileidx=51182",
-"host": "admission.snu.ac.kr",
-"name": "서울대 2028학년도 입학전형 시행계획(PDF, 18쪽)",
-"kind": "공식",
-"cat": "대학 입학처",
-"used": [
-"q-snu",
-"q-univ-nsu",
-"q-univ-rural",
-"r-snu-ku-choejeo"
-],
-"dated": "2026-04-30",
-"cycle": "w"
 },
 {
 "id": "8aedec7212",
@@ -3375,7 +3346,7 @@
 "id": "cabc01dd79",
 "url": "https://admission.snu.ac.kr/undergraduate/notice?md=v&bbsidx=168854",
 "host": "admission.snu.ac.kr",
-"name": "서울대 2028학년도 입학전형 시행계획 공지",
+"name": "서울대 2028학년도 입학전형 시행계획(글 안 첨부 PDF, 18쪽)",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
@@ -3383,6 +3354,8 @@
 "q-courses",
 "q-snu",
 "q-susi",
+"q-univ-nsu",
+"q-univ-rural",
 "r-snu-jungsi-naesin",
 "r-snu-ku-choejeo",
 "snu28"
@@ -5684,99 +5657,6 @@
 "cycle": "m"
 },
 {
-"id": "b97952d448",
-"url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=268711&joNo=0002&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
-"host": "law.go.kr",
-"name": "같은 법 제2조(정의), 국가법령정보센터",
-"kind": "공식",
-"cat": "법령·판례",
-"used": [
-"q-sch-prestudy"
-],
-"dated": "2025-01-31",
-"cycle": "w"
-},
-{
-"id": "c52fdd2278",
-"url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=268711&joNo=0008&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
-"host": "law.go.kr",
-"name": "공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 제8조(선행교육 및 선행학습 유발행위 금지 등) [시행 2025.1.31.] [법률 제20722호], 국가법령정보센터",
-"kind": "공식",
-"cat": "법령·판례",
-"used": [
-"q-sch-prestudy"
-],
-"dated": "2025-01-31",
-"cycle": "w"
-},
-{
-"id": "422ec90f8f",
-"url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=268711&joNo=0010&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
-"host": "law.go.kr",
-"name": "공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 제10조(대학등의 입학전형 등), 국가법령정보센터",
-"kind": "공식",
-"cat": "법령·판례",
-"used": [
-"preLaw",
-"q-sch-prestudy",
-"q-univ-prep"
-],
-"dated": "2025-01-31",
-"cycle": "w"
-},
-{
-"id": "c29d9824f5",
-"url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=268711&joNo=0014&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
-"host": "law.go.kr",
-"name": "같은 법 제14조(시정 또는 변경명령), 국가법령정보센터",
-"kind": "공식",
-"cat": "법령·판례",
-"used": [
-"q-sch-prestudy"
-],
-"dated": "2025-01-31",
-"cycle": "w"
-},
-{
-"id": "b93f0bc297",
-"url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=268711&joNo=0016&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
-"host": "law.go.kr",
-"name": "같은 법 제16조(적용의 배제), 국가법령정보센터",
-"kind": "공식",
-"cat": "법령·판례",
-"used": [
-"q-sch-prestudy"
-],
-"dated": "2025-01-31",
-"cycle": "w"
-},
-{
-"id": "a76ef42d3b",
-"url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=276181&joNo=0002&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
-"host": "law.go.kr",
-"name": "영재교육 진흥법 제2조(정의) [시행 2025.10.1.] [법률 제21065호], 국가법령정보센터",
-"kind": "공식",
-"cat": "법령·판례",
-"used": [
-"q-eo-class"
-],
-"dated": "2025-10-01",
-"cycle": "w"
-},
-{
-"id": "cbef60cecd",
-"url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=276181&joNo=0008&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
-"host": "law.go.kr",
-"name": "영재교육 진흥법 제8조(영재교육원의 설치·운영), 국가법령정보센터",
-"kind": "공식",
-"cat": "법령·판례",
-"used": [
-"q-eo-class"
-],
-"dated": "2025-10-01",
-"cycle": "w"
-},
-{
 "id": "cc680a1bd4",
 "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=161470173",
 "host": "law.go.kr",
@@ -5793,13 +5673,28 @@
 "id": "1879c55e89",
 "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=268711",
 "host": "law.go.kr",
-"name": "공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 본문, 국가법령정보센터",
+"name": "공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 제8조(선행교육 및 선행학습 유발행위 금지 등)·제2조(정의)·제10조(대학등의 입학전형 등)·제14조(시정 또는 변경명령)·제16조(적용의 배제) [시행 2025",
 "kind": "공식",
 "cat": "법령·판례",
 "used": [
-"q-sch-prestudy"
+"preLaw",
+"q-sch-prestudy",
+"q-univ-prep"
 ],
 "dated": "2025-01-31",
+"cycle": "w"
+},
+{
+"id": "5789ec5485",
+"url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276181",
+"host": "law.go.kr",
+"name": "영재교육 진흥법 제2조(정의)·제8조(영재교육원의 설치·운영) [시행 2025.10.1.] [법률 제21065호], 국가법령정보센터",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-eo-class"
+],
+"dated": "2025-10-01",
 "cycle": "w"
 },
 {
@@ -5927,6 +5822,19 @@
 "cycle": "w"
 },
 {
+"id": "ecab814eb6",
+"url": "https://www.law.go.kr/법령/공교육정상화촉진및선행교육규제에관한특별법",
+"host": "law.go.kr",
+"name": "공교육 정상화 촉진 및 선행교육 규제에 관한 특별법(지금 시행 중인 법) 본문, 국가법령정보센터",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-sch-prestudy"
+],
+"dated": "2025-01-31",
+"cycle": "w"
+},
+{
 "id": "269a4c6a59",
 "url": "https://www.law.go.kr/법령/학교폭력예방및대책에관한법률",
 "host": "law.go.kr",
@@ -6008,16 +5916,16 @@
 "cycle": "w"
 },
 {
-"id": "bfc4942377",
-"url": "https://gifted.ac.kr/",
+"id": "5f40daa0fd",
+"url": "https://www.gifted.ac.kr/main/contents/handbook.action?q=818dc7f5562c279207e33664e418a79d1e632e07722a8e4f24224fb3ef873e05",
 "host": "gifted.ac.kr",
-"name": "전북대 과학영재교육원 2027학년도 신입생 모집 요강 — 5. 선발 일정(공식 PDF · PDF 글과 자동 대조 통과 10/26 21:15 — 날짜 다시 볼 필요 없음)",
+"name": "전북대 과학영재교육원 2027학년도 신입생 모집 요강 — 5. 선발 일정",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
 "n58"
 ],
-"dated": "2026-10-26",
+"dated": "2026-11-18",
 "cycle": "w"
 },
 {
@@ -6037,13 +5945,26 @@
 "id": "b2147ec7db",
 "url": "https://gifted.cnu.ac.kr/",
 "host": "gifted.cnu.ac.kr",
-"name": "2027학년도 충남대학교 과학영재교육원 영재교육대상자 모집요강(과기부 지정 심화·사사연구과정, 대전시교육청 지정 융합과학 심화과정 — 3개 같은 일정, 2026-08-14 공고) — 7. 합격자 선정",
+"name": "2027학년도 충남대학교 과학영재교육원 영재교육대상자 모집요강(과기부 지정 심화·사사연구과정, 대전시교육청 지정 융합과학 심화과정 — 3개 같은 일정, 2026-08-14 공고) — 5. 선발 일정",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
 "n31"
 ],
 "dated": "2026-11-15",
+"cycle": "w"
+},
+{
+"id": "7dcf5dab51",
+"url": "https://gifted.cnu.ac.kr/gifted/program/foundation2.do?mode=view&articleNo=594572&article.offset=0&articleLimit=10",
+"host": "gifted.cnu.ac.kr",
+"name": "2027학년도 충남대학교 과학영재교육원 영재교육대상자 모집요강(과기부 지정 심화·사사연구과정, 대전시교육청 지정 융합과학 심화과정 — 3개 같은 일정, 2026-08-14 공고) — 7. 합격자 선정",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n31"
+],
+"dated": "2026-11-18",
 "cycle": "w"
 },
 {
@@ -6109,6 +6030,19 @@
 "n78"
 ],
 "dated": "2026-11-15",
+"cycle": "w"
+},
+{
+"id": "9eac67c9a7",
+"url": "https://gifted.gachon.ac.kr/main/contents/handbook.action?q=EMNItRaljCjt6wSP792w0cPwSOHmzsF51X9GKTYe9ms%3D",
+"host": "gifted.gachon.ac.kr",
+"name": "2027학년도 가천대학교 과학영재교육원 사사연구과정(중2) 선발 추가모집 요강 — 1. 선발 일정",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n23"
+],
+"dated": "2026-11-18",
 "cycle": "w"
 },
 {
@@ -6393,6 +6327,19 @@
 "n85"
 ],
 "dated": "",
+"cycle": "w"
+},
+{
+"id": "53ef0ba232",
+"url": "https://gifted1.kongju.ac.kr/gifted/18650/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGZ2lmdGVkJTJGMjM2NCUyRjQzMzc1OSUyRmFydGNsVmlldy5kbyUzRg%3D%3D",
+"host": "gifted1.kongju.ac.kr",
+"name": "국립공주대 과학영재교육원 2027학년도 초등부 심화과정 신입생 선발 모집요강 — Ⅲ. 전형 일정(과학영재교육원 공지 '2027학년도 신입생 선발 안내' 첨부)",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n44"
+],
+"dated": "2026-11-18",
 "cycle": "w"
 },
 {
@@ -7226,6 +7173,32 @@
 "cycle": "w"
 },
 {
+"id": "e9c189083d",
+"url": "https://daeseong.hs.kr/catalog/7",
+"host": "daeseong.hs.kr",
+"name": "대전대성고 2027학년도 신입생 모집요강(책자) — Ⅵ 전형 일정",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n30"
+],
+"dated": "2026-11-18",
+"cycle": "w"
+},
+{
+"id": "86ec5b488a",
+"url": "http://daewon.ms.kr/?act=doc&mcode=111017",
+"host": "daewon.ms.kr",
+"name": "2027학년도 대원국제중학교 신입생 입학 전형 요강(학교 누리집) — 05 전형 일정",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n100"
+],
+"dated": "2026-11-18",
+"cycle": "w"
+},
+{
 "id": "e59928ac65",
 "url": "https://djflhs.djsch.kr/boardCnts/list.do?boardID=98882&m=0506&s=djflhs",
 "host": "djflhs.djsch.kr",
@@ -7541,8 +7514,8 @@
 "cycle": "m"
 },
 {
-"id": "0a5a08cae4",
-"url": "https://sghs.sen.hs.kr",
+"id": "4857f8789e",
+"url": "https://sghs.sen.hs.kr/97896/subMenu.do",
 "host": "sghs.sen.hs.kr",
 "name": "서울국제고 2027학년도 입학 전형 요강 — 3 전형 일정 및 원서 접수(인쇄 6쪽)",
 "kind": "공식",
@@ -7550,7 +7523,7 @@
 "used": [
 "n03"
 ],
-"dated": "2026-11-15",
+"dated": "2026-11-18",
 "cycle": "w"
 },
 {

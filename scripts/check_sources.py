@@ -371,8 +371,9 @@ def main(reg_path, out_path, report_path, F=None, now=None, resolve=None, rules=
     def block(title, rows, show_why=False):
         L.append('## ' + title + ' (' + str(len(rows)) + ')')
         for k, v in rows[:60]:
-            L.append('- ' + v['url'] + ' — ' + ', '.join(v.get('used', [])[:6]) + ((' → ' + v['final']) if v.get('final') else '') + ((' · ' + str(v.get('error') or v.get('status'))) if v.get('failStreak') else '') + (' · 날짜 글자 바뀜' if v.get('datesChanged') and v.get('changedAt', '')[:10] == today.isoformat() else '')
-                     + ((' · ' + why_ko(v)) if show_why and v.get('why') else ''))
+            sw = show_why and bool(v.get('why'))   # 이유 칸을 보이면 상태 글자는 거기에 들어 있음
+            L.append('- ' + v['url'] + ' — ' + ', '.join(v.get('used', [])[:6]) + ((' → ' + v['final']) if v.get('final') else '') + ((' · ' + str(v.get('error') or v.get('status'))) if v.get('failStreak') and not sw else '') + (' · 날짜 글자 바뀜' if v.get('datesChanged') and v.get('changedAt', '')[:10] == today.isoformat() else '')
+                     + ((' · ' + why_ko(v)) if sw else ''))
         L.append('')
     block('끊김: 두 번 연속 못 엶', broken, show_why=bool(rules))
     if rules:

@@ -1,12 +1,13 @@
 {
- "at": "2026-11-19T01:25:32+09:00",
- "targets": 88,
- "withDates": 46,
+ "at": "2026-11-19T08:20:45+09:00",
+ "targets": 89,
+ "withDates": 45,
  "blockedAll": [
   "n80",
   "n33",
   "n69",
   "n83",
+  "n34",
   "n62",
   "n63"
  ],
@@ -508,14 +509,14 @@
   {
    "id": "n40",
    "org": "충남 교육청 영재원",
-   "status": "robots",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
-   "opened": 1,
+   "opened": 4,
    "route": 1,
    "tried": null,
    "robotsWhy": [
-    "unreachable"
+    "rules"
    ]
   },
   {
@@ -549,8 +550,8 @@
   {
    "id": "n14",
    "org": "인천대 영재원",
-   "status": "dates",
-   "lines": 2,
+   "status": "found-no-dates",
+   "lines": 0,
    "files": 1,
    "opened": 1,
    "route": 1,
@@ -582,7 +583,7 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 2,
+   "opened": 3,
    "route": 1,
    "tried": null,
    "robotsWhy": [
@@ -603,9 +604,9 @@
    "id": "n31",
    "org": "충남대 영재원",
    "status": "dates",
-   "lines": 28,
-   "files": 7,
-   "opened": 8,
+   "lines": 33,
+   "files": 8,
+   "opened": 9,
    "route": 1,
    "tried": [
     {
@@ -887,7 +888,7 @@
     }
    ],
    "robotsWhy": [
-    "unreachable"
+    "rules"
    ]
   },
   {
@@ -1086,6 +1087,16 @@
    "tried": null
   },
   {
+   "id": "n100",
+   "org": "대원국제중",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 2,
+   "opened": 1,
+   "route": 1,
+   "tried": null
+  },
+  {
    "id": "n106",
    "org": "강원대(강릉·원주) 영재원",
    "status": "robots",
@@ -1101,15 +1112,23 @@
   {
    "id": "n34",
    "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
-   "status": "found-no-dates",
+   "status": "blocked-all",
    "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 1,
    "route": 2,
    "tried": [
     {
      "rank": 2,
-     "status": "found-no-dates"
+     "status": "error"
+    },
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ]
   },
@@ -1167,6 +1186,14 @@
   }
  ],
  "robots": {
+  "http://daewon.ms.kr": {
+   "http": 200,
+   "bytes": 61,
+   "sha": "073522e1",
+   "rules": 0,
+   "disallow": 0,
+   "kind": "rules"
+  },
   "http://dhi.hs.kr": {
    "http": 200,
    "bytes": 375,
@@ -1390,11 +1417,6 @@
   "https://gice.gen.go.kr": {
    "http": 404,
    "kind": "none"
-  },
-  "https://gifted.ac.kr": {
-   "http": "error",
-   "error": "HTTPSConnectionPool(host='gifted.ac.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeout",
-   "kind": "unreachable"
   },
   "https://gifted.cbnu.ac.kr": {
    "http": "error",
@@ -1742,10 +1764,13 @@
    "blockAt": "2026-11-19"
   },
   "https://www.cncae.go.kr": {
-   "http": "error",
-   "error": "HTTPSConnectionPool(host='www.cncae.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTime",
-   "kind": "unreachable",
-   "blockAt": "2026-11-18"
+   "http": 200,
+   "bytes": 682,
+   "sha": "b9f34147",
+   "rules": 25,
+   "disallow": 1,
+   "kind": "rules",
+   "blockAt": "2026-11-19"
   },
   "https://www.cne.go.kr": {
    "http": 200,
@@ -1813,6 +1838,11 @@
    "disallow": 17,
    "kind": "rules",
    "blockAt": "2026-11-19"
+  },
+  "https://www.gifted.ac.kr": {
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='www.gifted.ac.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTim",
+   "kind": "unreachable"
   },
   "https://www.gise.kr": {
    "http": 404,
@@ -1892,10 +1922,13 @@
    "kind": "rules"
   },
   "https://www.jje.go.kr": {
-   "http": "error",
-   "error": "HTTPSConnectionPool(host='www.jje.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutio",
-   "kind": "unreachable",
-   "blockAt": "2026-11-18"
+   "http": 200,
+   "bytes": 480,
+   "sha": "19c1fedf",
+   "rules": 3,
+   "disallow": 1,
+   "kind": "rules",
+   "blockAt": "2026-11-19"
   },
   "https://www.jne.go.kr": {
    "http": "error",

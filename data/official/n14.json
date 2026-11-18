@@ -1,8 +1,8 @@
 {
  "id": "n14",
  "org": "인천대 영재원",
- "what": "앞으로 120일 안 일정 6단계",
- "checkedAt": "2026-11-19T01:11:39+09:00",
+ "what": "앞으로 120일 안 일정 5단계",
+ "checkedAt": "2026-11-19T08:05:54+09:00",
  "opened": [
   {
    "url": "https://www.geig.ac.kr/bbs_shop/read.htm?idx=132305",
@@ -27,29 +27,7 @@
    "sha1": "2ce93edad98d"
   }
  ],
- "lines": [
-  {
-   "text": "첨부파일 : 2027학년도타영재교육기관추천신청서(학생명).hwp (22,528byte) | 2026-08-19 13:29:59",
-   "dates": [
-    "2026-08-19"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://www.geig.ac.kr/bbs_shop/read.htm?idx=132305"
-  },
-  {
-   "text": "2. 추천 신청 기간 | 2026. 8. 19.(수) ~ 8. 21.(금)",
-   "dates": [
-    "2026-08-19",
-    "2026-08-21"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://www.geig.ac.kr/bbs_shop/read.htm?idx=132305"
-  }
- ],
- "status": "dates",
+ "lines": [],
+ "status": "found-no-dates",
  "route": 1
 }

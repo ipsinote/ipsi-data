@@ -2,7 +2,7 @@
  "id": "n42",
  "org": "충남 고입",
  "what": "앞으로 120일 안 일정 19단계",
- "checkedAt": "2026-11-19T01:18:25+09:00",
+ "checkedAt": "2026-11-19T08:12:52+09:00",
  "opened": [
   {
    "url": "https://www.cnfl.cnehs.kr/sub/info.do?m=0210&s=cnfl",
@@ -10,7 +10,7 @@
    "why": "unreachable"
   },
   {
-   "url": "https://www.cne.go.kr/",
+   "url": "https://www.cne.go.kr/boardCnts/view.do?boardID=47&viewBoardID=47&boardSeq=2359094&lev=0&action=view&searchType=&statusYN=W&page=1&s=cne&m=021202",
    "status": "robots",
    "why": "rules"
   }

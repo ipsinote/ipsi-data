@@ -2,7 +2,7 @@
  "id": "n34",
  "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-11-18T08:56:30+09:00",
+ "checkedAt": "2026-11-18T20:34:01+09:00",
  "opened": [
   {
    "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do",
@@ -42,10 +42,6 @@
  "status": "found-no-dates",
  "route": 2,
  "tried": [
-  {
-   "rank": 1,
-   "status": "robots"
-  },
   {
    "rank": 2,
    "status": "found-no-dates"

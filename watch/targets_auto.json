@@ -1,7 +1,7 @@
 {
  "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
- "made": "2026-11-19",
- "ver": "v28.243",
+ "made": "2026-11-20",
+ "ver": "v28.246",
  "horizonDays": 120,
  "targets": [
   {
@@ -1167,7 +1167,7 @@
   {
    "id": "n40",
    "org": "충남 교육청 영재원",
-   "what": "앞으로 120일 안 일정 5단계",
+   "what": "앞으로 120일 안 일정 4단계",
    "pages": [
     {
      "kind": "post",
@@ -1181,14 +1181,9 @@
     "검사",
     "등록",
     "발표",
-    "원서",
-    "추천"
+    "원서"
    ],
    "expect": [
-    [
-     "2026-11-19",
-     "2026-11-19"
-    ],
     [
      "2026-11-20",
      "2026-11-26"
@@ -3074,6 +3069,10 @@
    "pages": [
     {
      "kind": "post",
+     "url": "https://school.gyo6.net/gimcheon/na/ntt/selectNttInfo.do?mi=125884&bbsId=33427&nttSn=16946574"
+    },
+    {
+     "kind": "post",
      "url": "https://school.gyo6.net/gimcheon/main.do"
     }
    ],
@@ -3449,7 +3448,7 @@
    "pages": [
     {
      "kind": "post",
-     "url": "http://daewon.ms.kr/?act=doc&mcode=111017"
+     "url": "https://daewon.ms.kr/?act=doc&mcode=111017"
     }
    ],
    "title": [
@@ -3487,7 +3486,7 @@
   {
    "id": "n106",
    "org": "강원대(강릉·원주) 영재원",
-   "what": "앞으로 120일 안 일정 3단계",
+   "what": "앞으로 120일 안 일정 2단계",
    "pages": [
     {
      "kind": "site",
@@ -3499,14 +3498,9 @@
    ],
    "near": [
     "등록",
-    "발표",
-    "선발"
+    "발표"
    ],
    "expect": [
-    [
-     "2026-11-19",
-     "2026-11-19"
-    ],
     [
      "2026-11-21",
      "2026-11-21"

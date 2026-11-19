@@ -2,20 +2,24 @@ name: ipsinote.com 열림 확인
 
 # 2026-11-12 실행 1 창 — 11/11 1부 '자료·서비스 신호등'(ipsinote.com 열림)이 회의 준비 한 장에서 늘 '확인 필요'로 나오던 것 고침.
 # 까닭: 새벽 예약 세션의 웹 열기(WebFetch)는 사람 승인이 필요해 막히고, 예약 세션의 명령줄은 ipsinote.com에 닿지 못함.
-# 그래서 깃허브가 3시간마다 주소 2개를 열어 보고, 결과는 이 실행의 성공·실패로만 남긴다(저장소에 아무것도 쓰지 않음).
-# 회의 준비 한 장 도구(ipsi-site tools/meetprep.py)가 공개 API로 마지막 결과를 읽는다 — 성공 = 열림, 실패 = 안 열림.
-# 깃허브 예약은 몇 시간씩 늦게 돌 수 있어(11/11 실제 약 7시간) 하루 8번으로 둔다.
+# 그래서 깃허브가 주소 2개를 열어 본다. 실행의 성공·실패는 그대로 '열림·안 열림'이다(성공 = 열림, 실패 = 안 열림).
+# 2026-11-20 대표 '1안 지금 진행': 결과를 파일로도 남긴다 — status 가지의 site.json {ok, at, checks, run}.
+#   까닭: 저장소를 조직으로 옮긴 뒤 예약 세션에서 공개 API(실행 목록)로 묻는 길이 403으로 막혀 11/16부터 다시 '확인 필요'였다.
+#   공개 파일 받기(raw.githubusercontent.com)는 예약 세션에서도 된다 — 회의 준비 한 장 도구(ipsi-site tools/meetprep.py)가 이 파일을 먼저 읽는다.
+#   main에는 쓰지 않는다(다른 자동 작업의 커밋과 부딪히지 않게 · 기록이 섞이지 않게). 파일 쓰기가 실패해도 실행 결과(열림·안 열림)는 바뀌지 않는다.
+# 깃허브 예약은 늦거나 빠질 수 있어(11/12~11/19 실제 하루 약 3번 · 가장 긴 간격 12시간 54분) 시각을 두 줄로 둔다(하루 16번 시도).
 on:
   schedule:
     - cron: '23 */3 * * *'
+    - cron: '53 1-22/3 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: site-check
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   check:
@@ -23,15 +27,48 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: 첫 화면·앱 화면 열기
+        id: open
         run: |
           fail=0
+          rows=""
           for u in https://ipsinote.com/ https://ipsinote.com/app/; do
             code=$(curl -sS -L -o page.html -w '%{http_code}' --max-time 30 -A 'ipsinote-site-check' "$u" || echo 000)
+            code=${code: -3}
             if [ "$code" = "200" ] && grep -q '입시노트' page.html; then
               echo "열림 $u ($code)" | tee -a "$GITHUB_STEP_SUMMARY"
+              one=true
             else
               echo "안 열림 $u (응답 $code)" | tee -a "$GITHUB_STEP_SUMMARY"
+              one=false
               fail=1
             fi
+            rows="${rows}${rows:+, }{\"u\": \"$u\", \"code\": \"$code\", \"ok\": $one}"
           done
-          exit $fail
+          ok=true
+          if [ "$fail" != "0" ]; then ok=false; fi
+          printf '{"ok": %s, "at": "%s", "checks": [%s], "run": "%s", "by": "site_check.yml"}\n' \
+            "$ok" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$rows" "$GITHUB_RUN_ID" > site.json
+          cat site.json
+          echo "fail=$fail" >> "$GITHUB_OUTPUT"
+      - name: 결과 파일 남기기(status 가지 site.json)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir st && cd st
+          git init -q
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git fetch -q --depth 1 origin status 2>/dev/null; then
+            git checkout -q -b status FETCH_HEAD
+          else
+            git checkout -q --orphan status
+          fi
+          cp ../site.json site.json
+          git add site.json
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "사이트 열림 확인 $(TZ=Asia/Seoul date '+%F %H:%M')"
+          git push -q origin status
+          echo "결과 파일 남김(status/site.json)" | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: 안 열렸으면 실패로 끝내기
+        if: steps.open.outputs.fail != '0'
+        run: exit 1

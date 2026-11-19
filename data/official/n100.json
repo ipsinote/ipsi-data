@@ -2,44 +2,19 @@
  "id": "n100",
  "org": "대원국제중",
  "what": "앞으로 120일 안 일정 6단계",
- "checkedAt": "2026-11-20T01:34:14+09:00",
+ "checkedAt": "2026-11-20T08:17:19+09:00",
  "opened": [
   {
-   "url": "http://daewon.ms.kr/?act=doc&mcode=111017",
-   "status": "ok"
+   "url": "https://daewon.ms.kr/?act=doc&mcode=111017",
+   "status": "robots",
+   "why": "unreachable"
   }
  ],
  "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "http://daewon.ms.kr/?act=doc&mcode=111017",
-   "title": "::: 대원국제중학교 - 2027학년도 입학전형요강 :::"
-  }
- ],
- "files": [
-  {
-   "url": "http://daewon.ms.kr/?act=image_proxy&path=hosts/14081/board/board.-1.1784696656.1764",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 2387376,
-   "sha1": "ae098ff66c64",
-   "lines": 0
-  },
-  {
-   "url": "http://daewon.ms.kr/?act=image_proxy&path=hosts/14081/board/board.-1.1784696638.6833",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 510780,
-   "sha1": "0c244a05453a",
-   "lines": 0
-  }
- ],
+ "titles": [],
+ "files": [],
  "lines": [],
- "status": "found-no-dates",
+ "status": "robots",
  "route": 1
 }

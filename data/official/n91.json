@@ -2,8 +2,13 @@
  "id": "n91",
  "org": "김천고",
  "what": "앞으로 120일 안 일정 5단계",
- "checkedAt": "2026-11-20T01:33:31+09:00",
+ "checkedAt": "2026-11-20T08:16:41+09:00",
  "opened": [
+  {
+   "url": "https://school.gyo6.net/gimcheon/na/ntt/selectNttInfo.do?mi=125884&bbsId=33427&nttSn=16946574",
+   "status": "robots",
+   "why": "rules"
+  },
   {
    "url": "https://school.gyo6.net/gimcheon/main.do",
    "status": "robots",

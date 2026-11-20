@@ -2,7 +2,7 @@
  "id": "n94",
  "org": "경남 교육청 영재원",
  "what": "2027 교육지원청 영재교육원 선발 일정(창원·진주 — 교육지원청마다 다름)",
- "checkedAt": "2026-11-21T00:58:00+09:00",
+ "checkedAt": "2026-11-21T08:04:24+09:00",
  "opened": [
   {
    "url": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812",
@@ -10,7 +10,7 @@
   },
   {
    "url": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520",
-   "status": "error"
+   "status": "ok"
   }
  ],
  "notices": [],
@@ -19,6 +19,10 @@
   {
    "url": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812",
    "title": "창원영재교육원 영재선발-전형방법"
+  },
+  {
+   "url": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520",
+   "title": "진주영재교육원 교육원소개-전형요강"
   }
  ],
  "files": [],
@@ -288,6 +292,224 @@
     "추천"
    ],
    "src": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812"
+  },
+  {
+   "text": "라. 학교 밖 청소년 대상자 선발 지원 확대 | 근거: 영재교육진흥법 시행령 제3장제11조(개정 2023. 12. 12.)",
+   "dates": [
+    "2023-12-12"
+   ],
+   "words": [
+    "지원",
+    "선발"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "(지원자) GED 지원 일정: 2026.9.21.(월)~10.12.(월)",
+   "dates": [
+    "2026-09-21",
+    "2026-10-12"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "과학영재담당(진주교육지원청 학생건강과 2층)으로 2026. 10. 12.(월) 17:00까지 직접 제출",
+   "dates": [
+    "2026-10-12"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "진주교육지원청영재교육원 선발 안내 | 2026. 8. 28.(금)~",
+   "dates": [
+    "2026-08-28"
+   ],
+   "words": [
+    "지원",
+    "선발"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "GED 선발 업무담당자 연수 | 2026. 9. 8.(화) 15:00~ (예정)",
+   "dates": [
+    "2026-09-08"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "원서 접수 | 2026. 9. 21.(월)",
+   "dates": [
+    "2026-09-21"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "원서 접수 | ∼10.12.(월).17:00까지",
+   "dates": [
+    "2026-10-12"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "추천교사 학생 관찰 | 2026. 10. 13.(화)",
+   "dates": [
+    "2026-10-13"
+   ],
+   "words": [
+    "추천"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "추천교사 학생 관찰 | ∼11. 17.(화)",
+   "dates": [
+    "2026-11-17"
+   ],
+   "words": [
+    "추천"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "GED 교사 추천서 제출 | 2026. 11. 16.(월)",
+   "dates": [
+    "2026-11-16"
+   ],
+   "words": [
+    "추천"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "GED 교사 추천서 제출 | ∼11. 17.(화)",
+   "dates": [
+    "2026-11-17"
+   ],
+   "words": [
+    "추천"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "학교추천위원회 추천 | 2026. 11. 18.(수)",
+   "dates": [
+    "2026-11-18"
+   ],
+   "words": [
+    "추천"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "학교추천위원회 추천 | ∼11. 20.(금)",
+   "dates": [
+    "2026-11-20"
+   ],
+   "words": [
+    "추천"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "지원 대상자 목록 제출 | ∼2026. 11. 23.(월)",
+   "dates": [
+    "2026-11-23"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "(지원자 전원 시행) | 2026. 12. 5.(토)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "최종합격자 공지 | 2026. 12. 17.(목)",
+   "dates": [
+    "2026-12-17"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "※지원 마감일 엄수 | [10. 12(월) 17시까지]",
+   "dates": [
+    "2026-10-12"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "1교시: 영재성 검사 | 일시: 2026. 12. 5.(토) 9:00 ~ 10:30",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "2교시: 창의적문제해결력 검사 | 일시: 2026. 12. 5.(토) 11:00 ~ 12:00",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "※합격자 발표 | 2026.12.17.(목) 14:00(예정)",
+   "dates": [
+    "2026-12-17"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
+  },
+  {
+   "text": "1) 지원서 작성 기간: 2026. 9. 21.(월) ~ 10. 12.(월) 17:00까지 (기일엄수)",
+   "dates": [
+    "2026-09-21",
+    "2026-10-12"
+   ],
+   "words": [
+    "원서",
+    "지원"
+   ],
+   "src": "https://jjedu.gne.go.kr/jjgifted/cm/cntnts/cntntsView.do?mi=4994&cntntsId=3520"
   }
  ],
  "status": "dates",

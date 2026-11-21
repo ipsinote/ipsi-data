@@ -4,9 +4,9 @@
  "planned": 1705,
  "fetched": 1705,
  "errors": 0,
- "with_exams_today": 608,
+ "with_exams_today": 617,
  "schools_total": 12065,
- "schools_with_exams": 4437,
+ "schools_with_exams": 4446,
  "limit_hit": false,
  "error_samples": []
 }

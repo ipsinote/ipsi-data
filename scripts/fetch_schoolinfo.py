@@ -210,7 +210,7 @@ def sgg_codes():
     for r in rows:
         sido = next((c for c in r if re.fullmatch(r'\d{2}', c)), '')
         sgg = next((c for c in r if re.fullmatch(r'\d{5}', c)), '')
-        if sido and sgg and sgg.startswith(sido) and sgg not in seen:
+        if sido and sido != '00' and sgg and sgg.startswith(sido) and sgg not in seen:   # '00 전체' 줄은 뺌
             seen.add(sgg)
             names = [c for c in r if c and not re.fullmatch(r'[\d.]+', c)]
             out.append({'sido': sido, 'sgg': sgg, 'name': ' '.join(names[:2])})
@@ -314,7 +314,7 @@ def run(force=True):
     save('elem_private_national.json', {
         'source': '학교알리미 Open API 학교 현황(apiType 62 · 초등 02) — 출처: 학교알리미(한국교육학술정보원)',
         'license': '공공누리 출처표시(영리·변경 가능)', 'pbanYr': year, 'fetched': now_utc(),
-        'note': '사립·국립 초등학교만 저장(전국 모든 학교 숫자는 저장하지 않음) · students = 학생수계(COL_FGR_SUM 괄호 앞 숫자) · 괄호 안은 raw 그대로',
+        'note': '사립·국립 초등학교만 저장(전국 모든 학교 숫자는 저장하지 않음) · students = 학생수계(COL_FGR_SUM 괄호 앞 숫자) · studentsSp = 괄호 안(특수학급 학생수계 SP_FGR_SUM과 같은 값) · classes = 학급수계(COL_SUM) · 칸 뜻은 학교알리미 OpenAPI 출력값.xlsx(2026-11-22 확인)',
         'counts': {'사립': sum(r['found'] == '사립' for r in keep), '국립': sum(r['found'] == '국립' for r in keep)},
         'schools': keep})
     st.update({'result': 'ok' if not fails else 'partial', 'pbanYr': year, 'probeFp': fp, 'sgg': len(codes), 'sggEmpty': empty,

@@ -2,8 +2,8 @@
  "workflow": "neis",
  "conclusion": "success",
  "event": "schedule",
- "runUrl": "https://github.com/ipsinote/ipsi-data/actions/runs/44914960316",
- "startedAt": "2026-11-21T14:38:22Z",
- "finishedAt": "2026-11-21T15:10:51Z",
- "schools": 12689
+ "runUrl": "https://github.com/ipsinote/ipsi-data/actions/runs/45033470388",
+ "startedAt": "2026-11-22T14:33:37Z",
+ "finishedAt": "2026-11-22T15:14:09Z",
+ "schools": 12690
 }

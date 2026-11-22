@@ -2,6 +2,17 @@
 
 나이스 학교기본정보를 매일 받아 지난번과 비교한 결과입니다. 최신이 위에 있습니다.
 
+## 2026-11-22
+
+- 새로 생김: 경기 의정부시 훈민고등학교 (고등학교)
+- 새로 생김: 경북 예천군 (가칭)호명중학교 (중학교)
+- 목록에서 빠짐: 경북 예천군 (가칭)호명중학교 (중학교)
+- 바뀜: 전남광주 봉산초등학교 — home: http://bs.gen.es.kr → https://bs.jge.es.kr/
+- 바뀜: 경기 평택연화초등학교 — address: 경기도 평택시 현덕면 운정화양1로 95 → 경기도 평택시 현덕면 운정화양1로
+- 바뀜: 전북 덕유샘학교 — home: http://school.jbedu.kr/deogyusam → http://school.jbedu.kr/deogyusaem
+- 바뀜: 전북 이리공업고등학교 — home: http://energyedu.hs.kr/ → https://school.jbedu.kr/jb-it
+- 바뀜: 전남광주 노안남초등학교 — home: http://noannam.es.jge.kr → http://noannam.jge.es.kr
+
 ## 2026-11-15
 
 - 새로 생김: 인천 미추홀구 인천학나래초등학교 (초등학교)

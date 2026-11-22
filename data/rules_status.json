@@ -1,5 +1,5 @@
 {
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "registry": {
 "updated": "2026-11-04",
 "rules": 60,
@@ -7,26 +7,60 @@
 },
 "run": {
 "auto": 53,
-"opened": 23,
-"ok": 23,
-"robots": 0,
+"opened": 46,
+"ok": 44,
+"robots": 1,
 "failed": 0,
-"thin": 0,
-"notDue": 30
+"thin": 1,
+"notDue": 7
 },
 "summary": {
-"high": 0,
-"mid": 2,
-"low": 0
+"high": 4,
+"mid": 5,
+"low": 3
 },
 "events": [
 {
-"source": "ig-orig",
+"source": "tool-cf",
 "rules": [
-"R-IG1"
+"R-T3"
+],
+"level": "high",
+"what": "수정일 Last updated Sep 5, 2026 → Last updated Nov 19, 2026 · 바뀐 부분: Preview deployments · 새 부분: Deployments"
+},
+{
+"source": "tool-vercel",
+"rules": [
+"R-T1"
+],
+"level": "high",
+"what": "감시 낱말이 사라짐: commercial · 바뀐 부분: (첫 부분)"
+},
+{
+"source": "yt-api-rev",
+"rules": [
+"R-YT5"
+],
+"level": "high",
+"what": "수정일 Last updated 2026-11-12 → Last updated 2026-11-17 · 새 부분: November 16, 2026 · 없어진 부분: March 16, 2016"
+},
+{
+"source": "yt-api-videos",
+"rules": [
+"R-YT3",
+"R-YT5",
+"R-YT6"
+],
+"level": "high",
+"what": "수정일 Last updated 2026-11-12 → Last updated 2026-11-17 · 바뀐 부분: Properties"
+},
+{
+"source": "g-status",
+"rules": [
+"R-G3"
 ],
 "level": "mid",
-"what": "새 부분: Follow @Creators / Go Create · 없어진 부분: Follow us"
+"what": "바뀐 부분: 2021"
 },
 {
 "source": "th-api",
@@ -35,6 +69,56 @@
 ],
 "level": "mid",
 "what": "바뀐 부분: (첫 부분)"
+},
+{
+"source": "tool-cloudfront",
+"rules": [
+"R-T4"
+],
+"level": "mid",
+"what": "바뀐 부분: CloudFront flat-rate pricing plans / Pricing plan features / What happens when usage exceeds the allowance / Subscribe an existing distribution to a pricing plan / Cancel a pricing plan / Deleting a distribution with a pricing plan · 새 부분: Topics"
+},
+{
+"source": "tool-gh-actions",
+"rules": [
+"R-T5"
+],
+"level": "mid",
+"what": "바뀐 부분: GitHub Actions billing / How use of GitHub Actions is measured / Examples of how usage is measured / Paying for additional GitHub Actions use / Baseline minute costs · 새 부분: Copilot code review and GitHub Actions usage / Included compute usage and storage / Using more than your included compute usage / Example additional runner cost calculation · 없어진 부분: Copilot code review and GitHub Actions minutes / Free use of GitHub Actions / Using more than your included quota / Example minutes cost calculation for GitHub-hosted runners"
+},
+{
+"source": "x-pricing",
+"rules": [
+"R-X1"
+],
+"level": "mid",
+"what": "새 부분: Credit consumption details / Read operations / Write operations / Webhook events / Owned Reads / Deduplication · 없어진 부분: ​ Credit consumption details / ​ Read operations / ​ Write operations / ​ Webhook events / ​ Owned Reads / ​ Deduplication"
+},
+{
+"source": "naver-clip",
+"rules": [
+"R-NV4"
+],
+"level": "low",
+"what": "본문이 짧아 자동으로 읽지 못함(직접 확인·월요일 자료 점검이 원문 확인)"
+},
+{
+"source": "naver-terms",
+"rules": [
+"R-NV1",
+"R-NV2",
+"R-NV6"
+],
+"level": "low",
+"what": "robots.txt가 막아 열지 않음 → 직접 확인으로 다룸"
+},
+{
+"source": "yt-related",
+"rules": [
+"R-YT8"
+],
+"level": "low",
+"what": "처음 기록"
 }
 ],
 "sources": {
@@ -47,7 +131,7 @@
 "rules": [
 "R-YT1"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube channel monetization policies - YouTube Help",
@@ -149,7 +233,7 @@
 "slideshow": 1,
 "reused content": 11
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -162,7 +246,7 @@
 "rules": [
 "R-YT2"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Spam Policy - YouTube Help",
@@ -194,7 +278,7 @@
 "automat": 2,
 "strike": 4
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-10-24T06:19+09:00",
@@ -213,7 +297,7 @@
 "rules": [
 "R-YT3"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Disclosing use of GenAI content - Android phone & tablet - YouTube Help",
@@ -278,7 +362,7 @@
 "realistic": 14,
 "voice": 3
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [
 "altered or synthetic"
@@ -293,7 +377,7 @@
 "rules": [
 "R-YT4"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube Partner Program overview & eligibility - Computer - YouTube Help",
@@ -365,7 +449,7 @@
 "8,000": 0,
 "20 million": 0
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [
 "8,000",
@@ -381,7 +465,7 @@
 "rules": [
 "R-YT6"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Determining if your content is \"made for kids\" - YouTube Help",
@@ -414,7 +498,7 @@
 "made for kids": 21,
 "primary audience": 5
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -427,7 +511,7 @@
 "rules": [
 "R-YT7"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Sharing links with your audiences - YouTube Help",
@@ -460,7 +544,7 @@
 "clickable": 6,
 "link": 16
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -473,7 +557,7 @@
 "rules": [
 "R-YT5"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/reference/rest/v3/videos/insert?hl=en",
 "title": "Videos: insert  |  YouTube Data API  |  Google for Developers",
@@ -542,7 +626,7 @@
 "unverified": 1,
 "quota": 3
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [
 "audit"
@@ -557,13 +641,13 @@
 "rules": [
 "R-YT5"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/revision_history?hl=en",
 "title": "Revision History  |  YouTube Data API  |  Google for Developers",
-"updated": "Last updated 2026-11-12",
-"chars": 163131,
-"hash": "a56ef6028b01",
+"updated": "Last updated 2026-11-17",
+"chars": 164609,
+"hash": "ecab96535192",
 "sections": [
 [
 "(첫 부분)",
@@ -572,6 +656,10 @@
 [
 "Revision History Stay organized with collections Save and categorize content bas",
 "c9a94ad3385f"
+],
+[
+"November 16, 2026",
+"88adff6c639b"
 ],
 [
 "November 3, 2026",
@@ -880,46 +968,26 @@
 [
 "April 20, 2016",
 "f0e38f396711"
-],
-[
-"March 16, 2016",
-"c7d0ea58ac94"
 ]
 ],
 "watch": {
-"videos.insert": 29,
+"videos.insert": 30,
 "private": 19
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [],
-"changedAt": "2026-11-12T18:06+09:00",
+"changedAt": "2026-11-22T09:21+09:00",
 "changes": {
-"changed": [
-"November 3, 2026",
-"November 2, 2026",
-"October 15, 2026",
-"September 30, 2026",
-"September 14, 2026",
-"September 11, 2026",
-"September 1, 2026",
-"August 27, 2026",
-"August 6, 2026",
-"July 7, 2026",
-"June 23, 2026",
-"June 3, 2026",
-"June 1, 2026",
-"December 4, 2025",
-"July 10, 2025",
-"March 26, 2025",
-"October 30, 2024",
-"April 30, 2024",
-"March 13, 2024",
-"March 12, 2024"
+"added": [
+"November 16, 2026"
+],
+"removed": [
+"March 16, 2016"
 ],
 "updated": [
-"Last updated 2026-11-03",
-"Last updated 2026-11-10"
+"Last updated 2026-11-12",
+"Last updated 2026-11-17"
 ]
 }
 },
@@ -932,7 +1000,7 @@
 "rules": [
 "R-IG1"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Helping Creators Find New Audiences | Instagram for Creators | Instagram for Creators",
@@ -978,7 +1046,7 @@
 "aggregator": 5,
 "watermark": 1
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-11-15T08:55+09:00",
@@ -1001,7 +1069,7 @@
 "rules": [
 "R-IG2"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "https://developers.facebook.com/documentation/instagram-platform/content-publishing",
 "title": "",
@@ -1019,7 +1087,7 @@
 "24 hour": 1,
 "is_ai_generated": 3
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-11-06T22:06+09:00",
@@ -1038,27 +1106,27 @@
 "rules": [
 "R-TH1"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "https://developers.facebook.com/documentation/threads/posts",
 "title": "",
 "updated": "",
-"chars": 19111,
-"hash": "5c595f24c61b",
+"chars": 19209,
+"hash": "0f1fc2de31a9",
 "sections": [
 [
 "(첫 부분)",
-"5c595f24c61b"
+"0f1fc2de31a9"
 ]
 ],
 "watch": {
 "250": 1,
 "tester": 2
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [],
-"changedAt": "2026-11-15T08:55+09:00",
+"changedAt": "2026-11-22T09:21+09:00",
 "changes": {
 "changed": [
 "(첫 부분)"
@@ -1074,7 +1142,7 @@
 "rules": [
 "R-META1"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Our Approach to Labeling AI-Generated Content and Manipulated Media",
@@ -1096,7 +1164,7 @@
 "audio": 4,
 "Update": 4
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1109,7 +1177,7 @@
 "rules": [
 "R-TT1"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "https://developers.tiktok.com/docs/en/content-sharing-guidelines",
 "title": "Content Sharing Guidelines | TikTok for Developers",
@@ -1152,7 +1220,7 @@
 "internal": 1,
 "5 users": 1
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1165,7 +1233,7 @@
 "rules": [
 "R-TT2"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "https://www.tiktok.com/safety/en/policies-and-engagement/integrity-authenticity",
 "title": "Policies & engagement | TikTok",
@@ -1203,7 +1271,7 @@
 "label": 6,
 "unoriginal": 1
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1216,7 +1284,7 @@
 "rules": [
 "R-X1"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "X API pay-per-usage pricing and credits - X",
@@ -1245,63 +1313,63 @@
 "e432df3de126"
 ],
 [
-"​ Credit consumption details",
+"Credit consumption details",
 "898f39497164"
 ],
 [
-"​ Read operations",
+"Read operations",
 "44ecbb93bf63"
 ],
 [
-"​ Write operations",
+"Write operations",
 "9fb316cb250e"
 ],
 [
-"​ Webhook events",
+"Webhook events",
 "bd81f6dc0a0b"
 ],
 [
-"​ Owned Reads",
+"Owned Reads",
 "8562e92d0957"
 ],
 [
-"​ Deduplication",
+"Deduplication",
 "c329c9c97abf"
 ],
 [
-"​ Credit balance",
+"Credit balance",
 "38a5853b6354"
 ],
 [
-"​ Auto-recharge",
+"Auto-recharge",
 "1fe9269b5390"
 ],
 [
-"​ When the trigger fires",
+"When the trigger fires",
 "f24922eef28a"
 ],
 [
-"​ Auto-recharge safeguards",
+"Auto-recharge safeguards",
 "75a7215f5a45"
 ],
 [
-"​ Spending limits",
+"Spending limits",
 "e2ff314f7324"
 ],
 [
-"​ Free xAI API credits",
+"Free xAI API credits",
 "75a113a9e68d"
 ],
 [
-"​ How it works",
+"How it works",
 "17e9a28d3263"
 ],
 [
-"​ Example",
+"Example",
 "1bf6a994deb6"
 ],
 [
-"​ Monitoring usage",
+"Monitoring usage",
 "fe4ca751ec5b"
 ],
 [
@@ -1317,9 +1385,46 @@
 "Free": 7,
 "credits": 17
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [],
+"changedAt": "2026-11-22T09:21+09:00",
+"changes": {
+"added": [
+"Credit consumption details",
+"Read operations",
+"Write operations",
+"Webhook events",
+"Owned Reads",
+"Deduplication",
+"Credit balance",
+"Auto-recharge",
+"When the trigger fires",
+"Auto-recharge safeguards",
+"Spending limits",
+"Free xAI API credits",
+"How it works",
+"Example",
+"Monitoring usage"
+],
+"removed": [
+"​ Credit consumption details",
+"​ Read operations",
+"​ Write operations",
+"​ Webhook events",
+"​ Owned Reads",
+"​ Deduplication",
+"​ Credit balance",
+"​ Auto-recharge",
+"​ When the trigger fires",
+"​ Auto-recharge safeguards",
+"​ Spending limits",
+"​ Free xAI API credits",
+"​ How it works",
+"​ Example",
+"​ Monitoring usage"
+]
+}
 },
 "g-spam": {
 "name": "검색 스팸 정책(확장된 콘텐츠 악용·도어웨이)",
@@ -1330,7 +1435,7 @@
 "rules": [
 "R-G1"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Spam Policies for Google Web Search | Google Search Central  |  Documentation  |  Google for Developers",
@@ -1452,7 +1557,7 @@
 "doorway": 2,
 "site reputation abuse": 0
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [
 "site reputation abuse"
@@ -1467,7 +1572,7 @@
 "rules": [
 "R-G2"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Google Search's Guidance on Generative AI Content on Your Website | Google Search Central  |  Documentation  |  Google f",
@@ -1497,7 +1602,7 @@
 "scaled content abuse": 2,
 "metadata": 4
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1510,7 +1615,7 @@
 "rules": [
 "R-G2"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Creating Helpful, Reliable, People-First Content | Google Search Central  |  Documentation  |  Google for Developers",
@@ -1585,7 +1690,7 @@
 "Why": 6,
 "automation": 8
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1598,13 +1703,13 @@
 "rules": [
 "R-G3"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "History for Ranking | Google Search Status Dashboard",
 "updated": "",
-"chars": 4206,
-"hash": "ae32582883cd",
+"chars": 4134,
+"hash": "c6a70eae0297",
 "sections": [
 [
 "(첫 부분)",
@@ -1636,20 +1741,20 @@
 ],
 [
 "2021",
-"5694b74245a1"
+"1a87ddd4b681"
 ]
 ],
 "watch": {
 "spam update": 22,
-"core update": 34
+"core update": 32
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [],
-"changedAt": "2026-11-12T18:06+09:00",
+"changedAt": "2026-11-22T09:21+09:00",
 "changes": {
 "changed": [
-"2026"
+"2021"
 ]
 }
 },
@@ -1664,8 +1769,8 @@
 "R-NV2",
 "R-NV6"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
-"status": "ok",
+"checkedAt": "2026-11-22T09:21+09:00",
+"status": "robots",
 "final": "",
 "title": "이용약관",
 "updated": "",
@@ -1772,7 +1877,7 @@
 "R-NV3",
 "R-NV5"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "웹 검색 미노출 - 네이버 서치어드바이저",
@@ -1810,7 +1915,7 @@
 "품질": 1,
 "자동": 0
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [
 "자동"
@@ -1825,8 +1930,8 @@
 "rules": [
 "R-NV4"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
-"status": "ok",
+"checkedAt": "2026-11-22T09:21+09:00",
+"status": "thin",
 "final": "",
 "title": "등록 예약/비공개 예약 안내 : 클립 고객센터",
 "updated": "",
@@ -1992,26 +2097,37 @@
 "rules": [
 "R-T1"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "",
 "updated": "",
-"chars": 8383,
-"hash": "e8e8a3c8c9c4",
+"chars": 7638,
+"hash": "5672aaae80b7",
 "sections": [
 [
 "(첫 부분)",
-"e8e8a3c8c9c4"
+"5672aaae80b7"
 ]
 ],
 "watch": {
-"commercial": 6,
-"Hobby": 2
+"commercial": 0,
+"Hobby": 4
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [
+"commercial"
+],
+"changedAt": "2026-11-22T09:21+09:00",
+"changes": {
+"changed": [
+"(첫 부분)"
+],
+"lost": [
+"commercial"
+]
+}
 },
 "tool-ghpages": {
 "name": "GitHub Pages 한도(상업 이용 금지)",
@@ -2022,7 +2138,7 @@
 "rules": [
 "R-T2"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "GitHub Pages limits - GitHub Docs",
@@ -2051,7 +2167,7 @@
 "commercial": 2,
 "business": 1
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -2064,13 +2180,13 @@
 "rules": [
 "R-T3"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Limits · Cloudflare Pages docs",
-"updated": "Last updated Sep 5, 2026",
-"chars": 3074,
-"hash": "d6bde7063a10",
+"updated": "Last updated Nov 19, 2026",
+"chars": 4044,
+"hash": "5fd11b1f9628",
 "sections": [
 [
 "(첫 부분)",
@@ -2083,6 +2199,10 @@
 [
 "Custom domains",
 "a4d99bd5f01c"
+],
+[
+"Deployments",
+"49bf7a6259e4"
 ],
 [
 "Files",
@@ -2102,7 +2222,7 @@
 ],
 [
 "Preview deployments",
-"6aef14b2638d"
+"18b8996912b8"
 ],
 [
 "Redirects",
@@ -2126,9 +2246,22 @@
 "20,000": 2,
 "25 MiB": 1
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [],
+"changedAt": "2026-11-22T09:21+09:00",
+"changes": {
+"changed": [
+"Preview deployments"
+],
+"added": [
+"Deployments"
+],
+"updated": [
+"Last updated Sep 5, 2026",
+"Last updated Nov 19, 2026"
+]
+}
 },
 "tool-cloudfront": {
 "name": "CloudFront 정액제 문서",
@@ -2139,13 +2272,13 @@
 "rules": [
 "R-T4"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "CloudFront flat-rate pricing plans - Amazon CloudFront",
 "updated": "",
-"chars": 37311,
-"hash": "d21ad0638525",
+"chars": 37457,
+"hash": "752363cf4cd9",
 "sections": [
 [
 "(첫 부분)",
@@ -2153,7 +2286,11 @@
 ],
 [
 "CloudFront flat-rate pricing plans",
-"76192c5be061"
+"e8b466afda19"
+],
+[
+"Topics",
+"afd5d2cabe84"
 ],
 [
 "Benefits of CloudFront flat-rate pricing plans",
@@ -2165,7 +2302,7 @@
 ],
 [
 "Pricing plan features",
-"628b8cfad5a9"
+"252044df5091"
 ],
 [
 "Monthly usage allowances",
@@ -2177,7 +2314,7 @@
 ],
 [
 "What happens when usage exceeds the allowance",
-"833e4ca58adf"
+"169984212ad1"
 ],
 [
 "Configurable usage allowances on the Premium plan",
@@ -2217,7 +2354,7 @@
 ],
 [
 "Subscribe an existing distribution to a pricing plan",
-"aacb267cf1f1"
+"e53b0d3118bb"
 ],
 [
 "Upgrade a pricing plan",
@@ -2233,7 +2370,7 @@
 ],
 [
 "Cancel a pricing plan",
-"6dbb073a1447"
+"54f741e44355"
 ],
 [
 "Cancel a pending plan change",
@@ -2241,7 +2378,7 @@
 ],
 [
 "Deleting a distribution with a pricing plan",
-"45f8964d81a2"
+"2eaaab4d3e4f"
 ],
 [
 "Permissions",
@@ -2253,7 +2390,7 @@
 ],
 [
 "Unsupported features",
-"f7d7642b4982"
+"178885341b36"
 ],
 [
 "Unsupported features",
@@ -2284,9 +2421,24 @@
 "Free": 16,
 "100 GB": 1
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [],
+"changedAt": "2026-11-22T09:21+09:00",
+"changes": {
+"changed": [
+"CloudFront flat-rate pricing plans",
+"Pricing plan features",
+"What happens when usage exceeds the allowance",
+"Subscribe an existing distribution to a pricing plan",
+"Cancel a pricing plan",
+"Deleting a distribution with a pricing plan",
+"Unsupported features"
+],
+"added": [
+"Topics"
+]
+}
 },
 "tool-gh-actions": {
 "name": "GitHub Actions 과금(비공개 저장소 무료 한도)",
@@ -2297,25 +2449,25 @@
 "rules": [
 "R-T5"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "GitHub Actions billing - GitHub Docs",
 "updated": "",
-"chars": 11239,
-"hash": "3263faae4a1b",
+"chars": 12629,
+"hash": "dba8347219ee",
 "sections": [
 [
 "GitHub Actions billing",
-"54ecc72e2974"
+"067422309aad"
 ],
 [
 "How use of GitHub Actions is measured",
-"e50392c48ea5"
+"e72e7efeb3c4"
 ],
 [
-"Copilot code review and GitHub Actions minutes",
-"f5d8eac5b302"
+"Copilot code review and GitHub Actions usage",
+"607624545c26"
 ],
 [
 "How storage billing works",
@@ -2335,31 +2487,31 @@
 ],
 [
 "Examples of how usage is measured",
-"315109f8394b"
+"80facbb5cf4e"
 ],
 [
-"Free use of GitHub Actions",
-"76058302b4a5"
+"Included compute usage and storage",
+"1b51a2c11f54"
 ],
 [
-"Using more than your included quota",
-"b7ff2f8164d7"
+"Using more than your included compute usage",
+"68f6ae8001bb"
 ],
 [
 "Paying for additional GitHub Actions use",
-"5740604073c6"
+"809751c87c1f"
 ],
 [
 "Baseline minute costs",
-"d1a7f17ad926"
+"e6006279dee5"
 ],
 [
 "Storage pricing",
 "d6a762dd3f10"
 ],
 [
-"Example minutes cost calculation for GitHub-hosted runners",
-"aaf9d0a5f98b"
+"Example additional runner cost calculation",
+"c8809ff79273"
 ],
 [
 "Example artifact storage cost calculation",
@@ -2379,13 +2531,35 @@
 ]
 ],
 "watch": {
-"2,000": 4,
-"public repositories": 5,
-"free": 11
+"2,000": 2,
+"public repositories": 6,
+"free": 8
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [],
+"changedAt": "2026-11-22T09:21+09:00",
+"changes": {
+"changed": [
+"GitHub Actions billing",
+"How use of GitHub Actions is measured",
+"Examples of how usage is measured",
+"Paying for additional GitHub Actions use",
+"Baseline minute costs"
+],
+"added": [
+"Copilot code review and GitHub Actions usage",
+"Included compute usage and storage",
+"Using more than your included compute usage",
+"Example additional runner cost calculation"
+],
+"removed": [
+"Copilot code review and GitHub Actions minutes",
+"Free use of GitHub Actions",
+"Using more than your included quota",
+"Example minutes cost calculation for GitHub-hosted runners"
+]
+}
 },
 "tool-eleven": {
 "name": "ElevenLabs 이용약관·요금제별 상업 이용",
@@ -2416,7 +2590,7 @@
 "rules": [
 "R-G5"
 ],
-"checkedAt": "2026-10-23T06:47+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "How to Specify a Canonical with rel=\"canonical\" and Other Methods | Google Search Central  |  Documentation  |  Google f",
@@ -2482,7 +2656,7 @@
 "duplicate": 14,
 "noindex": 1
 },
-"lastOk": "2026-10-23T06:47+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -2495,7 +2669,7 @@
 "rules": [
 "R-G4"
 ],
-"checkedAt": "2026-10-23T06:47+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Block Search Indexing with noindex | Google Search Central  |  Documentation  |  Google for Developers",
@@ -2532,7 +2706,7 @@
 "noindex": 20,
 "robots.txt": 3
 },
-"lastOk": "2026-10-23T06:47+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -2565,11 +2739,40 @@
 "rules": [
 "R-YT8"
 ],
-"checkedAt": "2026-10-24T06:19+09:00",
-"status": "error",
+"checkedAt": "2026-11-22T09:21+09:00",
+"status": "ok",
 "final": "",
-"failStreak": 1,
-"error": "HTTPSConnectionPool(host='support.google.com', port=443): Read timed out. (read timeout=30)"
+"failStreak": 0,
+"error": "HTTPSConnectionPool(host='support.google.com', port=443): Read timed out. (read timeout=30)",
+"title": "Add a related video to your YouTube Shorts - YouTube Help",
+"updated": "",
+"chars": 819,
+"hash": "6a647c05ab7d",
+"sections": [
+[
+"Add a related video to your YouTube Shorts",
+"ba2d2ae3f936"
+],
+[
+"Add a related video",
+"f1651ce16042"
+],
+[
+"How viewers can interact with your related video",
+"d8e0fb5afc7d"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"Related Video": 5,
+"from your channel": 1,
+"advanced feature": 1
+},
+"lastOk": "2026-11-22T09:21+09:00",
+"watchMissing": []
 },
 "yt-chapters": {
 "name": "동영상 챕터(00:00·3개 이상·10초 이상)",
@@ -2580,7 +2783,7 @@
 "rules": [
 "R-YT9"
 ],
-"checkedAt": "2026-10-24T06:19+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Video Chapters - YouTube Help",
@@ -2618,7 +2821,7 @@
 "three": 1,
 "10 seconds": 1
 },
-"lastOk": "2026-10-24T06:19+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -2631,7 +2834,7 @@
 "rules": [
 "R-YT10"
 ],
-"checkedAt": "2026-10-24T06:19+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Find playlists & videos using hashtags - YouTube Help",
@@ -2661,7 +2864,7 @@
 "60": 1,
 "Misleading": 4
 },
-"lastOk": "2026-10-24T06:19+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -2674,7 +2877,7 @@
 "rules": [
 "R-YT11"
 ],
-"checkedAt": "2026-10-24T06:19+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Customize your Premiere - YouTube Help",
@@ -2708,7 +2911,7 @@
 "Two minutes": 1,
 "live chat": 2
 },
-"lastOk": "2026-10-24T06:19+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -2721,7 +2924,7 @@
 "rules": [
 "R-YT12"
 ],
-"checkedAt": "2026-10-24T06:19+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Reply to comments with your YouTube Shorts - Android phone & tablet - YouTube Help",
@@ -2750,7 +2953,7 @@
 "sticker": 4,
 "commenter": 1
 },
-"lastOk": "2026-10-24T06:19+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -2763,7 +2966,7 @@
 "rules": [
 "R-YT13"
 ],
-"checkedAt": "2026-10-24T06:19+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Terms of Service",
@@ -2852,7 +3055,7 @@
 "download": 5,
 "automated means": 1
 },
-"lastOk": "2026-10-24T06:19+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -2866,7 +3069,7 @@
 "R-YT14",
 "R-YT15"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube API Services - Developer Policies  |  Google for Developers",
@@ -2950,7 +3153,7 @@
 "independently calculated": 1,
 "30 days": 7
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [
 "Last updated"
@@ -2987,13 +3190,13 @@
 "R-YT5",
 "R-YT6"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/reference/rest/v3/videos?hl=en",
 "title": "Videos  |  YouTube Data API  |  Google for Developers",
-"updated": "Last updated 2026-11-12",
-"chars": 58830,
-"hash": "1298634bae9b",
+"updated": "Last updated 2026-11-17",
+"chars": 59067,
+"hash": "05980339d27f",
 "sections": [
 [
 "(첫 부분)",
@@ -3013,7 +3216,7 @@
 ],
 [
 "Properties",
-"a0bce740675f"
+"cc84ae794e8b"
 ]
 ],
 "watch": {
@@ -3021,11 +3224,21 @@
 "selfDeclaredMadeForKids": 3,
 "defaults to public": 0
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [
 "defaults to public"
+],
+"changedAt": "2026-11-22T09:21+09:00",
+"changes": {
+"changed": [
+"Properties"
+],
+"updated": [
+"Last updated 2026-11-12",
+"Last updated 2026-11-17"
 ]
+}
 },
 "yt-api-tos": {
 "name": "YouTube API 서비스 약관(9.1 업로드 화면 안내문 · 2.3 바뀐 약관은 30일 뒤 효력)",
@@ -3036,7 +3249,7 @@
 "rules": [
 "R-YT15"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube API Services Terms of Service  |  Google for Developers",
@@ -3160,7 +3373,7 @@
 "watch": {
 "Last updated": 0
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [
 "Last updated"
@@ -3181,7 +3394,7 @@
 "rules": [
 "R-YT5"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/guides/quota_and_compliance_audits?hl=en",
 "title": "Quota and Compliance Audits  |  YouTube Data API  |  Google for Developers",
@@ -3221,7 +3434,7 @@
 "watch": {
 "100 videos.insert": 0
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [
 "100 videos.insert"
@@ -3251,7 +3464,7 @@
 "rules": [
 "R-YT6"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Set your channel or video’s audience - Computer - YouTube Help",
@@ -3303,7 +3516,7 @@
 "watch": {
 "override the channel setting": 1
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3316,7 +3529,7 @@
 "rules": [
 "R-YT17"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Understand three-minute YouTube Shorts - YouTube Help",
@@ -3369,7 +3582,7 @@
 "three minutes": 4,
 "blocked globally": 2
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3382,11 +3595,11 @@
 "rules": [
 "R-YT16"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
-"updated": "Last updated 2026-10-29",
+"updated": "Last updated 2026-11-19",
 "chars": 16052,
 "hash": "32765896489c",
 "sections": [
@@ -3466,7 +3679,7 @@
 "watch": {
 "expiring in 7 days": 1
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3479,7 +3692,7 @@
 "rules": [
 "R-YT2"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Community Guidelines strike basics on YouTube - YouTube Help",
@@ -3528,7 +3741,7 @@
 "warning": 9,
 "90 days": 5
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3541,7 +3754,7 @@
 "rules": [
 "R-YT3"
 ],
-"checkedAt": "2026-11-15T08:55+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
 "title": "Improving AI labels for viewers and creators\n            \n          \n           - YouTube Blog",
@@ -3582,7 +3795,7 @@
 "Shorts": 1,
 "label": 9
 },
-"lastOk": "2026-11-15T08:55+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3996,7 +4209,7 @@
 "rules": [
 "R-M2"
 ],
-"checkedAt": "2026-10-24T06:53+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "",
 "title": "Ad placement policies - Google AdSense Help",
@@ -4086,7 +4299,7 @@
 "Advertisements": 2,
 "Sponsored Links": 1
 },
-"lastOk": "2026-10-24T06:53+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -4109,7 +4322,7 @@
 "rules": [
 "R-T8"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-11-22T09:21+09:00",
 "status": "ok",
 "final": "https://www.goatcounter.com/help/terms",
 "title": "GoatCounter documentation",
@@ -4151,7 +4364,7 @@
 "Commercial": 0,
 "reasonable": 1
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-11-22T09:21+09:00",
 "failStreak": 0,
 "watchMissing": [
 "Commercial"

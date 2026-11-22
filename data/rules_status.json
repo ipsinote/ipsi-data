@@ -1,122 +1,64 @@
 {
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-23T08:59+09:00",
 "registry": {
-"updated": "2026-11-04",
+"updated": "2026-11-23",
 "rules": 60,
-"sources": 71
+"sources": 78
 },
 "run": {
-"auto": 53,
-"opened": 46,
-"ok": 44,
-"robots": 1,
+"auto": 60,
+"opened": 7,
+"ok": 6,
+"robots": 0,
 "failed": 0,
 "thin": 1,
-"notDue": 7
+"notDue": 53
 },
 "summary": {
-"high": 4,
-"mid": 5,
-"low": 3
+"high": 0,
+"mid": 0,
+"low": 7
 },
 "events": [
 {
-"source": "tool-cf",
-"rules": [
-"R-T3"
-],
-"level": "high",
-"what": "수정일 Last updated Sep 5, 2026 → Last updated Nov 19, 2026 · 바뀐 부분: Preview deployments · 새 부분: Deployments"
+"source": "ai-code-changelog",
+"rules": [],
+"level": "low",
+"what": "처음 기록"
 },
 {
-"source": "tool-vercel",
-"rules": [
-"R-T1"
-],
-"level": "high",
-"what": "감시 낱말이 사라짐: commercial · 바뀐 부분: (첫 부분)"
+"source": "ai-code-whatsnew",
+"rules": [],
+"level": "low",
+"what": "처음 기록"
 },
 {
-"source": "yt-api-rev",
-"rules": [
-"R-YT5"
-],
-"level": "high",
-"what": "수정일 Last updated 2026-11-12 → Last updated 2026-11-17 · 새 부분: November 16, 2026 · 없어진 부분: March 16, 2016"
+"source": "ai-deprecations",
+"rules": [],
+"level": "low",
+"what": "처음 기록"
 },
 {
-"source": "yt-api-videos",
-"rules": [
-"R-YT3",
-"R-YT5",
-"R-YT6"
-],
-"level": "high",
-"what": "수정일 Last updated 2026-11-12 → Last updated 2026-11-17 · 바뀐 부분: Properties"
-},
-{
-"source": "g-status",
-"rules": [
-"R-G3"
-],
-"level": "mid",
-"what": "바뀐 부분: 2021"
-},
-{
-"source": "th-api",
-"rules": [
-"R-TH1"
-],
-"level": "mid",
-"what": "바뀐 부분: (첫 부분)"
-},
-{
-"source": "tool-cloudfront",
-"rules": [
-"R-T4"
-],
-"level": "mid",
-"what": "바뀐 부분: CloudFront flat-rate pricing plans / Pricing plan features / What happens when usage exceeds the allowance / Subscribe an existing distribution to a pricing plan / Cancel a pricing plan / Deleting a distribution with a pricing plan · 새 부분: Topics"
-},
-{
-"source": "tool-gh-actions",
-"rules": [
-"R-T5"
-],
-"level": "mid",
-"what": "바뀐 부분: GitHub Actions billing / How use of GitHub Actions is measured / Examples of how usage is measured / Paying for additional GitHub Actions use / Baseline minute costs · 새 부분: Copilot code review and GitHub Actions usage / Included compute usage and storage / Using more than your included compute usage / Example additional runner cost calculation · 없어진 부분: Copilot code review and GitHub Actions minutes / Free use of GitHub Actions / Using more than your included quota / Example minutes cost calculation for GitHub-hosted runners"
-},
-{
-"source": "x-pricing",
-"rules": [
-"R-X1"
-],
-"level": "mid",
-"what": "새 부분: Credit consumption details / Read operations / Write operations / Webhook events / Owned Reads / Deduplication · 없어진 부분: ​ Credit consumption details / ​ Read operations / ​ Write operations / ​ Webhook events / ​ Owned Reads / ​ Deduplication"
-},
-{
-"source": "naver-clip",
-"rules": [
-"R-NV4"
-],
+"source": "ai-migration",
+"rules": [],
 "level": "low",
 "what": "본문이 짧아 자동으로 읽지 못함(직접 확인·월요일 자료 점검이 원문 확인)"
 },
 {
-"source": "naver-terms",
-"rules": [
-"R-NV1",
-"R-NV2",
-"R-NV6"
-],
+"source": "ai-models",
+"rules": [],
 "level": "low",
-"what": "robots.txt가 막아 열지 않음 → 직접 확인으로 다룸"
+"what": "처음 기록"
 },
 {
-"source": "yt-related",
-"rules": [
-"R-YT8"
-],
+"source": "ai-relnotes-app",
+"rules": [],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "ai-relnotes-platform",
+"rules": [],
 "level": "low",
 "what": "처음 기록"
 }
@@ -4369,6 +4311,848 @@
 "watchMissing": [
 "Commercial"
 ]
+},
+"ai-relnotes-app": {
+"name": "claude.ai 앱 변경 기록(프로젝트·메모리·예약·아티팩트·스킬)",
+"owner": "Anthropic",
+"url": "https://support.claude.com/en/articles/12138966-release-notes",
+"method": "auto",
+"cycle": "w",
+"rules": [],
+"checkedAt": "2026-11-23T08:59+09:00",
+"status": "ok",
+"final": "",
+"title": "Release notes | Claude Help Center",
+"updated": "",
+"chars": 31358,
+"hash": "b211e2eb7ffd",
+"sections": [
+[
+"November 20, 2026",
+"a5e49ca58cfc"
+],
+[
+"November 17, 2026",
+"49422e0c615b"
+],
+[
+"November 12, 2026",
+"8bce5ddd173f"
+],
+[
+"November 6, 2026",
+"221947825859"
+],
+[
+"November 5, 2026",
+"764c27795786"
+],
+[
+"October 21, 2026",
+"3d62a43ccc81"
+],
+[
+"October 7, 2026",
+"ac4240a7eaf9"
+],
+[
+"September 28, 2026",
+"b9fd553cb3b0"
+],
+[
+"September 25, 2026",
+"3ea3ee7b491b"
+],
+[
+"September 22, 2026",
+"e296fc88ceca"
+],
+[
+"September 16, 2026",
+"9038fcd4bb3d"
+],
+[
+"September 15, 2026",
+"e5cc3ce8b961"
+],
+[
+"September 10, 2026",
+"51ac1d0cee34"
+],
+[
+"September 1, 2026",
+"222d61c44f60"
+],
+[
+"August 25, 2026",
+"5b4aca934662"
+],
+[
+"August 6, 2026",
+"c0afff3aabbf"
+],
+[
+"July 24, 2026",
+"ba4d7241161e"
+],
+[
+"July 14, 2026",
+"e5fda9b0875b"
+],
+[
+"July 10, 2026",
+"63cb7d83b10a"
+],
+[
+"July 9, 2026",
+"181cda098dc7"
+],
+[
+"July 7, 2026",
+"d7a000185294"
+],
+[
+"July 1, 2026",
+"9b5846f432f3"
+],
+[
+"June 30, 2026",
+"a28c4363a736"
+],
+[
+"June 25, 2026",
+"f9ba5830430b"
+],
+[
+"June 23, 2026",
+"a733963f8741"
+],
+[
+"June 12, 2026",
+"f25de40ec664"
+],
+[
+"June 9, 2026",
+"01157f6c6a8f"
+],
+[
+"June 2, 2026",
+"4ceed4ae7503"
+],
+[
+"May 28, 2026",
+"97b1f1bc26a7"
+],
+[
+"May 21, 2026",
+"ea51031af2f2"
+],
+[
+"April 17, 2026",
+"2d6255968037"
+],
+[
+"April 16, 2026",
+"276275887fc8"
+],
+[
+"April 9, 2026",
+"4799b1ccf6f4"
+],
+[
+"March 25, 2026",
+"159b1c087037"
+],
+[
+"March 23, 2026",
+"95e54d029a08"
+],
+[
+"March 17, 2026",
+"5754ccbc2580"
+],
+[
+"March 12, 2026",
+"7bd26c6b40d3"
+],
+[
+"March 11, 2026",
+"73700987c093"
+],
+[
+"March 2, 2026",
+"ea6831fa0119"
+],
+[
+"February 25, 2026",
+"ed31776a5f9e"
+],
+[
+"February 24, 2026",
+"80a8f157d6f5"
+],
+[
+"February 17, 2026",
+"72f64553bd09"
+],
+[
+"February 13, 2026",
+"2c62d8b081c0"
+],
+[
+"February 12, 2026",
+"788ccdbf1f78"
+],
+[
+"February 5, 2026",
+"3824b3a47537"
+],
+[
+"January 16, 2026",
+"5f272c4825cd"
+],
+[
+"January 12, 2026",
+"27ff7978b99b"
+],
+[
+"December 18, 2025",
+"5d15ac004f09"
+],
+[
+"November 24, 2025",
+"b2c23e0307f1"
+],
+[
+"October 23, 2025",
+"70114acbc155"
+],
+[
+"October 15, 2025",
+"50b6f99996ca"
+],
+[
+"September 29, 2025",
+"4e083697e849"
+],
+[
+"September 18, 2025",
+"a25b24a5c588"
+],
+[
+"September 16, 2025",
+"783f0992a8d5"
+],
+[
+"September 11, 2025",
+"68b8543478dd"
+],
+[
+"September 9, 2025",
+"c929e61c7722"
+],
+[
+"September 3, 2025",
+"8ac845a379d0"
+],
+[
+"August 27, 2025",
+"eedea4fee45b"
+],
+[
+"August 26, 2025",
+"8bdd04f16bb3"
+],
+[
+"August 21, 2025",
+"4d1262893ef3"
+],
+[
+"August 20, 2025",
+"76db2fca7054"
+],
+[
+"August 15, 2025",
+"6c8e273f52bd"
+],
+[
+"August 12, 2025",
+"a533195b3159"
+],
+[
+"August 11, 2025",
+"e7c73534197c"
+],
+[
+"August 6, 2025",
+"9ff908f1014d"
+],
+[
+"August 5, 2025",
+"c88a09337519"
+],
+[
+"August 1, 2025",
+"206d02cecb54"
+]
+],
+"watch": {},
+"lastOk": "2026-11-23T08:59+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"ai-relnotes-platform": {
+"name": "개발자 플랫폼 변경 기록(모델·스킬·도구·컨텍스트)",
+"owner": "Anthropic",
+"url": "https://platform.claude.com/docs/en/release-notes/overview",
+"method": "auto",
+"cycle": "w",
+"rules": [],
+"checkedAt": "2026-11-23T08:59+09:00",
+"status": "ok",
+"final": "",
+"title": "Claude Platform release notes - Claude Platform Docs",
+"updated": "",
+"chars": 98461,
+"hash": "1b618ac132f8",
+"sections": [
+[
+"(첫 부분)",
+"b35f05f7a7fd"
+],
+[
+"November 17, 2026",
+"8b7edffacb3a"
+],
+[
+"November 16, 2026",
+"aa60aa8ae904"
+],
+[
+"November 12, 2026",
+"2c79eb047ae8"
+],
+[
+"November 9, 2026",
+"057b4d5f6350"
+],
+[
+"November 5, 2026",
+"9e50f43519d9"
+],
+[
+"November 3, 2026",
+"145866e75150"
+],
+[
+"November 2, 2026",
+"db37cee40740"
+],
+[
+"October 30, 2026",
+"b0e37d7cb3eb"
+],
+[
+"October 29, 2026",
+"03c8509f0aab"
+],
+[
+"October 28, 2026",
+"bfde48240702"
+],
+[
+"October 23, 2026",
+"a8870fb9809b"
+],
+[
+"October 22, 2026",
+"9d790f2c780c"
+],
+[
+"October 21, 2026",
+"15370e434fe5"
+],
+[
+"October 20, 2026",
+"d60e64b244a6"
+],
+[
+"October 15, 2026",
+"d464408a3693"
+],
+[
+"October 14, 2026",
+"9b0a9b5d939b"
+],
+[
+"October 9, 2026",
+"ada79e1921c1"
+],
+[
+"October 8, 2026",
+"0dc0fc34a5ca"
+],
+[
+"October 7, 2026",
+"4b1f4d291cce"
+],
+[
+"October 6, 2026",
+"a0f42257fd71"
+],
+[
+"October 5, 2026",
+"de26bed50ab6"
+],
+[
+"October 1, 2026",
+"18e5fe36265a"
+],
+[
+"September 30, 2026",
+"292442bfbba3"
+],
+[
+"September 28, 2026",
+"ff94e0ece0f9"
+],
+[
+"September 24, 2026",
+"77853616512d"
+],
+[
+"September 23, 2026",
+"bb972ea316b2"
+],
+[
+"September 22, 2026",
+"5124e2bf92b1"
+],
+[
+"September 18, 2026",
+"7243785fbe1d"
+],
+[
+"September 14, 2026",
+"38ea6ae004b6"
+],
+[
+"September 10, 2026",
+"b30c571dd924"
+],
+[
+"September 9, 2026",
+"49cec538a091"
+],
+[
+"September 3, 2026",
+"66897358b335"
+],
+[
+"September 1, 2026",
+"e00f4b5cce7c"
+],
+[
+"August 27, 2026",
+"4064b6e78e9c"
+],
+[
+"August 26, 2026",
+"b9d4f18f5e93"
+],
+[
+"August 20, 2026",
+"4ba4d52fcf5f"
+],
+[
+"August 19, 2026",
+"186ebb15846f"
+],
+[
+"August 18, 2026",
+"6dd4b6b1fa28"
+],
+[
+"August 11, 2026",
+"a53eb5e7d700"
+],
+[
+"August 10, 2026",
+"8d4158e379eb"
+],
+[
+"August 7, 2026",
+"02fcb227633b"
+],
+[
+"August 5, 2026",
+"bed58192b1cd"
+],
+[
+"August 3, 2026",
+"381ea8520c59"
+],
+[
+"August 1, 2026",
+"7af882eb4293"
+],
+[
+"July 24, 2026",
+"3f8c77d9e5a9"
+],
+[
+"July 22, 2026",
+"3be789482f4c"
+],
+[
+"July 17, 2026",
+"9b6c8b08abe5"
+],
+[
+"July 15, 2026",
+"119651bd9163"
+],
+[
+"July 14, 2026",
+"028ea8bd6606"
+],
+[
+"July 10, 2026",
+"5167d926d92d"
+],
+[
+"July 8, 2026",
+"5fdb121a0095"
+],
+[
+"July 2, 2026",
+"e68016daea7e"
+],
+[
+"July 1, 2026",
+"564d8b9df116"
+],
+[
+"June 30, 2026",
+"43f46595a8aa"
+],
+[
+"June 29, 2026",
+"dcb19dcc8f37"
+],
+[
+"June 26, 2026",
+"c91c4a22a44f"
+],
+[
+"June 25, 2026",
+"72f49c954fa9"
+],
+[
+"June 22, 2026",
+"0fefd4de7de4"
+],
+[
+"June 18, 2026",
+"6f15a81cef1f"
+],
+[
+"June 15, 2026",
+"7ff0cff1b1c6"
+],
+[
+"June 11, 2026",
+"4f02a6a4589b"
+],
+[
+"June 10, 2026",
+"ca035aa18a5b"
+],
+[
+"June 9, 2026",
+"b40fb148d0bf"
+],
+[
+"June 5, 2026",
+"d1f8c5eb7d5e"
+],
+[
+"June 2, 2026",
+"f678f502f4af"
+],
+[
+"May 29, 2026",
+"ea71b5a0ffdb"
+],
+[
+"May 28, 2026",
+"124ef8bada51"
+],
+[
+"May 27, 2026",
+"a81b6d87cd4c"
+],
+[
+"May 19, 2026",
+"7585fe9b1d06"
+],
+[
+"May 18, 2026",
+"76d5788c40b0"
+],
+[
+"May 13, 2026",
+"80fbb5f7c03c"
+],
+[
+"May 12, 2026",
+"9f745dc34a8c"
+],
+[
+"May 11, 2026",
+"8e2fa5345261"
+],
+[
+"May 6, 2026",
+"6bc6cb951721"
+],
+[
+"May 4, 2026",
+"6812abdc7a0f"
+],
+[
+"April 30, 2026",
+"79f40421544a"
+],
+[
+"April 29, 2026",
+"23786b945235"
+],
+[
+"April 24, 2026",
+"f753b04c04f7"
+],
+[
+"April 23, 2026",
+"d84ab0ce3424"
+]
+],
+"watch": {},
+"lastOk": "2026-11-23T08:59+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"ai-code-changelog": {
+"name": "Claude Code 변경 기록(예약·클라우드 세션·스킬·hooks·아티팩트)",
+"owner": "Anthropic",
+"url": "https://code.claude.com/docs/en/changelog",
+"method": "auto",
+"cycle": "w",
+"rules": [],
+"checkedAt": "2026-11-23T08:59+09:00",
+"status": "ok",
+"final": "",
+"title": "Claude Code changelog - Claude Code Docs",
+"updated": "",
+"chars": 1355253,
+"hash": "b95009ce2fa0",
+"sections": [
+[
+"(첫 부분)",
+"b95009ce2fa0"
+]
+],
+"watch": {},
+"lastOk": "2026-11-23T08:59+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"ai-code-whatsnew": {
+"name": "Claude Code 주간 요약",
+"owner": "Anthropic",
+"url": "https://code.claude.com/docs/en/whats-new",
+"method": "auto",
+"cycle": "w",
+"rules": [],
+"checkedAt": "2026-11-23T08:59+09:00",
+"status": "ok",
+"final": "",
+"title": "What's new - Claude Code Docs",
+"updated": "",
+"chars": 12729,
+"hash": "0b4d5e8f4b17",
+"sections": [
+[
+"(첫 부분)",
+"0b4d5e8f4b17"
+]
+],
+"watch": {},
+"lastOk": "2026-11-23T08:59+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"ai-models": {
+"name": "지금 모델 목록·권장",
+"owner": "Anthropic",
+"url": "https://platform.claude.com/docs/en/models/overview",
+"method": "auto",
+"cycle": "w",
+"rules": [],
+"checkedAt": "2026-11-23T08:59+09:00",
+"status": "ok",
+"final": "",
+"title": "Models overview - Claude Platform Docs",
+"updated": "",
+"chars": 8858,
+"hash": "dfecf601767a",
+"sections": [
+[
+"(첫 부분)",
+"26cae0c61389"
+],
+[
+"Latest models",
+"38baad40c2d2"
+],
+[
+"All models",
+"008a2fc4414e"
+],
+[
+"Using the Models API",
+"8e7d18a02b18"
+],
+[
+"Prompt and output performance",
+"463f7bf7765d"
+],
+[
+"Get started with Claude",
+"260364ecfd1a"
+]
+],
+"watch": {
+"claude-opus-5-5": 7
+},
+"lastOk": "2026-11-23T08:59+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"ai-deprecations": {
+"name": "모델 은퇴 일정",
+"owner": "Anthropic",
+"url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+"method": "auto",
+"cycle": "w",
+"rules": [],
+"checkedAt": "2026-11-23T08:59+09:00",
+"status": "ok",
+"final": "",
+"title": "Model deprecations - Claude Platform Docs",
+"updated": "",
+"chars": 9573,
+"hash": "f92128f0f1e0",
+"sections": [
+[
+"(첫 부분)",
+"a1a7a68bc3ba"
+],
+[
+"Overview",
+"1e5c6d441b69"
+],
+[
+"Migrating to replacements",
+"94807250e0d0"
+],
+[
+"Notifications",
+"7ae2718d982c"
+],
+[
+"Auditing model usage",
+"6e3a1d9c4824"
+],
+[
+"Best practices",
+"8d4b05a63304"
+],
+[
+"Deprecation downsides and mitigations",
+"9b06b9d72bc3"
+],
+[
+"Model status",
+"0752f966ed2b"
+],
+[
+"Deprecation history",
+"44be48165c1c"
+],
+[
+"2026-09-30: Claude Sonnet 4.5 model",
+"a260b46f85c8"
+],
+[
+"2026-06-05: Claude Opus 4.1 model",
+"a24c21c7e4ae"
+],
+[
+"2026-04-14: Claude Sonnet 4 and Claude Opus 4 models",
+"b34fc6617f49"
+],
+[
+"2026-02-19: Claude Haiku 3 model",
+"091f1cb1b9fb"
+],
+[
+"2025-12-19: Claude Haiku 3.5 model",
+"b9c6e34448fe"
+],
+[
+"2025-10-28: Claude Sonnet 3.7 model",
+"abaa080f96d2"
+],
+[
+"2025-08-13: Claude Sonnet 3.5 models",
+"df56ecf8902a"
+],
+[
+"2025-06-30: Claude Opus 3 model",
+"b80ac57c43e5"
+],
+[
+"2025-01-21: Claude 2, Claude 2.1, and Claude Sonnet 3 models",
+"12a71fe4c3fd"
+],
+[
+"2024-09-04: Claude 1 and Instant models",
+"5b04829ec463"
+],
+[
+"API parameter deprecations",
+"4b3608646c83"
+]
+],
+"watch": {},
+"lastOk": "2026-11-23T08:59+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"ai-migration": {
+"name": "모델 마이그레이션 가이드 목록",
+"owner": "Anthropic",
+"url": "https://platform.claude.com/docs/en/about-claude/models/migration-guide",
+"method": "auto",
+"cycle": "w",
+"rules": [],
+"checkedAt": "2026-11-23T08:59+09:00",
+"status": "thin",
+"final": "",
+"chars": 399,
+"title": "Migration guides - Claude Platform Docs",
+"failStreak": 0
 }
 }
 }

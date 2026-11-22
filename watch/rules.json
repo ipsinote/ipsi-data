@@ -1,6 +1,6 @@
 {
 "note": "규정 대장 — 우리 서비스·마케팅이 지켜야 하는 플랫폼 정책·법·자료 이용 조건·도구 약관. 사람이 고치는 파일이다(sources.json처럼 자동으로 만들지 않음). 사람이 읽는 판은 프로젝트 파일 claude/규정_대장과_변경_대응.md. 원문 내용은 넣지 않고 우리 말 요약·주소·감시할 낱말만 둔다.",
-"updated": "2026-11-04",
+"updated": "2026-11-23",
 "how": {
 "auto": "GitHub Actions(rules.yml, 매주 일요일 05:20 한국 시간)가 원문을 열어 부분(제목)별 지문·수정일·감시 낱말을 비교한다. 결과 data/rules_status.json·data/rules_report.md",
 "ai": "마케팅 주간 예약(일요일 14:42)이 차례가 된 것(state/mkt.rules 확인일 + 주기)을 공식 사이트 검색·원문으로 확인한다. 한 번에 3개까지",
@@ -1090,6 +1090,85 @@
 "reasonable"
 ],
 "lang": "en"
+},
+{
+"id": "ai-relnotes-app",
+"owner": "Anthropic",
+"name": "claude.ai 앱 변경 기록(프로젝트·메모리·예약·아티팩트·스킬)",
+"url": "https://support.claude.com/en/articles/12138966-release-notes",
+"method": "auto",
+"cycle": "w",
+"watch": [],
+"lang": "en",
+"note": "AI 일하는 방식 점검(개선안 3가지 월요일 4m) 1~7번 — 2026-11-23 대표 A(예약은 결과 파일만 읽음)"
+},
+{
+"id": "ai-relnotes-platform",
+"owner": "Anthropic",
+"name": "개발자 플랫폼 변경 기록(모델·스킬·도구·컨텍스트)",
+"url": "https://platform.claude.com/docs/en/release-notes/overview",
+"method": "auto",
+"cycle": "w",
+"watch": [],
+"lang": "en",
+"note": "AI 일하는 방식 점검(개선안 3가지 월요일 4m) 1~7번 — 2026-11-23 대표 A(예약은 결과 파일만 읽음)"
+},
+{
+"id": "ai-code-changelog",
+"owner": "Anthropic",
+"name": "Claude Code 변경 기록(예약·클라우드 세션·스킬·hooks·아티팩트)",
+"url": "https://code.claude.com/docs/en/changelog",
+"method": "auto",
+"cycle": "w",
+"watch": [],
+"lang": "en",
+"note": "AI 일하는 방식 점검(개선안 3가지 월요일 4m) 1~7번 — 2026-11-23 대표 A(예약은 결과 파일만 읽음)"
+},
+{
+"id": "ai-code-whatsnew",
+"owner": "Anthropic",
+"name": "Claude Code 주간 요약",
+"url": "https://code.claude.com/docs/en/whats-new",
+"method": "auto",
+"cycle": "w",
+"watch": [],
+"lang": "en",
+"note": "AI 일하는 방식 점검(개선안 3가지 월요일 4m) 1~7번 — 2026-11-23 대표 A(예약은 결과 파일만 읽음)"
+},
+{
+"id": "ai-models",
+"owner": "Anthropic",
+"name": "지금 모델 목록·권장",
+"url": "https://platform.claude.com/docs/en/models/overview",
+"method": "auto",
+"cycle": "w",
+"watch": [
+"claude-opus-5-5"
+],
+"lang": "en",
+"note": "AI 일하는 방식 점검(개선안 3가지 월요일 4m) 1~7번 — 2026-11-23 대표 A(예약은 결과 파일만 읽음)"
+},
+{
+"id": "ai-deprecations",
+"owner": "Anthropic",
+"name": "모델 은퇴 일정",
+"url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+"method": "auto",
+"cycle": "w",
+"watch": [],
+"lang": "en",
+"note": "AI 일하는 방식 점검(개선안 3가지 월요일 4m) 1~7번 — 2026-11-23 대표 A(예약은 결과 파일만 읽음)"
+},
+{
+"id": "ai-migration",
+"owner": "Anthropic",
+"name": "모델 마이그레이션 가이드 목록",
+"url": "https://platform.claude.com/docs/en/about-claude/models/migration-guide",
+"method": "auto",
+"cycle": "w",
+"watch": [],
+"lang": "en",
+"note": "AI 일하는 방식 점검(개선안 3가지 월요일 4m) 1~7번 — 2026-11-23 대표 A(예약은 결과 파일만 읽음)"
 }
 ],
 "rules": [

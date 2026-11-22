@@ -3,6 +3,8 @@ name: 학교알리미 받기(사립·국립 초등학교 학생 수)
 # 2026-11-22 대표가 학교알리미 Open API 키를 받아 비밀 값 SCHOOLINFO_KEY에 넣음 · 18:10 대표 '둘 다'(학교 규모 자료 줄 + 맞춰 보기).
 # 저장은 사립·국립 초등학교만(data/schoolinfo/) · 키는 로그에서 가림 · 화면에 쓸 때 출처 '학교알리미(한국교육학술정보원)'.
 on:
+  schedule:
+    - cron: '23 20 1 * *'   # 매달 2일 05:23(한국 시간) — 키 점검(ping): 서울 종로구 하나만 불러 키가 살아 있는지 보고, 공시연도·표본이 바뀌었으면 그때만 전체를 다시 받음
   workflow_dispatch:
     inputs:
       mode:
@@ -34,10 +36,10 @@ jobs:
       - name: 학교알리미 부르기
         env:
           SCHOOLINFO_KEY: ${{ secrets.SCHOOLINFO_KEY }}
-          MODE: ${{ github.event.inputs.mode || 'diag' }}
+          MODE: ${{ github.event_name == 'schedule' && 'ping' || github.event.inputs.mode || 'diag' }}
         run: python scripts/fetch_schoolinfo.py "$MODE"
       - name: 바뀐 것이 있으면 저장
-        if: always() && (github.event.inputs.mode == 'run' || github.event.inputs.mode == 'ping')
+        if: always() && (github.event_name == 'schedule' || github.event.inputs.mode == 'run' || github.event.inputs.mode == 'ping')
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

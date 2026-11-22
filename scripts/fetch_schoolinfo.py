@@ -188,12 +188,171 @@ def diag():
 
 # ── 받기 ───────────────────────────────────────────────
 
+SGG_XLSX = BASE + '/download/sido_sggCode.xlsx'      # 2026-11-22 목록 화면 '시도시군구코드.xlsx' 단추가 가리키는 주소
+OUTPUT_XLSX = BASE + '/download/OpenAPI_Output.xlsx'  # 출력값 설명
+PROBE = ('11', '11110')                               # 매달 키 점검: 서울 종로구 한 곳(국립 2곳 · 사립이 있는 구)
+KEEP = ('사립', '국립')
+
+
+def kst_now():
+    return time.gmtime(time.time() + 9 * 3600)
+
+
+def now_utc():
+    return time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+
+
+def sgg_codes():
+    """공식 코드표 파일에서 (시도 2자리, 시군구 5자리, 이름) 줄을 뽑음 — 칸 이름을 몰라도 숫자 모양으로 찾음."""
+    b, _ = get(SGG_XLSX, binary=True)
+    rows = load_xlsx(b)
+    out, seen = [], set()
+    for r in rows:
+        sido = next((c for c in r if re.fullmatch(r'\d{2}', c)), '')
+        sgg = next((c for c in r if re.fullmatch(r'\d{5}', c)), '')
+        if sido and sgg and sgg.startswith(sido) and sgg not in seen:
+            seen.add(sgg)
+            names = [c for c in r if c and not re.fullmatch(r'[\d.]+', c)]
+            out.append({'sido': sido, 'sgg': sgg, 'name': ' '.join(names[:2])})
+    return out, rows[:3]
+
+
+def num(v):
+    """'553(5)' → (553, 5) · 553 → (553, None) · 없음 → (None, None)."""
+    if v is None or v == '':
+        return None, None
+    if isinstance(v, (int, float)):
+        return int(v), None
+    m = re.fullmatch(r'\s*(\d+)\s*(?:\((\d+)\))?\s*', str(v))
+    return (int(m.group(1)), int(m.group(2)) if m.group(2) else None) if m else (None, None)
+
+
+def row_of(x, sido, sgg, year):
+    cls, cls_sp = num(x.get('COL_SUM'))
+    stu, stu_sp = num(x.get('COL_FGR_SUM'))
+    return {'code': x.get('SCHUL_CODE'), 'name': x.get('SCHUL_NM'), 'found': x.get('FOND_SC_CODE'),
+            'branch': x.get('BNHH_YN'), 'excluded': x.get('PBAN_EXCP_YN'),
+            'classes': cls, 'classesSp': cls_sp, 'students': stu, 'studentsSp': stu_sp,
+            'raw': {'COL_SUM': x.get('COL_SUM'), 'COL_FGR_SUM': x.get('COL_FGR_SUM'), 'SP_SUM': x.get('SP_SUM'),
+                    'SP_FGR_SUM': x.get('SP_FGR_SUM'), 'AVG_FGR_SUM': x.get('AVG_FGR_SUM')},
+            'classesByGrade': [x.get('COL_%d' % i) for i in range(1, 7)],
+            'adrcd': x.get('ADRCD_CD'), 'adrcdName': x.get('ADRCD_NM'), 'office': x.get('JU_ORG_NM'),
+            'atpt': x.get('ATPT_OFCDC_ORG_NM'), 'sido': sido, 'sgg': sgg, 'pbanYr': year}
+
+
+def fetch_all(k, year, codes):
+    keep, fails, empty, seen_rows = [], [], 0, 0
+    for c in codes:
+        j = call(k, apiType='62', pbanYr=str(year), schulKndCode='02', sidoCode=c['sido'], sggCode=c['sgg'])
+        if j.get('resultCode') == 'success':
+            it = items_of(j)
+            seen_rows += len(it)
+            keep += [row_of(x, c['sido'], c['sgg'], year) for x in it if str(x.get('FOND_SC_CODE')) in KEEP]
+        elif '존재하지 않' in str(j.get('resultMsg', '')):
+            empty += 1
+        else:
+            fails.append({'sgg': c['sgg'], 'why': hide(j.get('resultMsg') or j.get('_http') or j.get('_err') or j.get('_text'))[:120]})
+        time.sleep(PAUSE)
+    return keep, fails, empty, seen_rows
+
+
+def save(name, obj):
+    os.makedirs(OUT, exist_ok=True)
+    with io.open(os.path.join(OUT, name), 'w', encoding='utf-8') as f:
+        json.dump(obj, f, ensure_ascii=False, indent=1)
+        f.write('\n')
+
+
+def load(name):
+    try:
+        return json.load(io.open(os.path.join(OUT, name), encoding='utf-8'))
+    except Exception:
+        return None
+
+
+def probe(k, year):
+    j = call(k, apiType='62', pbanYr=str(year), schulKndCode='02', sidoCode=PROBE[0], sggCode=PROBE[1])
+    it = items_of(j)
+    fp = sorted((x.get('SCHUL_CODE'), str(x.get('COL_FGR_SUM'))) for x in it)
+    return j.get('resultCode') == 'success', hide(j.get('resultMsg') or j.get('_http') or j.get('_err') or '')[:120], fp
+
+
+def run(force=True):
+    k = key()
+    ok, why = robots_ok(SGG_XLSX)
+    if not ok:
+        sys.exit('코드표 파일을 robots가 막음 — 멈춤: ' + why)
+    y = kst_now().tm_year
+    st = load('run.json') or {}
+    # 공시연도: 올해 자료가 있으면 올해, 없으면 지난해(학생 수 공시는 해마다 한 번 — 올해 것이 올라오기 전엔 지난해)
+    year, (good, msg, fp) = y, probe(k, y)
+    if not good:
+        year, (good, msg, fp) = y - 1, probe(k, y - 1)
+    st.update({'checkedAt': now_utc(), 'keyOk': good, 'probe': '서울 종로구', 'probeMsg': msg})
+    if not good:
+        st['result'] = 'fail'
+        save('run.json', st)
+        sys.exit('키 점검 실패: ' + msg)
+    if not force and st.get('pbanYr') == year and st.get('probeFp') == fp:
+        st['result'] = 'same'           # 매달 점검: 공시연도·표본이 그대로면 전체를 다시 받지 않음
+        save('run.json', st)
+        print('키 정상 · 바뀐 것 없음(공시연도 %s)' % year)
+        return
+    codes, head = sgg_codes()
+    if len(codes) < 200:
+        st['result'] = 'fail'
+        save('run.json', st)
+        sys.exit('코드표에서 시·군·구를 %d개만 찾음 — 파일 모양이 바뀐 듯(첫 줄 %s)' % (len(codes), head[:1]))
+    keep, fails, empty, seen_rows = fetch_all(k, year, codes)
+    prev = (load('elem_private_national.json') or {}).get('schools') or []
+    if prev and len(keep) < len(prev) * 0.9:
+        st['result'] = 'fail'
+        save('run.json', st)
+        sys.exit('사립·국립 초등학교가 %d → %d로 10%% 넘게 줄어 저장하지 않음(API 오류로 봄)' % (len(prev), len(keep)))
+    keep.sort(key=lambda r: (r['sido'], r['sgg'], r['name'] or ''))
+    save('sgg_codes.json', {'source': '학교알리미 시도시군구코드.xlsx(%s)' % SGG_XLSX, 'fetched': now_utc(), 'count': len(codes), 'codes': codes})
+    save('elem_private_national.json', {
+        'source': '학교알리미 Open API 학교 현황(apiType 62 · 초등 02) — 출처: 학교알리미(한국교육학술정보원)',
+        'license': '공공누리 출처표시(영리·변경 가능)', 'pbanYr': year, 'fetched': now_utc(),
+        'note': '사립·국립 초등학교만 저장(전국 모든 학교 숫자는 저장하지 않음) · students = 학생수계(COL_FGR_SUM 괄호 앞 숫자) · 괄호 안은 raw 그대로',
+        'counts': {'사립': sum(r['found'] == '사립' for r in keep), '국립': sum(r['found'] == '국립' for r in keep)},
+        'schools': keep})
+    st.update({'result': 'ok' if not fails else 'partial', 'pbanYr': year, 'probeFp': fp, 'sgg': len(codes), 'sggEmpty': empty,
+               'sggFail': len(fails), 'fails': fails[:30], 'rowsSeen': seen_rows, 'schools': len(keep), 'fullAt': now_utc()})
+    save('run.json', st)
+    print(json.dumps({a: st[a] for a in ('result', 'pbanYr', 'sgg', 'sggEmpty', 'sggFail', 'rowsSeen', 'schools')}, ensure_ascii=False))
+
+
+def diag_files():
+    for u in (SGG_XLSX, OUTPUT_XLSX):
+        try:
+            b, ct = get(u, binary=True)
+            rows = load_xlsx(b)
+            print('파일', u.rsplit('/', 1)[1], len(b), '바이트 ·', len(rows), '줄 ·', ct)
+            for r in rows[:4]:
+                print('   ', [c for c in r if c][:12])
+            if 'Output' in u:
+                for r in rows:
+                    t = ' | '.join(c for c in r if c)
+                    if re.search(r'COL_FGR_SUM|COL_SUM|SP_FGR_SUM|BNHH_YN|PBAN_EXCP_YN|FOND_SC_CODE|학교 ?현황', t):
+                        print('    ·', t[:220])
+        except Exception as e:
+            print('파일 못 받음', u, type(e).__name__, str(e)[:120])
+    codes, head = sgg_codes()
+    print('코드표에서 찾은 시·군·구', len(codes), '· 앞 3', codes[:3])
+
+
 def main():
     mode = (sys.argv[1:2] or ['diag'])[0]
     if mode == 'diag':
         diag()
+        diag_files()
+    elif mode == 'run':
+        run(force=True)
+    elif mode == 'ping':
+        run(force=False)
     else:
-        sys.exit(f'아직 없는 모드: {mode} — diag로 응답 모양을 먼저 봅니다')
+        sys.exit(f'모르는 모드: {mode}')
 
 
 if __name__ == '__main__':

@@ -17,6 +17,7 @@
   data/schoolinfo/sgg_codes.json             : 시도·시군구 코드표(공식 코드표 파일에서 읽은 것)
   data/schoolinfo/run.json                   : 마지막 실행(시각 · 시·군·구 수 · 실패 수 · 학교 수)
 """
+import hashlib
 import io
 import json
 import os
@@ -273,7 +274,8 @@ def load(name):
 def probe(k, year):
     j = call(k, apiType='62', pbanYr=str(year), schulKndCode='02', sidoCode=PROBE[0], sggCode=PROBE[1])
     it = items_of(j)
-    fp = sorted((x.get('SCHUL_CODE'), str(x.get('COL_FGR_SUM'))) for x in it)
+    # 표본 지문: 공립 학교 숫자를 공개 저장소에 남기지 않으려고 해시만 저장(넣는 정보 원칙 — 사립·국립만)
+    fp = hashlib.sha256(json.dumps(sorted((x.get('SCHUL_CODE'), str(x.get('COL_FGR_SUM'))) for x in it)).encode()).hexdigest()[:16]
     return j.get('resultCode') == 'success', hide(j.get('resultMsg') or j.get('_http') or j.get('_err') or '')[:120], fp
 
 

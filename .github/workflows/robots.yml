@@ -41,11 +41,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # 이 파일은 이 작업만 쓴다 — 그사이 main이 바뀌었으면 최신 main 위에 이번 결과를 그대로 얹음(11/23 두 실행이 겹쳐 add/add 충돌)
+          cp data/robots_status.json "$RUNNER_TEMP/robots_status.json"
+          git fetch -q origin main && git reset -q --hard origin/main
+          cp "$RUNNER_TEMP/robots_status.json" data/robots_status.json
           git add data/robots_status.json || true
           if git diff --cached --quiet; then
             echo "바뀐 것 없음"
           else
             git commit -m "robots 판정 $(TZ=Asia/Seoul date '+%F %H:%M')"
-            git pull --rebase -q || true
-            git push
+            git push || { git fetch -q origin main && git reset -q --soft origin/main && git commit -qm "robots 판정 $(TZ=Asia/Seoul date '+%F %H:%M')" && git push; }
           fi

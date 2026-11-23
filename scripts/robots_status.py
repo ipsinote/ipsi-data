@@ -45,8 +45,11 @@ PAUSE = 0.3
 WORKERS = 8   # 누리집마다 한 번만 받으니 여러 곳을 함께(같은 곳을 두 번 부르지 않음) — 11/23 첫 실행이 한 줄로 12분 넘게 걸림
 
 
+KST = datetime.timezone(datetime.timedelta(hours=9))
+
+
 def kst_now():
-    return datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=9)
+    return datetime.datetime.now(KST)   # +09:00 표시(fetch_official의 kst_now는 시각만 한국 시간이고 표시는 +00:00)
 
 
 def origin(u):

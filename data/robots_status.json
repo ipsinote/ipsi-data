@@ -1,0 +1,8166 @@
+{
+"checkedAt": "2026-11-23T09:08+00:00",
+"ua": "ipsi-data-bot/1.0 (+https://github.com/ipsinote/ipsi-data; public admission notice dates)",
+"tokens": {
+"main": [
+"claude-user",
+"ipsi-data-bot"
+],
+"old": [
+"claude-web",
+"anthropic-ai",
+"claude-searchbot"
+]
+},
+"note": "공식 누리집 robots 판정(우리 이름·* 규칙만) — 판정 도구 ipsi-site tools/robots_allow.py · 규칙 scripts/robots_status.py 머리말",
+"summary": {
+"denied": 3,
+"html": 19,
+"none": 32,
+"rules": 174,
+"unreachable": 38,
+"hosts": 266
+},
+"hosts": {
+"http://dongbu.ice.go.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": 200,
+"sha": "3b579ef7",
+"bytes": 68,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"targets"
+]
+},
+"http://gbgt.daegu.ac.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": 200,
+"sha": "d2fde952",
+"bytes": 172,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/_application/controllers/member/"
+],
+[
+0,
+"/_application/controllers/admin/"
+],
+[
+0,
+"/views/admin/"
+],
+[
+0,
+"/views/member/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"targets"
+]
+},
+"http://gbit.daegu.ac.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": 200,
+"sha": "576e330f",
+"bytes": 179,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/_application/controllers/member/"
+],
+[
+0,
+"/_application/controllers/admin/"
+],
+[
+0,
+"/views/admin/"
+],
+[
+0,
+"/views/member/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"targets"
+]
+},
+"http://seit.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": 200,
+"final": "http://errdoc.gabia.io/404.html",
+"sha": "775e0ce0",
+"bytes": 7173,
+"kind": "html",
+"from": [
+"sources"
+]
+},
+"http://www.cnsh.cnehs.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": 200,
+"sha": "d8cfb862",
+"bytes": 36,
+"kind": "rules",
+"star": [
+[
+0,
+"/boardCnts/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources",
+"targets"
+]
+},
+"http://www.hcu.hs.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": 200,
+"sha": "aeae703f",
+"bytes": 149,
+"kind": "html",
+"from": [
+"sources",
+"targets"
+]
+},
+"https://adm-u.postech.ac.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": 200,
+"sha": "6f90a734",
+"bytes": 120,
+"kind": "rules",
+"star": [
+[
+0,
+"/wp-admin/"
+],
+[
+1,
+"/wp-admin/admin-ajax.php"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://admission-sshs.info": {
+"at": "2026-11-23T08:59+00:00",
+"http": 200,
+"sha": "8b0ea518",
+"bytes": 160,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/site_join"
+],
+[
+0,
+"/site_join_agree"
+],
+[
+0,
+"/shop_cart"
+],
+[
+0,
+"/?mode*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://admission.cau.ac.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": 200,
+"sha": "977175c3",
+"bytes": 691,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://admission.csia.hs.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": 200,
+"sha": "469588aa",
+"bytes": 25,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://admission.dg1s.hs.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://admission.ewha.ac.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": 200,
+"final": "http://admission.ewha.ac.kr/enter/doc/error404.asp",
+"sha": "0c0fc785",
+"bytes": 3970,
+"kind": "html",
+"from": [
+"sources"
+]
+},
+"https://admission.hafs.hs.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": 200,
+"sha": "073522e1",
+"bytes": 61,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://admission.jnu.ac.kr": {
+"at": "2026-11-23T08:59+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='admission.jnu.ac.kr', port=443): Read timed out. (read timeout=15)",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://admission.kaist.ac.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "49ab31ef",
+"bytes": 125,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://admission.ksa.hs.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='admission.ksa.hs.kr', port=443): Max retries exceeded with url: /robots.tx",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://admission.skku.edu": {
+"at": "2026-11-23T09:00+00:00",
+"http": 503,
+"kind": "unreachable",
+"from": [
+"sources"
+]
+},
+"https://admission.snu.ac.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "550f010f",
+"bytes": 1791,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://admission.sogang.ac.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='admission.sogang.ac.kr', port=443): Max retries exceeded with url: /robots",
+"from": [
+"sources"
+]
+},
+"https://admission.yonsei.ac.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://adms.hufs.ac.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "c30950a9",
+"bytes": 27,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://apps.apple.com": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "eee66a2b",
+"bytes": 506,
+"kind": "rules",
+"star": [
+[
+0,
+"/WebObjects/*"
+],
+[
+0,
+"/api/*"
+],
+[
+0,
+"/includes/*"
+],
+[
+0,
+"/v1/*"
+],
+[
+0,
+"*/search?*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://assets.koi.or.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "b741219c",
+"bytes": 1248,
+"kind": "rules",
+"star": [],
+"from": [
+"sources"
+]
+},
+"https://b-ingang.pen.go.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "d805da1e",
+"bytes": 120,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://bdja-h.goesn.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "4aa1eb21",
+"bytes": 162,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://bukbu.ice.go.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "309ee8b9",
+"bytes": 412,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"targets"
+]
+},
+"https://cgesc.ajou.ac.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='cgesc.ajou.ac.kr', port=443): Max retries exceeded with url: /robots.txt (",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://clik.nanet.go.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "c2d05dd9",
+"bytes": 72,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://cls.edunet.net": {
+"at": "2026-11-23T09:00+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='cls.edunet.net', port=443): Max retries exceeded with url: /robots.txt (Ca",
+"from": [
+"sources"
+]
+},
+"https://csatcdn.kice.re.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://csge.jnu.ac.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 403,
+"kind": "denied",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://csh-h.gne.go.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "5578767f",
+"bytes": 702,
+"kind": "rules",
+"star": [
+[
+0,
+"/common/nttFileDownload.do"
+],
+[
+0,
+"/common/nttFileDownloadForSynap.do"
+],
+[
+0,
+"/*%EB%8F%84%EB%B0%95*"
+],
+[
+0,
+"/*%ED%86%A0%ED%86%A0*"
+],
+[
+0,
+"/*%EB%B0%94%EC%B9%B4%EB%9D%BC*"
+],
+[
+0,
+"/*%EC%B9%B4%EC%A7%80%EB%85%B8*"
+],
+[
+0,
+"/*%EC%8A%AC%EB%A1%AF*"
+],
+[
+0,
+"/*%ED%99%80%EB%8D%A4*"
+],
+[
+0,
+"/*%EB%A8%B9%ED%8A%80*"
+],
+[
+0,
+"/*%EC%82%AC%EC%84%A4*"
+],
+[
+0,
+"/*%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%A4%91%EA%B3%84*"
+],
+[
+0,
+"/*%EC%97%90%EB%B3%BC%EB%A3%A8%EC%85%98*"
+],
+[
+0,
+"/*%ED%8C%8C%EC%9B%8C%EB%B3%BC*"
+],
+[
+0,
+"/*%EB%A1%9C%EB%98%90%EC%A1%B0%EC%9E%91*"
+],
+[
+0,
+"/*%EB%A7%88%EC%95%BD*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://ctysc.gidea.co.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 403,
+"kind": "denied",
+"from": [
+"sources"
+]
+},
+"https://cucocr.cje.ac.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "ab008c45",
+"bytes": 743,
+"kind": "html",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://curri.gyo6.net": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "aa1139dd",
+"bytes": 52,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://cwedu.gne.go.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "79db538e",
+"bytes": 781,
+"kind": "rules",
+"star": [
+[
+0,
+"/common/nttFileDownload.do"
+],
+[
+0,
+"/common/nttFileDownloadForSynap.do"
+],
+[
+0,
+"/common/nttVODFileDownload.do"
+],
+[
+0,
+"/*%EB%8F%84%EB%B0%95*"
+],
+[
+0,
+"/*%ED%86%A0%ED%86%A0*"
+],
+[
+0,
+"/*%EB%B0%94%EC%B9%B4%EB%9D%BC*"
+],
+[
+0,
+"/*%EC%B9%B4%EC%A7%80%EB%85%B8*"
+],
+[
+0,
+"/*%EC%8A%AC%EB%A1%AF*"
+],
+[
+0,
+"/*%ED%99%80%EB%8D%A4*"
+],
+[
+0,
+"/*%EB%A8%B9%ED%8A%80*"
+],
+[
+0,
+"/*%EC%82%AC%EC%84%A4*"
+],
+[
+0,
+"/*%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%A4%91%EA%B3%84*"
+],
+[
+0,
+"/*%EC%97%90%EB%B3%BC%EB%A3%A8%EC%85%98*"
+],
+[
+0,
+"/*%ED%8C%8C%EC%9B%8C%EB%B3%BC*"
+],
+[
+0,
+"/*%EB%A1%9C%EB%98%90%EC%A1%B0%EC%9E%91*"
+],
+[
+0,
+"/*%EB%A7%88%EC%95%BD*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://daeil.or.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "073522e1",
+"bytes": 61,
+"kind": "rules",
+"star": [],
+"from": [
+"sources"
+]
+},
+"https://daeseong.hs.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://daewon.ms.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='daewon.ms.kr', port=443): Max retries exceeded with url: /robots.txt (Caus",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://dbedu.sen.go.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "5e9447f2",
+"bytes": 339,
+"kind": "rules",
+"star": [
+[
+1,
+"/CMS/"
+],
+[
+0,
+"/*.gif$"
+],
+[
+0,
+"/*.png$"
+],
+[
+0,
+"/*.jpg$"
+],
+[
+0,
+"/*.bmp$"
+],
+[
+0,
+"/*.log$"
+],
+[
+0,
+"/*.xls$"
+],
+[
+0,
+"/*.jsp$"
+],
+[
+0,
+"/*.hwp$"
+],
+[
+0,
+"/*.js$"
+],
+[
+0,
+"/*.doc$"
+],
+[
+0,
+"/*.docx$"
+],
+[
+0,
+"/*.pdf$"
+],
+[
+0,
+"/*.jpeg$"
+],
+[
+0,
+"/*.xlsx$"
+],
+[
+0,
+"/FUS/RE/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts"
+]
+},
+"https://ddsciencehs.djsch.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "0c5ef46c",
+"bytes": 117,
+"kind": "rules",
+"star": [
+[
+0,
+"/Search/"
+],
+[
+0,
+"/boardCnts/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://dei.djsch.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "0c5ef46c",
+"bytes": 117,
+"kind": "rules",
+"star": [
+[
+0,
+"/Search/"
+],
+[
+0,
+"/boardCnts/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"targets"
+]
+},
+"https://depts.washington.edu": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "57040191",
+"bytes": 1577,
+"kind": "rules",
+"star": [
+[
+0,
+"/icons/"
+],
+[
+0,
+"/anesth/employment/faculty/cv/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://dgist.ac.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://djflhs.djsch.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "0c5ef46c",
+"bytes": 117,
+"kind": "rules",
+"star": [
+[
+0,
+"/Search/"
+],
+[
+0,
+"/boardCnts/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://djshs.djsch.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "0c5ef46c",
+"bytes": 117,
+"kind": "rules",
+"star": [
+[
+0,
+"/Search/"
+],
+[
+0,
+"/boardCnts/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://doi.org": {
+"at": "2026-11-23T09:00+00:00",
+"http": 404,
+"final": "https://www.doi.org/robots.txt",
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://dongbu.ice.go.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "3b579ef7",
+"bytes": 68,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts"
+]
+},
+"https://dongpyung.dge.es.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "aa974429",
+"bytes": 375,
+"kind": "rules",
+"star": [
+[
+0,
+"/audio/"
+],
+[
+0,
+"/check/"
+],
+[
+0,
+"/dge_webviewer/"
+],
+[
+0,
+"/excel/"
+],
+[
+0,
+"/editor/"
+],
+[
+0,
+"/ezpdfwebviewer/"
+],
+[
+0,
+"/kcase/"
+],
+[
+0,
+"/raonkupload/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/uploadad/"
+],
+[
+0,
+"/video/"
+],
+[
+0,
+"/help/"
+],
+[
+0,
+"/co/lo/"
+],
+[
+0,
+"/*/lo/login/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"targets"
+]
+},
+"https://dshs.dge.hs.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "aa974429",
+"bytes": 375,
+"kind": "rules",
+"star": [
+[
+0,
+"/audio/"
+],
+[
+0,
+"/check/"
+],
+[
+0,
+"/dge_webviewer/"
+],
+[
+0,
+"/excel/"
+],
+[
+0,
+"/editor/"
+],
+[
+0,
+"/ezpdfwebviewer/"
+],
+[
+0,
+"/kcase/"
+],
+[
+0,
+"/raonkupload/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/uploadad/"
+],
+[
+0,
+"/video/"
+],
+[
+0,
+"/help/"
+],
+[
+0,
+"/co/lo/"
+],
+[
+0,
+"/*/lo/login/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://dswes.djsch.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "0c5ef46c",
+"bytes": 117,
+"kind": "rules",
+"star": [
+[
+0,
+"/Search/"
+],
+[
+0,
+"/boardCnts/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"targets"
+]
+},
+"https://dwfl.hs.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "073522e1",
+"bytes": 61,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://edu.ginue.ac.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"sha": "14f0195a",
+"bytes": 194,
+"kind": "html",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://edu.ingang.go.kr": {
+"at": "2026-11-23T09:00+00:00",
+"http": 200,
+"final": "https://edu.ingang.go.kr/NGLMS",
+"sha": "154ee02d",
+"bytes": 51560,
+"kind": "html",
+"from": [
+"sources"
+]
+},
+"https://educationendowmentfoundation.org.uk": {
+"at": "2026-11-23T09:01+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://eiec.kdi.re.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": 200,
+"sha": "b3836c56",
+"bytes": 22,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts"
+]
+},
+"https://enews.sen.go.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": 200,
+"sha": "cdb1740d",
+"bytes": 177,
+"kind": "rules",
+"star": [
+[
+0,
+"/McmsAdmin/"
+],
+[
+0,
+"/page/"
+],
+[
+0,
+"/use/"
+],
+[
+0,
+"/survey/"
+],
+[
+1,
+"/news/"
+],
+[
+1,
+"/search/"
+],
+[
+1,
+"/images/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://enter.bnue.ac.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": 200,
+"sha": "c8700366",
+"bytes": 25,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"sources"
+]
+},
+"https://eprints.whiterose.ac.uk": {
+"at": "2026-11-23T09:01+00:00",
+"http": 200,
+"sha": "0873db1a",
+"bytes": 115,
+"kind": "rules",
+"star": [
+[
+0,
+"/cgi/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://ewha-gfh.hs.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": 200,
+"sha": "8cfe70ff",
+"bytes": 732,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+],
+[
+0,
+"/adm/"
+],
+[
+0,
+"/bbs/"
+],
+[
+0,
+"/css/"
+],
+[
+0,
+"/data/"
+],
+[
+0,
+"/extend/"
+],
+[
+0,
+"/install/"
+],
+[
+0,
+"/js/"
+],
+[
+0,
+"/lib/"
+],
+[
+0,
+"/plugin/"
+],
+[
+0,
+"/skin/"
+],
+[
+0,
+"/theme/"
+],
+[
+0,
+"/font/"
+],
+[
+0,
+"/js/"
+],
+[
+0,
+"/inc/"
+],
+[
+0,
+"/img/"
+],
+[
+0,
+"/image/"
+],
+[
+0,
+"/images/"
+],
+[
+0,
+"/*.pdf$"
+],
+[
+0,
+"/*.gif$"
+],
+[
+0,
+"/*.jpg$"
+],
+[
+0,
+"/*.png$"
+],
+[
+0,
+"/*.xml$"
+],
+[
+0,
+"/*.zip$"
+],
+[
+0,
+"/*.hwp$"
+],
+[
+1,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://forrt.org": {
+"at": "2026-11-23T09:01+00:00",
+"http": 200,
+"sha": "186b5d7e",
+"bytes": 128,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"sources"
+]
+},
+"https://friend.sen.go.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": 200,
+"sha": "fcc20d78",
+"bytes": 36,
+"kind": "rules",
+"star": [
+[
+0,
+"/program/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://gasuwones.djsch.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": 200,
+"sha": "0c5ef46c",
+"bytes": 117,
+"kind": "rules",
+"star": [
+[
+0,
+"/Search/"
+],
+[
+0,
+"/boardCnts/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gbgt.daegu.ac.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": 200,
+"sha": "d2fde952",
+"bytes": 172,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/_application/controllers/member/"
+],
+[
+0,
+"/_application/controllers/admin/"
+],
+[
+0,
+"/views/admin/"
+],
+[
+0,
+"/views/member/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts"
+]
+},
+"https://gbit.daegu.ac.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": 200,
+"sha": "576e330f",
+"bytes": 179,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/_application/controllers/member/"
+],
+[
+0,
+"/_application/controllers/admin/"
+],
+[
+0,
+"/views/admin/"
+],
+[
+0,
+"/views/member/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gbs-h.goeujb.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": 200,
+"sha": "62923458",
+"bytes": 188,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://gen.jge.go.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='gen.jge.go.kr', port=443): Read timed out. (read timeout=15)",
+"from": [
+"hosts"
+]
+},
+"https://gf.gwe.hs.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": 200,
+"sha": "db895613",
+"bytes": 113,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/front"
+],
+[
+0,
+"/apple/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gice.gen.go.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gifted.cbnu.ac.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='gifted.cbnu.ac.kr', port=443): Max retries exceeded with url: /robots.txt ",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gifted.cnu.ac.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='gifted.cnu.ac.kr', port=443): Read timed out. (read timeout=15)",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gifted.daejin.ac.kr": {
+"at": "2026-11-23T09:01+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='gifted.daejin.ac.kr', port=443): Max retries exceeded with url: /robots.tx",
+"from": [
+"sources"
+]
+},
+"https://gifted.dnue.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"final": "https://gifted.dnue.ac.kr/resources/Error/404.html",
+"sha": "b8481f2e",
+"bytes": 6493,
+"kind": "html",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gifted.dongguk.edu": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "7a54e2d5",
+"bytes": 26,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://gifted.gachon.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='gifted.gachon.ac.kr', port=443): Max retries exceeded with url: /robots.tx",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gifted.gknu.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "1b3a5c26",
+"bytes": 25,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gifted.gnue.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "5a35d7d9",
+"bytes": 21,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gifted.gwnu.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "8052be50",
+"bytes": 63,
+"kind": "rules",
+"star": [
+[
+0,
+"/*/*Mngr"
+],
+[
+0,
+"/sites/*/files/*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://gifted.jejunu.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='gifted.jejunu.ac.kr', port=443): Max retries exceeded with url: /robots.tx",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://gifted.kongju.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='gifted.kongju.ac.kr', port=443): Max retries exceeded with url: /robots.tx",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gifted.pusan.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://gifted.snu.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 404,
+"final": "https://www.gidea.co.kr/include/message/error404.action",
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://gifted.snue.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 404,
+"final": "https://www.gidea.co.kr/include/message/error404.action",
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://gifted.ulsan.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gifted1.kongju.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='gifted1.kongju.ac.kr', port=443): Max retries exceeded with url: /robots.t",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://giftededu.yonsei.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "2151001d",
+"bytes": 79,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+],
+[
+1,
+"/$"
+],
+[
+1,
+"/index.html"
+],
+[
+1,
+"/main/main.action"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://go.hanyang.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "bd1f7d89",
+"bytes": 102,
+"kind": "rules",
+"star": [
+[
+0,
+"/manager/"
+],
+[
+0,
+"/spot/"
+],
+[
+0,
+"/web/apply/"
+],
+[
+0,
+"/web/presentation/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://go.pusan.ac.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "99113084",
+"bytes": 61,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://goedy.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "4aa1eb21",
+"bytes": 162,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"targets"
+]
+},
+"https://gs-h.goesw.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "71223282",
+"bytes": 169,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://gsa.jge.hs.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "0f947204",
+"bytes": 50,
+"kind": "rules",
+"star": [
+[
+0,
+"/lib/"
+],
+[
+0,
+"/member/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://gshs-h.gne.go.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "5578767f",
+"bytes": 702,
+"kind": "rules",
+"star": [
+[
+0,
+"/common/nttFileDownload.do"
+],
+[
+0,
+"/common/nttFileDownloadForSynap.do"
+],
+[
+0,
+"/*%EB%8F%84%EB%B0%95*"
+],
+[
+0,
+"/*%ED%86%A0%ED%86%A0*"
+],
+[
+0,
+"/*%EB%B0%94%EC%B9%B4%EB%9D%BC*"
+],
+[
+0,
+"/*%EC%B9%B4%EC%A7%80%EB%85%B8*"
+],
+[
+0,
+"/*%EC%8A%AC%EB%A1%AF*"
+],
+[
+0,
+"/*%ED%99%80%EB%8D%A4*"
+],
+[
+0,
+"/*%EB%A8%B9%ED%8A%80*"
+],
+[
+0,
+"/*%EC%82%AC%EC%84%A4*"
+],
+[
+0,
+"/*%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%A4%91%EA%B3%84*"
+],
+[
+0,
+"/*%EC%97%90%EB%B3%BC%EB%A3%A8%EC%85%98*"
+],
+[
+0,
+"/*%ED%8C%8C%EC%9B%8C%EB%B3%BC*"
+],
+[
+0,
+"/*%EB%A1%9C%EB%98%90%EC%A1%B0%EC%9E%91*"
+],
+[
+0,
+"/*%EB%A7%88%EC%95%BD*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gwangcheol.jge.hs.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://gwcce.gwe.go.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://gwe.go.kr": {
+"at": "2026-11-23T09:02+00:00",
+"http": 200,
+"sha": "4681bb17",
+"bytes": 41,
+"kind": "rules",
+"star": [
+[
+0,
+"/nurizip/search/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts"
+]
+},
+"https://gwgned.gwe.go.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "db895613",
+"bytes": 113,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/front"
+],
+[
+0,
+"/apple/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://haneul.icehs.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "c8f83538",
+"bytes": 391,
+"kind": "rules",
+"star": [
+[
+0,
+"/apple/"
+],
+[
+0,
+"/addon/"
+],
+[
+0,
+"/WEB-INF/"
+],
+[
+0,
+"/mobile/"
+],
+[
+0,
+"/board/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/webfilter/"
+],
+[
+0,
+"/script/"
+],
+[
+0,
+"/login/"
+],
+[
+0,
+"/sub/"
+],
+[
+0,
+"/vod/"
+],
+[
+0,
+"/innorix/"
+],
+[
+0,
+"/search/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://hansol.dge.es.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "aa974429",
+"bytes": 375,
+"kind": "rules",
+"star": [
+[
+0,
+"/audio/"
+],
+[
+0,
+"/check/"
+],
+[
+0,
+"/dge_webviewer/"
+],
+[
+0,
+"/excel/"
+],
+[
+0,
+"/editor/"
+],
+[
+0,
+"/ezpdfwebviewer/"
+],
+[
+0,
+"/kcase/"
+],
+[
+0,
+"/raonkupload/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/uploadad/"
+],
+[
+0,
+"/video/"
+],
+[
+0,
+"/help/"
+],
+[
+0,
+"/co/lo/"
+],
+[
+0,
+"/*/lo/login/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"targets"
+]
+},
+"https://hansungsh.sen.hs.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "7fd15edb",
+"bytes": 83,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+],
+[
+1,
+"/$"
+],
+[
+1,
+"/index.do"
+],
+[
+1,
+"*.js"
+],
+[
+1,
+"*.css"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://hbcl.msu.edu": {
+"at": "2026-11-23T09:03+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://highschool.gne.go.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://hischoolgbe.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://home.pen.go.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "9b259527",
+"bytes": 11490,
+"kind": "rules",
+"star": [
+[
+0,
+"/*/tp/tempPage/tempPageView.do*"
+],
+[
+0,
+"/*/na/ntt/selectNttInfo.do*"
+],
+[
+0,
+"/*/upload/*"
+],
+[
+0,
+"/*/openApi/*"
+],
+[
+0,
+"/search/*"
+],
+[
+0,
+"/*도박*"
+],
+[
+0,
+"/*토토*"
+],
+[
+0,
+"/*바카라*"
+],
+[
+0,
+"/*카지노*"
+],
+[
+0,
+"/*슬롯*"
+],
+[
+0,
+"/*홀덤*"
+],
+[
+0,
+"/*먹튀*"
+],
+[
+0,
+"/*사설*"
+],
+[
+0,
+"/*스포츠중계*"
+],
+[
+0,
+"/*에볼루션*"
+],
+[
+0,
+"/*파워볼*"
+],
+[
+0,
+"/*로또조작*"
+],
+[
+0,
+"/*마약*"
+],
+[
+0,
+"/*테더*"
+],
+[
+0,
+"/*텔레*"
+],
+[
+0,
+"/*자금 세탁*"
+],
+[
+0,
+"/*텔그*"
+],
+[
+0,
+"/*텔방*"
+],
+[
+0,
+"/*호빠*"
+],
+[
+0,
+"/*호스트바*"
+],
+[
+0,
+"/*호스트빠*"
+],
+[
+0,
+"/*브액*"
+],
+[
+0,
+"/*정빠*"
+],
+[
+0,
+"/*남보도*"
+],
+[
+0,
+"/*빙두*"
+],
+[
+0,
+"/*떨구매*"
+],
+[
+0,
+"/*테더손대손*"
+],
+[
+0,
+"/*케이구매*"
+],
+[
+0,
+"/*성매매*"
+],
+[
+0,
+"/*성매매알선*"
+],
+[
+0,
+"/*유흥알선*"
+],
+[
+0,
+"/*성접대*"
+],
+[
+0,
+"/*유흥업소*"
+],
+[
+0,
+"/*출장안마*"
+],
+[
+0,
+"/*조건만남*"
+],
+[
+0,
+"/*조건미팅*"
+],
+[
+0,
+"/*출장샵*"
+],
+[
+0,
+"/*성인출장*"
+],
+[
+0,
+"/*성인출장안마*"
+],
+[
+0,
+"/*성인마사지*"
+],
+[
+0,
+"/*유흥예약*"
+],
+[
+0,
+"/*불법촬영*"
+],
+[
+0,
+"/*몰카*"
+],
+[
+0,
+"/*리벤지포르노*"
+],
+[
+0,
+"/*불법음란물*"
+],
+[
+0,
+"/*아동음란물*"
+],
+[
+0,
+"/*아동성착취물*"
+],
+[
+0,
+"/*불법영상유포*"
+],
+[
+0,
+"/*성착취물*"
+],
+[
+0,
+"/*불법영상공유*"
+],
+[
+0,
+"/*풀싸롱*"
+],
+[
+0,
+"/*룸살롱*"
+],
+[
+0,
+"/*합성영상*"
+],
+[
+0,
+"/*딥페이크*"
+],
+[
+0,
+"/*불법약물*"
+],
+[
+0,
+"/*떨액*"
+],
+[
+0,
+"/*얼음술*"
+],
+[
+0,
+"/*대마*"
+],
+[
+0,
+"/*대마초*"
+],
+[
+0,
+"/*필로폰*"
+],
+[
+0,
+"/*코카인*"
+],
+[
+0,
+"/*헤로인*"
+],
+[
+0,
+"/*엑스터시*"
+],
+[
+0,
+"/*LSD*"
+],
+[
+0,
+"/*케타민*"
+],
+[
+0,
+"/*환각제*"
+],
+[
+0,
+"/*아이스*"
+],
+[
+0,
+"/*얼음*"
+],
+[
+0,
+"/*MDMA*"
+],
+[
+0,
+"/*환치기*"
+],
+[
+0,
+"/*업비트*"
+],
+[
+0,
+"/*꽁비*"
+],
+[
+0,
+"/*깔릉*"
+],
+[
+0,
+"/*스웨디시*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://hscredit.gwe.go.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "23a8fb77",
+"bytes": 455,
+"kind": "html",
+"from": [
+"hosts"
+]
+},
+"https://hyfl.sen.hs.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "7fd15edb",
+"bytes": 83,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+],
+[
+1,
+"/$"
+],
+[
+1,
+"/index.do"
+],
+[
+1,
+"*.js"
+],
+[
+1,
+"*.css"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://i-science.icehs.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "c8f83538",
+"bytes": 391,
+"kind": "rules",
+"star": [
+[
+0,
+"/apple/"
+],
+[
+0,
+"/addon/"
+],
+[
+0,
+"/WEB-INF/"
+],
+[
+0,
+"/mobile/"
+],
+[
+0,
+"/board/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/webfilter/"
+],
+[
+0,
+"/script/"
+],
+[
+0,
+"/login/"
+],
+[
+0,
+"/sub/"
+],
+[
+0,
+"/vod/"
+],
+[
+0,
+"/innorix/"
+],
+[
+0,
+"/search/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://iasa.icehs.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "c8f83538",
+"bytes": 391,
+"kind": "rules",
+"star": [
+[
+0,
+"/apple/"
+],
+[
+0,
+"/addon/"
+],
+[
+0,
+"/WEB-INF/"
+],
+[
+0,
+"/mobile/"
+],
+[
+0,
+"/board/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/webfilter/"
+],
+[
+0,
+"/script/"
+],
+[
+0,
+"/login/"
+],
+[
+0,
+"/sub/"
+],
+[
+0,
+"/vod/"
+],
+[
+0,
+"/innorix/"
+],
+[
+0,
+"/search/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://ice.go.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "7ee5a749",
+"bytes": 406,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/common/"
+],
+[
+0,
+"/comm/"
+],
+[
+0,
+"/apple/"
+],
+[
+0,
+"/js/"
+],
+[
+0,
+"/images/"
+],
+[
+0,
+"/css/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/log/"
+],
+[
+0,
+"/comm/"
+],
+[
+0,
+"/nice/"
+],
+[
+0,
+"/editor/"
+],
+[
+0,
+"/onepass/"
+],
+[
+0,
+"/search/"
+],
+[
+0,
+"/webfilter/"
+],
+[
+0,
+"/WEB-INF/"
+],
+[
+0,
+"/na/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://ifn.se": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"final": "https://www.ifn.se/robots.txt",
+"sha": "dca0cacc",
+"bytes": 2860,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/en/research-interest"
+],
+[
+0,
+"/en/research-interest-search"
+],
+[
+0,
+"/amnesomradessokning"
+],
+[
+0,
+"/umbraco/"
+]
+],
+"named": {
+"claude-web": [
+[
+0,
+"/"
+]
+],
+"anthropic-ai": [
+[
+0,
+"/"
+]
+]
+},
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://ijss.icehs.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "c8f83538",
+"bytes": 391,
+"kind": "rules",
+"star": [
+[
+0,
+"/apple/"
+],
+[
+0,
+"/addon/"
+],
+[
+0,
+"/WEB-INF/"
+],
+[
+0,
+"/mobile/"
+],
+[
+0,
+"/board/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/webfilter/"
+],
+[
+0,
+"/script/"
+],
+[
+0,
+"/login/"
+],
+[
+0,
+"/sub/"
+],
+[
+0,
+"/vod/"
+],
+[
+0,
+"/innorix/"
+],
+[
+0,
+"/search/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://iphak.khu.ac.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "f597de00",
+"bytes": 101,
+"kind": "rules",
+"star": [
+[
+0,
+"/_cms/"
+],
+[
+1,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://iphak.ssu.ac.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "459e410d",
+"bytes": 255,
+"kind": "rules",
+"star": [
+[
+0,
+"/admss"
+],
+[
+1,
+"/board"
+],
+[
+1,
+"/mojip"
+],
+[
+1,
+"/susi"
+],
+[
+1,
+"/visit"
+],
+[
+1,
+"/weekly"
+],
+[
+1,
+"/simulation"
+],
+[
+1,
+"/counsel"
+],
+[
+1,
+"/request_app_data"
+],
+[
+1,
+"/promotion"
+],
+[
+1,
+"/campus_tour"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://iphak.ulsan.ac.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"final": "https://iphak.ulsan.ac.kr/common/deny.jsp",
+"sha": "ce4158ec",
+"bytes": 6716,
+"kind": "html",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://ipsi.sen.go.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "5a35d7d9",
+"bytes": 21,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"sources"
+]
+},
+"https://ipsi1.knu.ac.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://jajucenter.ebs.co.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "6e3c4b5b",
+"bytes": 161,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/site_join"
+],
+[
+0,
+"/site_join_agree"
+],
+[
+0,
+"/shop_cart"
+],
+[
+0,
+"/?mode*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://jhr.uwpress.org": {
+"at": "2026-11-23T09:03+00:00",
+"http": 403,
+"kind": "denied",
+"from": [
+"sources"
+]
+},
+"https://jinhak.gwe.go.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "7fe7ec78",
+"bytes": 457,
+"kind": "html",
+"from": [
+"hosts"
+]
+},
+"https://jinhak.sen.go.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "5a35d7d9",
+"bytes": 21,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://jjedu.gne.go.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "79db538e",
+"bytes": 781,
+"kind": "rules",
+"star": [
+[
+0,
+"/common/nttFileDownload.do"
+],
+[
+0,
+"/common/nttFileDownloadForSynap.do"
+],
+[
+0,
+"/common/nttVODFileDownload.do"
+],
+[
+0,
+"/*%EB%8F%84%EB%B0%95*"
+],
+[
+0,
+"/*%ED%86%A0%ED%86%A0*"
+],
+[
+0,
+"/*%EB%B0%94%EC%B9%B4%EB%9D%BC*"
+],
+[
+0,
+"/*%EC%B9%B4%EC%A7%80%EB%85%B8*"
+],
+[
+0,
+"/*%EC%8A%AC%EB%A1%AF*"
+],
+[
+0,
+"/*%ED%99%80%EB%8D%A4*"
+],
+[
+0,
+"/*%EB%A8%B9%ED%8A%80*"
+],
+[
+0,
+"/*%EC%82%AC%EC%84%A4*"
+],
+[
+0,
+"/*%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%A4%91%EA%B3%84*"
+],
+[
+0,
+"/*%EC%97%90%EB%B3%BC%EB%A3%A8%EC%85%98*"
+],
+[
+0,
+"/*%ED%8C%8C%EC%9B%8C%EB%B3%BC*"
+],
+[
+0,
+"/*%EB%A1%9C%EB%98%90%EC%A1%B0%EC%9E%91*"
+],
+[
+0,
+"/*%EB%A7%88%EC%95%BD*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"targets"
+]
+},
+"https://jnucsge.gidea.co.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 404,
+"final": "https://www.gidea.co.kr/include/message/error404.action",
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://kangwon-sh.gwe.hs.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "db895613",
+"bytes": 113,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/front"
+],
+[
+0,
+"/apple/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://kbo.bioedu.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "4441b57b",
+"bytes": 114,
+"kind": "rules",
+"star": [
+[
+0,
+"/wp-admin/"
+],
+[
+1,
+"/wp-admin/admin-ajax.php"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://kcue.or.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://kdca.go.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "f651394a",
+"bytes": 33,
+"kind": "rules",
+"star": [
+[
+0,
+"/search.do"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://ko.khanacademy.org": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "59842a36",
+"bytes": 3038,
+"kind": "html",
+"from": [
+"sources"
+]
+},
+"https://koi.or.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "e676a0fc",
+"bytes": 80,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/assets/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://koreascience.or.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='koreascience.or.kr', port=443): Max retries exceeded with url: /robots.txt",
+"from": [
+"sources"
+]
+},
+"https://kphe.kps.or.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "7a02e015",
+"bytes": 25,
+"kind": "rules",
+"star": [],
+"from": [
+"sources"
+]
+},
+"https://kr.object.gov-ncloudstorage.com": {
+"at": "2026-11-23T09:03+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://kred.jne.go.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"targets"
+]
+},
+"https://kunsan.gidea.co.kr": {
+"at": "2026-11-23T09:03+00:00",
+"http": 404,
+"final": "https://www.gidea.co.kr/include/message/error404.action",
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://kwthe.gwe.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://lsuonline.lsu.edu": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "666ca9a1",
+"bytes": 199,
+"kind": "rules",
+"star": [
+[
+0,
+"/bookmgr-cgi/"
+],
+[
+0,
+"/webtest/"
+],
+[
+0,
+"/cgi-bin/"
+],
+[
+0,
+"/hodold/"
+],
+[
+0,
+"/reports/"
+],
+[
+0,
+"/hod/"
+],
+[
+0,
+"/HOD/"
+],
+[
+0,
+"/_*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://m.korea.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "0ef8d27a",
+"bytes": 258,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://majeong-e.goepj.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "71223282",
+"bytes": 169,
+"kind": "rules",
+"star": [],
+"from": [
+"sources"
+]
+},
+"https://mdfh.or.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='mdfh.or.kr', port=443): Max retries exceeded with url: /robots.txt (Caused",
+"from": [
+"sources"
+]
+},
+"https://mediahub.seoul.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "5f08bca0",
+"bytes": 278,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/citizen/mission/boardDetail.do"
+],
+[
+0,
+"/citizen/notice/boardDetail.do"
+],
+[
+0,
+"/citizen/press/boardDetail.do"
+],
+[
+0,
+"/members/"
+],
+[
+0,
+"/search"
+],
+[
+0,
+"/mediahub/search"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://mid.ebs.co.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "774362a7",
+"bytes": 52,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/board/basic/view"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://mods.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "b97c35aa",
+"bytes": 109,
+"kind": "rules",
+"star": [
+[
+0,
+"/ksows/wisenut/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://moe.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "42b418c2",
+"bytes": 55,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"/search"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts"
+]
+},
+"https://mokpo.gidea.co.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 404,
+"final": "https://www.gidea.co.kr/include/message/error404.action",
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://more.goe.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "18d59682",
+"bytes": 71,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/sysM*"
+],
+[
+0,
+"/mng*"
+],
+[
+0,
+"/pbs*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts"
+]
+},
+"https://mped.jne.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://nber.org": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"final": "https://www.nber.org/robots.txt",
+"sha": "358ff054",
+"bytes": 1593,
+"kind": "rules",
+"star": [
+[
+1,
+"/core/*.css$"
+],
+[
+1,
+"/core/*.css?"
+],
+[
+1,
+"/core/*.js$"
+],
+[
+1,
+"/core/*.js?"
+],
+[
+1,
+"/core/*.gif"
+],
+[
+1,
+"/core/*.jpg"
+],
+[
+1,
+"/core/*.jpeg"
+],
+[
+1,
+"/core/*.png"
+],
+[
+1,
+"/core/*.svg"
+],
+[
+1,
+"/profiles/*.css$"
+],
+[
+1,
+"/profiles/*.css?"
+],
+[
+1,
+"/profiles/*.js$"
+],
+[
+1,
+"/profiles/*.js?"
+],
+[
+1,
+"/profiles/*.gif"
+],
+[
+1,
+"/profiles/*.jpg"
+],
+[
+1,
+"/profiles/*.jpeg"
+],
+[
+1,
+"/profiles/*.png"
+],
+[
+1,
+"/profiles/*.svg"
+],
+[
+0,
+"/core/"
+],
+[
+0,
+"/profiles/"
+],
+[
+0,
+"/README.txt"
+],
+[
+0,
+"/web.config"
+],
+[
+0,
+"/admin/"
+],
+[
+0,
+"/comment/reply/"
+],
+[
+0,
+"/filter/tips"
+],
+[
+0,
+"/node/add/"
+],
+[
+0,
+"/search/"
+],
+[
+0,
+"/user/register/"
+],
+[
+0,
+"/user/password/"
+],
+[
+0,
+"/user/login/"
+],
+[
+0,
+"/user/logout/"
+],
+[
+0,
+"/index.php/admin/"
+],
+[
+0,
+"/index.php/comment/reply/"
+],
+[
+0,
+"/index.php/filter/tips"
+],
+[
+0,
+"/index.php/node/add/"
+],
+[
+0,
+"/index.php/search/"
+],
+[
+0,
+"/index.php/user/password/"
+],
+[
+0,
+"/index.php/user/register/"
+],
+[
+0,
+"/index.php/user/login/"
+],
+[
+0,
+"/index.php/user/logout/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://newkpho.kps.or.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "7a02e015",
+"bytes": 25,
+"kind": "rules",
+"star": [],
+"from": [
+"sources"
+]
+},
+"https://office.jbedu.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "ea0ea286",
+"bytes": 108,
+"kind": "rules",
+"star": [
+[
+0,
+"/files/*"
+],
+[
+0,
+"/_cmm/fileDownload/*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://oku.korea.ac.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"final": "https://oku.korea.ac.kr/error.html",
+"sha": "a7aa1fed",
+"bytes": 1206,
+"kind": "html",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://olympiad.kchem.org": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "76bc85db",
+"bytes": 8107,
+"kind": "html",
+"from": [
+"sources"
+]
+},
+"https://online.goe.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "0c114186",
+"bytes": 24,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"sources"
+]
+},
+"https://openstax.org": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "ed9a39f6",
+"bytes": 453,
+"kind": "rules",
+"star": [
+[
+0,
+"/accounts"
+],
+[
+0,
+"/admin"
+],
+[
+0,
+"/l/"
+],
+[
+0,
+"/r/"
+],
+[
+0,
+"/confirmation/"
+],
+[
+0,
+"/adoption-confirmation"
+],
+[
+0,
+"/general"
+],
+[
+0,
+"/contents"
+],
+[
+0,
+"/extras"
+],
+[
+0,
+"/errata"
+],
+[
+0,
+"/resources"
+],
+[
+0,
+"/apps/archive"
+],
+[
+0,
+"/apps/archive-preview"
+],
+[
+0,
+"/apps/cms/api/spike"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://opinion.lawmaking.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "2bc45af6",
+"bytes": 24,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://org.jje.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "37b6a481",
+"bytes": 239,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+],
+[
+0,
+"/user"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://play.google.com": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "2eefaf5f",
+"bytes": 3199,
+"kind": "rules",
+"star": [
+[
+1,
+"/store/devices"
+],
+[
+1,
+"/about"
+],
+[
+1,
+"/apps/publish"
+],
+[
+1,
+"/artists"
+],
+[
+1,
+"/books"
+],
+[
+1,
+"/books/publish"
+],
+[
+0,
+"/books/*"
+],
+[
+0,
+"/googlebooks/images"
+],
+[
+0,
+"/music"
+],
+[
+0,
+"/music/*"
+],
+[
+0,
+"/store/purchase"
+],
+[
+0,
+"/store/apps/datasafety*"
+],
+[
+0,
+"/store/apps/editorial?*id=mc_apps_us_sponsored_feature_pilot_turbotax_fcp_option_a*"
+],
+[
+0,
+"/store/apps/editorial?*id=mc_games_battlestar*"
+],
+[
+0,
+"/store/apps/editorial?*id=mc__games_battlestar*"
+],
+[
+0,
+"/store/apps/editorial?*id=mc_battlestar*"
+],
+[
+0,
+"/work/acceptinvitation"
+],
+[
+0,
+"/work/adminsettings"
+],
+[
+0,
+"/work/adminsignup"
+],
+[
+0,
+"/work/approveitem"
+],
+[
+0,
+"/work/licenses/apps"
+],
+[
+0,
+"/work/xhr/inviteadmin"
+],
+[
+0,
+"/work/permissionsupdate"
+],
+[
+0,
+"/work/xhr/removeadmin"
+],
+[
+0,
+"/work/signin"
+],
+[
+0,
+"/work/unapproveitem"
+],
+[
+0,
+"/apps"
+],
+[
+0,
+"/library/devices"
+],
+[
+0,
+"/newsstand"
+],
+[
+0,
+"/movies"
+],
+[
+0,
+"/store/xhr"
+],
+[
+0,
+"/wishlist"
+],
+[
+0,
+"/store/people/details"
+],
+[
+0,
+"/store/account"
+],
+[
+0,
+"/store/addtocart"
+],
+[
+0,
+"/_"
+],
+[
+0,
+"/store/cancelpreorder"
+],
+[
+0,
+"/store/cart"
+],
+[
+0,
+"/store/checkoutcallback"
+],
+[
+0,
+"/ct"
+],
+[
+0,
+"/unsub"
+],
+[
+0,
+"/store/xhr/getdevicepermissions"
+],
+[
+0,
+"/store/getdevicepermissions"
+],
+[
+0,
+"/store/getreviews"
+],
+[
+0,
+"/store/xhr/install"
+],
+[
+0,
+"/internalPref"
+],
+[
+0,
+"/logout"
+],
+[
+0,
+"/lsoinstall"
+],
+[
+0,
+"/store/movie-device"
+],
+[
+0,
+"/store/myaccount"
+],
+[
+0,
+"/store/mylibrary"
+],
+[
+0,
+"/plusinstall"
+],
+[
+0,
+"/store/ratereview"
+],
+[
+0,
+"/store/recommended"
+],
+[
+0,
+"/remotelogout"
+],
+[
+0,
+"/store/search"
+],
+[
+0,
+"/store/setuserdata"
+],
+[
+0,
+"/store/submitreview"
+],
+[
+0,
+"/store/updatecart"
+],
+[
+0,
+"/settings"
+],
+[
+0,
+"/store/watch"
+],
+[
+0,
+"/xhr"
+],
+[
+0,
+"/work/account"
+],
+[
+0,
+"/work/addtocart"
+],
+[
+0,
+"/work/_"
+],
+[
+0,
+"/work/cancelpreorder"
+],
+[
+0,
+"/work/cart"
+],
+[
+0,
+"/work/checkoutcallback"
+],
+[
+0,
+"/work/ct"
+],
+[
+0,
+"/work/unsub"
+],
+[
+0,
+"/work/xhr/getdevicepermissions"
+],
+[
+0,
+"/work/getdevicepermissions"
+],
+[
+0,
+"/work/getreviews"
+],
+[
+0,
+"/work/xhr/install"
+],
+[
+0,
+"/work/internalPref"
+],
+[
+0,
+"/work/logout"
+],
+[
+0,
+"/work/lsoinstall"
+],
+[
+0,
+"/work/movie-device"
+],
+[
+0,
+"/work/myaccount"
+],
+[
+0,
+"/work/mylibrary"
+],
+[
+0,
+"/work/plusinstall"
+],
+[
+0,
+"/work/ratereview"
+],
+[
+0,
+"/work/recommended"
+],
+[
+0,
+"/work/remotelogout"
+],
+[
+0,
+"/work/search"
+],
+[
+0,
+"/work/setuserdata"
+],
+[
+0,
+"/work/submitreview"
+],
+[
+0,
+"/work/updatecart"
+],
+[
+0,
+"/work/settings"
+],
+[
+0,
+"/work/watch"
+],
+[
+0,
+"/work/xhr"
+],
+[
+0,
+"/store/multi/collection/p3_details_*"
+],
+[
+0,
+"/store/books/collection/p3_details_*"
+],
+[
+0,
+"/store/music/collection/p3_details_*"
+],
+[
+0,
+"/store/apps/collection/p3_details_*"
+],
+[
+0,
+"/store/movies/collection/p3_details_*"
+],
+[
+0,
+"/store/devices/collection/p3_details_*"
+],
+[
+0,
+"/store/newsstand/collection/p3_details_*"
+],
+[
+0,
+"/store/people/collection/p3_details_*"
+],
+[
+0,
+"/store/null/collection/p3_details_*"
+],
+[
+0,
+"/store/info/collection/p3_details_*"
+],
+[
+0,
+"/store/chrome/collection/p3_details_*"
+],
+[
+0,
+"/store/giftcards/collection/p3_details_*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://primary.ebs.co.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "774362a7",
+"bytes": 52,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/board/basic/view"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://pubmed.ncbi.nlm.nih.gov": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "e529ffde",
+"bytes": 1341,
+"kind": "rules",
+"star": [
+[
+0,
+"/api"
+],
+[
+0,
+"/rss"
+],
+[
+0,
+"/advanced/adv-suggestions/"
+],
+[
+0,
+"/terms/"
+],
+[
+0,
+"/addToHistory/"
+],
+[
+0,
+"/deleteHistory/"
+],
+[
+0,
+"/downloadHistory/"
+],
+[
+0,
+"/deleteHistoryRecord/"
+],
+[
+0,
+"/historyCacheExists/"
+],
+[
+0,
+"/*/references/"
+],
+[
+0,
+"/*/citations/"
+],
+[
+0,
+"/*/export/"
+],
+[
+0,
+"/*/citedby/"
+],
+[
+0,
+"/*/similar/"
+],
+[
+0,
+"/*/adj-nav/"
+],
+[
+0,
+"/ajax/"
+],
+[
+0,
+"/clipboard/"
+],
+[
+0,
+"/clipboard-next-page/"
+],
+[
+0,
+"/health/"
+],
+[
+0,
+"/deep-health-abstract/"
+],
+[
+0,
+"/deep-health-search/"
+],
+[
+0,
+"/deep-health-auth/"
+],
+[
+0,
+"/error/400/"
+],
+[
+0,
+"/error/403/"
+],
+[
+0,
+"/error/404/"
+],
+[
+0,
+"/error/500/"
+],
+[
+0,
+"/results-export-ids/"
+],
+[
+0,
+"/results-export-search-data/"
+],
+[
+0,
+"/results-export-email-by-search-data/"
+],
+[
+0,
+"/results-export-search-by-year/"
+],
+[
+0,
+"/send-email/"
+],
+[
+0,
+"/list-existing-collections/"
+],
+[
+0,
+"/add-to-existing-collection/"
+],
+[
+0,
+"/create-and-add-to-new-collection/"
+],
+[
+0,
+"/toggle-favorites-collection/"
+],
+[
+0,
+"/list-bibliography-delegates/"
+],
+[
+0,
+"/add-to-bibliography/"
+],
+[
+0,
+"/create-saved-search/"
+],
+[
+0,
+"/create-rss-feed-url/"
+],
+[
+0,
+"/searches/"
+],
+[
+0,
+"/collections/"
+],
+[
+0,
+"/more/"
+],
+[
+0,
+"/suggestions/"
+],
+[
+0,
+"/try-search-term/"
+],
+[
+0,
+"/rss-feed/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://research.birmingham.ac.uk": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "51a053c8",
+"bytes": 134,
+"kind": "rules",
+"star": [
+[
+0,
+"/*?*format=rss"
+],
+[
+0,
+"/*?*export=xls"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://samyook.jge.ms.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "0f947204",
+"bytes": 50,
+"kind": "rules",
+"star": [
+[
+0,
+"/lib/"
+],
+[
+0,
+"/member/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://sasa.sjeduhs.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='sasa.sjeduhs.kr', port=443): Max retries exceeded with url: /robots.txt (C",
+"from": [
+"sources"
+]
+},
+"https://sced.jge.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"targets"
+]
+},
+"https://sced.jne.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='sced.jne.go.kr', port=443): Read timed out. (read timeout=15)",
+"from": [
+"hosts",
+"targets"
+]
+},
+"https://school.cbe.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "330efb72",
+"bytes": 1421,
+"kind": "rules",
+"star": [
+[
+0,
+"/files/"
+],
+[
+0,
+"/_cmm/vi*/"
+],
+[
+0,
+"/vi*/"
+]
+],
+"named": {
+"claude-web": [
+[
+0,
+"/"
+]
+],
+"anthropic-ai": [
+[
+0,
+"/"
+]
+]
+},
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://school.gyo6.net": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "6e8a5ae2",
+"bytes": 282,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://school.jbedu.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "ea0ea286",
+"bytes": 108,
+"kind": "rules",
+"star": [
+[
+0,
+"/files/*"
+],
+[
+0,
+"/_cmm/fileDownload/*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://school.jje.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "d2c63e4e",
+"bytes": 167,
+"kind": "rules",
+"star": [
+[
+0,
+"/exc"
+],
+[
+0,
+"/edi"
+],
+[
+0,
+"/kca"
+],
+[
+0,
+"/sea"
+],
+[
+0,
+"/syn"
+],
+[
+0,
+"/tig"
+],
+[
+0,
+"/*/lo/lo"
+],
+[
+0,
+"/common/nttFile"
+],
+[
+1,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://school.use.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "aeae703f",
+"bytes": 149,
+"kind": "html",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://schoolzone.emac.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "46892eaf",
+"bytes": 24,
+"kind": "rules",
+"star": [],
+"from": [
+"sources"
+]
+},
+"https://seigy.knu.ac.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://seobu.jge.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='seobu.jge.go.kr', port=443): Max retries exceeded with url: /robots.txt (C",
+"from": [
+"hosts"
+]
+},
+"https://sghs.sen.hs.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "7fd15edb",
+"bytes": 83,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+],
+[
+1,
+"/$"
+],
+[
+1,
+"/index.do"
+],
+[
+1,
+"*.js"
+],
+[
+1,
+"*.css"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://sjsh.sen.hs.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "7fd15edb",
+"bytes": 83,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+],
+[
+1,
+"/$"
+],
+[
+1,
+"/index.do"
+],
+[
+1,
+"*.js"
+],
+[
+1,
+"*.css"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://slearn.seoul.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "74d38ab1",
+"bytes": 177,
+"kind": "rules",
+"star": [
+[
+0,
+"/_nuxt/"
+],
+[
+0,
+"/static/"
+],
+[
+0,
+"/front/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://snuarori.snu.ac.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "65990256",
+"bytes": 23,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://ssei.sen.go.kr": {
+"at": "2026-11-23T09:04+00:00",
+"http": 200,
+"sha": "22449607",
+"bytes": 439,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/*.gif$"
+],
+[
+0,
+"/*.png$"
+],
+[
+0,
+"/*.jpg$"
+],
+[
+0,
+"/*.jpeg$"
+],
+[
+0,
+"/*.bmp$"
+],
+[
+0,
+"/*.log$"
+],
+[
+0,
+"/*.xls$"
+],
+[
+0,
+"/*.jsp$"
+],
+[
+0,
+"/*.hwp$"
+],
+[
+0,
+"/*.pdf$"
+],
+[
+0,
+"/*.ppt$"
+],
+[
+0,
+"/*.doc$"
+],
+[
+0,
+"/*.zip$"
+],
+[
+0,
+"/*.js$"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://star.moe.go.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"sha": "5a35d7d9",
+"bytes": 21,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://suningukje-m.gne.go.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"sha": "5578767f",
+"bytes": 702,
+"kind": "rules",
+"star": [
+[
+0,
+"/common/nttFileDownload.do"
+],
+[
+0,
+"/common/nttFileDownloadForSynap.do"
+],
+[
+0,
+"/*%EB%8F%84%EB%B0%95*"
+],
+[
+0,
+"/*%ED%86%A0%ED%86%A0*"
+],
+[
+0,
+"/*%EB%B0%94%EC%B9%B4%EB%9D%BC*"
+],
+[
+0,
+"/*%EC%B9%B4%EC%A7%80%EB%85%B8*"
+],
+[
+0,
+"/*%EC%8A%AC%EB%A1%AF*"
+],
+[
+0,
+"/*%ED%99%80%EB%8D%A4*"
+],
+[
+0,
+"/*%EB%A8%B9%ED%8A%80*"
+],
+[
+0,
+"/*%EC%82%AC%EC%84%A4*"
+],
+[
+0,
+"/*%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%A4%91%EA%B3%84*"
+],
+[
+0,
+"/*%EC%97%90%EB%B3%BC%EB%A3%A8%EC%85%98*"
+],
+[
+0,
+"/*%ED%8C%8C%EC%9B%8C%EB%B3%BC*"
+],
+[
+0,
+"/*%EB%A1%9C%EB%98%90%EC%A1%B0%EC%9E%91*"
+],
+[
+0,
+"/*%EB%A7%88%EC%95%BD*"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://ulsan.gidea.co.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 404,
+"final": "https://www.gidea.co.kr/include/message/error404.action",
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://use.go.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='use.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused ",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://wded.jne.go.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://webdt.edunet.net": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"final": "https://info.edunet.net/error",
+"sha": "aa2ce971",
+"bytes": 4891,
+"kind": "html",
+"from": [
+"sources"
+]
+},
+"https://wjgift.gwe.go.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"sha": "db895613",
+"bytes": 113,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/front"
+],
+[
+0,
+"/apple/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.academyinfo.go.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"sha": "7a54e2d5",
+"bytes": 26,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.ansan.go.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"sha": "8943ad27",
+"bytes": 22,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.bugil.hs.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"sha": "c8b7d9a7",
+"bytes": 209,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/twcenter/manage/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/way_castle/"
+],
+[
+0,
+"/popup/"
+],
+[
+1,
+"/img/favicon.ico"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.career.go.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"sha": "c9a5d1da",
+"bytes": 784,
+"kind": "rules",
+"star": [
+[
+0,
+"/cnet/front/mycareer/"
+],
+[
+0,
+"/cnet/front/web/"
+],
+[
+0,
+"/cnet/front/counsel/"
+],
+[
+0,
+"/cnet/commonBiz/"
+],
+[
+0,
+"/cnet/front/examen/"
+],
+[
+0,
+"/cloud/w/inspect/"
+],
+[
+0,
+"/cloud/w/mypage/"
+],
+[
+0,
+"/cloud/w/quest/"
+],
+[
+0,
+"/cloud/w/counsel/"
+],
+[
+0,
+"/cloud/w/search/"
+],
+[
+0,
+"/cloud/m/inspect/"
+],
+[
+0,
+"/cloud/m/mypage/"
+],
+[
+0,
+"/cloud/m/quest/"
+],
+[
+0,
+"/cloud/m/counsel/"
+],
+[
+0,
+"/cloud/m/search/"
+],
+[
+0,
+"/cloud/j/inspect/"
+],
+[
+0,
+"/cloud/j/mypage/"
+],
+[
+0,
+"/cloud/j/quest/"
+],
+[
+0,
+"/cloud/j/counsel/"
+],
+[
+0,
+"/cloud/j/search/"
+],
+[
+0,
+"/cloud/jm/inspect/"
+],
+[
+0,
+"/cloud/jm/mypage/"
+],
+[
+0,
+"/cloud/jm/quest/"
+],
+[
+0,
+"/cloud/jm/counsel/"
+],
+[
+0,
+"/cloud/jm/search/"
+],
+[
+0,
+"/jr/"
+],
+[
+0,
+"/data/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/cnet/paper/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.cbe.go.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"sha": "7bc13474",
+"bytes": 457,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/common/"
+],
+[
+0,
+"/comm/"
+],
+[
+0,
+"/apple/"
+],
+[
+0,
+"/js/"
+],
+[
+0,
+"/images/"
+],
+[
+0,
+"/css/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/log/"
+],
+[
+0,
+"/comm/"
+],
+[
+0,
+"/nice/"
+],
+[
+0,
+"/editor/"
+],
+[
+0,
+"/onepass/"
+],
+[
+0,
+"/search/"
+],
+[
+0,
+"/webfilter/"
+],
+[
+0,
+"/WEB-INF/classes/"
+],
+[
+0,
+"/WEB-INF/config/"
+],
+[
+0,
+"/WEB-INF/lib/"
+],
+[
+0,
+"/WEB-INF/spconfig/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.cbnse.go.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"sha": "a7166ad7",
+"bytes": 390,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts"
+]
+},
+"https://www.cncae.go.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='www.cncae.go.kr', port=443): Max retries exceeded with url: /robots.txt (C",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.cne.go.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"sha": "25688aea",
+"bytes": 605,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.cnfl.cnehs.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='www.cnfl.cnehs.kr', port=443): Max retries exceeded with url: /robots.txt ",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.cnsa.hs.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": 200,
+"sha": "7a02e015",
+"bytes": 25,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.cnsh.cnehs.kr": {
+"at": "2026-11-23T09:05+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='www.cnsh.cnehs.kr', port=443): Max retries exceeded with url: /robots.txt ",
+"from": [
+"hosts"
+]
+},
+"https://www.data.go.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "2620bcb4",
+"bytes": 177,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.dge.go.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "aa974429",
+"bytes": 375,
+"kind": "rules",
+"star": [
+[
+0,
+"/audio/"
+],
+[
+0,
+"/check/"
+],
+[
+0,
+"/dge_webviewer/"
+],
+[
+0,
+"/excel/"
+],
+[
+0,
+"/editor/"
+],
+[
+0,
+"/ezpdfwebviewer/"
+],
+[
+0,
+"/kcase/"
+],
+[
+0,
+"/raonkupload/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/uploadad/"
+],
+[
+0,
+"/video/"
+],
+[
+0,
+"/help/"
+],
+[
+0,
+"/co/lo/"
+],
+[
+0,
+"/*/lo/login/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.dgist.ac.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.dgsbe.go.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='www.dgsbe.go.kr', port=443): Max retries exceeded with url: /robots.txt (C",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.djdbe.go.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='www.djdbe.go.kr', port=443): Max retries exceeded with url: /robots.txt (C",
+"from": [
+"hosts"
+]
+},
+"https://www.dongguk.edu": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "e12cd908",
+"bytes": 35,
+"kind": "rules",
+"star": [
+[
+0,
+"/page/135/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://www.dshs.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "c8b82eb8",
+"bytes": 769,
+"kind": "html",
+"from": [
+"sources"
+]
+},
+"https://www.ebse.co.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "ebbead6f",
+"bytes": 190,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://www.ebsi.co.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "b21cc84d",
+"bytes": 257,
+"kind": "rules",
+"star": [
+[
+0,
+"/*Qna*"
+],
+[
+0,
+"/*qna*"
+],
+[
+0,
+"/*Epilogue*"
+],
+[
+0,
+"/*epilogue*"
+],
+[
+0,
+"/*.ajax$"
+],
+[
+0,
+"/*TotalSearch*"
+],
+[
+0,
+"/*retrieveSbjtDtl*"
+],
+[
+0,
+"/*retrieveCourseH3TeacherInfo*"
+],
+[
+0,
+"/*/html/*"
+],
+[
+1,
+"/"
+],
+[
+1,
+"/support.ebs"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://www.edurang.net": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "d308f289",
+"bytes": 131,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"/eduNtt/"
+],
+[
+0,
+"/ntt/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.gbe.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "a75c7baa",
+"bytes": 947,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.geig.ac.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "d26976b1",
+"bytes": 412,
+"kind": "rules",
+"star": [
+[
+0,
+"/*.doc"
+],
+[
+0,
+"/*.docx"
+],
+[
+0,
+"/*.odt"
+],
+[
+0,
+"/*.xls"
+],
+[
+0,
+"/*.xlsx"
+],
+[
+0,
+"/*.ods"
+],
+[
+0,
+"/*.hwp"
+],
+[
+0,
+"/*.hwpx"
+],
+[
+0,
+"/*.zip"
+],
+[
+0,
+"/*.zipx"
+],
+[
+0,
+"/*.rar"
+],
+[
+0,
+"/*.tgz"
+],
+[
+0,
+"/*.tar.gz"
+],
+[
+0,
+"/ucc_player2/"
+],
+[
+0,
+"/html_editor/"
+],
+[
+0,
+"/status"
+],
+[
+0,
+"/nginx_status"
+],
+[
+1,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.gifted.ac.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 404,
+"final": "https://www.gidea.co.kr/include/message/error404.action",
+"kind": "none",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.gise.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.gne.go.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.gnu.ac.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "e03ba971",
+"bytes": 443,
+"kind": "rules",
+"star": [
+[
+0,
+"/editor/"
+],
+[
+0,
+"/excel/"
+],
+[
+0,
+"/instagram/"
+],
+[
+0,
+"/juso/"
+],
+[
+0,
+"/log/"
+],
+[
+0,
+"/pdfview/"
+],
+[
+0,
+"/popup/"
+],
+[
+0,
+"/trans/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/video/"
+],
+[
+0,
+"/viewer/"
+],
+[
+0,
+"/common/"
+],
+[
+0,
+"/main/na/ntt/selectNttList.do?mi=10200&bbsId=3195"
+],
+[
+0,
+"/main/na/ntt/selectNttList.do?mi=1276&bbsId=1042"
+],
+[
+0,
+"/main/na/ntt/selectNttInfo.do?nttSn=2131062&mi=10200"
+],
+[
+0,
+"/main/cm/map/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.goe.go.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "8dd98dcd",
+"bytes": 52,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"/search"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.goebc.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "92a56657",
+"bytes": 189,
+"kind": "rules",
+"star": [],
+"from": [
+"sources"
+]
+},
+"https://www.goedy.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "4aa1eb21",
+"bytes": 162,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.goegm.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "71223282",
+"bytes": 169,
+"kind": "rules",
+"star": [],
+"from": [
+"sources"
+]
+},
+"https://www.goesn.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "4aa1eb21",
+"bytes": 162,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.goesw.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "71223282",
+"bytes": 169,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts"
+]
+},
+"https://www.gwe.go.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "4681bb17",
+"bytes": 41,
+"kind": "rules",
+"star": [
+[
+0,
+"/nurizip/search/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.hana.hs.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.hcu.hs.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='www.hcu.hs.kr', port=443): Max retries exceeded with url: /robots.txt (Cau",
+"from": [
+"hosts"
+]
+},
+"https://www.hischoolgbe.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.hongik.ac.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "e3fb9ced",
+"bytes": 762,
+"kind": "rules",
+"star": [
+[
+0,
+"/_fox"
+],
+[
+0,
+"/yicdorm"
+],
+[
+0,
+"/_attach/"
+],
+[
+0,
+"/_custom/"
+],
+[
+0,
+"/_res/"
+],
+[
+0,
+"/_share/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.hscredit.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "7210eb7a",
+"bytes": 637,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/oe/"
+],
+[
+0,
+"/error"
+],
+[
+0,
+"/search"
+],
+[
+0,
+"/survey/"
+],
+[
+0,
+"/planner/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.ice.go.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "7ee5a749",
+"bytes": 406,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+0,
+"/common/"
+],
+[
+0,
+"/comm/"
+],
+[
+0,
+"/apple/"
+],
+[
+0,
+"/js/"
+],
+[
+0,
+"/images/"
+],
+[
+0,
+"/css/"
+],
+[
+0,
+"/upload/"
+],
+[
+0,
+"/log/"
+],
+[
+0,
+"/comm/"
+],
+[
+0,
+"/nice/"
+],
+[
+0,
+"/editor/"
+],
+[
+0,
+"/onepass/"
+],
+[
+0,
+"/search/"
+],
+[
+0,
+"/webfilter/"
+],
+[
+0,
+"/WEB-INF/"
+],
+[
+0,
+"/na/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.index.go.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.isepclub.com": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"final": "http://errdoc.gabia.io/404.html",
+"sha": "775e0ce0",
+"bytes": 7173,
+"kind": "html",
+"from": [
+"sources"
+]
+},
+"https://www.jbe.go.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "09eddb07",
+"bytes": 132,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.jbnu.ac.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": 200,
+"sha": "f2aa4603",
+"bytes": 43,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.jge.go.kr": {
+"at": "2026-11-23T09:06+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='www.jge.go.kr', port=443): Max retries exceeded with url: /robots.txt (Cau",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.jje.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "19c1fedf",
+"bytes": 480,
+"kind": "rules",
+"star": [
+[
+1,
+"/BBS_0000507"
+],
+[
+1,
+"/BBS_0000985"
+],
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.jne.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='www.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Cau",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.jnue.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://www.kcue.or.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.kdca.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "f651394a",
+"bytes": 33,
+"kind": "rules",
+"star": [
+[
+0,
+"/search.do"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.kice.re.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "63657cbb",
+"bytes": 26,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.kmcc.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "335e481c",
+"bytes": 137,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.kmo.or.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "7a02e015",
+"bytes": 25,
+"kind": "rules",
+"star": [],
+"from": [
+"sources"
+]
+},
+"https://www.kmooc.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "8943ad27",
+"bytes": 22,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"sources"
+]
+},
+"https://www.kms.or.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "65990256",
+"bytes": 23,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"sources"
+]
+},
+"https://www.kocw.net": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "e750e2c3",
+"bytes": 31,
+"kind": "rules",
+"star": [
+[
+0,
+"/en/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://www.korea.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "e16afa1e",
+"bytes": 262,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.kosaf.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "867dee08",
+"bytes": 22,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"sources"
+]
+},
+"https://www.kyungnam.ac.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "cff160b8",
+"bytes": 124,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://www.law.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "c4898719",
+"bytes": 66,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.mafra.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "c719600c",
+"bytes": 57,
+"kind": "rules",
+"star": [],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.minjok.hs.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "7a02e015",
+"bytes": 25,
+"kind": "rules",
+"star": [],
+"from": [
+"sources"
+]
+},
+"https://www.moe.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "42b418c2",
+"bytes": 55,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"/search"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.ncbi.nlm.nih.gov": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "1c09f0e3",
+"bytes": 10819,
+"kind": "rules",
+"star": [
+[
+0,
+"/cgi-bin"
+],
+[
+0,
+"/stat"
+],
+[
+0,
+"/entrez"
+],
+[
+0,
+"/COG"
+],
+[
+0,
+"/Entrez"
+],
+[
+0,
+"/myncbi"
+],
+[
+0,
+"/mailman"
+],
+[
+0,
+"/sutils"
+],
+[
+0,
+"/Taxonomy/Selector"
+],
+[
+0,
+"/Taxonomy/CommonTree"
+],
+[
+0,
+"/entrez/sutils"
+],
+[
+0,
+"/mapview"
+],
+[
+0,
+"/SAGE"
+],
+[
+0,
+"/SNP"
+],
+[
+0,
+"/snp"
+],
+[
+0,
+"/blast/BlastAlign.cgi"
+],
+[
+0,
+"/blast/bl2seq/wblast2.cgi"
+],
+[
+0,
+"/portal"
+],
+[
+0,
+"/pmc/utilities/"
+],
+[
+0,
+"/pmc/issues/"
+],
+[
+0,
+"/pmc/articles/"
+],
+[
+0,
+"/pmc/ivip/"
+],
+[
+0,
+"/pmc/articlerender.fcgi"
+],
+[
+0,
+"/pmc/pagerender.fcgi"
+],
+[
+0,
+"/pmc/picrender.fcgi"
+],
+[
+0,
+"/pmc/tocrender.fcgi"
+],
+[
+0,
+"/pmc/*report="
+],
+[
+0,
+"/pmc/*page="
+],
+[
+0,
+"/pmc/articles/*/citedby/"
+],
+[
+0,
+"/pmc/publisherportal/api/"
+],
+[
+0,
+"/pmc/publisherportal/application/"
+],
+[
+0,
+"/pmc/publisherportal/download"
+],
+[
+0,
+"/pmc/publisherportal/journalmanager/"
+],
+[
+0,
+"/labs/pmc/"
+],
+[
+0,
+"/geo/tools"
+],
+[
+0,
+"/geo/browse"
+],
+[
+0,
+"/projects/geo/tools"
+],
+[
+0,
+"/geo/download"
+],
+[
+0,
+"/projects/geo/download"
+],
+[
+0,
+"/projects/gtr/gt"
+],
+[
+0,
+"/Structure/flink/flink.cgi"
+],
+[
+0,
+"/Structure/vast/vastsrv.cgi"
+],
+[
+0,
+"/viewvc"
+],
+[
+0,
+"/clone/library/genomic/organisms"
+],
+[
+0,
+"/sars-cov-2"
+],
+[
+0,
+"/search/?term="
+],
+[
+0,
+"/books/?term="
+],
+[
+0,
+"/nuccore/?term="
+],
+[
+0,
+"/clinvar/?term="
+],
+[
+0,
+"/cdd/?term="
+],
+[
+0,
+"/gap/?term="
+],
+[
+0,
+"/dbvar/?term="
+],
+[
+0,
+"/medgen/?term="
+],
+[
+0,
+"/snp/?term="
+],
+[
+0,
+"/sra/?term="
+],
+[
+0,
+"/biocollections/?term="
+],
+[
+0,
+"/gtr/?term="
+],
+[
+0,
+"/protein/?term="
+],
+[
+0,
+"/bioproject/?term="
+],
+[
+0,
+"/gene/?term="
+],
+[
+0,
+"/biosample/?term="
+],
+[
+0,
+"/taxonomy/?term="
+],
+[
+0,
+"/ipg/?term="
+],
+[
+0,
+"/gds/?term="
+],
+[
+0,
+"/geoprofiles/?term="
+],
+[
+0,
+"/mesh/?term="
+],
+[
+0,
+"/nlmcatalog/?term="
+],
+[
+0,
+"/omim/?term="
+],
+[
+0,
+"/proteinclusters/?term="
+],
+[
+0,
+"/pcassay/?term="
+],
+[
+0,
+"/protfam/?term="
+],
+[
+0,
+"/pccompound/?term="
+],
+[
+0,
+"/pcsubstance/?term="
+],
+[
+0,
+"/structure/?term="
+],
+[
+1,
+"/portal/portal3rc.fcgi/*/*.js"
+],
+[
+1,
+"/portal/portal3rc.fcgi/*/*.css"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://www.ne.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "('Connection broken: IncompleteRead(1751 bytes read, 67 more expected)', IncompleteRead(1751 bytes r",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.pen.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "2f9f61b1",
+"bytes": 1116,
+"kind": "rules",
+"star": [
+[
+0,
+"/excel/"
+],
+[
+0,
+"/editor/"
+],
+[
+0,
+"/kcase/"
+],
+[
+0,
+"/key/"
+],
+[
+0,
+"/raonkupload/"
+],
+[
+0,
+"/synap/"
+],
+[
+0,
+"/naver/"
+],
+[
+0,
+"/onepass/"
+],
+[
+0,
+"/*/lo/login/"
+],
+[
+0,
+"/main/ad/ct/view/selectCtCotcherList.do"
+],
+[
+0,
+"/search/"
+],
+[
+0,
+"/search/search.do"
+],
+[
+0,
+"/bbs/"
+],
+[
+0,
+"/*도박*"
+],
+[
+0,
+"/*토토*"
+],
+[
+0,
+"/*바카라*"
+],
+[
+0,
+"/*카지노*"
+],
+[
+0,
+"/*슬롯*"
+],
+[
+0,
+"/*홀덤*"
+],
+[
+0,
+"/*먹튀*"
+],
+[
+0,
+"/*사설*"
+],
+[
+0,
+"/*스포츠중계*"
+],
+[
+0,
+"/*에볼루션*"
+],
+[
+0,
+"/*파워볼*"
+],
+[
+0,
+"/*로또조작*"
+],
+[
+0,
+"/*마약*"
+],
+[
+0,
+"/*텔레*"
+],
+[
+0,
+"/*텔그*"
+],
+[
+0,
+"/*텔방*"
+],
+[
+0,
+"/*호빠*"
+],
+[
+0,
+"/*호스트바*"
+],
+[
+0,
+"/*호스트빠*"
+],
+[
+0,
+"/*브액*"
+],
+[
+0,
+"/*정빠*"
+],
+[
+0,
+"/*남보도*"
+],
+[
+0,
+"/*빙두*"
+],
+[
+0,
+"/*떨구매*"
+],
+[
+0,
+"/*테더손대손*"
+],
+[
+0,
+"/*케이구매*"
+],
+[
+1,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.schoolinfo.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "78537dd0",
+"bytes": 76,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.scienceall.com": {
+"at": "2026-11-23T09:07+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"sources"
+]
+},
+"https://www.scnu.ac.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "276e6681",
+"bytes": 104,
+"kind": "rules",
+"star": [
+[
+0,
+"/upload/"
+],
+[
+0,
+"/search/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.seit.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"final": "http://errdoc.gabia.io/404.html",
+"sha": "775e0ce0",
+"bytes": 7173,
+"kind": "html",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.sen.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "ecf8f1eb",
+"bytes": 1439,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+],
+[
+1,
+"/sen/"
+],
+[
+1,
+"/www/minwon/minwoninfo/minwonservice/"
+],
+[
+1,
+"/www/minwon/callcenter/"
+],
+[
+1,
+"/www/minwon/singocenter/"
+],
+[
+1,
+"/www/minwon/discussion/"
+],
+[
+1,
+"/www/minwon/proposal/"
+],
+[
+1,
+"/www/minwon/active/"
+],
+[
+1,
+"/user/bbs/BD_selectBbsList.do?q_bbsSn=1073"
+],
+[
+1,
+"/user/bbs/BD_selectBbsList.do?q_bbsSn=1074"
+],
+[
+1,
+"/user/bbs/BD_selectBbsList.do?q_bbsSn=1075"
+],
+[
+1,
+"/user/bbs/BD_selectBbsList.do?q_bbsSn=1076"
+],
+[
+1,
+"/user/bbs/BD_selectBbsList.do?q_bbsSn=1077"
+],
+[
+1,
+"/user/bbs/BD_selectBbsList.do?q_bbsSn=1078"
+],
+[
+1,
+"/user/bbs/BD_selectBbsList.do?q_bbsSn=1073"
+],
+[
+1,
+"/www/education/honeysty/"
+],
+[
+1,
+"/www/eduinfo/jinhakiphak/"
+],
+[
+1,
+"/www/eduinfo/intoschool/"
+],
+[
+1,
+"/www/eduinfo/edumaterial/curriculum/"
+],
+[
+1,
+"/www/eduinfo/lifelong/"
+],
+[
+1,
+"/www/eduinfo/lifelong/learningfac/"
+],
+[
+1,
+"/www/eduinfo/lifelong/incorporation/"
+],
+[
+1,
+"/www/eduinfo/innovschool/"
+],
+[
+1,
+"/www/eduinfo/innovedu/"
+],
+[
+1,
+"/www/eduinfo/harassment/"
+],
+[
+1,
+"/www/office/"
+],
+[
+1,
+"/www/office/history/"
+],
+[
+1,
+"/www/office/org/"
+],
+[
+1,
+"/www/office/charter/"
+],
+[
+1,
+"/www/information/realname/"
+],
+[
+1,
+"/www/information/opendata/"
+],
+[
+1,
+"/www/news/exam/gosiexam/"
+],
+[
+1,
+"/www/useinfo/"
+],
+[
+1,
+"/work/search/recInfo/"
+],
+[
+0,
+"/work/"
+],
+[
+0,
+"/user/bbs/BD_.*\\?q_bbsSn=(1079|108[0-9]|109[0-1])"
+],
+[
+0,
+"/view/"
+],
+[
+0,
+"/*\\.(gif|png|jpg|jpeg|bmp|log|xls|jsp|hwp|hwpx|pdf|ppt|doc|zip|js)$"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.sflhs.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": 200,
+"sha": "46892eaf",
+"bytes": 24,
+"kind": "rules",
+"star": [],
+"from": [
+"sources"
+]
+},
+"https://www.sje.go.kr": {
+"at": "2026-11-23T09:07+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='www.sje.go.kr', port=443): Max retries exceeded with url: /robots.txt (Cau",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.snu.ac.kr": {
+"at": "2026-11-23T09:08+00:00",
+"http": 200,
+"sha": "550f010f",
+"bytes": 1791,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.suneung.re.kr": {
+"at": "2026-11-23T09:08+00:00",
+"http": 200,
+"sha": "63657cbb",
+"bytes": 26,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://www.toctocmath.kr": {
+"at": "2026-11-23T09:08+00:00",
+"http": 200,
+"sha": "3c5b87bb",
+"bytes": 14992,
+"kind": "html",
+"from": [
+"sources"
+]
+},
+"https://www.uclahealth.org": {
+"at": "2026-11-23T09:08+00:00",
+"http": 200,
+"sha": "bd665819",
+"bytes": 5179,
+"kind": "rules",
+"star": [
+[
+1,
+"/core/*.css$"
+],
+[
+1,
+"/core/*.css?"
+],
+[
+1,
+"/core/*.js$"
+],
+[
+1,
+"/core/*.js?"
+],
+[
+1,
+"/core/*.gif"
+],
+[
+1,
+"/core/*.jpg"
+],
+[
+1,
+"/core/*.jpeg"
+],
+[
+1,
+"/core/*.png"
+],
+[
+1,
+"/core/*.svg"
+],
+[
+1,
+"/profiles/*.css$"
+],
+[
+1,
+"/profiles/*.css?"
+],
+[
+1,
+"/profiles/*.js$"
+],
+[
+1,
+"/profiles/*.js?"
+],
+[
+1,
+"/profiles/*.gif"
+],
+[
+1,
+"/profiles/*.jpg"
+],
+[
+1,
+"/profiles/*.jpeg"
+],
+[
+1,
+"/profiles/*.png"
+],
+[
+1,
+"/profiles/*.svg"
+],
+[
+0,
+"/core/"
+],
+[
+0,
+"/profiles/"
+],
+[
+0,
+"/README.md"
+],
+[
+0,
+"/composer/Metapackage/README.txt"
+],
+[
+0,
+"/composer/Plugin/ProjectMessage/README.md"
+],
+[
+0,
+"/composer/Plugin/Scaffold/README.md"
+],
+[
+0,
+"/composer/Plugin/VendorHardening/README.txt"
+],
+[
+0,
+"/composer/Template/README.txt"
+],
+[
+0,
+"/modules/README.txt"
+],
+[
+0,
+"/sites/README.txt"
+],
+[
+0,
+"/themes/README.txt"
+],
+[
+0,
+"/web.config"
+],
+[
+0,
+"/admin/"
+],
+[
+0,
+"/comment/reply/"
+],
+[
+0,
+"/filter/tips"
+],
+[
+0,
+"/node/add/"
+],
+[
+0,
+"/search/"
+],
+[
+0,
+"/user/register"
+],
+[
+0,
+"/user/password"
+],
+[
+0,
+"/user/login"
+],
+[
+0,
+"/user/logout"
+],
+[
+0,
+"/media/oembed"
+],
+[
+0,
+"/*/media/oembed"
+],
+[
+0,
+"/index.php/admin/"
+],
+[
+0,
+"/index.php/comment/reply/"
+],
+[
+0,
+"/index.php/filter/tips"
+],
+[
+0,
+"/index.php/node/add/"
+],
+[
+0,
+"/index.php/search/"
+],
+[
+0,
+"/index.php/user/password"
+],
+[
+0,
+"/index.php/user/register"
+],
+[
+0,
+"/index.php/user/login"
+],
+[
+0,
+"/index.php/user/logout"
+],
+[
+0,
+"/index.php/media/oembed"
+],
+[
+0,
+"/index.php/*/media/oembed"
+],
+[
+0,
+"/blank"
+],
+[
+0,
+"/BLANK"
+],
+[
+0,
+"/print"
+],
+[
+0,
+"/PRINT"
+],
+[
+0,
+"/secure"
+],
+[
+1,
+"/secure-email$"
+],
+[
+0,
+"/feed"
+],
+[
+0,
+"/physphoto"
+],
+[
+0,
+"/blank.cfm"
+],
+[
+0,
+"/?src="
+],
+[
+0,
+"/body.cfm/"
+],
+[
+0,
+"/body.cfm.cfm"
+],
+[
+0,
+"/*.cfm?"
+],
+[
+1,
+"/*body.cfm?"
+],
+[
+1,
+"/*default.cfm"
+],
+[
+0,
+"/*emailfriend*"
+],
+[
+0,
+"/*emailfriend"
+],
+[
+0,
+"/*action=calendarWeek"
+],
+[
+0,
+"/*action=calendarWeek*"
+],
+[
+0,
+"/*action=calendarDay"
+],
+[
+0,
+"/*action=calendarDay*"
+],
+[
+0,
+"/*action=calendarMonth"
+],
+[
+0,
+"/*action=calendarMonth*"
+],
+[
+0,
+"/*action=detail&AEArticleID"
+],
+[
+0,
+"/*action=detail&AEArticleID*"
+],
+[
+0,
+"/*aeproductid=adam"
+],
+[
+0,
+"/*aeproductid=adam*"
+],
+[
+0,
+"/*AEProductID=Adam2004"
+],
+[
+0,
+"/*AEProductID=Adam2004*"
+],
+[
+0,
+"/*AEProductID=HW_Knowledgebase"
+],
+[
+0,
+"/*AEPoductID=HW_Knowledgebase*"
+],
+[
+0,
+"/printtopdf"
+],
+[
+0,
+"*[0]*"
+],
+[
+0,
+"*/search?*"
+],
+[
+0,
+"*/cancer/members?*"
+],
+[
+0,
+"*/classes-events?*"
+],
+[
+0,
+"*/events?*"
+],
+[
+0,
+"*/news-events/events-calendar?*"
+],
+[
+1,
+"/clinical-trials/search$"
+],
+[
+1,
+"/news/search$"
+],
+[
+1,
+"/providers/search$"
+],
+[
+1,
+"/locations/search$"
+],
+[
+1,
+"/locations/search?s=beverly+hills$"
+],
+[
+1,
+"/locations/search?s=birthplace$"
+],
+[
+1,
+"/locations/search?s=burbank$"
+],
+[
+1,
+"/locations/search?s=calabasas$"
+],
+[
+1,
+"/locations/search?s=central+coast$"
+],
+[
+1,
+"/locations/search?s=century+city$"
+],
+[
+1,
+"/locations/search?s=conejo+valley$"
+],
+[
+1,
+"/locations/search?s=culver+city$"
+],
+[
+1,
+"/locations/search?s=doheny+eye+center$"
+],
+[
+1,
+"/locations/search?s=downtown+la$"
+],
+[
+1,
+"/locations/search?s=downtown+los+angeles$"
+],
+[
+1,
+"/locations/search?s=encino$"
+],
+[
+1,
+"/locations/search?s=immediate+care$"
+],
+[
+1,
+"/locations/search?s=los+angeles$"
+],
+[
+1,
+"/locations/search?s=malibu$"
+],
+[
+1,
+"/locations/search?s=manhattan+beach$"
+],
+[
+1,
+"/locations/search?s=marina+del+rey$"
+],
+[
+1,
+"/locations/search?s=mptf$"
+],
+[
+1,
+"/locations/search?s=north+hollywood$"
+],
+[
+1,
+"/locations/search?s=orange+county$"
+],
+[
+1,
+"/locations/search?s=palos+verdes$"
+],
+[
+1,
+"/locations/search?s=pasadena$"
+],
+[
+1,
+"/locations/search?s=pharmacy$"
+],
+[
+1,
+"/locations/search?s=porter+ranch$"
+],
+[
+1,
+"/locations/search?s=primary+care$"
+],
+[
+1,
+"/locations/search?s=redondo+beach$"
+],
+[
+1,
+"/locations/search?s=rolling+hills$"
+],
+[
+1,
+"/locations/search?s=ronald+reagan$"
+],
+[
+1,
+"/locations/search?s=san+fernando+valley$"
+],
+[
+1,
+"/locations/search?s=san+gabriel+valley$"
+],
+[
+1,
+"/locations/search?s=san+luis+obispo$"
+],
+[
+1,
+"/locations/search?s=santa+barbara$"
+],
+[
+1,
+"/locations/search?s=santa+clarita+valley$"
+],
+[
+1,
+"/locations/search?s=santa+monica$"
+],
+[
+1,
+"/locations/search?s=simi+valley$"
+],
+[
+1,
+"/locations/search?s=south+bay$"
+],
+[
+1,
+"/locations/search?s=thousand+oaks$"
+],
+[
+1,
+"/locations/search?s=torrance$"
+],
+[
+1,
+"/locations/search?s=valencia$"
+],
+[
+1,
+"/locations/search?s=ventura$"
+],
+[
+1,
+"/locations/search?s=west+hills$"
+],
+[
+1,
+"/locations/search?s=west+los+angeles$"
+],
+[
+1,
+"/locations/search?s=westlake+village$"
+],
+[
+1,
+"/locations/search?s=westwood$"
+],
+[
+1,
+"/locations/search?s=woodland+hills$"
+],
+[
+0,
+"/book-appointment/nojs/"
+],
+[
+0,
+"/contact-request/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"sources"
+]
+},
+"https://www.use.go.kr": {
+"at": "2026-11-23T09:08+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='www.use.go.kr', port=443): Max retries exceeded with url: /robots.txt (Cau",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://www.who.int": {
+"at": "2026-11-23T09:08+00:00",
+"http": 200,
+"sha": "be87f736",
+"bytes": 18983,
+"kind": "rules",
+"star": [],
+"from": [
+"sources"
+]
+},
+"https://www.younghoon.ms.kr": {
+"at": "2026-11-23T09:08+00:00",
+"http": 200,
+"sha": "c357a630",
+"bytes": 96,
+"kind": "rules",
+"star": [
+[
+0,
+"/_attach/"
+],
+[
+0,
+"/_custom/"
+],
+[
+0,
+"/_res/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"targets"
+]
+},
+"https://www2.yonsei.ac.kr": {
+"at": "2026-11-23T09:08+00:00",
+"http": 404,
+"kind": "none",
+"from": [
+"hosts",
+"sources"
+]
+},
+"https://yged.jge.go.kr": {
+"at": "2026-11-23T09:08+00:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts"
+]
+},
+"https://younghoon.ms.kr": {
+"at": "2026-11-23T09:08+00:00",
+"http": 200,
+"sha": "c357a630",
+"bytes": 96,
+"kind": "rules",
+"star": [
+[
+0,
+"/_attach/"
+],
+[
+0,
+"/_custom/"
+],
+[
+0,
+"/_res/"
+]
+],
+"blockAt": "2026-11-23",
+"from": [
+"hosts",
+"sources",
+"targets"
+]
+},
+"https://ysed.jge.go.kr": {
+"at": "2026-11-23T09:08+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='ysed.jge.go.kr', port=443): Read timed out. (read timeout=15)",
+"from": [
+"hosts",
+"targets"
+]
+},
+"https://ysed.jne.go.kr": {
+"at": "2026-11-23T09:08+00:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='ysed.jne.go.kr', port=443): Read timed out. (read timeout=15)",
+"from": [
+"hosts",
+"targets"
+]
+}
+}
+}

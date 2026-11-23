@@ -124,7 +124,7 @@
 },
 {
 "id": "C27",
-"t": "올리기 칸: 공개 상태 명시 · 아동용 false · AI 표시 true · 제목 100자/설명 5,000바이트/< > 없음 · 승인본과 같은 파일(지문)·글 · 쇼츠 60초 이하 또는 바깥 음악 없음 · 하루 1편/7일 4편 상한"
+"t": "올리기 칸: 비우면 기본값이 우리 뜻과 달라지는 네 칸은 늘 직접 적음 — 공개 상태(status.privacyStatus) · 아동용 false(status.selfDeclaredMadeForKids) · AI 표시 true(status.containsSyntheticMedia) · 유료 PPL false(paidProductPlacementDetails.hasPaidProductPlacement) — 하나라도 비면 올리지 않고, 올린 뒤 다시 읽어 네 칸이 승인본과 같은지 대조(다르면 자동 올리기 멈춤 + 할 일, 2026-11-23 대표 B안) · 제목 100자/설명 5,000바이트/< > 없음 · 승인본과 같은 파일(지문)·글 · 쇼츠 60초 이하 또는 바깥 음악 없음 · 하루 1편/7일 4편 상한"
 },
 {
 "id": "C28",
@@ -242,7 +242,8 @@
 "private",
 "audit",
 "unverified",
-"quota"
+"quota",
+"paidProductPlacementDetails"
 ],
 "lang": "en"
 },
@@ -255,7 +256,8 @@
 "cycle": "w",
 "watch": [
 "videos.insert",
-"private"
+"private",
+"hasPaidProductPlacement"
 ],
 "lang": "en"
 },
@@ -852,14 +854,15 @@
 {
 "id": "yt-api-videos",
 "owner": "YouTube",
-"name": "Data API Videos 자료(공개 상태 기본값·예약 공개·아동용·AI 표시 칸)",
+"name": "Data API Videos 자료(공개 상태 기본값·예약 공개·아동용·AI 표시·유료 PPL 칸)",
 "url": "https://developers.google.com/youtube/v3/docs/videos?hl=en",
 "method": "auto",
 "cycle": "w",
 "watch": [
 "containsSyntheticMedia",
 "selfDeclaredMadeForKids",
-"defaults to public"
+"defaults to public",
+"paidProductPlacementDetails"
 ],
 "lang": "en"
 },
@@ -1249,7 +1252,7 @@
 "id": "R-YT5",
 "area": "mkt",
 "where": "유튜브",
-"title": "videos.insert는 '동영상 업로드' 따로 한도 — 1번에 1단위·하루 100번(2026-06-01 분리), 그 밖 기능 하루 10,000단위, 기본 한도 안에서는 감사 불필요. 검증 안 된 프로젝트로 올린 영상도 비공개로 잠기지 않음 — 2026-11-02 개정 기록이 2020-07-28 잠금을 거둠(2026-11-06 확인). 공개 상태를 비우면 '공개'가 기본, 예약 공개는 비공개·미공개 영상만",
+"title": "videos.insert는 '동영상 업로드' 따로 한도 — 1번에 1단위·하루 100번(2026-06-01 분리), 그 밖 기능 하루 10,000단위, 기본 한도 안에서는 감사 불필요. 검증 안 된 프로젝트로 올린 영상도 비공개로 잠기지 않음 — 2026-11-02 개정 기록이 2020-07-28 잠금을 거둠(2026-11-06 확인). 공개 상태를 비우면 '공개'가 기본(계정 설정에 따라 비공개가 기본인 경우도 있음 — 2026-11-02 개정 기록), 예약 공개는 비공개·미공개 영상만",
 "effective": "2026-06-01(할당 분리)",
 "label": "확정(2026-11-02 개정 기록 — 2026-11-06 대표 승인)",
 "ours": "정식 전환 뒤 6초 시험 1편 일부 공개(올리기 흐름 확인 — 잠김 확인은 필요 없음) → 첫 주 3편 일부 공개 + 대표 손 공개 → 문제 없으면 비공개 + 예약 공개 자동. 공개 상태는 매번 적음",
@@ -2009,7 +2012,7 @@
 "title": "사용자가 미리 명확히 동의한 것만 자동 업로드(III.I.2), 최종 결정은 사용자·정한 값을 바꾸지 않고 올린 뒤 설명에 덧붙이지 않음(III.C.3·III.C.3.a), 공개 상태 고르는 칸을 보여 주고 동의 없이 바꾸지 않음(III.E.3.f), 업로드 화면에 약관 안내문(API 약관 9.1), 제목 100자·설명 5,000바이트·< > 금지(최소 기능 요건), 프로그램 하나에 프로젝트 하나·열쇠 비밀(III.D.1)",
 "effective": "",
 "label": "확정",
-"ours": "승인 카드 = 올릴 값 전체, 승인 뒤 고치지 않음, 올린 뒤 다시 읽어 대조, 승인 카드에 안내문",
+"ours": "승인 카드 = 올릴 값 전체, 승인 뒤 고치지 않음, 올린 뒤 다시 읽어 대조(C27 네 칸 — 공개 상태·아동용·AI 표시·유료 PPL 포함, 다르면 자동 멈춤 + 할 일), 승인 카드에 안내문",
 "checks": [
 "C27"
 ],
@@ -2070,18 +2073,22 @@
 "id": "R-YT19",
 "area": "mkt",
 "where": "유튜브",
-"title": "협찬·간접광고 등 브랜드와 대가 관계가 있으면 '유료 프로모션' 표시(영상 시작에 라벨), 안 밝히면 삭제·제한·자동 라벨 가능",
-"effective": "",
-"label": "확정",
-"ours": "지금 없음 → 표시 안 함(C26). 생기면 대표가 스튜디오에서 켜고 한국어 '광고' 표시",
+"title": "협찬·간접광고 등 브랜드와 대가 관계가 있으면 '유료 프로모션' 표시(영상 시작에 라벨), 안 밝히면 삭제·제한·자동 라벨 가능. API 칸 paidProductPlacementDetails.hasPaidProductPlacement — 2026-11-16부터 칸을 빼면 'PPL 없음'으로 선언되지 않음(기본 false가 아님), 없다고 하려면 false를 직접 보냄. videos.insert의 part에 들어 있고 youtube.upload 범위로 넣을 수 있음(2026-11-12 문서)",
+"effective": "2026-11-16(API 칸 기본값 바뀜)",
+"label": "확정(2026-11-16 개정 기록 — 2026-11-23 대표 승인 B안)",
+"ours": "지금 없음 → 표시 안 함(C26). API로 올릴 때는 hasPaidProductPlacement=false를 늘 직접 적고 올린 뒤 다시 읽어 대조(C27). 스튜디오에서 손으로 올릴 때는 올리기 판 체크리스트의 '유료 프로모션 아니요' 그대로. 생기면 대표가 스튜디오에서 켜고 한국어 '광고' 표시",
 "checks": [
-"C26"
+"C26",
+"C27"
 ],
 "src": [
 "yt-paid",
-"yt-branded"
+"yt-branded",
+"yt-api-rev",
+"yt-api-videos",
+"yt-api-insert"
 ],
-"if_changed": "표시 대상·방법이 바뀌면 C26과 올리기 칸을 고침"
+"if_changed": "표시 대상·방법이나 API 칸 기본값이 바뀌면 C26·C27과 올리기 칸을 고침"
 },
 {
 "id": "R-YT20",

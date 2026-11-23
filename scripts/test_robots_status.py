@@ -55,7 +55,7 @@ json.dump([{'id': 'x', 'pages': [{'url': 'https://star.go.kr/notice/1'}]}], open
 out = os.path.join(d, 'robots_status.json')
 today = rs.kst_now().date().isoformat()
 json.dump({'hosts': {'https://mem.go.kr': {'kind': 'rules', 'blockAt': today}}}, open(out, 'w'))
-doc = rs.main(out, w, session=Sess(ANS), pause=0)
+doc = rs.main(out, w, session=Sess(ANS), pause=0, workers=4)
 H = doc['hosts']
 V = lambda o, path, who='web': rs.verdict(H[o], o + path, who)[0]
 

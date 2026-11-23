@@ -40,8 +40,9 @@ SKIP = ['ged.kedi', 'adiga', 'ipsinote.com', 'veritas-a', 'kyobit', 'newsis', 'h
         'gnnews', 'khan.co.kr', 'etoday', 'kyosu', 'dhnews', 'thesegye', 'kbmaeil', 'kyeonggi', 'kukinews', 'dailypharm',
         'heraldk', 'supple.kr', 'negagea', 'sanedu']
 MEMORY_DAYS = 30
-TIMEOUT = 15
+TIMEOUT = 10
 PAUSE = 0.3
+WORKERS = 8   # 누리집마다 한 번만 받으니 여러 곳을 함께(같은 곳을 두 번 부르지 않음) — 11/23 첫 실행이 한 줄로 12분 넘게 걸림
 
 
 def kst_now():
@@ -205,7 +206,7 @@ def apply_memory(e, prev, today):
     return e
 
 
-def main(out_path, watch_dir='watch', session=None, pause=PAUSE):
+def main(out_path, watch_dir='watch', session=None, pause=PAUSE, workers=WORKERS):
     try:
         old = json.load(open(out_path, encoding='utf-8'))
     except (OSError, ValueError):
@@ -216,15 +217,28 @@ def main(out_path, watch_dir='watch', session=None, pause=PAUSE):
         import requests
         session = requests.Session()
         session.headers.update({'User-Agent': fo.UA})
+        session.mount('https://', requests.adapters.HTTPAdapter(pool_connections=WORKERS * 2, pool_maxsize=WORKERS * 2))
+        session.mount('http://', requests.adapters.HTTPAdapter(pool_connections=WORKERS * 2, pool_maxsize=WORKERS * 2))
     today = kst_now().date()
     out, count = {}, {}
+
+    def one(o):
+        e = read_one(session, o)
+        if pause:
+            time.sleep(pause)
+        return o, e
+
+    if workers > 1:
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            got = dict(ex.map(one, hosts))
+    else:
+        got = dict(one(o) for o in hosts)
     for o in hosts:
-        e = apply_memory(read_one(session, o), prev.get(o), today)
+        e = apply_memory(got[o], prev.get(o), today)
         e['from'] = why.get(o, [])
         out[o] = e
         count[e['kind']] = count.get(e['kind'], 0) + 1
-        if pause:
-            time.sleep(pause)
     doc = {'checkedAt': kst_now().isoformat(timespec='minutes'),
            'ua': fo.UA, 'tokens': {'main': TOKENS_MAIN, 'old': TOKENS_OLD},
            'note': '공식 누리집 robots 판정(우리 이름·* 규칙만) — 판정 도구 ipsi-site tools/robots_allow.py · 규칙 scripts/robots_status.py 머리말',

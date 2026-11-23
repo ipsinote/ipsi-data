@@ -1,8 +1,8 @@
 {
  "id": "n72",
  "org": "부산과학고",
- "what": "앞으로 120일 안 일정 3단계",
- "checkedAt": "2026-11-24T04:11:10+09:00",
+ "what": "앞으로 120일 안 일정 2단계",
+ "checkedAt": "2026-11-24T08:23:12+09:00",
  "opened": [
   {
    "url": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503",
@@ -76,16 +76,6 @@
    ],
    "words": [
     "발표"
-   ],
-   "src": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503"
-  },
-  {
-   "text": "소집면접 평가 | 11. 23.(월) 08:00~17:00",
-   "dates": [
-    "2026-11-23"
-   ],
-   "words": [
-    "면접"
    ],
    "src": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503"
   },

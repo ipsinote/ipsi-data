@@ -2,12 +2,17 @@
  "id": "n84",
  "org": "현대청운고",
  "what": "앞으로 120일 안 일정 6단계",
- "checkedAt": "2026-11-24T04:11:22+09:00",
+ "checkedAt": "2026-11-24T08:23:28+09:00",
  "opened": [
   {
    "url": "http://www.hcu.hs.kr/hcu-h/M010501/",
    "status": "robots",
    "why": "html"
+  },
+  {
+   "url": "https://use.go.kr/jinhak/highSchool/highSchool_2.jsp",
+   "status": "robots",
+   "why": "unreachable"
   }
  ],
  "notices": [],

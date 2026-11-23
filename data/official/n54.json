@@ -1,15 +1,15 @@
 {
  "id": "n54",
  "org": "전북 교육지원청 영재원",
- "what": "앞으로 120일 안 일정 8단계",
- "checkedAt": "2026-11-24T04:05:25+09:00",
+ "what": "앞으로 120일 안 일정 6단계",
+ "checkedAt": "2026-11-24T08:18:08+09:00",
  "opened": [
   {
-   "url": "https://office.jbedu.kr/gce/M01060802/view/6932713.do",
+   "url": "https://office.jbedu.kr/jbgse/M010601/view/6933158.do",
    "status": "ok"
   },
   {
-   "url": "https://office.jbedu.kr/jbgse/M010601/view/6933158.do",
+   "url": "https://office.jbedu.kr/gce/M01060802/view/6932713.do",
    "status": "ok"
   },
   {
@@ -21,12 +21,12 @@
  "ged": [],
  "titles": [
   {
-   "url": "https://office.jbedu.kr/gce/M01060802/view/6932713.do",
-   "title": "공지사항<영재교육원<전북특별자치도고창교육지원청"
-  },
-  {
    "url": "https://office.jbedu.kr/jbgse/M010601/view/6933158.do",
    "title": "공지사항<열린마당<전북특별자치도군산교육지원청"
+  },
+  {
+   "url": "https://office.jbedu.kr/gce/M01060802/view/6932713.do",
+   "title": "공지사항<영재교육원<전북특별자치도고창교육지원청"
   },
   {
    "url": "https://school.jbedu.kr/jeonjuedu/M01030701/view/6937190.do",
@@ -35,13 +35,13 @@
  ],
  "files": [
   {
-   "url": "https://office.jbedu.kr/_cmm/fileDownload/gce/M01060802/fcbdf63177d125748e707d52cb66229a.do",
-   "name": "2027.영재교육대상자 선발 요강(공고문).hwpx",
+   "url": "https://office.jbedu.kr/_cmm/fileDownload/jbgse/M010601/af426edb1fddbf9695cbc201eefd0965.do",
+   "name": "2027학년도 군산교육지원청영재교육원 영재교육대상자 모집 요강.hwpx",
    "status": "robots"
   },
   {
-   "url": "https://office.jbedu.kr/_cmm/fileDownload/jbgse/M010601/af426edb1fddbf9695cbc201eefd0965.do",
-   "name": "2027학년도 군산교육지원청영재교육원 영재교육대상자 모집 요강.hwpx",
+   "url": "https://office.jbedu.kr/_cmm/fileDownload/gce/M01060802/fcbdf63177d125748e707d52cb66229a.do",
+   "name": "2027.영재교육대상자 선발 요강(공고문).hwpx",
    "status": "robots"
   },
   {
@@ -66,116 +66,6 @@
   }
  ],
  "lines": [
-  {
-   "text": "(교사관찰 추천서 제출) | 2026.11.10.(화)",
-   "dates": [
-    "2026-11-10"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://office.jbedu.kr/gce/M01060802/view/6932713.do"
-  },
-  {
-   "text": "(교사관찰 추천서 제출) | ~ 11.18.(수)",
-   "dates": [
-    "2026-11-18"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://office.jbedu.kr/gce/M01060802/view/6932713.do"
-  },
-  {
-   "text": "(학교영재추천위원회 추천서 제출) | 2026.11.18.(수)",
-   "dates": [
-    "2026-11-18"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://office.jbedu.kr/gce/M01060802/view/6932713.do"
-  },
-  {
-   "text": "(학교영재추천위원회 추천서 제출) | ~ 11.23.(월)",
-   "dates": [
-    "2026-11-23"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://office.jbedu.kr/gce/M01060802/view/6932713.do"
-  },
-  {
-   "text": "GED영재성검사 | 2026.12.5.(토)",
-   "dates": [
-    "2026-12-05"
-   ],
-   "words": [
-    "검사"
-   ],
-   "src": "https://office.jbedu.kr/gce/M01060802/view/6932713.do"
-  },
-  {
-   "text": "심층면접 실시 | 2026.12.5.(토)",
-   "dates": [
-    "2026-12-05"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://office.jbedu.kr/gce/M01060802/view/6932713.do"
-  },
-  {
-   "text": "2027학년도 영재교육대상자 발표 | 2026.12.8.(화)",
-   "dates": [
-    "2026-12-08"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://office.jbedu.kr/gce/M01060802/view/6932713.do"
-  },
-  {
-   "text": "(교사관찰 추천서 제출) | 2026.11.10.(화)",
-   "dates": [
-    "2026-11-10"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://office.jbedu.kr/jbgse/M010601/view/6933158.do"
-  },
-  {
-   "text": "(교사관찰 추천서 제출) | ~ 11.18.(수)",
-   "dates": [
-    "2026-11-18"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://office.jbedu.kr/jbgse/M010601/view/6933158.do"
-  },
-  {
-   "text": "(학교영재추천위원회 추천서 제출) | 2026.11.18.(수)",
-   "dates": [
-    "2026-11-18"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://office.jbedu.kr/jbgse/M010601/view/6933158.do"
-  },
-  {
-   "text": "(학교영재추천위원회 추천서 제출) | ~ 11.23.(월)",
-   "dates": [
-    "2026-11-23"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://office.jbedu.kr/jbgse/M010601/view/6933158.do"
-  },
   {
    "text": "GED영재성검사 | 2026.12.5.(토)",
    "dates": [
@@ -215,6 +105,36 @@
     "발표"
    ],
    "src": "https://office.jbedu.kr/jbgse/M010601/view/6933158.do"
+  },
+  {
+   "text": "GED영재성검사 | 2026.12.5.(토)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://office.jbedu.kr/gce/M01060802/view/6932713.do"
+  },
+  {
+   "text": "심층면접 실시 | 2026.12.5.(토)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://office.jbedu.kr/gce/M01060802/view/6932713.do"
+  },
+  {
+   "text": "2027학년도 영재교육대상자 발표 | 2026.12.8.(화)",
+   "dates": [
+    "2026-12-08"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://office.jbedu.kr/gce/M01060802/view/6932713.do"
   }
  ],
  "status": "dates",

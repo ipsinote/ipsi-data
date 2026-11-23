@@ -40,9 +40,9 @@ SKIP = ['ged.kedi', 'adiga', 'ipsinote.com', 'veritas-a', 'kyobit', 'newsis', 'h
         'gnnews', 'khan.co.kr', 'etoday', 'kyosu', 'dhnews', 'thesegye', 'kbmaeil', 'kyeonggi', 'kukinews', 'dailypharm',
         'heraldk', 'supple.kr', 'negagea', 'sanedu']
 MEMORY_DAYS = 30
-TIMEOUT = 10
+TIMEOUT = 15
 PAUSE = 0.3
-WORKERS = 8   # 누리집마다 한 번만 받으니 여러 곳을 함께(같은 곳을 두 번 부르지 않음) — 11/23 첫 실행이 한 줄로 12분 넘게 걸림
+WORKERS = 3   # 누리집마다 한 번만 받으니 여러 곳을 함께 — 11/23 한 줄(15초) 9분 41초 · 8곳(10초) 2분이었지만 못 받음 38 → 44·화면 19 → 28(같은 서버를 쓰는 학교 누리집이 몰린 요청을 막는 것으로 보임) → 3곳·15초
 
 
 KST = datetime.timezone(datetime.timedelta(hours=9))

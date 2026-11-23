@@ -2,7 +2,7 @@
  "id": "n66",
  "org": "순천대 영재원",
  "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-11-23T08:22:59+09:00",
+ "checkedAt": "2026-11-24T04:10:49+09:00",
  "opened": [
   {
    "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
@@ -17,11 +17,11 @@
    "status": "ok"
   },
   {
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281324711&mi=4659&currPage=1",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281324850&mi=4659&currPage=1",
    "status": "ok"
   },
   {
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281323556&mi=4659&currPage=1",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281324711&mi=4659&currPage=1",
    "status": "ok"
   }
  ],
@@ -31,12 +31,12 @@
    "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1"
   },
   {
-   "title": "[공고] 2027학년도 사사과정 진급대상자 공고 및 등록안내(현 중1 사사기초과정 대상)",
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281324711&mi=4659&currPage=1"
+   "title": "[선발] 2027학년도 국립순천대학교 과학영재교육원 신입생 추가 선발 공고(햔제 초6~중1) - 사사기초과정 정보 분야",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281324850&mi=4659&currPage=1"
   },
   {
-   "title": "[공고] 2027학년도 국립순천대학교 과학영재교육원 신입생 선발(1차 전형) 일정 및 고사장 안내 (심화과정 / 사사기초과정 물리반, 생물반)",
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281323556&mi=4659&currPage=1"
+   "title": "[공고] 2027학년도 사사과정 진급대상자 공고 및 등록안내(현 중1 사사기초과정 대상)",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281324711&mi=4659&currPage=1"
   }
  ],
  "ged": [],
@@ -50,11 +50,11 @@
    "title": "공지사항 - 과학영재교육원"
   },
   {
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281324711&mi=4659&currPage=1",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281324850&mi=4659&currPage=1",
    "title": "공지사항 - 과학영재교육원"
   },
   {
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281323556&mi=4659&currPage=1",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281324711&mi=4659&currPage=1",
    "title": "공지사항 - 과학영재교육원"
   }
  ],
@@ -90,6 +90,14 @@
    "type": "hwp",
    "bytes": 98304,
    "sha1": "e5ea38b9b32c"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=ecf80825404c1b60c4ccdd8982611072",
+   "name": "2027학년도 국립순천대학교 과학영재교육원 신입생 추가 선발 모집공고 및 제출서류.hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 229376,
+   "sha1": "a116b8dfe0ce"
   }
  ],
  "lines": [
@@ -300,6 +308,67 @@
    "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
   },
   {
+   "text": "등록일 | 2026.11.23",
+   "dates": [
+    "2026-11-23"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281324850&mi=4659&currPage=1"
+  },
+  {
+   "text": "영재성 평가를 위한 관찰평가 | 2026. 12. 11(금)",
+   "dates": [
+    "2026-12-11"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=ecf80825404c1b60c4ccdd8982611072"
+  },
+  {
+   "text": "관찰평가 | 2026. 12. 19(토) ~ 20(일)",
+   "dates": [
+    "2026-12-19"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=ecf80825404c1b60c4ccdd8982611072"
+  },
+  {
+   "text": "최종합격자 발표 | 2027. 01. 06(수) 11:00",
+   "dates": [
+    "2027-01-06"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=ecf80825404c1b60c4ccdd8982611072"
+  },
+  {
+   "text": "최종합격자 등록 | 2027. 01. 06(수) ~ 01. 07(목)",
+   "dates": [
+    "2027-01-06",
+    "2027-01-07"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=ecf80825404c1b60c4ccdd8982611072"
+  },
+  {
+   "text": "관찰평가 | 2026. 12. 11(금)",
+   "dates": [
+    "2026-12-11"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=ecf80825404c1b60c4ccdd8982611072"
+  },
+  {
    "text": "등록일 | 2026.11.20",
    "dates": [
     "2026-11-20"
@@ -319,16 +388,6 @@
     "등록"
    ],
    "src": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281324711&mi=4659&currPage=1"
-  },
-  {
-   "text": "등록일 | 2026.11.03",
-   "dates": [
-    "2026-11-03"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281323556&mi=4659&currPage=1"
   }
  ],
  "status": "dates",

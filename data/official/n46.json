@@ -2,7 +2,7 @@
  "id": "n46",
  "org": "강원과학고",
  "what": "2027 신입생 입학전형(요강·출석면담·발표)",
- "checkedAt": "2026-11-23T08:01:29+09:00",
+ "checkedAt": "2026-11-24T03:49:32+09:00",
  "opened": [
   {
    "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/list.do?boardID=23257&m=0201&s=kangwonsh",
@@ -74,16 +74,6 @@
    "type": "pdf",
    "bytes": 67908,
    "sha1": "1d106f5dd7ba"
-  },
-  {
-   "url": "https://kangwon-sh.gwe.hs.kr/images/template/40119/sub/s_visual.jpg",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 1075626,
-   "sha1": "660e2fb5ea36",
-   "lines": 0
   }
  ],
  "lines": [
@@ -139,6 +129,17 @@
     "합격"
    ],
    "src": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=3b390d00f3f373000b57b66a45c8029d"
+  },
+  {
+   "text": "2027학년도 신입생 입학전형 최종합격자 발표(11월 25일)",
+   "dates": [
+    "2026-11-25"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9713535&lev=0&m=0201&s=kangwonsh"
   },
   {
    "text": "출석면담은 10월 16일(금)부터 17일(토)까지 진행합니다.",

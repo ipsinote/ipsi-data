@@ -2,7 +2,7 @@
  "id": "n22",
  "org": "외대부고",
  "what": "앞으로 120일 안 일정 6단계",
- "checkedAt": "2026-11-23T08:14:53+09:00",
+ "checkedAt": "2026-11-24T04:02:20+09:00",
  "opened": [
   {
    "url": "https://admission.hafs.hs.kr/?act=board.read&code=1415&num=85&id=85",
@@ -68,6 +68,17 @@
   }
  ],
  "lines": [
+  {
+   "text": "2027학년도 인터넷원서접수 및 1,2단계 서류제출 안내 | 2026.11.23",
+   "dates": [
+    "2026-11-23"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://admission.hafs.hs.kr/?act=board.read&code=1415&num=85&id=85"
+  },
   {
    "text": "입학원서 작성 | 2026.12.04.(금) ~ 12.10.(목)",
    "dates": [

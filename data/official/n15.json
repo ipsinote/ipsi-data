@@ -2,7 +2,7 @@
  "id": "n15",
  "org": "경기 미래과학교육원 영재원",
  "what": "앞으로 120일 안 일정 5단계",
- "checkedAt": "2026-11-23T08:10:23+09:00",
+ "checkedAt": "2026-11-24T03:58:05+09:00",
  "opened": [
   {
    "url": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499",
@@ -36,7 +36,7 @@
    "url": "https://www.gise.kr/gise/common/nttFileDownload.do?fileKey=e22bd6384a157fc5e893c8bd8604396a",
    "name": "[붙임2] 2027학년도 경기도 영재교육기관 사회통합전형 대상자 선발 지침.hwp",
    "status": "error",
-   "error": "HTTPSConnectionPool(host='www.gise.kr', port=443): Read timed out. (read timeout=30)"
+   "error": "3번 받다 끊김: ('Connection broken: IncompleteRead(0 bytes read, 80384 more expected)', IncompleteRead(0 bytes read, 80384 more expected))"
   },
   {
    "url": "https://www.gise.kr/gise/common/nttFileDownload.do?fileKey=e349419253324dcf397ca11afce1bf66",

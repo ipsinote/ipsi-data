@@ -10,6 +10,8 @@ T = [
     # (2026-11-25 실행 1 창 — 입시노트 운영실 카드 '대학 기본 정보 API' · 대표 11/24 활용신청) 대학알리미 대학 기본 정보_GW(15158963):
     # 같은 키(DATA_GO_KR_KEY)가 이 API에 맞는지 + 주요지표 코드 목록(cdid·cdnm·rmk)에 등록금·충원율·취업률이 있는지만 봄 — 이 API는 값은 주지 않음
     ('대학 기본 정보 주요지표 코드 getKeyIndicatorCode', 'https://apis.data.go.kr/B340014/BasicInformationService_2/getKeyIndicatorCode', {'pageNo': 1, 'numOfRows': 500}),
+    ('대학 기본 정보 비교 대학 목록 getComparisonUniversitySearchList 2025 서울대', 'https://apis.data.go.kr/B340014/BasicInformationService_2/getComparisonUniversitySearchList', {'pageNo': 1, 'numOfRows': 3, 'svyYr': 2025, 'schlKrnNm': '서울대학교'}),
+    ('대학 기본 정보 공시 대학 목록 getNoticeUniversitySearchList 2025 서울대', 'https://apis.data.go.kr/B340014/BasicInformationService_2/getNoticeUniversitySearchList', {'pageNo': 1, 'numOfRows': 3, 'svyYr': 2025, 'schlKrnNm': '서울대학교'}),
     ('대학 기본 정보 공시년도 getNoticeSvyYear', 'https://apis.data.go.kr/B340014/BasicInformationService_2/getNoticeSvyYear', {'pageNo': 1, 'numOfRows': 20}),
 ]
 for name, url, q in T:

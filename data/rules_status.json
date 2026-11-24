@@ -1,63 +1,95 @@
 {
-"checkedAt": "2026-11-23T08:59+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "registry": {
-"updated": "2026-11-23",
+"updated": "2026-11-25",
 "rules": 60,
 "sources": 78
 },
 "run": {
 "auto": 60,
-"opened": 7,
-"ok": 6,
+"opened": 30,
+"ok": 30,
 "robots": 0,
 "failed": 0,
-"thin": 1,
-"notDue": 53
+"thin": 0,
+"notDue": 30
 },
 "summary": {
-"high": 0,
-"mid": 0,
-"low": 7
+"high": 4,
+"mid": 5,
+"low": 1
 },
 "events": [
 {
-"source": "ai-code-changelog",
-"rules": [],
-"level": "low",
-"what": "처음 기록"
+"source": "g-spam",
+"rules": [
+"R-G1"
+],
+"level": "high",
+"what": "수정일 Last updated 2026-08-28 → Last updated 2026-11-23 · 새 부분: Some back button hijacking was caused by third-party advertising platforms. Are / Can users report sites that engage in back button hijacking? / Does this policy apply to sites in Google Discover? / Does the back button hijacking policy apply if a user arrives at a website from / Does the back button hijacking policy apply when a website opens an external app"
 },
 {
-"source": "ai-code-whatsnew",
+"source": "yt-api-insert",
+"rules": [
+"R-YT5",
+"R-YT19"
+],
+"level": "high",
+"what": "수정일 Last updated 2026-11-12 → Last updated 2026-11-23 · 바뀐 부분: Request body"
+},
+{
+"source": "yt-api-quota",
+"rules": [
+"R-YT5"
+],
+"level": "high",
+"what": "수정일 Last updated 2026-11-12 → Last updated 2026-11-23 · 바뀐 부분: Quota and Compliance Audits Stay organized with collections Save and categorize"
+},
+{
+"source": "yt-api-videos",
+"rules": [
+"R-YT3",
+"R-YT5",
+"R-YT6",
+"R-YT19"
+],
+"level": "high",
+"what": "수정일 Last updated 2026-11-17 → Last updated 2026-11-23 · 바뀐 부분: Properties"
+},
+{
+"source": "ai-code-changelog",
 "rules": [],
-"level": "low",
-"what": "처음 기록"
+"level": "mid",
+"what": "바뀐 부분: (첫 부분)"
 },
 {
 "source": "ai-deprecations",
 "rules": [],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "ai-migration",
-"rules": [],
-"level": "low",
-"what": "본문이 짧아 자동으로 읽지 못함(직접 확인·월요일 자료 점검이 원문 확인)"
-},
-{
-"source": "ai-models",
-"rules": [],
-"level": "low",
-"what": "처음 기록"
+"level": "mid",
+"what": "바뀐 부분: Overview / Migrating to replacements / Model status / 2026-09-30: Claude Sonnet 4.5 model · 새 부분: 2026-11-23: Claude Opus 4.5 model"
 },
 {
 "source": "ai-relnotes-app",
 "rules": [],
-"level": "low",
-"what": "처음 기록"
+"level": "mid",
+"what": "새 부분: November 24, 2026"
 },
 {
 "source": "ai-relnotes-platform",
+"rules": [],
+"level": "mid",
+"what": "새 부분: November 23, 2026 · 없어진 부분: April 23, 2026"
+},
+{
+"source": "g-status",
+"rules": [
+"R-G3"
+],
+"level": "mid",
+"what": "바뀐 부분: 2026"
+},
+{
+"source": "ai-migration",
 "rules": [],
 "level": "low",
 "what": "처음 기록"
@@ -73,7 +105,7 @@
 "rules": [
 "R-YT1"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube channel monetization policies - YouTube Help",
@@ -175,7 +207,7 @@
 "slideshow": 1,
 "reused content": 11
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -188,7 +220,7 @@
 "rules": [
 "R-YT2"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Spam Policy - YouTube Help",
@@ -220,7 +252,7 @@
 "automat": 2,
 "strike": 4
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-10-24T06:19+09:00",
@@ -239,7 +271,7 @@
 "rules": [
 "R-YT3"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Disclosing use of GenAI content - Android phone & tablet - YouTube Help",
@@ -304,7 +336,7 @@
 "realistic": 14,
 "voice": 3
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [
 "altered or synthetic"
@@ -319,7 +351,7 @@
 "rules": [
 "R-YT4"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube Partner Program overview & eligibility - Computer - YouTube Help",
@@ -391,7 +423,7 @@
 "8,000": 0,
 "20 million": 0
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [
 "8,000",
@@ -497,15 +529,16 @@
 "method": "auto",
 "cycle": "w",
 "rules": [
-"R-YT5"
+"R-YT5",
+"R-YT19"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/reference/rest/v3/videos/insert?hl=en",
 "title": "Videos: insert  |  YouTube Data API  |  Google for Developers",
-"updated": "Last updated 2026-11-12",
-"chars": 15126,
-"hash": "47c1fef7c776",
+"updated": "Last updated 2026-11-23",
+"chars": 15008,
+"hash": "3a973bd70a99",
 "sections": [
 [
 "(첫 부분)",
@@ -529,7 +562,7 @@
 ],
 [
 "Request body",
-"6a327e68fa4f"
+"9b016a7eb8ce"
 ],
 [
 "Response",
@@ -563,16 +596,27 @@
 "watch": {
 "not restricted to private viewing mode": 1,
 "100 calls per day": 1,
-"private": 5,
+"private": 4,
 "audit": 0,
 "unverified": 1,
-"quota": 3
+"quota": 3,
+"paidProductPlacementDetails": 1
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [
 "audit"
+],
+"changedAt": "2026-11-25T08:45+09:00",
+"changes": {
+"changed": [
+"Request body"
+],
+"updated": [
+"Last updated 2026-11-12",
+"Last updated 2026-11-23"
 ]
+}
 },
 "yt-api-rev": {
 "name": "Data API 개정 이력",
@@ -581,13 +625,14 @@
 "method": "auto",
 "cycle": "w",
 "rules": [
-"R-YT5"
+"R-YT5",
+"R-YT19"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/revision_history?hl=en",
 "title": "Revision History  |  YouTube Data API  |  Google for Developers",
-"updated": "Last updated 2026-11-17",
+"updated": "Last updated 2026-11-24",
 "chars": 164609,
 "hash": "ecab96535192",
 "sections": [
@@ -914,9 +959,10 @@
 ],
 "watch": {
 "videos.insert": 30,
-"private": 19
+"private": 19,
+"hasPaidProductPlacement": 2
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-11-22T09:21+09:00",
@@ -942,7 +988,7 @@
 "rules": [
 "R-IG1"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Helping Creators Find New Audiences | Instagram for Creators | Instagram for Creators",
@@ -988,7 +1034,7 @@
 "aggregator": 5,
 "watermark": 1
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-11-15T08:55+09:00",
@@ -1011,7 +1057,7 @@
 "rules": [
 "R-IG2"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "https://developers.facebook.com/documentation/instagram-platform/content-publishing",
 "title": "",
@@ -1029,7 +1075,7 @@
 "24 hour": 1,
 "is_ai_generated": 3
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-11-06T22:06+09:00",
@@ -1048,7 +1094,7 @@
 "rules": [
 "R-TH1"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "https://developers.facebook.com/documentation/threads/posts",
 "title": "",
@@ -1065,7 +1111,7 @@
 "250": 1,
 "tester": 2
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-11-22T09:21+09:00",
@@ -1119,7 +1165,7 @@
 "rules": [
 "R-TT1"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "https://developers.tiktok.com/docs/en/content-sharing-guidelines",
 "title": "Content Sharing Guidelines | TikTok for Developers",
@@ -1162,7 +1208,7 @@
 "internal": 1,
 "5 users": 1
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1175,7 +1221,7 @@
 "rules": [
 "R-TT2"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "https://www.tiktok.com/safety/en/policies-and-engagement/integrity-authenticity",
 "title": "Policies & engagement | TikTok",
@@ -1213,7 +1259,7 @@
 "label": 6,
 "unoriginal": 1
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1377,13 +1423,13 @@
 "rules": [
 "R-G1"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Spam Policies for Google Web Search | Google Search Central  |  Documentation  |  Google for Developers",
-"updated": "Last updated 2026-08-28",
-"chars": 30173,
-"hash": "77373ae20a94",
+"updated": "Last updated 2026-11-23",
+"chars": 30724,
+"hash": "cd35a058f83f",
 "sections": [
 [
 "(첫 부분)",
@@ -1428,6 +1474,26 @@
 [
 "Malicious practices",
 "137e7a1f7e62"
+],
+[
+"Some back button hijacking was caused by third-party advertising platforms. Are",
+"27d6644983c6"
+],
+[
+"Can users report sites that engage in back button hijacking?",
+"e4d66d29ea49"
+],
+[
+"Does this policy apply to sites in Google Discover?",
+"b25bc92d14a4"
+],
+[
+"Does the back button hijacking policy apply if a user arrives at a website from",
+"d783e14acf33"
+],
+[
+"Does the back button hijacking policy apply when a website opens an external app",
+"0dccb5f4fb5f"
 ],
 [
 "Misleading functionality",
@@ -1499,11 +1565,25 @@
 "doorway": 2,
 "site reputation abuse": 0
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [
 "site reputation abuse"
+],
+"changedAt": "2026-11-25T08:45+09:00",
+"changes": {
+"added": [
+"Some back button hijacking was caused by third-party advertising platforms. Are",
+"Can users report sites that engage in back button hijacking?",
+"Does this policy apply to sites in Google Discover?",
+"Does the back button hijacking policy apply if a user arrives at a website from",
+"Does the back button hijacking policy apply when a website opens an external app"
+],
+"updated": [
+"Last updated 2026-08-28",
+"Last updated 2026-11-23"
 ]
+}
 },
 "g-genai": {
 "name": "생성형 AI 콘텐츠 지침",
@@ -1514,7 +1594,7 @@
 "rules": [
 "R-G2"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Google Search's Guidance on Generative AI Content on Your Website | Google Search Central  |  Documentation  |  Google f",
@@ -1544,7 +1624,7 @@
 "scaled content abuse": 2,
 "metadata": 4
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1645,13 +1725,13 @@
 "rules": [
 "R-G3"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "History for Ranking | Google Search Status Dashboard",
 "updated": "",
-"chars": 4134,
-"hash": "c6a70eae0297",
+"chars": 4216,
+"hash": "a5bcfffb8ccb",
 "sections": [
 [
 "(첫 부분)",
@@ -1663,7 +1743,7 @@
 ],
 [
 "2026",
-"bebc59734c31"
+"23ad72a83d94"
 ],
 [
 "2025",
@@ -1688,15 +1768,15 @@
 ],
 "watch": {
 "spam update": 22,
-"core update": 32
+"core update": 34
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [],
-"changedAt": "2026-11-22T09:21+09:00",
+"changedAt": "2026-11-25T08:45+09:00",
 "changes": {
 "changed": [
-"2021"
+"2026"
 ]
 }
 },
@@ -2665,10 +2745,11 @@
 "naver-disclaimer": {
 "name": "네이버 책임의 한계와 법적고지(자동화 접속·어뷰징·상표)",
 "owner": "네이버",
-"url": "",
+"url": "https://policy.naver.com/rules/disclaimer.html",
 "method": "manual",
 "cycle": "q",
 "rules": [
+"R-NV1",
 "R-NV6"
 ]
 },
@@ -3011,7 +3092,7 @@
 "R-YT14",
 "R-YT15"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube API Services - Developer Policies  |  Google for Developers",
@@ -3095,7 +3176,7 @@
 "independently calculated": 1,
 "30 days": 7
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [
 "Last updated"
@@ -3122,7 +3203,7 @@
 }
 },
 "yt-api-videos": {
-"name": "Data API Videos 자료(공개 상태 기본값·예약 공개·아동용·AI 표시 칸)",
+"name": "Data API Videos 자료(공개 상태 기본값·예약 공개·아동용·AI 표시·유료 PPL 칸)",
 "owner": "YouTube",
 "url": "https://developers.google.com/youtube/v3/docs/videos?hl=en",
 "method": "auto",
@@ -3130,15 +3211,16 @@
 "rules": [
 "R-YT3",
 "R-YT5",
-"R-YT6"
+"R-YT6",
+"R-YT19"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/reference/rest/v3/videos?hl=en",
 "title": "Videos  |  YouTube Data API  |  Google for Developers",
-"updated": "Last updated 2026-11-17",
-"chars": 59067,
-"hash": "05980339d27f",
+"updated": "Last updated 2026-11-23",
+"chars": 58949,
+"hash": "e09fadf05c6c",
 "sections": [
 [
 "(첫 부분)",
@@ -3158,27 +3240,28 @@
 ],
 [
 "Properties",
-"cc84ae794e8b"
+"9df468967952"
 ]
 ],
 "watch": {
 "containsSyntheticMedia": 2,
 "selfDeclaredMadeForKids": 3,
-"defaults to public": 0
+"defaults to public": 0,
+"paidProductPlacementDetails": 4
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [
 "defaults to public"
 ],
-"changedAt": "2026-11-22T09:21+09:00",
+"changedAt": "2026-11-25T08:45+09:00",
 "changes": {
 "changed": [
 "Properties"
 ],
 "updated": [
-"Last updated 2026-11-12",
-"Last updated 2026-11-17"
+"Last updated 2026-11-17",
+"Last updated 2026-11-23"
 ]
 }
 },
@@ -3191,7 +3274,7 @@
 "rules": [
 "R-YT15"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube API Services Terms of Service  |  Google for Developers",
@@ -3315,7 +3398,7 @@
 "watch": {
 "Last updated": 0
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [
 "Last updated"
@@ -3336,13 +3419,13 @@
 "rules": [
 "R-YT5"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/guides/quota_and_compliance_audits?hl=en",
 "title": "Quota and Compliance Audits  |  YouTube Data API  |  Google for Developers",
-"updated": "Last updated 2026-11-12",
-"chars": 2026,
-"hash": "71c0df58d205",
+"updated": "Last updated 2026-11-23",
+"chars": 2234,
+"hash": "a9fb27395704",
 "sections": [
 [
 "(첫 부분)",
@@ -3350,7 +3433,7 @@
 ],
 [
 "Quota and Compliance Audits Stay organized with collections Save and categorize",
-"b68d24fd9dd1"
+"1a8b2b8c157d"
 ],
 [
 "Begin an audit",
@@ -3376,24 +3459,19 @@
 "watch": {
 "100 videos.insert": 0
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": [
 "100 videos.insert"
 ],
-"changedAt": "2026-11-12T18:06+09:00",
+"changedAt": "2026-11-25T08:45+09:00",
 "changes": {
 "changed": [
-"Quota and Compliance Audits Stay organized with collections Save and categorize",
-"Begin an audit",
-"Request an additional quota extension",
-"Appeal a failed audit",
-"Periodic audit",
-"Change of control"
+"Quota and Compliance Audits Stay organized with collections Save and categorize"
 ],
 "updated": [
-"Last updated 2026-11-03",
-"Last updated 2026-11-10"
+"Last updated 2026-11-12",
+"Last updated 2026-11-23"
 ]
 }
 },
@@ -3406,7 +3484,7 @@
 "rules": [
 "R-YT6"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Set your channel or video’s audience - Computer - YouTube Help",
@@ -3458,7 +3536,7 @@
 "watch": {
 "override the channel setting": 1
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3471,7 +3549,7 @@
 "rules": [
 "R-YT17"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Understand three-minute YouTube Shorts - YouTube Help",
@@ -3524,7 +3602,7 @@
 "three minutes": 4,
 "blocked globally": 2
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3537,7 +3615,7 @@
 "rules": [
 "R-YT16"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
@@ -3621,7 +3699,7 @@
 "watch": {
 "expiring in 7 days": 1
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3634,7 +3712,7 @@
 "rules": [
 "R-YT2"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Community Guidelines strike basics on YouTube - YouTube Help",
@@ -3683,7 +3761,7 @@
 "warning": 9,
 "90 days": 5
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3696,7 +3774,7 @@
 "rules": [
 "R-YT3"
 ],
-"checkedAt": "2026-11-22T09:21+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
 "title": "Improving AI labels for viewers and creators\n            \n          \n           - YouTube Blog",
@@ -3737,7 +3815,7 @@
 "Shorts": 1,
 "label": 9
 },
-"lastOk": "2026-11-22T09:21+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -4319,14 +4397,18 @@
 "method": "auto",
 "cycle": "w",
 "rules": [],
-"checkedAt": "2026-11-23T08:59+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Release notes | Claude Help Center",
 "updated": "",
-"chars": 31358,
-"hash": "b211e2eb7ffd",
+"chars": 32488,
+"hash": "8f90c12b6663",
 "sections": [
+[
+"November 24, 2026",
+"0630ce8cc66c"
+],
 [
 "November 20, 2026",
 "a5e49ca58cfc"
@@ -4597,9 +4679,15 @@
 ]
 ],
 "watch": {},
-"lastOk": "2026-11-23T08:59+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [],
+"changedAt": "2026-11-25T08:45+09:00",
+"changes": {
+"added": [
+"November 24, 2026"
+]
+}
 },
 "ai-relnotes-platform": {
 "name": "개발자 플랫폼 변경 기록(모델·스킬·도구·컨텍스트)",
@@ -4608,17 +4696,21 @@
 "method": "auto",
 "cycle": "w",
 "rules": [],
-"checkedAt": "2026-11-23T08:59+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Claude Platform release notes - Claude Platform Docs",
 "updated": "",
-"chars": 98461,
-"hash": "1b618ac132f8",
+"chars": 99593,
+"hash": "55b5351a33a3",
 "sections": [
 [
 "(첫 부분)",
 "b35f05f7a7fd"
+],
+[
+"November 23, 2026",
+"99ad31ff66b7"
 ],
 [
 "November 17, 2026",
@@ -4931,16 +5023,21 @@
 [
 "April 24, 2026",
 "f753b04c04f7"
-],
-[
-"April 23, 2026",
-"d84ab0ce3424"
 ]
 ],
 "watch": {},
-"lastOk": "2026-11-23T08:59+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [],
+"changedAt": "2026-11-25T08:45+09:00",
+"changes": {
+"added": [
+"November 23, 2026"
+],
+"removed": [
+"April 23, 2026"
+]
+}
 },
 "ai-code-changelog": {
 "name": "Claude Code 변경 기록(예약·클라우드 세션·스킬·hooks·아티팩트)",
@@ -4949,23 +5046,29 @@
 "method": "auto",
 "cycle": "w",
 "rules": [],
-"checkedAt": "2026-11-23T08:59+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Claude Code changelog - Claude Code Docs",
 "updated": "",
-"chars": 1355253,
-"hash": "b95009ce2fa0",
+"chars": 1373742,
+"hash": "afe137e1add1",
 "sections": [
 [
 "(첫 부분)",
-"b95009ce2fa0"
+"afe137e1add1"
 ]
 ],
 "watch": {},
-"lastOk": "2026-11-23T08:59+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [],
+"changedAt": "2026-11-25T08:45+09:00",
+"changes": {
+"changed": [
+"(첫 부분)"
+]
+}
 },
 "ai-code-whatsnew": {
 "name": "Claude Code 주간 요약",
@@ -4974,7 +5077,7 @@
 "method": "auto",
 "cycle": "w",
 "rules": [],
-"checkedAt": "2026-11-23T08:59+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "What's new - Claude Code Docs",
@@ -4988,7 +5091,7 @@
 ]
 ],
 "watch": {},
-"lastOk": "2026-11-23T08:59+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -4999,7 +5102,7 @@
 "method": "auto",
 "cycle": "w",
 "rules": [],
-"checkedAt": "2026-11-23T08:59+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Models overview - Claude Platform Docs",
@@ -5035,7 +5138,7 @@
 "watch": {
 "claude-opus-5-5": 7
 },
-"lastOk": "2026-11-23T08:59+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -5046,13 +5149,13 @@
 "method": "auto",
 "cycle": "w",
 "rules": [],
-"checkedAt": "2026-11-23T08:59+09:00",
+"checkedAt": "2026-11-25T08:45+09:00",
 "status": "ok",
 "final": "",
 "title": "Model deprecations - Claude Platform Docs",
 "updated": "",
-"chars": 9573,
-"hash": "f92128f0f1e0",
+"chars": 9056,
+"hash": "f04e40788278",
 "sections": [
 [
 "(첫 부분)",
@@ -5060,11 +5163,11 @@
 ],
 [
 "Overview",
-"1e5c6d441b69"
+"53bf6c988a66"
 ],
 [
 "Migrating to replacements",
-"94807250e0d0"
+"2459a525fc3c"
 ],
 [
 "Notifications",
@@ -5084,15 +5187,19 @@
 ],
 [
 "Model status",
-"0752f966ed2b"
+"2721bc1767ab"
 ],
 [
 "Deprecation history",
 "44be48165c1c"
 ],
 [
+"2026-11-23: Claude Opus 4.5 model",
+"200600811aa4"
+],
+[
 "2026-09-30: Claude Sonnet 4.5 model",
-"a260b46f85c8"
+"acc8457b5dfe"
 ],
 [
 "2026-06-05: Claude Opus 4.1 model",
@@ -5136,9 +5243,21 @@
 ]
 ],
 "watch": {},
-"lastOk": "2026-11-23T08:59+09:00",
+"lastOk": "2026-11-25T08:45+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [],
+"changedAt": "2026-11-25T08:45+09:00",
+"changes": {
+"changed": [
+"Overview",
+"Migrating to replacements",
+"Model status",
+"2026-09-30: Claude Sonnet 4.5 model"
+],
+"added": [
+"2026-11-23: Claude Opus 4.5 model"
+]
+}
 },
 "ai-migration": {
 "name": "모델 마이그레이션 가이드 목록",
@@ -5147,12 +5266,27 @@
 "method": "auto",
 "cycle": "w",
 "rules": [],
-"checkedAt": "2026-11-23T08:59+09:00",
-"status": "thin",
+"checkedAt": "2026-11-25T08:45+09:00",
+"status": "ok",
 "final": "",
 "chars": 399,
 "title": "Migration guides - Claude Platform Docs",
-"failStreak": 0
+"failStreak": 0,
+"updated": "",
+"hash": "81d27419b62b",
+"sections": [
+[
+"(첫 부분)",
+"badfe0c57605"
+],
+[
+"Get help",
+"da70aff63853"
+]
+],
+"watch": {},
+"lastOk": "2026-11-25T08:45+09:00",
+"watchMissing": []
 }
 }
 }

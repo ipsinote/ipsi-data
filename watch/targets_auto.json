@@ -1,7 +1,7 @@
 {
  "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
- "made": "2026-11-24",
- "ver": "v28.269",
+ "made": "2026-11-25",
+ "ver": "v28.279",
  "horizonDays": 120,
  "targets": [
   {
@@ -1201,7 +1201,7 @@
    "pages": [
     {
      "kind": "post",
-     "url": "https://www.cnfl.cnehs.kr/sub/info.do?m=0210&s=cnfl"
+     "url": "http://www.cnfl.cnehs.kr/boardCnts/updateCnt.do?boardID=105543&viewBoardID=105543&boardSeq=45192587&lev=0&action=view&searchType=null&srch2=null&s=cnfl&statusYN=W&page=1"
     },
     {
      "kind": "post",
@@ -1368,14 +1368,6 @@
     {
      "kind": "post",
      "url": "https://gifted1.kongju.ac.kr/gifted/18650/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGZ2lmdGVkJTJGMjM2NCUyRjQzMzc1OSUyRmFydGNsVmlldy5kbyUzRg%3D%3D"
-    },
-    {
-     "kind": "board",
-     "url": "https://gifted.kongju.ac.kr/main/board/list.php?q=90f73afc767f94d4f754be1801c8fba0f923df45463f527de14cabc7d5011189"
-    },
-    {
-     "kind": "post",
-     "url": "https://gifted.kongju.ac.kr/main/contents/handbook.php?q=d8bc32ddf8f9a195938ce3185cf73edd9d33b5190ff372611e680b15e3b67c15"
     }
    ],
    "title": [
@@ -2392,8 +2384,8 @@
      "url": "https://www.dge.go.kr/dgdbe/index.do"
     },
     {
-     "kind": "site",
-     "url": "https://www.dgsbe.go.kr/"
+     "kind": "post",
+     "url": "https://www.dge.go.kr/dgsbe/"
     }
    ],
    "title": [
@@ -3010,15 +3002,15 @@
   {
    "id": "n92",
    "org": "경국대 영재원",
-   "what": "앞으로 120일 안 일정 6단계",
+   "what": "앞으로 120일 안 일정 5단계",
    "pages": [
     {
      "kind": "post",
-     "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172553"
+     "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172552"
     },
     {
      "kind": "post",
-     "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172552"
+     "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172553"
     },
     {
      "kind": "board",
@@ -3035,10 +3027,6 @@
     "추천"
    ],
    "expect": [
-    [
-     "2026-11-24",
-     "2026-11-24"
-    ],
     [
      "2026-11-25",
      "2026-11-25"
@@ -3269,7 +3257,7 @@
   {
    "id": "n99",
    "org": "영훈국제중",
-   "what": "앞으로 120일 안 일정 5단계",
+   "what": "앞으로 120일 안 일정 4단계",
    "pages": [
     {
      "kind": "post",
@@ -3285,10 +3273,6 @@
     "지원"
    ],
    "expect": [
-    [
-     "2026-11-24",
-     "2026-11-24"
-    ],
     [
      "2026-11-25",
      "2026-11-30"
@@ -3311,7 +3295,7 @@
   {
    "id": "n100",
    "org": "대원국제중",
-   "what": "앞으로 120일 안 일정 6단계",
+   "what": "앞으로 120일 안 일정 4단계",
    "pages": [
     {
      "kind": "post",
@@ -3327,10 +3311,6 @@
     "지원"
    ],
    "expect": [
-    [
-     "2026-11-24",
-     "2026-11-24"
-    ],
     [
      "2026-11-25",
      "2026-11-30"

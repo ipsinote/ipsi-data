@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.269)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-11-24",
-"ver": "v28.269",
-"count": 552,
+"note": "페이지(공개판 v28.279)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-11-25",
+"ver": "v28.279",
+"count": 554,
 "sources": [
 {
 "id": "1084a42981",
@@ -178,6 +178,19 @@
 "n75"
 ],
 "dated": "2026-11-14",
+"cycle": "w"
+},
+{
+"id": "968c74b56c",
+"url": "https://www.dge.go.kr/dgsbe/",
+"host": "dge.go.kr",
+"name": "대구서부교육지원청 누리집(2027 영재교육원 모집 요강)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n75"
+],
+"dated": "",
 "cycle": "w"
 },
 {
@@ -1046,7 +1059,7 @@
 "id": "997cb8ad04",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
 "host": "home.pen.go.kr",
-"name": "부산광역시교육청 고입포털 후기고(특목고·자사고·학교장전형고) 안내",
+"name": "후기고(특목고, 자사고, 학교장전형고), 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1149,7 +1162,7 @@
 "q-eo-sw",
 "r-one-center"
 ],
-"dated": "2026-09-01",
+"dated": "2026-11-24",
 "cycle": "w"
 },
 {
@@ -2531,19 +2544,6 @@
 "cycle": "m"
 },
 {
-"id": "8091f3a2c9",
-"url": "https://www.dgsbe.go.kr/",
-"host": "dgsbe.go.kr",
-"name": "대구서부교육지원청 누리집(2027 영재교육원 모집 요강)",
-"kind": "공식",
-"cat": "기타",
-"used": [
-"n75"
-],
-"dated": "",
-"cycle": "m"
-},
-{
 "id": "313f4b5ad4",
 "url": "https://doi.org/10.1001/jamapediatrics.2019.3176",
 "host": "doi.org",
@@ -2834,6 +2834,19 @@
 "cycle": "m"
 },
 {
+"id": "cd4629baf6",
+"url": "https://www.kosaf.go.kr/ko/notice.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21508",
+"host": "kosaf.go.kr",
+"name": "한국장학재단 2027년 1학기 국가장학금 1차 신청 일정 및 신청매뉴얼 안내",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-hw-kosaf-freshman"
+],
+"dated": "2026-11-20",
+"cycle": "m"
+},
+{
 "id": "d08519cf6e",
 "url": "https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=21272",
 "host": "kosaf.go.kr",
@@ -2844,6 +2857,19 @@
 "r-tuition"
 ],
 "dated": "2026-09-02",
+"cycle": "m"
+},
+{
+"id": "b8972cb7cf",
+"url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_01_01",
+"host": "kosaf.go.kr",
+"name": "한국장학재단 국가장학금 Ⅰ유형(학생직접지원형) 안내",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-hw-kosaf-freshman"
+],
+"dated": "2026-11-24",
 "cycle": "m"
 },
 {
@@ -2965,6 +2991,19 @@
 "r-fl-abolish"
 ],
 "dated": "2026-09-07",
+"cycle": "m"
+},
+{
+"id": "d7f12edf9c",
+"url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuLv=1&menuCd=136",
+"host": "nip.kdca.go.kr",
+"name": "질병관리청 예방접종도우미 — 초·중학교 입학생 예방접종 확인사업",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-sch-entry-vaccine"
+],
+"dated": "2026-11-24",
 "cycle": "m"
 },
 {
@@ -3403,6 +3442,7 @@
 "q-gana",
 "q-naesin-grade-vs-achieve",
 "q-snu",
+"q-univ-jungsi-chungwon",
 "r-naesin5-one2",
 "r-snu-jungsi-naesin",
 "snu27j"
@@ -5133,6 +5173,19 @@
 "cycle": "w"
 },
 {
+"id": "38abf3af56",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148939497",
+"host": "korea.kr",
+"name": "정책브리핑(질병관리청) 초·중학교 입학 전 필수예방접종 완료 당부…비용 무료",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-sch-entry-vaccine"
+],
+"dated": "2025-02-12",
+"cycle": "w"
+},
+{
 "id": "b0b8525ba9",
 "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148957544",
 "host": "korea.kr",
@@ -5290,6 +5343,19 @@
 "q-csat-day-rules"
 ],
 "dated": "2026-11-02",
+"cycle": "w"
+},
+{
+"id": "8bb2d66bcc",
+"url": "https://m.korea.kr/news/policyNewsView.do?newsId=148895954",
+"host": "m.korea.kr",
+"name": "정책브리핑(교육부) 내년 1학기 국가장학금 신청하세요(신청 대상에 입학 예정 신입생 포함)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-kosaf-freshman"
+],
+"dated": "2021-11-23",
 "cycle": "w"
 },
 {
@@ -6217,46 +6283,6 @@
 "cycle": "w"
 },
 {
-"id": "4b1222b40b",
-"url": "https://gifted.kongju.ac.kr/files/handbook/26585900_1758001332.pdf",
-"host": "gifted.kongju.ac.kr",
-"name": "공주대 과학영재교육원 2026학년도 초등심화 요강",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n34",
-"n44"
-],
-"dated": "",
-"cycle": "w"
-},
-{
-"id": "95cb985a58",
-"url": "https://gifted.kongju.ac.kr/main/board/list.php?q=90f73afc767f94d4f754be1801c8fba0f923df45463f527de14cabc7d5011189",
-"host": "gifted.kongju.ac.kr",
-"name": "국립공주대학교 과학영재교육원 공지사항",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n44"
-],
-"dated": "2026-10-13",
-"cycle": "w"
-},
-{
-"id": "9d558f2787",
-"url": "https://gifted.kongju.ac.kr/main/contents/handbook.php?q=d8bc32ddf8f9a195938ce3185cf73edd9d33b5190ff372611e680b15e3b67c15",
-"host": "gifted.kongju.ac.kr",
-"name": "공주대 과학영재교육원 모집요강 페이지",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n44"
-],
-"dated": "",
-"cycle": "w"
-},
-{
 "id": "d24a01ccb3",
 "url": "https://gifted.pusan.ac.kr/bbs/gifted/1366/1463028/artclView.do",
 "host": "gifted.pusan.ac.kr",
@@ -6364,6 +6390,7 @@
 "kind": "공식",
 "cat": "영재교육",
 "used": [
+"n34",
 "n44"
 ],
 "dated": "2026-11-18",
@@ -6662,7 +6689,8 @@
 "q-baechi",
 "q-g3-after",
 "q-gana",
-"q-univ-chungwon-call"
+"q-univ-chungwon-call",
+"q-univ-jungsi-chungwon"
 ],
 "dated": "2025-04-30",
 "cycle": "w"
@@ -7161,16 +7189,16 @@
 "cycle": "w"
 },
 {
-"id": "3e7fcdb636",
-"url": "https://www.cnfl.cnehs.kr/sub/info.do?m=0210&s=cnfl",
+"id": "daa5a4b5f8",
+"url": "http://www.cnfl.cnehs.kr/boardCnts/updateCnt.do?boardID=105543&viewBoardID=105543&boardSeq=45192587&lev=0&action=view&searchType=null&srch2=null&s=cnfl&statusYN=W&page=1",
 "host": "cnfl.cnehs.kr",
-"name": "충남외고 2027학년도 자기주도학습전형 요강(2026.8) — Ⅶ. 전형 일정(대표가 준 요강 파일)",
+"name": "충남외고 2027학년도 자기주도학습전형 요강(2026. 8.) — Ⅶ. 전형 일정",
 "kind": "공식",
 "cat": "학교",
 "used": [
 "n42"
 ],
-"dated": "2026-11-04",
+"dated": "2026-11-24",
 "cycle": "w"
 },
 {

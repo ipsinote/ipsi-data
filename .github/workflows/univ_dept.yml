@@ -15,6 +15,9 @@ on:
         description: 'apis = 학과별 충원 현황은 건너뛰고 나머지만'
         required: false
         default: 'all'
+  push:   # (2026-11-25) 깃허브 화면을 못 여는 작업 창이 응답 모양을 보려고 — diag_apis.py를 고쳐 올리면 그것만 돌려(저장 안 함) 결과 글을 가지 diag-out에 둠(키 가림)
+    branches: [main]
+    paths: ['scripts/diag_apis.py']
 
 permissions:
   contents: write
@@ -37,8 +40,28 @@ jobs:
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
         run: python scripts/diag_odcloud.py && python scripts/diag_apis.py
+      - name: 응답 살펴보기 결과를 가지 diag-out에(push일 때만 · 키가 글에 있으면 올리지 않음)
+        if: github.event_name == 'push'
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+        run: |
+          mkdir -p /tmp/dout && python scripts/diag_apis.py > /tmp/dout/diag_apis.txt 2>&1 || true
+          python - <<'PY'
+          import os, urllib.parse
+          k = os.environ.get('DATA_GO_KR_KEY', '').strip()
+          t = open('/tmp/dout/diag_apis.txt', encoding='utf-8', errors='replace').read()
+          bad = k and any(v in t for v in {k, urllib.parse.quote(k, safe=''), urllib.parse.quote_plus(k)})
+          if bad:
+              raise SystemExit('키가 결과 글에 있어 올리지 않음')
+          print('결과 글', len(t), '자 — 키 없음')
+          PY
+          cd /tmp/dout && git init -q && git checkout -q -b diag-out
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add diag_apis.txt && git commit -q -m "응답 살펴보기 $(TZ=Asia/Seoul date '+%F %H:%M')(키 가림)"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" diag-out
       - name: 학과별 신입생 충원 현황 받기
-        if: github.event.inputs.diag != 'yes'
+        if: github.event.inputs.diag != 'yes' && github.event_name != 'push'
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
         run: |
@@ -47,12 +70,12 @@ jobs:
           if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%d)" -gt 7 ]; then echo '이번 주는 건너뜀(그달 첫 월요일만)'; exit 0; fi
           python scripts/fetch_univ_dept.py
       - name: 대학 기본정보 · 학교별 학과 · 공휴일 받기
-        if: always() && github.event.inputs.diag != 'yes'
+        if: always() && github.event.inputs.diag != 'yes' && github.event_name != 'push'
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
         run: python scripts/fetch_public_apis.py
       - name: 바뀐 것이 있으면 저장
-        if: always()
+        if: always() && github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -9,7 +9,7 @@ T = [
     ('국경일 getHoliDeInfo 2027', 'https://apis.data.go.kr/B090041/openapi/service/SpcdeInfoService/getHoliDeInfo', {'pageNo': 1, 'numOfRows': 50, 'solYear': 2027}),
     # (2026-11-25 실행 1 창 — 입시노트 운영실 카드 '대학 기본 정보 API' · 대표 11/24 활용신청) 대학알리미 대학 기본 정보_GW(15158963):
     # 같은 키(DATA_GO_KR_KEY)가 이 API에 맞는지 + 주요지표 코드 목록(cdid·cdnm·rmk)에 등록금·충원율·취업률이 있는지만 봄 — 이 API는 값은 주지 않음
-    ('대학 기본 정보 주요지표 코드 getKeyIndicatorCode', 'https://apis.data.go.kr/B340014/BasicInformationService_2/getKeyIndicatorCode', {'pageNo': 1, 'numOfRows': 100}),
+    ('대학 기본 정보 주요지표 코드 getKeyIndicatorCode', 'https://apis.data.go.kr/B340014/BasicInformationService_2/getKeyIndicatorCode', {'pageNo': 1, 'numOfRows': 500}),
     ('대학 기본 정보 공시년도 getNoticeSvyYear', 'https://apis.data.go.kr/B340014/BasicInformationService_2/getNoticeSvyYear', {'pageNo': 1, 'numOfRows': 20}),
 ]
 for name, url, q in T:
@@ -24,4 +24,4 @@ for name, url, q in T:
             x = x.replace(k, '***')
     tags = sorted(set(re.findall(r'<([A-Za-z0-9_]+)>', x)))
     print('==', name, '| 길이', len(x), '| 태그:', ','.join(tags)[:600])
-    print(x[:6000] if 'getKeyIndicatorCode' in url else x[:1500])
+    print(x[:80000] if 'getKeyIndicatorCode' in url else x[:1500])

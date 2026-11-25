@@ -419,14 +419,14 @@
 "owner": "네이버",
 "name": "네이버 이용약관",
 "url": "https://policy.naver.com/rules/service.html",
-"method": "auto",
-"cycle": "m",
+"method": "manual",
+"cycle": "q",
 "watch": [
 "자동",
 "프로그램",
 "매크로"
 ],
-"note": "조사 환경(Claude 작업 공간)에서는 막혔음. GitHub에서 열리면 자동, robots로 막히면 직접 확인으로 바뀜",
+"note": "2026-11-25 대표 결정(대화 버튼 '대표 확인으로 바꾸기'): 분기마다 대표가 이 쪽을 PDF로 인쇄해 올리면 Claude가 바뀜을 대조 — 책임의 한계와 법적고지(naver-disclaimer)와 같은 날 한 번에(두 문서 약 3분). 주소 = 네이버 페이지 맨 아래 '이용약관'. Claude·GitHub 감시는 열지 않음(policy.naver.com의 robots.txt 자리에 HTML 화면이 와서 '못 읽음 = 막힘' — 2026-11-25 확인 · 마지막으로 열린 날 2026-10-22). 처음 대표 확인은 다음 차례 자료 점검이 인쇄 카드로",
 "lang": "ko"
 },
 {

@@ -571,6 +571,64 @@ def date_lines(text, near, today, src, limit=40):
     return out
 
 
+def table_grid(table):
+    """표를 칸 격자로 — rowspan·colspan을 펼쳐 {(행, 열): 칸 글}. 표 안의 표는 따로 읽는다."""
+    grid, r = {}, 0
+    for tr in table.find_all('tr'):
+        if tr.find_parent('table') is not table:
+            continue
+        c = 0
+        for cell in tr.find_all(['td', 'th'], recursive=False):
+            while (r, c) in grid:
+                c += 1
+            txt = re.sub(r'\s+', ' ', cell.get_text(' ')).strip()
+            try:
+                rs = max(1, min(int(cell.get('rowspan') or 1), 50))
+            except ValueError:
+                rs = 1
+            try:
+                cs = max(1, min(int(cell.get('colspan') or 1), 50))
+            except ValueError:
+                cs = 1
+            for dr in range(rs):
+                for dc in range(cs):
+                    grid.setdefault((r + dr, c + dc), txt)
+            c += cs
+        r += 1
+    return grid, r
+
+
+def table_col_lines(soup, col, near, today, src):
+    """2026-11-26(대표 05:33 승인 — ipsi-site 운영실 asks/ask-cl-dqfix-1126): 학교 종류를 열로 나눈 일정표(경북 고입전형포털
+    hsAdmission02 — 행 = 전형 단계, 열 = 특성화고·과학고·외고 …)에서 대상의 열(targets 'col', 예: '과학고')만
+    '행 이름 | 열 이름 | 칸' 줄로 읽는다. 글 줄 읽기(date_lines)는 날짜만 든 칸에 바로 앞 두 칸의 이름을 붙여서
+    셋째 열부터는 버렸다(경북과학고 '합격자 발표 11. 30.'을 못 읽어 확인일이 찍히지 않음).
+    열 이름 칸 = 위에서부터 col이 든 첫 칸(날짜 없음) · colspan으로 넓으면 그 열 모두."""
+    out = []
+    for table in soup.find_all('table'):
+        grid, nrows = table_grid(table)
+        head = None
+        for r in range(nrows):
+            cols = sorted({c for (rr, c), t in grid.items() if rr == r and c > 0 and col in t and not dates_in(t, today)})
+            if cols:
+                head = (r, cols)
+                break
+        if not head:
+            continue
+        hr, cols = head
+        lines = []
+        for r in range(hr + 1, nrows):
+            label = grid.get((r, 0), '')
+            for c in cols:
+                cell = grid.get((r, c), '')
+                if not cell or cell == label or col in cell:
+                    continue
+                if dates_in(cell, today):
+                    lines.append('%s | %s | %s' % (label, col, cell))
+        out += date_lines('\n'.join(lines), near, today, src)
+    return out
+
+
 # ---------- pages ----------
 def soup_of(html):
     return BeautifulSoup(html, 'lxml')
@@ -753,6 +811,10 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
     imgs = body_images(soup, final)
     n_lines = len(res['lines'])
     res['lines'] += date_lines(visible_text(soup), tgt.get('near', []), today, final)
+    if tgt.get('col'):   # 2026-11-26: 학교 종류를 열로 나눈 일정표 — 대상의 열만 '행 | 열 | 날짜'로(글 줄 읽기의 칸 이름 붙이기는 둘째 열까지만 맞음)
+        got = table_col_lines(soup, tgt['col'], tgt.get('near', []), today, final)
+        if got:
+            res['lines'] = res['lines'][:n_lines] + got
     if not depth_files:
         return
     n_files = len(res['files'])

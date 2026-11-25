@@ -1,11 +1,12 @@
 {
- "at": "2026-11-25T03:48:04+09:00",
+ "at": "2026-11-25T23:35:59+09:00",
  "targets": 89,
  "withDates": 44,
  "blockedAll": [
   "n80",
   "n31",
   "n33",
+  "n41",
   "n69",
   "n83",
   "n34",
@@ -72,7 +73,7 @@
    "route": 1,
    "tried": null,
    "robotsWhy": [
-    "rules"
+    "unreachable"
    ]
   },
   {
@@ -98,7 +99,7 @@
    "route": 1,
    "tried": null,
    "robotsWhy": [
-    "html"
+    "unreachable"
    ]
   },
   {
@@ -459,7 +460,7 @@
     },
     {
      "rank": 2,
-     "status": "robots"
+     "status": "not-found"
     },
     {
      "rank": 3,
@@ -704,19 +705,27 @@
   {
    "id": "n41",
    "org": "충남과학고",
-   "status": "found-no-dates",
+   "status": "blocked-all",
    "lines": 0,
-   "files": 1,
+   "files": 0,
    "opened": 2,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ],
    "robotsWhy": [
-    "rules"
+    "unreachable"
    ]
   },
   {
@@ -729,7 +738,6 @@
    "route": 1,
    "tried": null,
    "robotsWhy": [
-    "rules",
     "unreachable"
    ]
   },
@@ -1201,18 +1209,18 @@
  ],
  "robots": {
   "http://dhi.hs.kr": {
-   "http": "error",
-   "error": "HTTPConnectionPool(host='dhi.hs.kr', port=80): Read timed out. (read timeout=30)",
-   "kind": "unreachable",
-   "blockAt": "2026-11-24"
+   "http": 200,
+   "bytes": 375,
+   "sha": "aa974429",
+   "rules": 14,
+   "disallow": 14,
+   "kind": "rules",
+   "blockAt": "2026-11-25"
   },
   "http://dongbu.ice.go.kr": {
-   "http": 200,
-   "bytes": 68,
-   "sha": "3b579ef7",
-   "rules": 1,
-   "disallow": 1,
-   "kind": "rules",
+   "http": "error",
+   "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "kind": "unreachable",
    "blockAt": "2026-11-25"
   },
   "http://gbgt.daegu.ac.kr": {
@@ -1233,13 +1241,15 @@
    "kind": "rules",
    "blockAt": "2026-11-25"
   },
+  "http://www.cnfl.cnehs.kr": {
+   "http": "error",
+   "error": "HTTPConnectionPool(host='www.cnfl.cnehs.kr', port=80): Max retries exceeded with url: /robots.txt (Caused by ConnectTime",
+   "kind": "unreachable"
+  },
   "http://www.cnsh.cnehs.kr": {
-   "http": 200,
-   "bytes": 36,
-   "sha": "d8cfb862",
-   "rules": 1,
-   "disallow": 1,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPConnectionPool(host='www.cnsh.cnehs.kr', port=80): Max retries exceeded with url: /robots.txt (Caused by ConnectTime",
+   "kind": "unreachable",
    "blockAt": "2026-11-25"
   },
   "http://www.dge.go.kr": {
@@ -1348,8 +1358,13 @@
    "kind": "unreachable"
   },
   "https://dhi.dge.hs.kr": {
-   "blockAt": "2026-11-24",
-   "kept": true
+   "http": 200,
+   "bytes": 375,
+   "sha": "aa974429",
+   "rules": 14,
+   "disallow": 14,
+   "kind": "rules",
+   "blockAt": "2026-11-25"
   },
   "https://djsch.kr": {
    "http": 200,
@@ -1438,13 +1453,9 @@
    "blockAt": "2026-11-24"
   },
   "https://gifted.dnue.ac.kr": {
-   "http": 200,
-   "final": "https://gifted.dnue.ac.kr/resources/Error/404.html",
-   "bytes": 6493,
-   "sha": "b8481f2e",
-   "rules": 0,
-   "disallow": 0,
-   "kind": "html"
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='gifted.dnue.ac.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResol",
+   "kind": "unreachable"
   },
   "https://gifted.gachon.ac.kr": {
    "http": "error",
@@ -1570,8 +1581,8 @@
   "https://ice.go.kr": {
    "http": 200,
    "final": "https://www.ice.go.kr/robots.txt",
-   "bytes": 406,
-   "sha": "7ee5a749",
+   "bytes": 602,
+   "sha": "d15cec9c",
    "rules": 17,
    "disallow": 16,
    "kind": "rules",
@@ -1585,6 +1596,11 @@
    "disallow": 13,
    "kind": "rules",
    "blockAt": "2026-11-25"
+  },
+  "https://jinhak.cne.go.kr": {
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='jinhak.cne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTim",
+   "kind": "unreachable"
   },
   "https://jinhak.sen.go.kr": {
    "http": 200,
@@ -1780,18 +1796,10 @@
    "blockAt": "2026-11-24"
   },
   "https://www.cne.go.kr": {
-   "http": 200,
-   "bytes": 605,
-   "sha": "25688aea",
-   "rules": 1,
-   "disallow": 1,
-   "kind": "rules",
-   "blockAt": "2026-11-25"
-  },
-  "https://www.cnfl.cnehs.kr": {
    "http": "error",
-   "error": "HTTPSConnectionPool(host='www.cnfl.cnehs.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTi",
-   "kind": "unreachable"
+   "error": "HTTPSConnectionPool(host='www.cne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeou",
+   "kind": "unreachable",
+   "blockAt": "2026-11-25"
   },
   "https://www.dge.go.kr": {
    "http": 200,
@@ -1905,8 +1913,8 @@
   },
   "https://www.ice.go.kr": {
    "http": 200,
-   "bytes": 406,
-   "sha": "7ee5a749",
+   "bytes": 602,
+   "sha": "d15cec9c",
    "rules": 17,
    "disallow": 16,
    "kind": "rules",

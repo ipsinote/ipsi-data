@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.289)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-11-25",
-"ver": "v28.289",
-"count": 555,
+"note": "페이지(공개판 v28.292)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-11-26",
+"ver": "v28.292",
+"count": 557,
 "sources": [
 {
 "id": "1084a42981",
@@ -490,6 +490,19 @@
 "cycle": "w"
 },
 {
+"id": "c6fbb3b620",
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/02/23c460f6-fbdd-443a-8adc-4468f91f55c3.pdf",
+"host": "goe.go.kr",
+"name": "경기도교육청 2026 초등학교 학적 문답집(조기입학·입학연기·취학유예)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-sch-entry-delay"
+],
+"dated": "",
+"cycle": "w"
+},
+{
 "id": "434f81f202",
 "url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/02/410e7664-15c3-434c-82a0-b6a4ee78eec1.pdf",
 "host": "goe.go.kr",
@@ -634,6 +647,19 @@
 "cat": "교육청",
 "used": [
 "q-dir-free"
+],
+"dated": "",
+"cycle": "w"
+},
+{
+"id": "c607faf15c",
+"url": "https://www.goe.go.kr/resource/old/BBSMSTR_000000030136/BBS_202501060143446932.pdf",
+"host": "goe.go.kr",
+"name": "경기도교육청 경기도 초등 학적 길라잡이(조기입학·입학연기·취학유예 절차)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-sch-entry-delay"
 ],
 "dated": "",
 "cycle": "w"
@@ -1041,7 +1067,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1059,7 +1085,7 @@
 "id": "997cb8ad04",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
 "host": "home.pen.go.kr",
-"name": "후기고(특목고, 자사고, 학교장전형고), 부산광역시교육청 고입포털",
+"name": "부산광역시교육청 고입포털 후기고(특목고·자사고·학교장전형고) 안내",
 "kind": "공식",
 "cat": "교육청",
 "used": [

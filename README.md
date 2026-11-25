@@ -93,6 +93,13 @@
 - 같은 키로 `scripts/fetch_public_apis.py`가 대학 기본정보(15158665 getSchoolInfo → `data/univ_info.json`) · 학교별 학과(15158955 getUniversityMajorCode, 4년제만 → `data/univ_major.json`) · 공휴일(15012690 getRestDeInfo, 올해·내년 → `data/holidays.json`)도 받음 — 모두 '이용허락범위 제한 없음'. 워크플로는 매주 월요일 05:41(한국 시간).
 - 교육여건 현황(15158679, 기숙사 수용 등)은 2026-11-14 활용신청 — 수집은 베타 서비스 뒤.
 
+## 대학별 평균등록금(한국장학재단 · 공공데이터포털 파일)
+
+- 2026-11-25: 공공데이터포털 3071171 파일데이터(이용허락범위 제한 없음 · 로그인·키 없이 내려받기 · 연간 · 매년 4월 대학정보공시 기준 · 분교·캠퍼스는 본교에 합산).
+- `scripts/fetch_tuition.py` · `.github/workflows/univ_tuition.yml`(매달 2일 06:17 한국 시간 + Run workflow + 도구를 고쳐 올릴 때) → `data/univ_tuition/latest.json`(학제·설립·대학명·지역·입학정원·평균입학금·평균등록금 — 원본 CSV는 두지 않음) · `data/univ_tuition/run.json`. 쪽의 '고친 때'가 그대로면 받지 않음.
+- 받기 전에 robots.txt를 다시 받아 우리 이름(ipsi-data-bot)·'*' 묶음이 막으면 열지 않음 · 머리줄·줄 수(쪽의 '전체 행')·금액 범위가 어긋나면 저장하지 않음.
+- 출처 표시: 한국장학재단, 「한국장학재단_대학별 평균등록금」, 공공데이터포털 3071171.
+
 ## 지키는 것
 
 - 공개 자료만 받습니다. 학생 개인 정보는 받지 않습니다.

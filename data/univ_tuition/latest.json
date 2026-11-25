@@ -1,0 +1,3461 @@
+{
+ "made": "2026-11-25T03:02:27Z",
+ "by": "scripts/fetch_tuition.py",
+ "source": {
+  "org": "한국장학재단",
+  "name": "한국장학재단_대학별 평균등록금",
+  "portal": "공공데이터포털",
+  "id": "3071171",
+  "url": "https://www.data.go.kr/data/3071171/fileData.do",
+  "license": "이용허락범위 제한 없음",
+  "basis": "매년 4월 대학정보공시 기준 · 분교·캠퍼스는 본교에 합산 · 평균등록금은 연간(학기 아님)",
+  "updtDt": "2026-05-19 16:19:39.000",
+  "sha256": "d51592f4179700192af373e6cb85f84cf8d6eddc887115b6520341fd42b07419",
+  "rows": 382,
+  "fetched": "2026-11-25"
+ },
+ "year": 2026,
+ "yearNote": "2026년 4월 대학정보공시 기준(파일 등록 2026-05-19) · 연간 평균",
+ "unit": "원(연간 평균 · 소수점 반올림 · 0 = 등록금을 받지 않는 학교)",
+ "dupNames": [],
+ "rows": [
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "강원대학교",
+   "region": "강원",
+   "quota": 25134,
+   "admFee": 0.0,
+   "tuition": 4231665
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "경북대학교",
+   "region": "대구",
+   "quota": 20756,
+   "admFee": 0.0,
+   "tuition": 4524820
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "경상국립대학교",
+   "region": "경남",
+   "quota": 17758,
+   "admFee": 0.0,
+   "tuition": 4095673
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "경인교육대학교",
+   "region": "인천",
+   "quota": 2248,
+   "admFee": 0.0,
+   "tuition": 3493349
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "공주교육대학교",
+   "region": "충남",
+   "quota": 1416,
+   "admFee": 0.0,
+   "tuition": 3600000
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "광주과학기술원",
+   "region": "광주",
+   "quota": 800,
+   "admFee": 0.0,
+   "tuition": 2060000
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "광주교육대학교",
+   "region": "광주",
+   "quota": 1261,
+   "admFee": 0.0,
+   "tuition": 3795424
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "국립경국대학교",
+   "region": "경북",
+   "quota": 5727,
+   "admFee": 0.0,
+   "tuition": 3844994
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "국립공주대학교",
+   "region": "충남",
+   "quota": 11796,
+   "admFee": 0.0,
+   "tuition": 3858704
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "국립군산대학교",
+   "region": "전북",
+   "quota": 6932,
+   "admFee": 0.0,
+   "tuition": 3891106
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "국립금오공과대학교",
+   "region": "경북",
+   "quota": 4962,
+   "admFee": 0.0,
+   "tuition": 3773623
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "국립목포대학교",
+   "region": "전남",
+   "quota": 6259,
+   "admFee": 0.0,
+   "tuition": 3852722
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "국립목포해양대학교",
+   "region": "전남",
+   "quota": 2738,
+   "admFee": 0.0,
+   "tuition": 3412114
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "국립부경대학교",
+   "region": "부산",
+   "quota": 13325,
+   "admFee": 0.0,
+   "tuition": 4049668
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "국립순천대학교",
+   "region": "전남",
+   "quota": 6442,
+   "admFee": 0.0,
+   "tuition": 3970127
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "국립창원대학교",
+   "region": "경남",
+   "quota": 8087,
+   "admFee": 0.0,
+   "tuition": 3768750
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "국립한국교통대학교",
+   "region": "충북",
+   "quota": 7697,
+   "admFee": 0.0,
+   "tuition": 4103672
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "국립한국해양대학교",
+   "region": "부산",
+   "quota": 5502,
+   "admFee": 0.0,
+   "tuition": 3722953
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "국립한밭대학교",
+   "region": "대전",
+   "quota": 7663,
+   "admFee": 0.0,
+   "tuition": 4479849
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "대구경북과학기술원",
+   "region": "대구",
+   "quota": 820,
+   "admFee": 0.0,
+   "tuition": 7934000
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "대구교육대학교",
+   "region": "대구",
+   "quota": 1532,
+   "admFee": 0.0,
+   "tuition": 3896000
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "부산교육대학교",
+   "region": "부산",
+   "quota": 1338,
+   "admFee": 0.0,
+   "tuition": 3316000
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "부산대학교",
+   "region": "부산",
+   "quota": 18314,
+   "admFee": 0.0,
+   "tuition": 4514543
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "서울과학기술대학교",
+   "region": "서울",
+   "quota": 8876,
+   "admFee": 0.0,
+   "tuition": 5494477
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "서울교육대학교",
+   "region": "서울",
+   "quota": 1377,
+   "admFee": 0.0,
+   "tuition": 3256000
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "서울대학교",
+   "region": "서울",
+   "quota": 14104,
+   "admFee": 0.0,
+   "tuition": 6091816
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "서울시립대학교",
+   "region": "서울",
+   "quota": 7126,
+   "admFee": 0.0,
+   "tuition": 2530266
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "울산과학기술원",
+   "region": "울산",
+   "quota": 1843,
+   "admFee": 0.0,
+   "tuition": 6567981
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "인천대학교",
+   "region": "인천",
+   "quota": 10040,
+   "admFee": 0.0,
+   "tuition": 4650414
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "전남대학교",
+   "region": "광주",
+   "quota": 18001,
+   "admFee": 0.0,
+   "tuition": 4198426
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "전북대학교",
+   "region": "전북",
+   "quota": 16502,
+   "admFee": 0.0,
+   "tuition": 4461484
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "전주교육대학교",
+   "region": "전북",
+   "quota": 1140,
+   "admFee": 0.0,
+   "tuition": 3646000
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "제주대학교",
+   "region": "제주",
+   "quota": 9045,
+   "admFee": 0.0,
+   "tuition": 4060631
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "진주교육대학교",
+   "region": "경남",
+   "quota": 1276,
+   "admFee": 0.0,
+   "tuition": 3778500
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "청주교육대학교",
+   "region": "충북",
+   "quota": 1144,
+   "admFee": 0.0,
+   "tuition": 3714000
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "춘천교육대학교",
+   "region": "강원",
+   "quota": 1245,
+   "admFee": 0.0,
+   "tuition": 3601590
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "충남대학교",
+   "region": "대전",
+   "quota": 15237,
+   "admFee": 0.0,
+   "tuition": 4401836
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "충북대학교",
+   "region": "충북",
+   "quota": 12363,
+   "admFee": 0.0,
+   "tuition": 4305681
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "한경국립대학교",
+   "region": "경기",
+   "quota": 5101,
+   "admFee": 0.0,
+   "tuition": 4021297
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "한국과학기술원",
+   "region": "대전",
+   "quota": 3880,
+   "admFee": 0.0,
+   "tuition": 6866000
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "한국교원대학교",
+   "region": "충북",
+   "quota": 2184,
+   "admFee": 0.0,
+   "tuition": 3456069
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "한국방송통신대학교",
+   "region": "서울",
+   "quota": 238485,
+   "admFee": 0.0,
+   "tuition": 762436
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "한국에너지공과대학교",
+   "region": "전남",
+   "quota": 400,
+   "admFee": 0.0,
+   "tuition": 9000000
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "한국예술종합학교",
+   "region": "서울",
+   "quota": 2252,
+   "admFee": 0.0,
+   "tuition": 4806455
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "한국전통문화대학교(일반)",
+   "region": "충남",
+   "quota": 560,
+   "admFee": 0.0,
+   "tuition": 3483232
+  },
+  {
+   "type": "대학",
+   "found": "국공립",
+   "name": "한국체육대학교",
+   "region": "서울",
+   "quota": 2140,
+   "admFee": 0.0,
+   "tuition": 3860075
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "가야대학교(김해)",
+   "region": "경남",
+   "quota": 1680,
+   "admFee": 0.0,
+   "tuition": 7446294
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "가천대학교",
+   "region": "경기",
+   "quota": 16694,
+   "admFee": 0.0,
+   "tuition": 9094426
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "가톨릭관동대학교",
+   "region": "강원",
+   "quota": 7176,
+   "admFee": 0.0,
+   "tuition": 7725839
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "가톨릭꽃동네대학교",
+   "region": "충북",
+   "quota": 432,
+   "admFee": 0.0,
+   "tuition": 7468778
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "가톨릭대학교",
+   "region": "경기",
+   "quota": 7450,
+   "admFee": 0.0,
+   "tuition": 7963852
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "감리교신학대학교",
+   "region": "서울",
+   "quota": 768,
+   "admFee": 0.0,
+   "tuition": 6941350
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "강남대학교",
+   "region": "경기",
+   "quota": 5964,
+   "admFee": 0.0,
+   "tuition": 8206173
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "강서대학교",
+   "region": "서울",
+   "quota": 1108,
+   "admFee": 0.0,
+   "tuition": 7933024
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "건국대학교",
+   "region": "서울",
+   "quota": 18534,
+   "admFee": 0.0,
+   "tuition": 8935134
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "건양대학교",
+   "region": "충남",
+   "quota": 6684,
+   "admFee": 0.0,
+   "tuition": 7429363
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "건양사이버대학교",
+   "region": "대전",
+   "quota": 3456,
+   "admFee": 0.0,
+   "tuition": 2537764
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "경기대학교",
+   "region": "경기",
+   "quota": 11813,
+   "admFee": 0.0,
+   "tuition": 8003496
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "경남대학교",
+   "region": "경남",
+   "quota": 8045,
+   "admFee": 0.0,
+   "tuition": 7060678
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "경동대학교",
+   "region": "강원",
+   "quota": 6220,
+   "admFee": 0.0,
+   "tuition": 8651315
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "경성대학교",
+   "region": "부산",
+   "quota": 11145,
+   "admFee": 0.0,
+   "tuition": 7561386
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "경운대학교",
+   "region": "경북",
+   "quota": 4736,
+   "admFee": 0.0,
+   "tuition": 8046670
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "경일대학교",
+   "region": "경북",
+   "quota": 6119,
+   "admFee": 0.0,
+   "tuition": 7997556
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "경희대학교",
+   "region": "서울",
+   "quota": 20099,
+   "admFee": 0.0,
+   "tuition": 8699742
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "경희사이버대학교",
+   "region": "서울",
+   "quota": 9200,
+   "admFee": 0.0,
+   "tuition": 2931652
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "계명대학교",
+   "region": "대구",
+   "quota": 18787,
+   "admFee": 0.0,
+   "tuition": 8236599
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "고려대학교",
+   "region": "서울",
+   "quota": 22707,
+   "admFee": 0.0,
+   "tuition": 9125415
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "고려사이버대학교",
+   "region": "서울",
+   "quota": 7378,
+   "admFee": 0.0,
+   "tuition": 2647878
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "고신대학교",
+   "region": "부산",
+   "quota": 3296,
+   "admFee": 0.0,
+   "tuition": 7298932
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "광신대학교",
+   "region": "광주",
+   "quota": 437,
+   "admFee": 0.0,
+   "tuition": 6367854
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "광운대학교",
+   "region": "서울",
+   "quota": 7144,
+   "admFee": 0.0,
+   "tuition": 8595586
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "광주가톨릭대학교",
+   "region": "전남",
+   "quota": 160,
+   "admFee": 0.0,
+   "tuition": 0
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "광주대학교",
+   "region": "광주",
+   "quota": 5560,
+   "admFee": 0.0,
+   "tuition": 7133784
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "광주여자대학교",
+   "region": "광주",
+   "quota": 3648,
+   "admFee": 0.0,
+   "tuition": 6809351
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "국민대학교",
+   "region": "서울",
+   "quota": 11911,
+   "admFee": 0.0,
+   "tuition": 8616797
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "국제사이버대학교",
+   "region": "경기",
+   "quota": 2900,
+   "admFee": 0.0,
+   "tuition": 2524286
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "극동대학교",
+   "region": "충북",
+   "quota": 3426,
+   "admFee": 0.0,
+   "tuition": 7846600
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "글로벌사이버대학교",
+   "region": "충남",
+   "quota": 3460,
+   "admFee": 0.0,
+   "tuition": 2502177
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "금강대학교",
+   "region": "충남",
+   "quota": 440,
+   "admFee": 0.0,
+   "tuition": 6598000
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "김천대학교",
+   "region": "경북",
+   "quota": 2536,
+   "admFee": 0.0,
+   "tuition": 7387386
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "나사렛대학교",
+   "region": "충남",
+   "quota": 4744,
+   "admFee": 0.0,
+   "tuition": 7911623
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "남부대학교",
+   "region": "광주",
+   "quota": 2468,
+   "admFee": 0.0,
+   "tuition": 6766874
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "남서울대학교",
+   "region": "충남",
+   "quota": 8823,
+   "admFee": 0.0,
+   "tuition": 8616388
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "단국대학교",
+   "region": "경기",
+   "quota": 18860,
+   "admFee": 0.0,
+   "tuition": 8842298
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "대구가톨릭대학교",
+   "region": "경북",
+   "quota": 10048,
+   "admFee": 0.0,
+   "tuition": 7904801
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "대구대학교",
+   "region": "경북",
+   "quota": 15400,
+   "admFee": 0.0,
+   "tuition": 7556023
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "대구사이버대학교",
+   "region": "경북",
+   "quota": 3800,
+   "admFee": 0.0,
+   "tuition": 2691790
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "대구예술대학교",
+   "region": "경북",
+   "quota": 1230,
+   "admFee": 0.0,
+   "tuition": 8390429
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "대구한의대학교",
+   "region": "경북",
+   "quota": 5940,
+   "admFee": 0.0,
+   "tuition": 7845054
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "대신대학교",
+   "region": "경북",
+   "quota": 566,
+   "admFee": 0.0,
+   "tuition": 6626353
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "대전가톨릭대학교",
+   "region": "세종",
+   "quota": 160,
+   "admFee": 0.0,
+   "tuition": 5760000
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "대전대학교",
+   "region": "대전",
+   "quota": 7412,
+   "admFee": 0.0,
+   "tuition": 7685682
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "대전신학대학교",
+   "region": "대전",
+   "quota": 128,
+   "admFee": 0.0,
+   "tuition": 6100000
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "대진대학교",
+   "region": "경기",
+   "quota": 6880,
+   "admFee": 0.0,
+   "tuition": 8246988
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "덕성여자대학교",
+   "region": "서울",
+   "quota": 4805,
+   "admFee": 0.0,
+   "tuition": 7810761
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "동국대학교",
+   "region": "서울",
+   "quota": 18455,
+   "admFee": 0.0,
+   "tuition": 8560649
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "동덕여자대학교",
+   "region": "서울",
+   "quota": 6348,
+   "admFee": 0.0,
+   "tuition": 8126347
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "동명대학교",
+   "region": "부산",
+   "quota": 5970,
+   "admFee": 0.0,
+   "tuition": 7663538
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "동서대학교",
+   "region": "부산",
+   "quota": 8418,
+   "admFee": 0.0,
+   "tuition": 7543205
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "동신대학교",
+   "region": "전남",
+   "quota": 5961,
+   "admFee": 0.0,
+   "tuition": 7249026
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "동아대학교",
+   "region": "부산",
+   "quota": 16587,
+   "admFee": 0.0,
+   "tuition": 7896058
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "동양대학교",
+   "region": "경북",
+   "quota": 4020,
+   "admFee": 0.0,
+   "tuition": 7942643
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "동의대학교",
+   "region": "부산",
+   "quota": 14529,
+   "admFee": 0.0,
+   "tuition": 7580401
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "디지털서울문화예술대학교",
+   "region": "서울",
+   "quota": 3430,
+   "admFee": 0.0,
+   "tuition": 3126350
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "루터대학교",
+   "region": "경기",
+   "quota": 340,
+   "admFee": 0.0,
+   "tuition": 6300000
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "명지대학교",
+   "region": "경기",
+   "quota": 10202,
+   "admFee": 0.0,
+   "tuition": 8793563
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "목원대학교",
+   "region": "대전",
+   "quota": 7392,
+   "admFee": 0.0,
+   "tuition": 7965994
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "목포가톨릭대학교",
+   "region": "전남",
+   "quota": 480,
+   "admFee": 0.0,
+   "tuition": 6758000
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "배재대학교",
+   "region": "대전",
+   "quota": 7365,
+   "admFee": 0.0,
+   "tuition": 7959588
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "백석대학교",
+   "region": "충남",
+   "quota": 11260,
+   "admFee": 0.0,
+   "tuition": 8626214
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "부산가톨릭대학교",
+   "region": "부산",
+   "quota": 2850,
+   "admFee": 0.0,
+   "tuition": 7470200
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "부산디지털대학교",
+   "region": "부산",
+   "quota": 2780,
+   "admFee": 0.0,
+   "tuition": 2522964
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "부산외국어대학교",
+   "region": "부산",
+   "quota": 5880,
+   "admFee": 0.0,
+   "tuition": 7046968
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "부산장신대학교",
+   "region": "경남",
+   "quota": 128,
+   "admFee": 0.0,
+   "tuition": 6316875
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "사이버한국외국어대학교",
+   "region": "서울",
+   "quota": 4970,
+   "admFee": 0.0,
+   "tuition": 2888042
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "삼육대학교",
+   "region": "서울",
+   "quota": 4677,
+   "admFee": 0.0,
+   "tuition": 8537543
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "상명대학교",
+   "region": "서울",
+   "quota": 10647,
+   "admFee": 0.0,
+   "tuition": 8596065
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "상지대학교",
+   "region": "강원",
+   "quota": 6876,
+   "admFee": 0.0,
+   "tuition": 8112354
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "서강대학교",
+   "region": "서울",
+   "quota": 6423,
+   "admFee": 0.0,
+   "tuition": 8698677
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "서경대학교",
+   "region": "서울",
+   "quota": 5196,
+   "admFee": 0.0,
+   "tuition": 8688696
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "서울기독대학교",
+   "region": "서울",
+   "quota": 544,
+   "admFee": 0.0,
+   "tuition": 8139118
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "서울디지털대학교",
+   "region": "서울",
+   "quota": 9100,
+   "admFee": 0.0,
+   "tuition": 2311659
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "서울사이버대학교",
+   "region": "서울",
+   "quota": 10901,
+   "admFee": 0.0,
+   "tuition": 2850600
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "서울신학대학교",
+   "region": "경기",
+   "quota": 1868,
+   "admFee": 0.0,
+   "tuition": 7676277
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "서울여자대학교",
+   "region": "서울",
+   "quota": 6510,
+   "admFee": 0.0,
+   "tuition": 8244464
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "서울장신대학교",
+   "region": "경기",
+   "quota": 416,
+   "admFee": 0.0,
+   "tuition": 7781327
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "서울한영대학교",
+   "region": "서울",
+   "quota": 720,
+   "admFee": 0.0,
+   "tuition": 7245389
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "서원대학교",
+   "region": "충북",
+   "quota": 6488,
+   "admFee": 0.0,
+   "tuition": 7574190
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "선문대학교",
+   "region": "충남",
+   "quota": 8241,
+   "admFee": 0.0,
+   "tuition": 8244256
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "성결대학교",
+   "region": "경기",
+   "quota": 4912,
+   "admFee": 0.0,
+   "tuition": 7857086
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "성공회대학교",
+   "region": "서울",
+   "quota": 2008,
+   "admFee": 0.0,
+   "tuition": 7626672
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "성균관대학교",
+   "region": "서울",
+   "quota": 14005,
+   "admFee": 0.0,
+   "tuition": 9145524
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "성신여자대학교",
+   "region": "서울",
+   "quota": 8375,
+   "admFee": 0.0,
+   "tuition": 8437832
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "세명대학교",
+   "region": "충북",
+   "quota": 6178,
+   "admFee": 0.0,
+   "tuition": 7503323
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "세종대학교",
+   "region": "서울",
+   "quota": 10048,
+   "admFee": 0.0,
+   "tuition": 8651037
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "세종사이버대학교",
+   "region": "서울",
+   "quota": 6840,
+   "admFee": 0.0,
+   "tuition": 2920579
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "세한대학교",
+   "region": "전남",
+   "quota": 3268,
+   "admFee": 0.0,
+   "tuition": 8013059
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "송원대학교",
+   "region": "광주",
+   "quota": 2610,
+   "admFee": 0.0,
+   "tuition": 7106105
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "수원가톨릭대학교",
+   "region": "경기",
+   "quota": 360,
+   "admFee": 0.0,
+   "tuition": 5249000
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "수원대학교",
+   "region": "경기",
+   "quota": 8520,
+   "admFee": 0.0,
+   "tuition": 8195102
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "숙명여자대학교",
+   "region": "서울",
+   "quota": 8740,
+   "admFee": 0.0,
+   "tuition": 8825485
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "순복음총회신학교",
+   "region": "충북",
+   "quota": 232,
+   "admFee": 0.0,
+   "tuition": 6243103
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "순천향대학교",
+   "region": "충남",
+   "quota": 9978,
+   "admFee": 0.0,
+   "tuition": 8540657
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "숭실대학교",
+   "region": "서울",
+   "quota": 10830,
+   "admFee": 0.0,
+   "tuition": 8643438
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "숭실사이버대학교",
+   "region": "서울",
+   "quota": 4900,
+   "admFee": 0.0,
+   "tuition": 2772245
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "신경주대학교",
+   "region": "경북",
+   "quota": 3245,
+   "admFee": 0.0,
+   "tuition": 7634812
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "신라대학교",
+   "region": "부산",
+   "quota": 6653,
+   "admFee": 0.0,
+   "tuition": 7298402
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "신한대학교",
+   "region": "경기",
+   "quota": 5620,
+   "admFee": 0.0,
+   "tuition": 9187366
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "아신대학교",
+   "region": "경기",
+   "quota": 520,
+   "admFee": 0.0,
+   "tuition": 6900000
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "아주대학교",
+   "region": "경기",
+   "quota": 8258,
+   "admFee": 0.0,
+   "tuition": 9093155
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "안양대학교",
+   "region": "경기",
+   "quota": 4509,
+   "admFee": 0.0,
+   "tuition": 8369571
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "연세대학교",
+   "region": "서울",
+   "quota": 20295,
+   "admFee": 0.0,
+   "tuition": 9745809
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "영남대학교",
+   "region": "경북",
+   "quota": 18754,
+   "admFee": 0.0,
+   "tuition": 8072811
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "영남신학대학교",
+   "region": "경북",
+   "quota": 460,
+   "admFee": 0.0,
+   "tuition": 6812000
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "영산대학교",
+   "region": "부산",
+   "quota": 5250,
+   "admFee": 0.0,
+   "tuition": 7388997
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "영산선학대학교",
+   "region": "전남",
+   "quota": 200,
+   "admFee": 0.0,
+   "tuition": 2000000
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "예수대학교",
+   "region": "전북",
+   "quota": 460,
+   "admFee": 0.0,
+   "tuition": 7491000
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "예원예술대학교",
+   "region": "전북",
+   "quota": 924,
+   "admFee": 0.0,
+   "tuition": 8879589
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "용인대학교",
+   "region": "경기",
+   "quota": 5048,
+   "admFee": 0.0,
+   "tuition": 8424517
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "우석대학교",
+   "region": "전북",
+   "quota": 6088,
+   "admFee": 0.0,
+   "tuition": 7519491
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "우송대학교",
+   "region": "대전",
+   "quota": 7994,
+   "admFee": 0.0,
+   "tuition": 7817764
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "울산대학교",
+   "region": "울산",
+   "quota": 10821,
+   "admFee": 0.0,
+   "tuition": 7966453
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "원광대학교",
+   "region": "전북",
+   "quota": 13360,
+   "admFee": 0.0,
+   "tuition": 8097127
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "원광디지털대학교",
+   "region": "전북",
+   "quota": 5300,
+   "admFee": 0.0,
+   "tuition": 2735094
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "위덕대학교",
+   "region": "경북",
+   "quota": 2552,
+   "admFee": 0.0,
+   "tuition": 7312526
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "유원대학교",
+   "region": "충북",
+   "quota": 3500,
+   "admFee": 0.0,
+   "tuition": 7193377
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "을지대학교",
+   "region": "대전",
+   "quota": 4326,
+   "admFee": 0.0,
+   "tuition": 9247500
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "이화여자대학교",
+   "region": "서울",
+   "quota": 13183,
+   "admFee": 0.0,
+   "tuition": 9311388
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "인제대학교",
+   "region": "경남",
+   "quota": 7039,
+   "admFee": 0.0,
+   "tuition": 7926630
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "인천가톨릭대학교",
+   "region": "인천",
+   "quota": 660,
+   "admFee": 0.0,
+   "tuition": 8843482
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "인하대학교",
+   "region": "인천",
+   "quota": 14322,
+   "admFee": 0.0,
+   "tuition": 8490348
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "장로회신학대학교",
+   "region": "서울",
+   "quota": 600,
+   "admFee": 0.0,
+   "tuition": 7308300
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "전주대학교",
+   "region": "전북",
+   "quota": 10130,
+   "admFee": 0.0,
+   "tuition": 7543384
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "정석대학",
+   "region": "서울",
+   "quota": 200,
+   "admFee": 0.0,
+   "tuition": 0
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "제주국제대학교",
+   "region": "제주",
+   "quota": 1480,
+   "admFee": 0.0,
+   "tuition": 5819108
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "조선대학교",
+   "region": "광주",
+   "quota": 17939,
+   "admFee": 0.0,
+   "tuition": 7718958
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "중부대학교",
+   "region": "충남",
+   "quota": 6735,
+   "admFee": 0.0,
+   "tuition": 7846832
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "중앙대학교",
+   "region": "서울",
+   "quota": 17970,
+   "admFee": 0.0,
+   "tuition": 8796904
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "중앙승가대학교",
+   "region": "경기",
+   "quota": 480,
+   "admFee": 0.0,
+   "tuition": 1820000
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "중원대학교",
+   "region": "충북",
+   "quota": 3248,
+   "admFee": 0.0,
+   "tuition": 7659700
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "차의과학대학교",
+   "region": "경기",
+   "quota": 2116,
+   "admFee": 0.0,
+   "tuition": 7762597
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "창신대학교",
+   "region": "경남",
+   "quota": 1515,
+   "admFee": 0.0,
+   "tuition": 6964561
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "청운대학교",
+   "region": "충남",
+   "quota": 4094,
+   "admFee": 0.0,
+   "tuition": 8000799
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "청주대학교",
+   "region": "충북",
+   "quota": 10565,
+   "admFee": 0.0,
+   "tuition": 8319491
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "초당대학교",
+   "region": "전남",
+   "quota": 2868,
+   "admFee": 0.0,
+   "tuition": 7231632
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "총신대학교",
+   "region": "서울",
+   "quota": 1228,
+   "admFee": 0.0,
+   "tuition": 7556237
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "추계예술대학교",
+   "region": "서울",
+   "quota": 1000,
+   "admFee": 0.0,
+   "tuition": 9898886
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "칼빈대학교",
+   "region": "경기",
+   "quota": 360,
+   "admFee": 0.0,
+   "tuition": 8030000
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "평택대학교",
+   "region": "경기",
+   "quota": 3276,
+   "admFee": 0.0,
+   "tuition": 8198774
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "포항공과대학교",
+   "region": "경북",
+   "quota": 1280,
+   "admFee": 0.0,
+   "tuition": 5613500
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한국공학대학교",
+   "region": "경기",
+   "quota": 5580,
+   "admFee": 0.0,
+   "tuition": 9449101
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한국기술교육대학교",
+   "region": "충남",
+   "quota": 3344,
+   "admFee": 0.0,
+   "tuition": 4475287
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한국성서대학교",
+   "region": "서울",
+   "quota": 902,
+   "admFee": 0.0,
+   "tuition": 7506665
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한국열린사이버대학교",
+   "region": "서울",
+   "quota": 2850,
+   "admFee": 0.0,
+   "tuition": 2423088
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한국외국어대학교",
+   "region": "서울",
+   "quota": 13802,
+   "admFee": 0.0,
+   "tuition": 7791804
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한국침례신학대학교",
+   "region": "대전",
+   "quota": 802,
+   "admFee": 0.0,
+   "tuition": 5989978
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한국항공대학교",
+   "region": "경기",
+   "quota": 3366,
+   "admFee": 0.0,
+   "tuition": 9210265
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한남대학교",
+   "region": "대전",
+   "quota": 10893,
+   "admFee": 0.0,
+   "tuition": 7869677
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한동대학교",
+   "region": "경북",
+   "quota": 2916,
+   "admFee": 0.0,
+   "tuition": 7413038
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한라대학교",
+   "region": "강원",
+   "quota": 3538,
+   "admFee": 0.0,
+   "tuition": 7767468
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한림대학교",
+   "region": "강원",
+   "quota": 7533,
+   "admFee": 0.0,
+   "tuition": 8226650
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한서대학교",
+   "region": "충남",
+   "quota": 6181,
+   "admFee": 0.0,
+   "tuition": 8525200
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한성대학교",
+   "region": "서울",
+   "quota": 5952,
+   "admFee": 0.0,
+   "tuition": 8033733
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한세대학교",
+   "region": "경기",
+   "quota": 2264,
+   "admFee": 0.0,
+   "tuition": 8859564
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한신대학교",
+   "region": "경기",
+   "quota": 4740,
+   "admFee": 0.0,
+   "tuition": 7892204
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한양대학교",
+   "region": "서울",
+   "quota": 19977,
+   "admFee": 0.0,
+   "tuition": 9286647
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한양사이버대학교",
+   "region": "서울",
+   "quota": 10980,
+   "admFee": 0.0,
+   "tuition": 2936765
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "한일장신대학교",
+   "region": "전북",
+   "quota": 876,
+   "admFee": 0.0,
+   "tuition": 6852603
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "협성대학교",
+   "region": "경기",
+   "quota": 4016,
+   "admFee": 0.0,
+   "tuition": 8135253
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "호남대학교",
+   "region": "광주",
+   "quota": 6148,
+   "admFee": 0.0,
+   "tuition": 6788794
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "호남신학대학교",
+   "region": "광주",
+   "quota": 476,
+   "admFee": 0.0,
+   "tuition": 6973030
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "호서대학교",
+   "region": "충남",
+   "quota": 11568,
+   "admFee": 0.0,
+   "tuition": 8412408
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "호원대학교",
+   "region": "전북",
+   "quota": 4171,
+   "admFee": 0.0,
+   "tuition": 7501239
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "홍익대학교",
+   "region": "서울",
+   "quota": 14901,
+   "admFee": 0.0,
+   "tuition": 9152337
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "화성의과학대학교",
+   "region": "경기",
+   "quota": 1092,
+   "admFee": 0.0,
+   "tuition": 7748928
+  },
+  {
+   "type": "대학",
+   "found": "사립",
+   "name": "화신사이버대학교",
+   "region": "부산",
+   "quota": 1606,
+   "admFee": 0.0,
+   "tuition": 2515636
+  },
+  {
+   "type": "전문대학",
+   "found": "국공립",
+   "name": "강원도립대학교",
+   "region": "강원",
+   "quota": 653,
+   "admFee": 0.0,
+   "tuition": 2347982
+  },
+  {
+   "type": "전문대학",
+   "found": "국공립",
+   "name": "경남도립거창대학",
+   "region": "경남",
+   "quota": 514,
+   "admFee": 0.0,
+   "tuition": 2859245
+  },
+  {
+   "type": "전문대학",
+   "found": "국공립",
+   "name": "경북도립대학교",
+   "region": "경북",
+   "quota": 183,
+   "admFee": 0.0,
+   "tuition": 2459068
+  },
+  {
+   "type": "전문대학",
+   "found": "국공립",
+   "name": "전남도립대학교",
+   "region": "전남",
+   "quota": 460,
+   "admFee": 0.0,
+   "tuition": 1962652
+  },
+  {
+   "type": "전문대학",
+   "found": "국공립",
+   "name": "충남도립대학교",
+   "region": "충남",
+   "quota": 1009,
+   "admFee": 0.0,
+   "tuition": 2460814
+  },
+  {
+   "type": "전문대학",
+   "found": "국공립",
+   "name": "충북도립대학교",
+   "region": "충북",
+   "quota": 860,
+   "admFee": 0.0,
+   "tuition": 1873070
+  },
+  {
+   "type": "전문대학",
+   "found": "국공립",
+   "name": "한국농수산대학교",
+   "region": "전북",
+   "quota": 1710,
+   "admFee": 0.0,
+   "tuition": 0
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "ICT폴리텍대학",
+   "region": "경기",
+   "quota": 320,
+   "admFee": 0.0,
+   "tuition": 2500000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "가톨릭상지대학교",
+   "region": "경북",
+   "quota": 1492,
+   "admFee": 0.0,
+   "tuition": 6122698
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "강동대학교",
+   "region": "충북",
+   "quota": 2919,
+   "admFee": 0.0,
+   "tuition": 6087119
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "강릉영동대학교",
+   "region": "강원",
+   "quota": 1937,
+   "admFee": 0.0,
+   "tuition": 6161215
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "거제대학교",
+   "region": "경남",
+   "quota": 980,
+   "admFee": 0.0,
+   "tuition": 6720853
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "경기과학기술대학교",
+   "region": "경기",
+   "quota": 3396,
+   "admFee": 0.0,
+   "tuition": 6933952
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "경남정보대학교",
+   "region": "부산",
+   "quota": 4513,
+   "admFee": 0.0,
+   "tuition": 6732394
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "경민대학교",
+   "region": "경기",
+   "quota": 3569,
+   "admFee": 0.0,
+   "tuition": 7081098
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "경복대학교",
+   "region": "경기",
+   "quota": 5397,
+   "admFee": 0.0,
+   "tuition": 7171732
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "경북과학대학교",
+   "region": "경북",
+   "quota": 1735,
+   "admFee": 0.0,
+   "tuition": 5745592
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "경북보건대학교",
+   "region": "경북",
+   "quota": 1207,
+   "admFee": 0.0,
+   "tuition": 5777034
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "경북전문대학교",
+   "region": "경북",
+   "quota": 2039,
+   "admFee": 0.0,
+   "tuition": 6282521
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "경인여자대학교",
+   "region": "인천",
+   "quota": 3551,
+   "admFee": 0.0,
+   "tuition": 6971179
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "계명문화대학교",
+   "region": "대구",
+   "quota": 4587,
+   "admFee": 0.0,
+   "tuition": 6510126
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "계원예술대학교",
+   "region": "경기",
+   "quota": 2424,
+   "admFee": 0.0,
+   "tuition": 8285244
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "광양보건대학교",
+   "region": "전남",
+   "quota": 993,
+   "admFee": 0.0,
+   "tuition": 5847770
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "광주보건대학교",
+   "region": "광주",
+   "quota": 3244,
+   "admFee": 0.0,
+   "tuition": 5623590
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "구미대학교",
+   "region": "경북",
+   "quota": 3539,
+   "admFee": 0.0,
+   "tuition": 6376912
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "국제대학교",
+   "region": "경기",
+   "quota": 3174,
+   "admFee": 0.0,
+   "tuition": 7468046
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "국제예술대학교",
+   "region": "서울",
+   "quota": 708,
+   "admFee": 0.0,
+   "tuition": 4812874
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "군산간호대학교",
+   "region": "전북",
+   "quota": 884,
+   "admFee": 0.0,
+   "tuition": 6353625
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "군장대학교",
+   "region": "전북",
+   "quota": 1500,
+   "admFee": 0.0,
+   "tuition": 5994493
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "기독간호대학교",
+   "region": "광주",
+   "quota": 503,
+   "admFee": 0.0,
+   "tuition": 5528713
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "김포대학교",
+   "region": "경기",
+   "quota": 2460,
+   "admFee": 0.0,
+   "tuition": 7015264
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "김해대학교",
+   "region": "경남",
+   "quota": 1357,
+   "admFee": 0.0,
+   "tuition": 6409704
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "나주대학교",
+   "region": "전남",
+   "quota": 1619,
+   "admFee": 0.0,
+   "tuition": 4713836
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "농협대학교",
+   "region": "경기",
+   "quota": 174,
+   "admFee": 0.0,
+   "tuition": 4982667
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "대경대학교",
+   "region": "경북",
+   "quota": 3365,
+   "admFee": 0.0,
+   "tuition": 6496174
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "대구공업대학교",
+   "region": "대구",
+   "quota": 1097,
+   "admFee": 0.0,
+   "tuition": 6040551
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "대구과학대학교",
+   "region": "대구",
+   "quota": 3849,
+   "admFee": 0.0,
+   "tuition": 6305808
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "대구보건대학교",
+   "region": "대구",
+   "quota": 6016,
+   "admFee": 0.0,
+   "tuition": 6797857
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "대덕대학교",
+   "region": "대전",
+   "quota": 2502,
+   "admFee": 0.0,
+   "tuition": 6268134
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "대동대학교",
+   "region": "부산",
+   "quota": 1276,
+   "admFee": 0.0,
+   "tuition": 6596194
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "대림대학교",
+   "region": "경기",
+   "quota": 5733,
+   "admFee": 0.0,
+   "tuition": 7359284
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "대원대학교",
+   "region": "충북",
+   "quota": 2050,
+   "admFee": 0.0,
+   "tuition": 6447453
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "대전과학기술대학교",
+   "region": "대전",
+   "quota": 3240,
+   "admFee": 0.0,
+   "tuition": 6424652
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "대전보건대학교",
+   "region": "대전",
+   "quota": 4170,
+   "admFee": 0.0,
+   "tuition": 6505339
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "동강대학교",
+   "region": "광주",
+   "quota": 2422,
+   "admFee": 0.0,
+   "tuition": 5860777
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "동남보건대학교",
+   "region": "경기",
+   "quota": 4093,
+   "admFee": 0.0,
+   "tuition": 6785908
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "동서울대학교",
+   "region": "경기",
+   "quota": 5488,
+   "admFee": 0.0,
+   "tuition": 7161803
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "동아방송예술대학교",
+   "region": "경기",
+   "quota": 2469,
+   "admFee": 0.0,
+   "tuition": 7877336
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "동아보건대학교",
+   "region": "전남",
+   "quota": 905,
+   "admFee": 0.0,
+   "tuition": 4846807
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "동양미래대학교",
+   "region": "서울",
+   "quota": 5016,
+   "admFee": 0.0,
+   "tuition": 7237318
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "동원과학기술대학교",
+   "region": "경남",
+   "quota": 1803,
+   "admFee": 0.0,
+   "tuition": 6373017
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "동원대학교",
+   "region": "경기",
+   "quota": 2820,
+   "admFee": 0.0,
+   "tuition": 7343440
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "동의과학대학교",
+   "region": "부산",
+   "quota": 3022,
+   "admFee": 0.0,
+   "tuition": 6875240
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "두원공과대학교",
+   "region": "경기",
+   "quota": 3770,
+   "admFee": 0.0,
+   "tuition": 7019783
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "마산대학교",
+   "region": "경남",
+   "quota": 5061,
+   "admFee": 0.0,
+   "tuition": 6397886
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "명지전문대학",
+   "region": "서울",
+   "quota": 5555,
+   "admFee": 0.0,
+   "tuition": 7163968
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "목포과학대학교",
+   "region": "전남",
+   "quota": 2256,
+   "admFee": 0.0,
+   "tuition": 6106660
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "문경대학교",
+   "region": "경북",
+   "quota": 842,
+   "admFee": 0.0,
+   "tuition": 6357049
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "배화여자대학교",
+   "region": "서울",
+   "quota": 2514,
+   "admFee": 0.0,
+   "tuition": 6825819
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "백석문화대학교",
+   "region": "충남",
+   "quota": 3543,
+   "admFee": 0.0,
+   "tuition": 7501632
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "백석예술대학교",
+   "region": "서울",
+   "quota": 8000,
+   "admFee": 0.0,
+   "tuition": 9013415
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "백제예술대학교",
+   "region": "전북",
+   "quota": 744,
+   "admFee": 0.0,
+   "tuition": 8080686
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "부산경상대학교",
+   "region": "부산",
+   "quota": 1585,
+   "admFee": 0.0,
+   "tuition": 5696013
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "부산과학기술대학교",
+   "region": "부산",
+   "quota": 2714,
+   "admFee": 0.0,
+   "tuition": 6595823
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "부산보건대학교",
+   "region": "부산",
+   "quota": 2305,
+   "admFee": 0.0,
+   "tuition": 6614811
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "부산여자대학교",
+   "region": "부산",
+   "quota": 1626,
+   "admFee": 0.0,
+   "tuition": 6503938
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "부산예술대학교",
+   "region": "부산",
+   "quota": 343,
+   "admFee": 0.0,
+   "tuition": 5696502
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "부천대학교",
+   "region": "경기",
+   "quota": 5195,
+   "admFee": 0.0,
+   "tuition": 6909185
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "삼육보건대학교",
+   "region": "서울",
+   "quota": 1072,
+   "admFee": 0.0,
+   "tuition": 6296214
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "서라벌대학교",
+   "region": "경북",
+   "quota": 60,
+   "admFee": 0.0,
+   "tuition": 6308000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "서영대학교",
+   "region": "광주",
+   "quota": 4279,
+   "admFee": 0.0,
+   "tuition": 6027954
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "서울여자간호대학교",
+   "region": "서울",
+   "quota": 672,
+   "admFee": 0.0,
+   "tuition": 6963750
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "서울예술대학교",
+   "region": "경기",
+   "quota": 1730,
+   "admFee": 0.0,
+   "tuition": 8694943
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "서일대학교",
+   "region": "서울",
+   "quota": 5690,
+   "admFee": 0.0,
+   "tuition": 6909536
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "서정대학교",
+   "region": "경기",
+   "quota": 3108,
+   "admFee": 0.0,
+   "tuition": 6310353
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "선린대학교",
+   "region": "경북",
+   "quota": 1853,
+   "admFee": 0.0,
+   "tuition": 6301219
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "성운대학교",
+   "region": "경북",
+   "quota": 1138,
+   "admFee": 0.0,
+   "tuition": 5467121
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "세경대학교",
+   "region": "강원",
+   "quota": 936,
+   "admFee": 0.0,
+   "tuition": 5372224
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "송곡대학교",
+   "region": "강원",
+   "quota": 569,
+   "admFee": 0.0,
+   "tuition": 5619870
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "송호대학교",
+   "region": "강원",
+   "quota": 871,
+   "admFee": 0.0,
+   "tuition": 6038420
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "수성대학교",
+   "region": "대구",
+   "quota": 2901,
+   "admFee": 0.0,
+   "tuition": 6388043
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "수원과학대학교",
+   "region": "경기",
+   "quota": 5194,
+   "admFee": 0.0,
+   "tuition": 6011130
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "수원여자대학교",
+   "region": "경기",
+   "quota": 3731,
+   "admFee": 0.0,
+   "tuition": 7213277
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "순천제일대학교",
+   "region": "전남",
+   "quota": 2261,
+   "admFee": 0.0,
+   "tuition": 5903468
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "숭의여자대학교",
+   "region": "서울",
+   "quota": 3105,
+   "admFee": 0.0,
+   "tuition": 6587313
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "신구대학교",
+   "region": "경기",
+   "quota": 6099,
+   "admFee": 0.0,
+   "tuition": 7227606
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "신성대학교",
+   "region": "충남",
+   "quota": 2762,
+   "admFee": 0.0,
+   "tuition": 6915858
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "신안산대학교",
+   "region": "경기",
+   "quota": 2300,
+   "admFee": 0.0,
+   "tuition": 7253398
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "아주자동차대학교",
+   "region": "충남",
+   "quota": 780,
+   "admFee": 0.0,
+   "tuition": 7204000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "안동과학대학교",
+   "region": "경북",
+   "quota": 1890,
+   "admFee": 0.0,
+   "tuition": 5939265
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "안산대학교",
+   "region": "경기",
+   "quota": 4022,
+   "admFee": 0.0,
+   "tuition": 6616946
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "여주대학교",
+   "region": "경기",
+   "quota": 3362,
+   "admFee": 0.0,
+   "tuition": 7519322
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "연성대학교",
+   "region": "경기",
+   "quota": 5654,
+   "admFee": 0.0,
+   "tuition": 7086393
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "연암공과대학교",
+   "region": "경남",
+   "quota": 1168,
+   "admFee": 0.0,
+   "tuition": 5568096
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "연암대학교",
+   "region": "충남",
+   "quota": 956,
+   "admFee": 0.0,
+   "tuition": 6283484
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "영남외국어대학",
+   "region": "경북",
+   "quota": 661,
+   "admFee": 0.0,
+   "tuition": 5505204
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "영남이공대학교",
+   "region": "대구",
+   "quota": 4971,
+   "admFee": 0.0,
+   "tuition": 6688516
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "영진사이버대학교",
+   "region": "대구",
+   "quota": 2590,
+   "admFee": 0.0,
+   "tuition": 2498803
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "영진전문대학교",
+   "region": "대구",
+   "quota": 5675,
+   "admFee": 0.0,
+   "tuition": 6757226
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "오산대학교",
+   "region": "경기",
+   "quota": 4131,
+   "admFee": 0.0,
+   "tuition": 7075414
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "용인예술과학대학교",
+   "region": "경기",
+   "quota": 2884,
+   "admFee": 0.0,
+   "tuition": 7453472
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "우송정보대학",
+   "region": "대전",
+   "quota": 3126,
+   "admFee": 0.0,
+   "tuition": 6636858
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "울산과학대학교",
+   "region": "울산",
+   "quota": 4686,
+   "admFee": 0.0,
+   "tuition": 6701182
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "웅지세무대학교",
+   "region": "경기",
+   "quota": 1218,
+   "admFee": 0.0,
+   "tuition": 6960000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "원광보건대학교",
+   "region": "전북",
+   "quota": 2351,
+   "admFee": 0.0,
+   "tuition": 6668343
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "유한대학교",
+   "region": "경기",
+   "quota": 4554,
+   "admFee": 0.0,
+   "tuition": 6756635
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "인덕대학교",
+   "region": "서울",
+   "quota": 5533,
+   "admFee": 0.0,
+   "tuition": 7170128
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "인하공업전문대학",
+   "region": "인천",
+   "quota": 5736,
+   "admFee": 0.0,
+   "tuition": 7318815
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "장안대학교",
+   "region": "경기",
+   "quota": 3650,
+   "admFee": 0.0,
+   "tuition": 6672507
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "재능대학교",
+   "region": "인천",
+   "quota": 2828,
+   "admFee": 0.0,
+   "tuition": 7199292
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "전남과학대학교",
+   "region": "전남",
+   "quota": 2716,
+   "admFee": 0.0,
+   "tuition": 5493549
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "전북과학대학교",
+   "region": "전북",
+   "quota": 1477,
+   "admFee": 0.0,
+   "tuition": 5403179
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "전주기전대학",
+   "region": "전북",
+   "quota": 1835,
+   "admFee": 0.0,
+   "tuition": 6800000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "전주비전대학교",
+   "region": "전북",
+   "quota": 2525,
+   "admFee": 0.0,
+   "tuition": 6728959
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "제주관광대학교",
+   "region": "제주",
+   "quota": 2159,
+   "admFee": 0.0,
+   "tuition": 5475138
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "제주한라대학교",
+   "region": "제주",
+   "quota": 4450,
+   "admFee": 0.0,
+   "tuition": 5618737
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "조선간호대학교",
+   "region": "광주",
+   "quota": 582,
+   "admFee": 0.0,
+   "tuition": 5477557
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "조선이공대학교",
+   "region": "광주",
+   "quota": 3001,
+   "admFee": 0.0,
+   "tuition": 5951378
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "진주보건대학교",
+   "region": "경남",
+   "quota": 2266,
+   "admFee": 0.0,
+   "tuition": 6726580
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "창원문성대학교",
+   "region": "경남",
+   "quota": 652,
+   "admFee": 0.0,
+   "tuition": 6502184
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "청강문화산업대학교",
+   "region": "경기",
+   "quota": 3366,
+   "admFee": 0.0,
+   "tuition": 8073243
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "청암대학교",
+   "region": "전남",
+   "quota": 2190,
+   "admFee": 0.0,
+   "tuition": 6217559
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "춘해보건대학교",
+   "region": "울산",
+   "quota": 2118,
+   "admFee": 0.0,
+   "tuition": 6647075
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "충북보건과학대학교",
+   "region": "충북",
+   "quota": 2394,
+   "admFee": 0.0,
+   "tuition": 6723179
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "충청대학교",
+   "region": "충북",
+   "quota": 3294,
+   "admFee": 0.0,
+   "tuition": 6323806
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "포항대학교",
+   "region": "경북",
+   "quota": 1729,
+   "admFee": 0.0,
+   "tuition": 6575610
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국골프과학기술대학교",
+   "region": "강원",
+   "quota": 480,
+   "admFee": 0.0,
+   "tuition": 7966042
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국관광대학교",
+   "region": "경기",
+   "quota": 1804,
+   "admFee": 0.0,
+   "tuition": 6832010
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국복지사이버대학교",
+   "region": "경북",
+   "quota": 2000,
+   "admFee": 0.0,
+   "tuition": 2196000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국승강기대학교",
+   "region": "경남",
+   "quota": 694,
+   "admFee": 0.0,
+   "tuition": 7221136
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국영상대학교",
+   "region": "세종",
+   "quota": 3194,
+   "admFee": 0.0,
+   "tuition": 6918277
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 I 대학 서울강서캠퍼스",
+   "region": "서울",
+   "quota": 480,
+   "admFee": 0.0,
+   "tuition": 2494000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 I 대학 서울정수캠퍼스",
+   "region": "서울",
+   "quota": 920,
+   "admFee": 0.0,
+   "tuition": 2494000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 I 대학 성남캠퍼스",
+   "region": "경기",
+   "quota": 620,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 I 대학 제주캠퍼스",
+   "region": "제주",
+   "quota": 50,
+   "admFee": 0.0,
+   "tuition": 2164000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 II 대학 남인천캠퍼스",
+   "region": "인천",
+   "quota": 50,
+   "admFee": 0.0,
+   "tuition": 2494000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 II 대학 인천캠퍼스",
+   "region": "인천",
+   "quota": 1315,
+   "admFee": 0.0,
+   "tuition": 2494000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 II 대학 화성캠퍼스",
+   "region": "경기",
+   "quota": 0,
+   "admFee": 0.0,
+   "tuition": 0
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 III 대학 강릉캠퍼스",
+   "region": "강원",
+   "quota": 105,
+   "admFee": 0.0,
+   "tuition": 2526762
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 III 대학 원주캠퍼스",
+   "region": "강원",
+   "quota": 100,
+   "admFee": 0.0,
+   "tuition": 2174000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 III 대학 춘천캠퍼스",
+   "region": "강원",
+   "quota": 300,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 IV 대학 대전캠퍼스",
+   "region": "대전",
+   "quota": 640,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 IV 대학 아산캠퍼스",
+   "region": "충남",
+   "quota": 415,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 IV 대학 청주캠퍼스",
+   "region": "충북",
+   "quota": 555,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 IV 대학 충남캠퍼스",
+   "region": "충남",
+   "quota": 210,
+   "admFee": 0.0,
+   "tuition": 2164000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 V 대학 광주캠퍼스",
+   "region": "광주",
+   "quota": 640,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 V 대학 익산캠퍼스",
+   "region": "전북",
+   "quota": 100,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 V 대학 전남캠퍼스",
+   "region": "전남",
+   "quota": 150,
+   "admFee": 0.0,
+   "tuition": 2164000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 V 대학 전북캠퍼스",
+   "region": "전북",
+   "quota": 330,
+   "admFee": 0.0,
+   "tuition": 2321000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 VI 대학 구미캠퍼스",
+   "region": "경북",
+   "quota": 435,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 VI 대학 대구캠퍼스",
+   "region": "대구",
+   "quota": 525,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 VI 대학 영남융합기술캠퍼스",
+   "region": "대구",
+   "quota": 210,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 VI 대학 영주캠퍼스",
+   "region": "경북",
+   "quota": 50,
+   "admFee": 0.0,
+   "tuition": 2164000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 VII 대학 동부산캠퍼스",
+   "region": "부산",
+   "quota": 0,
+   "admFee": 0.0,
+   "tuition": 0
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 VII 대학 부산캠퍼스",
+   "region": "부산",
+   "quota": 630,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 VII 대학 울산캠퍼스",
+   "region": "울산",
+   "quota": 575,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 VII 대학 창원캠퍼스",
+   "region": "경남",
+   "quota": 1060,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 특성화대학 로봇캠퍼스",
+   "region": "경북",
+   "quota": 200,
+   "admFee": 0.0,
+   "tuition": 2164000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 특성화대학 바이오캠퍼스",
+   "region": "충남",
+   "quota": 310,
+   "admFee": 0.0,
+   "tuition": 2595000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 특성화대학 반도체융합캠퍼스",
+   "region": "경기",
+   "quota": 480,
+   "admFee": 0.0,
+   "tuition": 2432000
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한국폴리텍 특성화대학 항공캠퍼스",
+   "region": "경남",
+   "quota": 260,
+   "admFee": 0.0,
+   "tuition": 2433846
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한림성심대학교",
+   "region": "강원",
+   "quota": 2133,
+   "admFee": 0.0,
+   "tuition": 6250016
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한양여자대학교",
+   "region": "서울",
+   "quota": 6105,
+   "admFee": 0.0,
+   "tuition": 6761049
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "한영대학교",
+   "region": "전남",
+   "quota": 1170,
+   "admFee": 0.0,
+   "tuition": 6185299
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "혜전대학교",
+   "region": "충남",
+   "quota": 2458,
+   "admFee": 0.0,
+   "tuition": 6323583
+  },
+  {
+   "type": "전문대학",
+   "found": "사립",
+   "name": "호산대학교",
+   "region": "경북",
+   "quota": 1830,
+   "admFee": 0.0,
+   "tuition": 6196261
+  }
+ ]
+}

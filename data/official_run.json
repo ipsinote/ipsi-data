@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26T06:58:31+09:00",
+ "at": "2026-11-26T08:45:39+09:00",
  "targets": 89,
  "withDates": 45,
  "blockedAll": [
@@ -458,7 +458,7 @@
     },
     {
      "rank": 2,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 3,
@@ -509,14 +509,14 @@
   {
    "id": "n40",
    "org": "충남 교육청 영재원",
-   "status": "not-found",
+   "status": "robots",
    "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 1,
    "route": 1,
    "tried": null,
    "robotsWhy": [
-    "rules"
+    "unreachable"
    ]
   },
   {
@@ -802,7 +802,7 @@
    "id": "n56",
    "org": "전북 고입",
    "status": "dates",
-   "lines": 60,
+   "lines": 59,
    "files": 4,
    "opened": 4,
    "route": 1,
@@ -812,7 +812,7 @@
    "id": "n57",
    "org": "상산고",
    "status": "dates",
-   "lines": 46,
+   "lines": 6,
    "files": 1,
    "opened": 2,
    "route": 1,
@@ -1012,7 +1012,7 @@
    "route": 1,
    "tried": null,
    "robotsWhy": [
-    "rules"
+    "unreachable"
    ]
   },
   {
@@ -1025,7 +1025,7 @@
    "route": 1,
    "tried": null,
    "robotsWhy": [
-    "rules"
+    "unreachable"
    ]
   },
   {
@@ -1190,12 +1190,9 @@
  ],
  "robots": {
   "http://dhi.hs.kr": {
-   "http": 200,
-   "bytes": 375,
-   "sha": "aa974429",
-   "rules": 14,
-   "disallow": 14,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPConnectionPool(host='dhi.hs.kr', port=80): Read timed out. (read timeout=30)",
+   "kind": "unreachable",
    "blockAt": "2026-11-26"
   },
   "http://dongbu.ice.go.kr": {
@@ -1349,13 +1346,8 @@
    "kind": "unreachable"
   },
   "https://dhi.dge.hs.kr": {
-   "http": 200,
-   "bytes": 375,
-   "sha": "aa974429",
-   "rules": 14,
-   "disallow": 14,
-   "kind": "rules",
-   "blockAt": "2026-11-26"
+   "blockAt": "2026-11-26",
+   "kept": true
   },
   "https://djsch.kr": {
    "http": 200,
@@ -1698,12 +1690,9 @@
    "blockAt": "2026-11-26"
   },
   "https://school.gyo6.net": {
-   "http": 200,
-   "bytes": 282,
-   "sha": "6e8a5ae2",
-   "rules": 1,
-   "disallow": 1,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='school.gyo6.net', port=443): Read timed out. (read timeout=30)",
+   "kind": "unreachable",
    "blockAt": "2026-11-26"
   },
   "https://school.jbedu.kr": {
@@ -1778,12 +1767,9 @@
    "blockAt": "2026-11-26"
   },
   "https://www.cncae.go.kr": {
-   "http": 200,
-   "bytes": 682,
-   "sha": "b9f34147",
-   "rules": 25,
-   "disallow": 1,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='www.cncae.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTime",
+   "kind": "unreachable",
    "blockAt": "2026-11-26"
   },
   "https://www.cne.go.kr": {

@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.279)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.289)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-25",
-"ver": "v28.279",
-"count": 554,
+"ver": "v28.289",
+"count": 555,
 "sources": [
 {
 "id": "1084a42981",
@@ -1041,7 +1041,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -2404,7 +2404,7 @@
 "id": "6e5899faa2",
 "url": "https://wjgift.gwe.go.kr/boardCnts/list.do?boardID=99694&m=0201&s=kwwjegp",
 "host": "wjgift.gwe.go.kr",
-"name": "원주교육지원청 영재교육원 공지사항(2026학년도 심층면접 대상자 공고)",
+"name": "원주교육지원청 영재교육원 공지사항",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -5993,6 +5993,19 @@
 "n25"
 ],
 "dated": "",
+"cycle": "w"
+},
+{
+"id": "593e4c55eb",
+"url": "https://ddsciencehs.djsch.kr/boardCnts/list.do?boardID=49953&m=0201&s=ddsciencehs",
+"host": "ddsciencehs.djsch.kr",
+"name": "대전동신과학고 입학관련 공지사항 '2027학년도 신입생 입학전형 출석면담 운영계획'(2026-09-28 · 첨부 1쪽)",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n29"
+],
+"dated": "2026-11-25",
 "cycle": "w"
 },
 {

@@ -1,7 +1,7 @@
 {
  "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
  "made": "2026-11-25",
- "ver": "v28.279",
+ "ver": "v28.289",
  "horizonDays": 120,
  "targets": [
   {
@@ -1406,15 +1406,11 @@
   {
    "id": "n45",
    "org": "강원 교육지원청 영재원",
-   "what": "앞으로 120일 안 일정 5단계",
+   "what": "앞으로 120일 안 일정 4단계",
    "pages": [
     {
      "kind": "post",
      "url": "https://wjgift.gwe.go.kr/boardCnts/view.do?boardID=99694&boardSeq=7716897&lev=0&m=0201&s=kwwjegp"
-    },
-    {
-     "kind": "board",
-     "url": "https://wjgift.gwe.go.kr/boardCnts/list.do?boardID=99694&m=0201&s=kwwjegp"
     },
     {
      "kind": "board",
@@ -1423,6 +1419,10 @@
     {
      "kind": "board",
      "url": "https://kwthe.gwe.go.kr/boardCnts/list.do?boardID=2519&m=100801&s=kwthe"
+    },
+    {
+     "kind": "board",
+     "url": "https://wjgift.gwe.go.kr/boardCnts/list.do?boardID=99694&m=0201&s=kwwjegp"
     }
    ],
    "title": [

@@ -10,7 +10,7 @@
   ③ GET /cmm/cmm/fileDownload.do?atchFileId=…&fileDetailSn=…&insertDataPrcus=N → CSV(cp949 · 382줄 + 머리줄 · 24,270바이트, 2026-05-19 판)
 robots: data.go.kr robots.txt는 Googlebot 묶음만 있고 '*'·우리 이름 규칙이 없음(2026-11-24 판정) — 열기 전에 다시 받아 우리 이름(ipsi-data-bot)이나
         '*' 묶음이 이 주소들을 막으면 열지 않고 끝냄(RFC 9309 · fetch_official.py와 같은 기준 — robots를 못 받으면 막힘으로 봄).
-점검: 머리줄 7칸이 정해진 이름과 같음 · 줄 수가 쪽에 적힌 '전체 행'과 같음 · 평균등록금이 숫자이고 50만~2,000만 원 안 — 하나라도 어긋나면 저장하지 않음.
+점검: 머리줄 7칸이 정해진 이름과 같음 · 줄 수가 쪽에 적힌 '전체 행'과 같음 · 평균등록금이 숫자이고 0(등록금을 받지 않는 학교) 또는 50만~2,000만 원 안 — 하나라도 어긋나면 저장하지 않음.
 저장: data/univ_tuition/latest.json(고친 때가 그대로면 파일도 그대로) · data/univ_tuition/run.json(실행 기록). 원본 CSV는 저장하지 않음(칸을 그대로 옮긴 JSON만).
 쓰는 법: python scripts/fetch_tuition.py [--dry]
 """
@@ -135,7 +135,7 @@ def main():
     for r in body:
         r = (r + [''] * 7)[:7]
         v = num(r[6])
-        if v is None or not (500000 <= v <= 20000000):
+        if v is None or not (v == 0 or 500000 <= v <= 20000000):   # 0 = 등록금을 받지 않는 학교(광주가톨릭대·한국농수산대 등 — 2026-05-19 판 5곳)
             prob.append(f'평균등록금 칸 이상: {r[2]} {r[6]!r}')
             continue
         out.append({'type': r[0].strip(), 'found': r[1].strip(), 'name': r[2].strip(), 'region': r[3].strip(),
@@ -152,7 +152,7 @@ def main():
     res = {'made': now_utc(), 'by': 'scripts/fetch_tuition.py',
            'source': dict(SOURCE, updtDt=updt, sha256=run['sha256'], rows=len(out), fetched=now_utc()[:10]),
            'year': year, 'yearNote': f'{year}년 4월 대학정보공시 기준(파일 등록 {updt[:10]}) · 연간 평균' if year else '',
-           'unit': '원(연간 평균 · 소수점 반올림)', 'dupNames': dup, 'rows': out}
+           'unit': '원(연간 평균 · 소수점 반올림 · 0 = 등록금을 받지 않는 학교)', 'dupNames': dup, 'rows': out}
     run['ok'] = True
     if not dry:
         os.makedirs(OUT, exist_ok=True)

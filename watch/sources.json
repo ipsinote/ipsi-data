@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.292)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-11-26",
-"ver": "v28.292",
-"count": 557,
+"note": "페이지(공개판 v28.298)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-11-27",
+"ver": "v28.298",
+"count": 556,
 "sources": [
 {
 "id": "1084a42981",
@@ -1067,7 +1067,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1085,7 +1085,7 @@
 "id": "997cb8ad04",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
 "host": "home.pen.go.kr",
-"name": "부산광역시교육청 고입포털 후기고(특목고·자사고·학교장전형고) 안내",
+"name": "후기고(특목고, 자사고, 학교장전형고), 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -2414,19 +2414,6 @@
 "cycle": "w"
 },
 {
-"id": "69961d3dff",
-"url": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4",
-"host": "wjgift.gwe.go.kr",
-"name": "2027학년도 원주교육지원청부설영재교육원 영재교육대상자 선발 전형 운영 계획(원주) — 원주교육지원청 영재교육원 누리집",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"n45"
-],
-"dated": "2026-11-13",
-"cycle": "w"
-},
-{
 "id": "6e5899faa2",
 "url": "https://wjgift.gwe.go.kr/boardCnts/list.do?boardID=99694&m=0201&s=kwwjegp",
 "host": "wjgift.gwe.go.kr",
@@ -2443,13 +2430,13 @@
 "id": "191c1aed07",
 "url": "https://wjgift.gwe.go.kr/boardCnts/view.do?boardID=99694&boardSeq=7716897&lev=0&m=0201&s=kwwjegp",
 "host": "wjgift.gwe.go.kr",
-"name": "2027학년도 원주교육지원청부설영재교육원 교육대상자 최종 선발 요강 — 선발 결과 공고(공식 HWP)",
+"name": "2027학년도 원주교육지원청부설영재교육원 영재교육대상자 선발 전형 운영 계획(공식 HWP — 최종 선발 공고 글 첨부)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n45"
 ],
-"dated": "2026-10-13",
+"dated": "2026-11-26",
 "cycle": "w"
 },
 {

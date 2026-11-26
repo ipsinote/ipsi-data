@@ -1,5 +1,5 @@
 {
-"checkedAt": "2026-11-25T22:01+09:00",
+"checkedAt": "2026-11-26T13:53+09:00",
 "ua": "ipsi-data-bot/1.0 (+https://github.com/ipsinote/ipsi-data; public admission notice dates)",
 "tokens": {
 "main": [
@@ -14,26 +14,28 @@
 },
 "note": "공식 누리집 robots 판정(우리 이름·* 규칙만) — 판정 도구 ipsi-site tools/robots_allow.py · 규칙 scripts/robots_status.py 머리말",
 "summary": {
+"ambiguous": 8,
 "denied": 3,
 "html": 21,
 "none": 32,
-"rules": 163,
-"unreachable": 49,
-"hosts": 268
+"rules": 164,
+"unreachable": 41,
+"hosts": 269
 },
 "hosts": {
 "http://dongbu.ice.go.kr": {
-"at": "2026-11-25T21:57+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+"at": "2026-11-26T13:50+09:00",
+"http": 200,
+"sha": "2a849da1",
+"bytes": 68,
+"kind": "ambiguous",
 "blockAt": "2026-11-25",
 "from": [
 "targets"
 ]
 },
 "http://gbgt.daegu.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "d2fde952",
 "bytes": 172,
@@ -60,13 +62,13 @@
 "/views/member/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "targets"
 ]
 },
 "http://gbit.daegu.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "576e330f",
 "bytes": 179,
@@ -93,13 +95,13 @@
 "/views/member/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "targets"
 ]
 },
 "http://seit.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "final": "http://errdoc.gabia.io/404.html",
 "sha": "775e0ce0",
@@ -110,29 +112,43 @@
 ]
 },
 "http://www.cnfl.cnehs.kr": {
-"at": "2026-11-25T21:57+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPConnectionPool(host='www.cnfl.cnehs.kr', port=80): Max retries exceeded with url: /robots.txt (C",
-"blockAt": "2026-11-25",
+"at": "2026-11-26T13:50+09:00",
+"http": 200,
+"sha": "d8cfb862",
+"bytes": 36,
+"kind": "rules",
+"star": [
+[
+0,
+"/boardCnts/"
+]
+],
+"blockAt": "2026-11-26",
 "from": [
 "sources",
 "targets"
 ]
 },
 "http://www.cnsh.cnehs.kr": {
-"at": "2026-11-25T21:57+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPConnectionPool(host='www.cnsh.cnehs.kr', port=80): Max retries exceeded with url: /robots.txt (C",
-"blockAt": "2026-11-25",
+"at": "2026-11-26T13:50+09:00",
+"http": 200,
+"sha": "d8cfb862",
+"bytes": 36,
+"kind": "rules",
+"star": [
+[
+0,
+"/boardCnts/"
+]
+],
+"blockAt": "2026-11-26",
 "from": [
 "sources",
 "targets"
 ]
 },
 "http://www.hcu.hs.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "aeae703f",
 "bytes": 149,
@@ -143,7 +159,7 @@
 ]
 },
 "https://adm-u.postech.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "6f90a734",
 "bytes": 120,
@@ -158,14 +174,14 @@
 "/wp-admin/admin-ajax.php"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://admission-sshs.info": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "8b0ea518",
 "bytes": 160,
@@ -192,13 +208,13 @@
 "/?mode*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://admission.cau.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "977175c3",
 "bytes": 691,
@@ -209,13 +225,13 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://admission.csia.hs.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "469588aa",
 "bytes": 25,
@@ -227,7 +243,7 @@
 ]
 },
 "https://admission.dg1s.hs.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -237,7 +253,7 @@
 ]
 },
 "https://admission.ewha.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "final": "http://admission.ewha.ac.kr/enter/doc/error404.asp",
 "sha": "0c0fc785",
@@ -248,7 +264,7 @@
 ]
 },
 "https://admission.hafs.hs.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "073522e1",
 "bytes": 61,
@@ -261,7 +277,7 @@
 ]
 },
 "https://admission.jnu.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='admission.jnu.ac.kr', port=443): Read timed out. (read timeout=15)",
@@ -271,7 +287,7 @@
 ]
 },
 "https://admission.kaist.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "49ab31ef",
 "bytes": 125,
@@ -283,7 +299,7 @@
 ]
 },
 "https://admission.ksa.hs.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='admission.ksa.hs.kr', port=443): Max retries exceeded with url: /robots.tx",
@@ -293,7 +309,7 @@
 ]
 },
 "https://admission.skku.edu": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 503,
 "kind": "unreachable",
 "from": [
@@ -301,7 +317,7 @@
 ]
 },
 "https://admission.snu.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "550f010f",
 "bytes": 1791,
@@ -318,7 +334,7 @@
 ]
 },
 "https://admission.sogang.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='admission.sogang.ac.kr', port=443): Max retries exceeded with url: /robots",
@@ -327,7 +343,7 @@
 ]
 },
 "https://admission.yonsei.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -336,7 +352,7 @@
 ]
 },
 "https://adms.hufs.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "c30950a9",
 "bytes": 27,
@@ -347,13 +363,13 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://apps.apple.com": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "eee66a2b",
 "bytes": 506,
@@ -380,13 +396,13 @@
 "*/search?*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://assets.koi.or.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "b741219c",
 "bytes": 1248,
@@ -397,7 +413,7 @@
 ]
 },
 "https://b-ingang.pen.go.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "d805da1e",
 "bytes": 120,
@@ -414,7 +430,7 @@
 ]
 },
 "https://bdja-h.goesn.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "4aa1eb21",
 "bytes": 162,
@@ -427,19 +443,18 @@
 ]
 },
 "https://bukbu.ice.go.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
-"sha": "309ee8b9",
-"bytes": 412,
-"kind": "rules",
-"star": [],
+"sha": "2a849da1",
+"bytes": 68,
+"kind": "html",
 "from": [
 "hosts",
 "targets"
 ]
 },
 "https://cgesc.ajou.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='cgesc.ajou.ac.kr', port=443): Max retries exceeded with url: /robots.txt (",
@@ -449,7 +464,7 @@
 ]
 },
 "https://clik.nanet.go.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "c2d05dd9",
 "bytes": 72,
@@ -466,7 +481,7 @@
 ]
 },
 "https://cls.edunet.net": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='cls.edunet.net', port=443): Max retries exceeded with url: /robots.txt (Ca",
@@ -475,7 +490,7 @@
 ]
 },
 "https://csatcdn.kice.re.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -484,7 +499,7 @@
 ]
 },
 "https://csge.jnu.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 403,
 "kind": "denied",
 "from": [
@@ -494,7 +509,7 @@
 ]
 },
 "https://csh-h.gne.go.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "5578767f",
 "bytes": 702,
@@ -561,7 +576,7 @@
 "/*%EB%A7%88%EC%95%BD*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -569,7 +584,7 @@
 ]
 },
 "https://ctysc.gidea.co.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 403,
 "kind": "denied",
 "from": [
@@ -577,7 +592,7 @@
 ]
 },
 "https://cucocr.cje.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "ab008c45",
 "bytes": 743,
@@ -589,7 +604,7 @@
 ]
 },
 "https://curri.gyo6.net": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "aa1139dd",
 "bytes": 52,
@@ -601,7 +616,7 @@
 ]
 },
 "https://cwedu.gne.go.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "79db538e",
 "bytes": 781,
@@ -672,7 +687,7 @@
 "/*%EB%A7%88%EC%95%BD*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -680,7 +695,7 @@
 ]
 },
 "https://daeil.or.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "073522e1",
 "bytes": 61,
@@ -691,7 +706,7 @@
 ]
 },
 "https://daeseong.hs.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -701,7 +716,7 @@
 ]
 },
 "https://daewon.ms.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='daewon.ms.kr', port=443): Max retries exceeded with url: /robots.txt (Caus",
@@ -712,7 +727,7 @@
 ]
 },
 "https://dbedu.sen.go.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "5e9447f2",
 "bytes": 339,
@@ -783,13 +798,13 @@
 "/FUS/RE/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts"
 ]
 },
 "https://ddsciencehs.djsch.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "0c5ef46c",
 "bytes": 117,
@@ -804,7 +819,7 @@
 "/boardCnts/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -812,7 +827,7 @@
 ]
 },
 "https://dei.djsch.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "0c5ef46c",
 "bytes": 117,
@@ -827,14 +842,14 @@
 "/boardCnts/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "targets"
 ]
 },
 "https://depts.washington.edu": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "57040191",
 "bytes": 1577,
@@ -849,13 +864,13 @@
 "/anesth/employment/faculty/cv/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://dgist.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
@@ -866,7 +881,7 @@
 ]
 },
 "https://djflhs.djsch.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "0c5ef46c",
 "bytes": 117,
@@ -881,7 +896,7 @@
 "/boardCnts/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -889,7 +904,7 @@
 ]
 },
 "https://djshs.djsch.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "0c5ef46c",
 "bytes": 117,
@@ -904,13 +919,13 @@
 "/boardCnts/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://doi.org": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 404,
 "final": "https://www.doi.org/robots.txt",
 "kind": "none",
@@ -919,17 +934,18 @@
 ]
 },
 "https://dongbu.ice.go.kr": {
-"at": "2026-11-25T21:57+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPSConnectionPool(host='dongbu.ice.go.kr', port=443): Max retries exceeded with url: /robots.txt (",
+"at": "2026-11-26T13:50+09:00",
+"http": 200,
+"sha": "2a849da1",
+"bytes": 68,
+"kind": "ambiguous",
 "blockAt": "2026-11-25",
 "from": [
 "hosts"
 ]
 },
 "https://dongpyung.dge.es.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "aa974429",
 "bytes": 375,
@@ -992,14 +1008,14 @@
 "/*/lo/login/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "targets"
 ]
 },
 "https://dshs.dge.hs.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "aa974429",
 "bytes": 375,
@@ -1062,13 +1078,13 @@
 "/*/lo/login/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://dswes.djsch.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "0c5ef46c",
 "bytes": 117,
@@ -1083,14 +1099,14 @@
 "/boardCnts/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "targets"
 ]
 },
 "https://dwfl.hs.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "073522e1",
 "bytes": 61,
@@ -1103,7 +1119,7 @@
 ]
 },
 "https://edu.ginue.ac.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "14f0195a",
 "bytes": 194,
@@ -1115,18 +1131,18 @@
 ]
 },
 "https://edu.ingang.go.kr": {
-"at": "2026-11-25T21:57+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "final": "https://edu.ingang.go.kr/NGLMS",
-"sha": "20c07611",
-"bytes": 52349,
+"sha": "e000e7c9",
+"bytes": 52347,
 "kind": "html",
 "from": [
 "sources"
 ]
 },
 "https://educationendowmentfoundation.org.uk": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -1134,7 +1150,7 @@
 ]
 },
 "https://eiec.kdi.re.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "b3836c56",
 "bytes": 22,
@@ -1150,7 +1166,7 @@
 ]
 },
 "https://enews.sen.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "cdb1740d",
 "bytes": 177,
@@ -1185,14 +1201,14 @@
 "/images/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://enter.bnue.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "c8700366",
 "bytes": 25,
@@ -1208,7 +1224,7 @@
 ]
 },
 "https://eprints.whiterose.ac.uk": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "0873db1a",
 "bytes": 115,
@@ -1219,13 +1235,13 @@
 "/cgi/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://ewha-gfh.hs.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "8cfe70ff",
 "bytes": 732,
@@ -1336,7 +1352,7 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -1344,7 +1360,7 @@
 ]
 },
 "https://forrt.org": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "6344d9f1",
 "bytes": 186,
@@ -1360,7 +1376,7 @@
 ]
 },
 "https://friend.sen.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "fcc20d78",
 "bytes": 36,
@@ -1371,14 +1387,14 @@
 "/program/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://gasuwones.djsch.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "0c5ef46c",
 "bytes": 117,
@@ -1393,7 +1409,7 @@
 "/boardCnts/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -1401,7 +1417,7 @@
 ]
 },
 "https://gbgt.daegu.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "d2fde952",
 "bytes": 172,
@@ -1428,13 +1444,13 @@
 "/views/member/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts"
 ]
 },
 "https://gbit.daegu.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "576e330f",
 "bytes": 179,
@@ -1461,7 +1477,7 @@
 "/views/member/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -1469,7 +1485,7 @@
 ]
 },
 "https://gbs-h.goeujb.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": 200,
 "sha": "62923458",
 "bytes": 188,
@@ -1481,7 +1497,7 @@
 ]
 },
 "https://gen.jge.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:50+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='gen.jge.go.kr', port=443): Read timed out. (read timeout=15)",
@@ -1490,25 +1506,10 @@
 ]
 },
 "https://gf.gwe.hs.kr": {
-"at": "2026-11-25T21:58+09:00",
-"http": 200,
-"sha": "db895613",
-"bytes": 113,
-"kind": "rules",
-"star": [
-[
-1,
-"/"
-],
-[
-0,
-"/front"
-],
-[
-0,
-"/apple/"
-]
-],
+"at": "2026-11-26T13:50+09:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='gf.gwe.hs.kr', port=443): Max retries exceeded with url: /robots.txt (Caus",
 "blockAt": "2026-11-25",
 "from": [
 "hosts",
@@ -1517,9 +1518,10 @@
 ]
 },
 "https://gice.gen.go.kr": {
-"at": "2026-11-25T21:58+09:00",
-"http": 404,
-"kind": "none",
+"at": "2026-11-26T13:51+09:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='gice.gen.go.kr', port=443): Max retries exceeded with url: /robots.txt (Ca",
 "from": [
 "hosts",
 "sources",
@@ -1527,7 +1529,7 @@
 ]
 },
 "https://gifted.cbnu.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='gifted.cbnu.ac.kr', port=443): Max retries exceeded with url: /robots.txt ",
@@ -1538,29 +1540,10 @@
 ]
 },
 "https://gifted.cnu.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
-"http": 200,
-"sha": "c2312af1",
-"bytes": 68,
-"kind": "rules",
-"star": [
-[
-0,
-"/_at"
-],
-[
-0,
-"/_cu"
-],
-[
-0,
-"/_re"
-],
-[
-1,
-"/"
-]
-],
+"at": "2026-11-26T13:51+09:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='gifted.cnu.ac.kr', port=443): Read timed out. (read timeout=15)",
 "blockAt": "2026-11-25",
 "from": [
 "hosts",
@@ -1569,7 +1552,7 @@
 ]
 },
 "https://gifted.daejin.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='gifted.daejin.ac.kr', port=443): Max retries exceeded with url: /robots.tx",
@@ -1578,7 +1561,7 @@
 ]
 },
 "https://gifted.dnue.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "final": "https://gifted.dnue.ac.kr/resources/Error/404.html",
 "sha": "b8481f2e",
@@ -1591,7 +1574,7 @@
 ]
 },
 "https://gifted.dongguk.edu": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "7a54e2d5",
 "bytes": 26,
@@ -1602,13 +1585,13 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://gifted.gachon.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='gifted.gachon.ac.kr', port=443): Max retries exceeded with url: /robots.tx",
@@ -1619,7 +1602,7 @@
 ]
 },
 "https://gifted.gknu.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "1b3a5c26",
 "bytes": 25,
@@ -1632,7 +1615,7 @@
 ]
 },
 "https://gifted.gnue.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "5a35d7d9",
 "bytes": 21,
@@ -1650,7 +1633,7 @@
 ]
 },
 "https://gifted.gwnu.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "8052be50",
 "bytes": 63,
@@ -1665,13 +1648,13 @@
 "/sites/*/files/*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://gifted.jejunu.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='gifted.jejunu.ac.kr', port=443): Max retries exceeded with url: /robots.tx",
@@ -1681,7 +1664,7 @@
 ]
 },
 "https://gifted.kongju.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='gifted.kongju.ac.kr', port=443): Max retries exceeded with url: /robots.tx",
@@ -1691,7 +1674,7 @@
 ]
 },
 "https://gifted.pusan.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -1700,7 +1683,7 @@
 ]
 },
 "https://gifted.snu.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "final": "https://www.gidea.co.kr/include/message/error404.action",
 "kind": "none",
@@ -1709,7 +1692,7 @@
 ]
 },
 "https://gifted.snue.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "final": "https://www.gidea.co.kr/include/message/error404.action",
 "kind": "none",
@@ -1718,7 +1701,7 @@
 ]
 },
 "https://gifted.ulsan.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -1728,7 +1711,7 @@
 ]
 },
 "https://gifted1.kongju.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='gifted1.kongju.ac.kr', port=443): Max retries exceeded with url: /robots.t",
@@ -1739,7 +1722,7 @@
 ]
 },
 "https://giftededu.yonsei.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "2151001d",
 "bytes": 79,
@@ -1762,13 +1745,13 @@
 "/main/main.action"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://go.hanyang.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "bd1f7d89",
 "bytes": 102,
@@ -1791,14 +1774,14 @@
 "/web/presentation/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://go.pusan.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "99113084",
 "bytes": 61,
@@ -1810,7 +1793,7 @@
 ]
 },
 "https://goedy.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "4aa1eb21",
 "bytes": 162,
@@ -1822,7 +1805,7 @@
 ]
 },
 "https://gs-h.goesw.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "71223282",
 "bytes": 169,
@@ -1834,7 +1817,7 @@
 ]
 },
 "https://gsa.jge.hs.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "0f947204",
 "bytes": 50,
@@ -1849,14 +1832,14 @@
 "/member/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://gshs-h.gne.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "5578767f",
 "bytes": 702,
@@ -1923,7 +1906,7 @@
 "/*%EB%A7%88%EC%95%BD*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -1931,11 +1914,22 @@
 ]
 },
 "https://gwangcheol.jge.hs.kr": {
-"at": "2026-11-25T21:58+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPSConnectionPool(host='gwangcheol.jge.hs.kr', port=443): Max retries exceeded with url: /robots.t",
-"blockAt": "2026-11-23",
+"at": "2026-11-26T13:51+09:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -1943,7 +1937,7 @@
 ]
 },
 "https://gwcce.gwe.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "db895613",
 "bytes": 113,
@@ -1962,14 +1956,14 @@
 "/apple/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://gwe.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "4681bb17",
 "bytes": 41,
@@ -1980,13 +1974,13 @@
 "/nurizip/search/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts"
 ]
 },
 "https://gwgned.gwe.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "db895613",
 "bytes": 113,
@@ -2005,7 +1999,7 @@
 "/apple/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -2013,65 +2007,11 @@
 ]
 },
 "https://haneul.icehs.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
-"sha": "c8f83538",
-"bytes": 391,
-"kind": "rules",
-"star": [
-[
-0,
-"/apple/"
-],
-[
-0,
-"/addon/"
-],
-[
-0,
-"/WEB-INF/"
-],
-[
-0,
-"/mobile/"
-],
-[
-0,
-"/board/"
-],
-[
-0,
-"/upload/"
-],
-[
-0,
-"/webfilter/"
-],
-[
-0,
-"/script/"
-],
-[
-0,
-"/login/"
-],
-[
-0,
-"/sub/"
-],
-[
-0,
-"/vod/"
-],
-[
-0,
-"/innorix/"
-],
-[
-0,
-"/search/"
-]
-],
+"sha": "20246313",
+"bytes": 77,
+"kind": "ambiguous",
 "blockAt": "2026-11-25",
 "from": [
 "hosts",
@@ -2080,7 +2020,7 @@
 ]
 },
 "https://hansol.dge.es.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "aa974429",
 "bytes": 375,
@@ -2143,14 +2083,14 @@
 "/*/lo/login/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "targets"
 ]
 },
 "https://hansungsh.sen.hs.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "7fd15edb",
 "bytes": 83,
@@ -2177,7 +2117,7 @@
 "*.css"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -2185,7 +2125,7 @@
 ]
 },
 "https://hbcl.msu.edu": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -2193,7 +2133,7 @@
 ]
 },
 "https://highschool.gne.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -2203,7 +2143,7 @@
 ]
 },
 "https://hischoolgbe.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -2213,7 +2153,7 @@
 ]
 },
 "https://home.pen.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "9b259527",
 "bytes": 11490,
@@ -2536,7 +2476,7 @@
 "/*스웨디시*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -2544,17 +2484,17 @@
 ]
 },
 "https://hscredit.gwe.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
-"sha": "58d3143c",
-"bytes": 459,
+"sha": "e728380f",
+"bytes": 456,
 "kind": "html",
 "from": [
 "hosts"
 ]
 },
 "https://hyfl.sen.hs.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "7fd15edb",
 "bytes": 83,
@@ -2581,7 +2521,7 @@
 "*.css"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -2589,65 +2529,11 @@
 ]
 },
 "https://i-science.icehs.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
-"sha": "c8f83538",
-"bytes": 391,
-"kind": "rules",
-"star": [
-[
-0,
-"/apple/"
-],
-[
-0,
-"/addon/"
-],
-[
-0,
-"/WEB-INF/"
-],
-[
-0,
-"/mobile/"
-],
-[
-0,
-"/board/"
-],
-[
-0,
-"/upload/"
-],
-[
-0,
-"/webfilter/"
-],
-[
-0,
-"/script/"
-],
-[
-0,
-"/login/"
-],
-[
-0,
-"/sub/"
-],
-[
-0,
-"/vod/"
-],
-[
-0,
-"/innorix/"
-],
-[
-0,
-"/search/"
-]
-],
+"sha": "20246313",
+"bytes": 77,
+"kind": "ambiguous",
 "blockAt": "2026-11-25",
 "from": [
 "hosts",
@@ -2656,147 +2542,22 @@
 ]
 },
 "https://iasa.icehs.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
-"sha": "c8f83538",
-"bytes": 391,
-"kind": "rules",
-"star": [
-[
-0,
-"/apple/"
-],
-[
-0,
-"/addon/"
-],
-[
-0,
-"/WEB-INF/"
-],
-[
-0,
-"/mobile/"
-],
-[
-0,
-"/board/"
-],
-[
-0,
-"/upload/"
-],
-[
-0,
-"/webfilter/"
-],
-[
-0,
-"/script/"
-],
-[
-0,
-"/login/"
-],
-[
-0,
-"/sub/"
-],
-[
-0,
-"/vod/"
-],
-[
-0,
-"/innorix/"
-],
-[
-0,
-"/search/"
-]
-],
+"sha": "20246313",
+"bytes": 77,
+"kind": "ambiguous",
 "blockAt": "2026-11-25",
 "from": [
 "sources"
 ]
 },
 "https://ice.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
-"final": "https://www.ice.go.kr/robots.txt",
-"sha": "d15cec9c",
-"bytes": 602,
-"kind": "rules",
-"star": [
-[
-1,
-"/"
-],
-[
-0,
-"/common/"
-],
-[
-0,
-"/comm/"
-],
-[
-0,
-"/apple/"
-],
-[
-0,
-"/js/"
-],
-[
-0,
-"/images/"
-],
-[
-0,
-"/css/"
-],
-[
-0,
-"/upload/"
-],
-[
-0,
-"/log/"
-],
-[
-0,
-"/comm/"
-],
-[
-0,
-"/nice/"
-],
-[
-0,
-"/editor/"
-],
-[
-0,
-"/onepass/"
-],
-[
-0,
-"/search/"
-],
-[
-0,
-"/webfilter/"
-],
-[
-0,
-"/WEB-INF/"
-],
-[
-0,
-"/na/"
-]
-],
+"sha": "20246313",
+"bytes": 77,
+"kind": "ambiguous",
 "blockAt": "2026-11-25",
 "from": [
 "hosts",
@@ -2805,7 +2566,7 @@
 ]
 },
 "https://ifn.se": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "final": "https://www.ifn.se/robots.txt",
 "sha": "dca0cacc",
@@ -2847,71 +2608,17 @@
 ]
 ]
 },
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://ijss.icehs.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
-"sha": "c8f83538",
-"bytes": 391,
-"kind": "rules",
-"star": [
-[
-0,
-"/apple/"
-],
-[
-0,
-"/addon/"
-],
-[
-0,
-"/WEB-INF/"
-],
-[
-0,
-"/mobile/"
-],
-[
-0,
-"/board/"
-],
-[
-0,
-"/upload/"
-],
-[
-0,
-"/webfilter/"
-],
-[
-0,
-"/script/"
-],
-[
-0,
-"/login/"
-],
-[
-0,
-"/sub/"
-],
-[
-0,
-"/vod/"
-],
-[
-0,
-"/innorix/"
-],
-[
-0,
-"/search/"
-]
-],
+"sha": "20246313",
+"bytes": 77,
+"kind": "ambiguous",
 "blockAt": "2026-11-25",
 "from": [
 "hosts",
@@ -2920,7 +2627,7 @@
 ]
 },
 "https://iphak.khu.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "f597de00",
 "bytes": 101,
@@ -2935,13 +2642,13 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://iphak.ssu.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "459e410d",
 "bytes": 255,
@@ -2992,14 +2699,14 @@
 "/campus_tour"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://iphak.ulsan.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "final": "https://iphak.ulsan.ac.kr/common/deny.jsp",
 "sha": "ce4158ec",
@@ -3011,7 +2718,7 @@
 ]
 },
 "https://ipsi.sen.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "5a35d7d9",
 "bytes": 21,
@@ -3027,7 +2734,7 @@
 ]
 },
 "https://ipsi1.knu.ac.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -3035,7 +2742,7 @@
 ]
 },
 "https://jajucenter.ebs.co.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "6e3c4b5b",
 "bytes": 161,
@@ -3062,13 +2769,13 @@
 "/?mode*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://jhr.uwpress.org": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 403,
 "kind": "denied",
 "from": [
@@ -3076,17 +2783,15 @@
 ]
 },
 "https://jinhak.gwe.go.kr": {
-"at": "2026-11-25T21:58+09:00",
-"http": 200,
-"sha": "5fe200e4",
-"bytes": 461,
-"kind": "html",
+"at": "2026-11-26T13:51+09:00",
+"http": 404,
+"kind": "none",
 "from": [
 "hosts"
 ]
 },
 "https://jinhak.sen.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "5a35d7d9",
 "bytes": 21,
@@ -3104,7 +2809,7 @@
 ]
 },
 "https://jjedu.gne.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "79db538e",
 "bytes": 781,
@@ -3175,14 +2880,14 @@
 "/*%EB%A7%88%EC%95%BD*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "targets"
 ]
 },
 "https://jnucsge.gidea.co.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "final": "https://www.gidea.co.kr/include/message/error404.action",
 "kind": "none",
@@ -3191,25 +2896,10 @@
 ]
 },
 "https://kangwon-sh.gwe.hs.kr": {
-"at": "2026-11-25T21:58+09:00",
-"http": 200,
-"sha": "db895613",
-"bytes": 113,
-"kind": "rules",
-"star": [
-[
-1,
-"/"
-],
-[
-0,
-"/front"
-],
-[
-0,
-"/apple/"
-]
-],
+"at": "2026-11-26T13:51+09:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='kangwon-sh.gwe.hs.kr', port=443): Max retries exceeded with url: /robots.t",
 "blockAt": "2026-11-25",
 "from": [
 "hosts",
@@ -3218,7 +2908,7 @@
 ]
 },
 "https://kbo.bioedu.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "4441b57b",
 "bytes": 114,
@@ -3233,13 +2923,13 @@
 "/wp-admin/admin-ajax.php"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://kcue.or.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -3248,7 +2938,7 @@
 ]
 },
 "https://kdca.go.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "f651394a",
 "bytes": 33,
@@ -3259,14 +2949,14 @@
 "/search.do"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://ko.khanacademy.org": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "59842a36",
 "bytes": 3038,
@@ -3276,7 +2966,7 @@
 ]
 },
 "https://koi.or.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "e676a0fc",
 "bytes": 80,
@@ -3291,13 +2981,13 @@
 "/assets/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://koreascience.or.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='koreascience.or.kr', port=443): Read timed out. (read timeout=15)",
@@ -3306,7 +2996,7 @@
 ]
 },
 "https://kphe.kps.or.kr": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "7a02e015",
 "bytes": 25,
@@ -3317,7 +3007,7 @@
 ]
 },
 "https://kr.object.gov-ncloudstorage.com": {
-"at": "2026-11-25T21:58+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -3325,18 +3015,29 @@
 ]
 },
 "https://kred.jne.go.kr": {
-"at": "2026-11-25T21:59+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPSConnectionPool(host='kred.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Ca",
-"blockAt": "2026-11-23",
+"at": "2026-11-26T13:51+09:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "targets"
 ]
 },
 "https://kunsan.gidea.co.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "final": "https://www.gidea.co.kr/include/message/error404.action",
 "kind": "none",
@@ -3345,7 +3046,7 @@
 ]
 },
 "https://kwthe.gwe.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "db895613",
 "bytes": 113,
@@ -3364,7 +3065,7 @@
 "/apple/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -3372,7 +3073,7 @@
 ]
 },
 "https://lsuonline.lsu.edu": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "666ca9a1",
 "bytes": 199,
@@ -3411,13 +3112,13 @@
 "/_*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://m.korea.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "0ef8d27a",
 "bytes": 258,
@@ -3434,7 +3135,7 @@
 ]
 },
 "https://majeong-e.goepj.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "71223282",
 "bytes": 169,
@@ -3445,7 +3146,7 @@
 ]
 },
 "https://mdfh.or.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='mdfh.or.kr', port=443): Max retries exceeded with url: /robots.txt (Caused",
@@ -3454,7 +3155,7 @@
 ]
 },
 "https://mediahub.seoul.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "5f08bca0",
 "bytes": 278,
@@ -3489,14 +3190,14 @@
 "/mediahub/search"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://mid.ebs.co.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "774362a7",
 "bytes": 52,
@@ -3511,13 +3212,13 @@
 "/board/basic/view"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://mods.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "b97c35aa",
 "bytes": 109,
@@ -3528,14 +3229,14 @@
 "/ksows/wisenut/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://moe.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "42b418c2",
 "bytes": 55,
@@ -3550,13 +3251,13 @@
 "/search"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts"
 ]
 },
 "https://mokpo.gidea.co.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 404,
 "final": "https://www.gidea.co.kr/include/message/error404.action",
 "kind": "none",
@@ -3565,7 +3266,7 @@
 ]
 },
 "https://more.goe.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "18d59682",
 "bytes": 71,
@@ -3588,17 +3289,28 @@
 "/pbs*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts"
 ]
 },
 "https://mped.jne.go.kr": {
-"at": "2026-11-25T21:59+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPSConnectionPool(host='mped.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Ca",
-"blockAt": "2026-11-23",
+"at": "2026-11-26T13:51+09:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -3606,7 +3318,7 @@
 ]
 },
 "https://nber.org": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "final": "https://www.nber.org/robots.txt",
 "sha": "358ff054",
@@ -3774,13 +3486,13 @@
 "/index.php/user/logout/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://newkpho.kps.or.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "7a02e015",
 "bytes": 25,
@@ -3791,7 +3503,7 @@
 ]
 },
 "https://nip.kdca.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='nip.kdca.go.kr', port=443): Max retries exceeded with url: /robots.txt (Ca",
@@ -3800,7 +3512,7 @@
 ]
 },
 "https://office.jbedu.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:51+09:00",
 "http": 200,
 "sha": "ea0ea286",
 "bytes": 108,
@@ -3815,7 +3527,7 @@
 "/_cmm/fileDownload/*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -3823,7 +3535,7 @@
 ]
 },
 "https://oku.korea.ac.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "final": "https://oku.korea.ac.kr/error.html",
 "sha": "a7aa1fed",
@@ -3835,9 +3547,9 @@
 ]
 },
 "https://olympiad.kchem.org": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
-"sha": "6dd1de4f",
+"sha": "0e670675",
 "bytes": 8107,
 "kind": "html",
 "from": [
@@ -3845,7 +3557,7 @@
 ]
 },
 "https://online.goe.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "0c114186",
 "bytes": 24,
@@ -3861,7 +3573,7 @@
 ]
 },
 "https://openstax.org": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "ed9a39f6",
 "bytes": 453,
@@ -3924,13 +3636,13 @@
 "/apps/cms/api/spike"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://opinion.lawmaking.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "2bc45af6",
 "bytes": 24,
@@ -3947,7 +3659,7 @@
 ]
 },
 "https://org.jje.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "37b6a481",
 "bytes": 239,
@@ -3962,7 +3674,7 @@
 "/user"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -3970,7 +3682,7 @@
 ]
 },
 "https://play.google.com": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "2eefaf5f",
 "bytes": 3199,
@@ -4389,13 +4101,13 @@
 "/store/giftcards/collection/p3_details_*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://primary.ebs.co.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "a8313ec1",
 "bytes": 53,
@@ -4410,13 +4122,13 @@
 "/board/basic/view"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://pubmed.ncbi.nlm.nih.gov": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "e529ffde",
 "bytes": 1341,
@@ -4603,13 +4315,13 @@
 "/rss-feed/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://research.birmingham.ac.uk": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "51a053c8",
 "bytes": 134,
@@ -4624,13 +4336,13 @@
 "/*?*export=xls"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://samyook.jge.ms.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "0f947204",
 "bytes": 50,
@@ -4645,7 +4357,7 @@
 "/member/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -4653,7 +4365,7 @@
 ]
 },
 "https://sasa.sjeduhs.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='sasa.sjeduhs.kr', port=443): Max retries exceeded with url: /robots.txt (C",
@@ -4662,29 +4374,51 @@
 ]
 },
 "https://sced.jge.go.kr": {
-"at": "2026-11-25T21:59+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPSConnectionPool(host='sced.jge.go.kr', port=443): Max retries exceeded with url: /robots.txt (Ca",
-"blockAt": "2026-11-23",
+"at": "2026-11-26T13:52+09:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "targets"
 ]
 },
 "https://sced.jne.go.kr": {
-"at": "2026-11-25T21:59+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPSConnectionPool(host='sced.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Ca",
-"blockAt": "2026-11-23",
+"at": "2026-11-26T13:52+09:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "targets"
 ]
 },
 "https://school.cbe.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "330efb72",
 "bytes": 1421,
@@ -4717,7 +4451,7 @@
 ]
 ]
 },
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -4725,17 +4459,10 @@
 ]
 },
 "https://school.gyo6.net": {
-"at": "2026-11-25T21:59+09:00",
-"http": 200,
-"sha": "6e8a5ae2",
-"bytes": 282,
-"kind": "rules",
-"star": [
-[
-0,
-"/"
-]
-],
+"at": "2026-11-26T13:52+09:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='school.gyo6.net', port=443): Read timed out. (read timeout=15)",
 "blockAt": "2026-11-25",
 "from": [
 "hosts",
@@ -4744,7 +4471,7 @@
 ]
 },
 "https://school.jbedu.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='school.jbedu.kr', port=443): Max retries exceeded with url: /robots.txt (C",
@@ -4756,7 +4483,7 @@
 ]
 },
 "https://school.jje.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "d2c63e4e",
 "bytes": 167,
@@ -4799,7 +4526,7 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -4807,7 +4534,7 @@
 ]
 },
 "https://school.use.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "aeae703f",
 "bytes": 149,
@@ -4819,7 +4546,7 @@
 ]
 },
 "https://schoolzone.emac.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "46892eaf",
 "bytes": 24,
@@ -4830,7 +4557,7 @@
 ]
 },
 "https://seigy.knu.ac.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -4840,7 +4567,7 @@
 ]
 },
 "https://seobu.jge.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='seobu.jge.go.kr', port=443): Max retries exceeded with url: /robots.txt (C",
@@ -4849,7 +4576,7 @@
 ]
 },
 "https://sghs.sen.hs.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "7fd15edb",
 "bytes": 83,
@@ -4876,13 +4603,13 @@
 "*.css"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://sjsh.sen.hs.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "7fd15edb",
 "bytes": 83,
@@ -4909,7 +4636,7 @@
 "*.css"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -4917,7 +4644,7 @@
 ]
 },
 "https://slearn.seoul.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "74d38ab1",
 "bytes": 177,
@@ -4936,13 +4663,13 @@
 "/front/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://snuarori.snu.ac.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "65990256",
 "bytes": 23,
@@ -4959,7 +4686,7 @@
 ]
 },
 "https://ssei.sen.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "22449607",
 "bytes": 439,
@@ -5026,7 +4753,7 @@
 "/*.js$"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -5034,7 +4761,7 @@
 ]
 },
 "https://star.moe.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "5a35d7d9",
 "bytes": 21,
@@ -5051,7 +4778,7 @@
 ]
 },
 "https://suningukje-m.gne.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "5578767f",
 "bytes": 702,
@@ -5118,14 +4845,14 @@
 "/*%EB%A7%88%EC%95%BD*"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://ulsan.gidea.co.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 404,
 "final": "https://www.gidea.co.kr/include/message/error404.action",
 "kind": "none",
@@ -5134,7 +4861,7 @@
 ]
 },
 "https://use.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='use.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused ",
@@ -5145,11 +4872,22 @@
 ]
 },
 "https://wded.jne.go.kr": {
-"at": "2026-11-25T21:59+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPSConnectionPool(host='wded.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Ca",
-"blockAt": "2026-11-23",
+"at": "2026-11-26T13:52+09:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -5157,7 +4895,7 @@
 ]
 },
 "https://webdt.edunet.net": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "final": "https://info.edunet.net/error",
 "sha": "aa2ce971",
@@ -5168,7 +4906,7 @@
 ]
 },
 "https://wjgift.gwe.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "db895613",
 "bytes": 113,
@@ -5187,7 +4925,7 @@
 "/apple/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -5195,7 +4933,7 @@
 ]
 },
 "https://www.academyinfo.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "7a54e2d5",
 "bytes": 26,
@@ -5206,17 +4944,24 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://www.ansan.go.kr": {
-"at": "2026-11-25T21:59+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPSConnectionPool(host='www.ansan.go.kr', port=443): Max retries exceeded with url: /robots.txt (C",
+"at": "2026-11-26T13:52+09:00",
+"http": 200,
+"sha": "8943ad27",
+"bytes": 22,
+"kind": "rules",
+"star": [
+[
+1,
+"/"
+]
+],
 "from": [
 "hosts",
 "sources",
@@ -5224,7 +4969,7 @@
 ]
 },
 "https://www.bugil.hs.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "c8b7d9a7",
 "bytes": 209,
@@ -5255,7 +5000,7 @@
 "/img/favicon.ico"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -5263,7 +5008,7 @@
 ]
 },
 "https://www.career.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "c9a5d1da",
 "bytes": 784,
@@ -5386,14 +5131,14 @@
 "/cnet/paper/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://www.cbe.go.kr": {
-"at": "2026-11-25T21:59+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "7bc13474",
 "bytes": 457,
@@ -5476,7 +5221,7 @@
 "/WEB-INF/spconfig/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -5484,7 +5229,7 @@
 ]
 },
 "https://www.cbnse.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "a7166ad7",
 "bytes": 390,
@@ -5495,13 +5240,13 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts"
 ]
 },
 "https://www.cncae.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='www.cncae.go.kr', port=443): Max retries exceeded with url: /robots.txt (C",
@@ -5513,11 +5258,18 @@
 ]
 },
 "https://www.cne.go.kr": {
-"at": "2026-11-25T22:00+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPSConnectionPool(host='www.cne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Cau",
-"blockAt": "2026-11-25",
+"at": "2026-11-26T13:52+09:00",
+"http": 200,
+"sha": "25688aea",
+"bytes": 605,
+"kind": "rules",
+"star": [
+[
+0,
+"/"
+]
+],
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -5525,7 +5277,7 @@
 ]
 },
 "https://www.cnfl.cnehs.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='www.cnfl.cnehs.kr', port=443): Max retries exceeded with url: /robots.txt ",
@@ -5534,7 +5286,7 @@
 ]
 },
 "https://www.cnsa.hs.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "7a02e015",
 "bytes": 25,
@@ -5546,7 +5298,7 @@
 ]
 },
 "https://www.cnsh.cnehs.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='www.cnsh.cnehs.kr', port=443): Max retries exceeded with url: /robots.txt ",
@@ -5555,7 +5307,7 @@
 ]
 },
 "https://www.data.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "2620bcb4",
 "bytes": 177,
@@ -5567,7 +5319,7 @@
 ]
 },
 "https://www.dge.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "aa974429",
 "bytes": 375,
@@ -5630,7 +5382,7 @@
 "/*/lo/login/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -5638,7 +5390,7 @@
 ]
 },
 "https://www.dgist.ac.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
@@ -5649,7 +5401,7 @@
 ]
 },
 "https://www.dgsbe.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='www.dgsbe.go.kr', port=443): Max retries exceeded with url: /robots.txt (C",
@@ -5658,7 +5410,7 @@
 ]
 },
 "https://www.djdbe.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='www.djdbe.go.kr', port=443): Max retries exceeded with url: /robots.txt (C",
@@ -5667,7 +5419,7 @@
 ]
 },
 "https://www.dongguk.edu": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "e12cd908",
 "bytes": 35,
@@ -5678,15 +5430,15 @@
 "/page/135/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://www.dshs.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
-"sha": "28c28c17",
+"sha": "4547b07d",
 "bytes": 769,
 "kind": "html",
 "from": [
@@ -5694,7 +5446,7 @@
 ]
 },
 "https://www.ebse.co.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "ebbead6f",
 "bytes": 190,
@@ -5705,13 +5457,13 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://www.ebsi.co.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "b21cc84d",
 "bytes": 257,
@@ -5762,13 +5514,13 @@
 "/support.ebs"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://www.edurang.net": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "d308f289",
 "bytes": 131,
@@ -5787,7 +5539,7 @@
 "/ntt/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -5795,7 +5547,7 @@
 ]
 },
 "https://www.gbe.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "a75c7baa",
 "bytes": 947,
@@ -5808,7 +5560,7 @@
 ]
 },
 "https://www.geig.ac.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "d26976b1",
 "bytes": 412,
@@ -5887,7 +5639,7 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -5895,7 +5647,7 @@
 ]
 },
 "https://www.gifted.ac.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 404,
 "final": "https://www.gidea.co.kr/include/message/error404.action",
 "kind": "none",
@@ -5906,7 +5658,7 @@
 ]
 },
 "https://www.gise.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -5916,7 +5668,7 @@
 ]
 },
 "https://www.gne.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -5926,7 +5678,7 @@
 ]
 },
 "https://www.gnu.ac.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "e03ba971",
 "bytes": 443,
@@ -5997,7 +5749,7 @@
 "/main/cm/map/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -6005,7 +5757,7 @@
 ]
 },
 "https://www.goe.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "8dd98dcd",
 "bytes": 52,
@@ -6020,7 +5772,7 @@
 "/search"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -6028,7 +5780,7 @@
 ]
 },
 "https://www.goebc.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "92a56657",
 "bytes": 189,
@@ -6039,7 +5791,7 @@
 ]
 },
 "https://www.goedy.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "4aa1eb21",
 "bytes": 162,
@@ -6052,7 +5804,7 @@
 ]
 },
 "https://www.goegm.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "71223282",
 "bytes": 169,
@@ -6063,7 +5815,7 @@
 ]
 },
 "https://www.goesn.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "4aa1eb21",
 "bytes": 162,
@@ -6076,7 +5828,7 @@
 ]
 },
 "https://www.goesw.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "71223282",
 "bytes": 169,
@@ -6087,7 +5839,7 @@
 ]
 },
 "https://www.gwe.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "4681bb17",
 "bytes": 41,
@@ -6098,7 +5850,7 @@
 "/nurizip/search/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -6106,7 +5858,7 @@
 ]
 },
 "https://www.hana.hs.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -6116,7 +5868,7 @@
 ]
 },
 "https://www.hcu.hs.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='www.hcu.hs.kr', port=443): Max retries exceeded with url: /robots.txt (Cau",
@@ -6125,7 +5877,7 @@
 ]
 },
 "https://www.hischoolgbe.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -6134,7 +5886,7 @@
 ]
 },
 "https://www.hongik.ac.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "e3fb9ced",
 "bytes": 762,
@@ -6165,14 +5917,14 @@
 "/_share/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://www.hscredit.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "7210eb7a",
 "bytes": 637,
@@ -6203,88 +5955,18 @@
 "/planner/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://www.ice.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
-"sha": "d15cec9c",
-"bytes": 602,
-"kind": "rules",
-"star": [
-[
-1,
-"/"
-],
-[
-0,
-"/common/"
-],
-[
-0,
-"/comm/"
-],
-[
-0,
-"/apple/"
-],
-[
-0,
-"/js/"
-],
-[
-0,
-"/images/"
-],
-[
-0,
-"/css/"
-],
-[
-0,
-"/upload/"
-],
-[
-0,
-"/log/"
-],
-[
-0,
-"/comm/"
-],
-[
-0,
-"/nice/"
-],
-[
-0,
-"/editor/"
-],
-[
-0,
-"/onepass/"
-],
-[
-0,
-"/search/"
-],
-[
-0,
-"/webfilter/"
-],
-[
-0,
-"/WEB-INF/"
-],
-[
-0,
-"/na/"
-]
-],
+"sha": "20246313",
+"bytes": 77,
+"kind": "ambiguous",
 "blockAt": "2026-11-25",
 "from": [
 "hosts",
@@ -6293,7 +5975,7 @@
 ]
 },
 "https://www.index.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -6301,8 +5983,17 @@
 "sources"
 ]
 },
+"https://www.inuisge.kr": {
+"at": "2026-11-26T13:52+09:00",
+"http": "error",
+"kind": "unreachable",
+"error": "HTTPSConnectionPool(host='www.inuisge.kr', port=443): Max retries exceeded with url: /robots.txt (Ca",
+"from": [
+"hosts"
+]
+},
 "https://www.isepclub.com": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "final": "http://errdoc.gabia.io/404.html",
 "sha": "775e0ce0",
@@ -6313,7 +6004,7 @@
 ]
 },
 "https://www.jbe.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "09eddb07",
 "bytes": 132,
@@ -6331,7 +6022,7 @@
 ]
 },
 "https://www.jbnu.ac.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "f2aa4603",
 "bytes": 43,
@@ -6349,7 +6040,7 @@
 ]
 },
 "https://www.jge.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='www.jge.go.kr', port=443): Max retries exceeded with url: /robots.txt (Cau",
@@ -6359,7 +6050,7 @@
 ]
 },
 "https://www.jje.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 200,
 "sha": "19c1fedf",
 "bytes": 480,
@@ -6378,7 +6069,7 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -6386,7 +6077,7 @@
 ]
 },
 "https://www.jne.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='www.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Cau",
@@ -6396,7 +6087,7 @@
 ]
 },
 "https://www.jnue.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -6404,7 +6095,7 @@
 ]
 },
 "https://www.kcue.or.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:52+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -6413,7 +6104,7 @@
 ]
 },
 "https://www.kdca.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "f651394a",
 "bytes": 33,
@@ -6424,14 +6115,14 @@
 "/search.do"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://www.kice.re.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "63657cbb",
 "bytes": 26,
@@ -6442,14 +6133,14 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://www.kmcc.go.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "335e481c",
 "bytes": 137,
@@ -6461,7 +6152,7 @@
 ]
 },
 "https://www.kmo.or.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "dce50899",
 "bytes": 143,
@@ -6471,7 +6162,7 @@
 ]
 },
 "https://www.kmooc.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "8943ad27",
 "bytes": 22,
@@ -6487,7 +6178,7 @@
 ]
 },
 "https://www.kms.or.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "dce50899",
 "bytes": 143,
@@ -6497,7 +6188,7 @@
 ]
 },
 "https://www.kocw.net": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "e750e2c3",
 "bytes": 31,
@@ -6508,13 +6199,13 @@
 "/en/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://www.korea.kr": {
-"at": "2026-11-25T22:00+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "e16afa1e",
 "bytes": 262,
@@ -6531,7 +6222,7 @@
 ]
 },
 "https://www.kosaf.go.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "867dee08",
 "bytes": 22,
@@ -6547,7 +6238,7 @@
 ]
 },
 "https://www.kyungnam.ac.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "cff160b8",
 "bytes": 124,
@@ -6558,13 +6249,13 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://www.law.go.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "c4898719",
 "bytes": 66,
@@ -6581,7 +6272,7 @@
 ]
 },
 "https://www.mafra.go.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "c719600c",
 "bytes": 57,
@@ -6593,7 +6284,7 @@
 ]
 },
 "https://www.minjok.hs.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "7a02e015",
 "bytes": 25,
@@ -6604,7 +6295,7 @@
 ]
 },
 "https://www.moe.go.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "42b418c2",
 "bytes": 55,
@@ -6619,14 +6310,14 @@
 "/search"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://www.ncbi.nlm.nih.gov": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "1c09f0e3",
 "bytes": 10819,
@@ -6937,13 +6628,13 @@
 "/portal/portal3rc.fcgi/*/*.css"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://www.ne.go.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "('Connection broken: IncompleteRead(1751 bytes read, 67 more expected)', IncompleteRead(1751 bytes r",
@@ -6953,7 +6644,7 @@
 ]
 },
 "https://www.pen.go.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "2f9f61b1",
 "bytes": 1116,
@@ -7120,7 +6811,7 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -7128,7 +6819,7 @@
 ]
 },
 "https://www.schoolinfo.go.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "78537dd0",
 "bytes": 76,
@@ -7145,7 +6836,7 @@
 ]
 },
 "https://www.scienceall.com": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -7153,7 +6844,7 @@
 ]
 },
 "https://www.scnu.ac.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "276e6681",
 "bytes": 104,
@@ -7168,7 +6859,7 @@
 "/search/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -7176,7 +6867,7 @@
 ]
 },
 "https://www.seit.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "final": "http://errdoc.gabia.io/404.html",
 "sha": "775e0ce0",
@@ -7189,7 +6880,7 @@
 ]
 },
 "https://www.sen.go.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "ecf8f1eb",
 "bytes": 1439,
@@ -7348,7 +7039,7 @@
 "/*\\.(gif|png|jpg|jpeg|bmp|log|xls|jsp|hwp|hwpx|pdf|ppt|doc|zip|js)$"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -7356,7 +7047,7 @@
 ]
 },
 "https://www.sflhs.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "46892eaf",
 "bytes": 24,
@@ -7367,7 +7058,7 @@
 ]
 },
 "https://www.sje.go.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='www.sje.go.kr', port=443): Max retries exceeded with url: /robots.txt (Cau",
@@ -7378,7 +7069,7 @@
 ]
 },
 "https://www.snu.ac.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "550f010f",
 "bytes": 1791,
@@ -7395,7 +7086,7 @@
 ]
 },
 "https://www.suneung.re.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "63657cbb",
 "bytes": 26,
@@ -7406,14 +7097,14 @@
 "/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources"
 ]
 },
 "https://www.toctocmath.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "3c5b87bb",
 "bytes": 14992,
@@ -7423,7 +7114,7 @@
 ]
 },
 "https://www.uclahealth.org": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "bd665819",
 "bytes": 5179,
@@ -7994,13 +7685,13 @@
 "/contact-request/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "sources"
 ]
 },
 "https://www.use.go.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": "error",
 "kind": "unreachable",
 "error": "HTTPSConnectionPool(host='www.use.go.kr', port=443): Max retries exceeded with url: /robots.txt (Cau",
@@ -8011,7 +7702,7 @@
 ]
 },
 "https://www.who.int": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "be87f736",
 "bytes": 18983,
@@ -8022,7 +7713,7 @@
 ]
 },
 "https://www.younghoon.ms.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "c357a630",
 "bytes": 96,
@@ -8041,14 +7732,14 @@
 "/_res/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "targets"
 ]
 },
 "https://www2.yonsei.ac.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 404,
 "kind": "none",
 "from": [
@@ -8057,17 +7748,28 @@
 ]
 },
 "https://yged.jge.go.kr": {
-"at": "2026-11-25T22:01+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPSConnectionPool(host='yged.jge.go.kr', port=443): Max retries exceeded with url: /robots.txt (Ca",
-"blockAt": "2026-11-23",
+"at": "2026-11-26T13:53+09:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-26",
 "from": [
 "hosts"
 ]
 },
 "https://younghoon.ms.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": 200,
 "sha": "c357a630",
 "bytes": 96,
@@ -8086,7 +7788,7 @@
 "/_res/"
 ]
 ],
-"blockAt": "2026-11-25",
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "sources",
@@ -8094,20 +7796,32 @@
 ]
 },
 "https://ysed.jge.go.kr": {
-"at": "2026-11-25T22:01+09:00",
-"http": "error",
-"kind": "unreachable",
-"error": "HTTPSConnectionPool(host='ysed.jge.go.kr', port=443): Max retries exceeded with url: /robots.txt (Ca",
+"at": "2026-11-26T13:53+09:00",
+"http": 200,
+"sha": "3e3dfea4",
+"bytes": 56,
+"kind": "rules",
+"star": [
+[
+0,
+"/search/"
+],
+[
+0,
+"*/na/ntt/"
+]
+],
+"blockAt": "2026-11-26",
 "from": [
 "hosts",
 "targets"
 ]
 },
 "https://ysed.jne.go.kr": {
-"at": "2026-11-25T22:01+09:00",
+"at": "2026-11-26T13:53+09:00",
 "http": "error",
 "kind": "unreachable",
-"error": "HTTPSConnectionPool(host='ysed.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Ca",
+"error": "HTTPSConnectionPool(host='ysed.jne.go.kr', port=443): Read timed out. (read timeout=15)",
 "blockAt": "2026-11-23",
 "from": [
 "hosts",

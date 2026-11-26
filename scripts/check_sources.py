@@ -145,15 +145,25 @@ def resolves(h):
         return True
 
 
+ALERT_RE = re.compile(r'alert\(\s*[\'"]([^\'"]{1,160})[\'"]\s*\)\s*;?\s*(?:(?:window\.|self\.|top\.|parent\.|document\.)?(?:history\.|location\b|close\())?')
+
+
 def soft404_phrase(data, rules):
-    """200으로 왔지만 안내 화면인지 — 찾은 글귀(없으면 ''). 제목에 있거나, 본문이 짧은데(maxTextLen 안) 본문·알림창 글에 있으면."""
+    """200으로 왔지만 안내 화면인지 — 찾은 글귀(없으면 ''). 제목에 있거나, 본문이 짧은데(maxTextLen 안) 본문 글에 있거나,
+    알림창 글은 ① 알림 바로 뒤에 되돌아가기·다른 쪽으로 보내기(history.·location·close)가 있거나 ② 본문이 거의 빈 화면(alertMaxTextLen 안)일 때만.
+    (2026-11-26 — 게시판 화면이 단추용 함수 안에 넣어 둔 alert('권한이 없습니다') 글귀를 안내 화면으로 잘못 읽던 것: 11/22 주간 점검 '안내 화면' 37곳 중 표본 5곳의 4곳이 정상 글)"""
     r = rules.get('soft404') or {}
     phrases = [x.lower() for x in r.get('phrases') or []]
     if not phrases or not isinstance(data, str):
         return ''
     soup = BeautifulSoup(data, 'lxml')
     title = (soup.title.get_text(' ', strip=True) if soup.title else '').lower()
-    alerts = ' '.join(re.findall(r'alert\(\s*[\'"]([^\'"]{1,160})[\'"]', data)).lower()
+    alerts, redir = [], []
+    for m in ALERT_RE.finditer(data):
+        alerts.append(m.group(1).lower())
+        if m.group(0).rstrip().endswith(('history.', 'location', 'close(')):
+            redir.append(m.group(1).lower())
+    alerts, redir = ' | '.join(alerts), ' | '.join(redir)
     for t in soup(['script', 'style', 'noscript', 'iframe', 'header', 'footer', 'nav', 'aside', 'form']):
         t.decompose()
     main = soup.find('article') or soup.find('main') or soup.body or soup
@@ -162,8 +172,9 @@ def soft404_phrase(data, rules):
         if ph in title:
             return ph
     if len(text) <= int(r.get('maxTextLen') or 2500):
+        bare = len(text) <= int(r.get('alertMaxTextLen') or 200)
         for ph in phrases:
-            if ph in text or ph in alerts:
+            if ph in text or ph in redir or (bare and ph in alerts):
                 return ph
     return ''
 

@@ -2,7 +2,7 @@
  "id": "n48",
  "org": "민족사관고",
  "what": "원서 접수 — 강원교육청 2027 고입 기본계획(HWP 첨부, 다른 기관의 공식 글 · 학교 누리집은 robots로 막힘)",
- "checkedAt": "2026-11-26T08:24:59+09:00",
+ "checkedAt": "2026-11-27T02:26:34+09:00",
  "opened": [
   {
    "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
@@ -17,11 +17,11 @@
    "status": "ok"
   },
   {
-   "url": "https://www.minjok.hs.kr/board/bbs513/1438",
+   "url": "https://www.minjok.hs.kr/board/bbs513/1446",
    "status": "ok"
   },
   {
-   "url": "https://www.minjok.hs.kr/board/bbs513/1437",
+   "url": "https://www.minjok.hs.kr/board/bbs513/1438",
    "status": "ok"
   }
  ],
@@ -31,12 +31,12 @@
    "url": "https://www.minjok.hs.kr/board/bbs511/1457"
   },
   {
-   "title": "30 2026.09 2027학년도 신입학전형 서류양식 공지 및 유의 사항 2027학년도 신입학전형 서류양식을 공지합니다.■ 공지 서류 목록: 1. 2027학년도 신입학전형 입학원서 2. 2027학년도 신입학전형 자기",
-   "url": "https://www.minjok.hs.kr/board/bbs513/1438"
+   "title": "26 2026.11 2027학년도 1학기 전·편입생 선발 안내 2027학년도 1학기 민족사관고등학교 전·편입생 선발계획을 다음과 같이 공고합니다. 자세한 내용은 첨부된 모집 요강을 참고하시기를 바랍니다. 1. 모집 ",
+   "url": "https://www.minjok.hs.kr/board/bbs513/1446"
   },
   {
-   "title": "01 2026.09 2027학년도 민족사관고등학교 신입생 모집요강 공고 2027학년도 민족사관고등학교 신입생 모집요강을 공고합니다.☞ 2027학년도 민족사관고등학교 신입생 모집 요강 바로가기민족사관고등학교 입학홍보팀",
-   "url": "https://www.minjok.hs.kr/board/bbs513/1437"
+   "title": "30 2026.09 2027학년도 신입학전형 서류양식 공지 및 유의 사항 2027학년도 신입학전형 서류양식을 공지합니다.■ 공지 서류 목록: 1. 2027학년도 신입학전형 입학원서 2. 2027학년도 신입학전형 자기",
+   "url": "https://www.minjok.hs.kr/board/bbs513/1438"
   }
  ],
  "ged": [],
@@ -50,11 +50,11 @@
    "title": "민족사관고등학교"
   },
   {
-   "url": "https://www.minjok.hs.kr/board/bbs513/1438",
+   "url": "https://www.minjok.hs.kr/board/bbs513/1446",
    "title": "민족사관고등학교"
   },
   {
-   "url": "https://www.minjok.hs.kr/board/bbs513/1437",
+   "url": "https://www.minjok.hs.kr/board/bbs513/1438",
    "title": "민족사관고등학교"
   }
  ],
@@ -76,67 +76,24 @@
    "sha1": "9f55375c497c"
   },
   {
-   "url": "https://www.minjok.hs.kr/board/bbs513/download/1437/1",
-   "name": "2027학년도 민족사관고 신입생 모집요강.pdf",
+   "url": "https://www.minjok.hs.kr/board/bbs513/download/1446/1",
+   "name": "2027학년도 1학기 전편입 모집요강 및 서류양식.zip",
    "status": "ok",
-   "type": "pdf",
-   "bytes": 538497,
-   "sha1": "adab417f51c0"
+   "type": "hwpx",
+   "bytes": 635610,
+   "sha1": "0f0cf230b690"
   }
  ],
  "lines": [
   {
-   "text": "2027학년도 민족사관고등학교 신입생 모집요강 공고 | 2026-09-01",
+   "text": "(주소 : (25268) 강원도 횡성군 안흥면 봉화로 800 민족사관고등학교 입학홍보팀) | (2) 전편입학 게시판 비밀글 : 2027년 1월 22일(금) 17시까지 등록(회원 가입 후 이용 가능)",
    "dates": [
-    "2026-09-01"
+    "2027-01-22"
    ],
    "words": [
     "민족사관"
    ],
-   "src": "https://www.minjok.hs.kr/board/bbs513/1437"
-  },
-  {
-   "text": "민족사관고등학교 신입생 모집 요강 | 2026. 8. 25.",
-   "dates": [
-    "2026-08-25"
-   ],
-   "words": [
-    "민족사관"
-   ],
-   "src": "https://www.minjok.hs.kr/board/bbs513/download/1437/1"
-  },
-  {
-   "text": "민족사관고 홈페이지 | 우편 제출 2026. 12. 8(화)~12. 10(목) ※ 12. 10(목) 소인 분까지 유효",
-   "dates": [
-    "2026-12-08",
-    "2026-12-10",
-    "2026-12-10"
-   ],
-   "words": [
-    "민족사관"
-   ],
-   "src": "https://www.minjok.hs.kr/board/bbs513/download/1437/1"
-  },
-  {
-   "text": "민족사관고 입학관리실 | 2026. 12. 17(목) 오전 10시",
-   "dates": [
-    "2026-12-17"
-   ],
-   "words": [
-    "민족사관"
-   ],
-   "src": "https://www.minjok.hs.kr/board/bbs513/download/1437/1"
-  },
-  {
-   "text": "민족사관고 홈페이지 | 2027. 1. 4(월)~1. 6(수)",
-   "dates": [
-    "2027-01-04",
-    "2027-01-06"
-   ],
-   "words": [
-    "민족사관"
-   ],
-   "src": "https://www.minjok.hs.kr/board/bbs513/download/1437/1"
+   "src": "https://www.minjok.hs.kr/board/bbs513/1446"
   }
  ],
  "status": "dates",

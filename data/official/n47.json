@@ -2,7 +2,7 @@
  "id": "n47",
  "org": "강원 고입",
  "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-11-26T08:38:51+09:00",
+ "checkedAt": "2026-11-27T02:38:56+09:00",
  "opened": [
   {
    "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=55051&key=m2307210603513",
@@ -18,19 +18,11 @@
   },
   {
    "url": "https://gf.gwe.hs.kr/boardCnts/list.do?boardID=19809&m=0401&s=gf",
-   "status": "ok"
-  },
-  {
-   "url": "https://gf.gwe.hs.kr/boardCnts/view.do?boardID=19809&boardSeq=9641307&lev=0&m=0401&s=gf",
-   "status": "ok"
+   "status": "robots",
+   "why": "unreachable"
   }
  ],
- "notices": [
-  {
-   "title": "2027학년도 강원외국어고등학교 신입생 전형요강",
-   "url": "https://gf.gwe.hs.kr/boardCnts/view.do?boardID=19809&boardSeq=9641307&lev=0&m=0401&s=gf"
-  }
- ],
+ "notices": [],
  "ged": [],
  "titles": [
   {
@@ -44,10 +36,6 @@
   {
    "url": "https://www.gwe.go.kr/main/content.do?key=bTIzMDkxODI5OTg2OTc=",
    "title": "강원특별자치도교육청 - 일반고"
-  },
-  {
-   "url": "https://gf.gwe.hs.kr/boardCnts/view.do?boardID=19809&boardSeq=9641307&lev=0&m=0401&s=gf",
-   "title": "강원외국어고등학교 홈페이지"
   }
  ],
  "files": [
@@ -82,22 +70,6 @@
    "type": "hwp",
    "bytes": 219136,
    "sha1": "b74f96640178"
-  },
-  {
-   "url": "https://gf.gwe.hs.kr/boardCnts/fileDown.do?m=0401&s=gf&fileSeq=8cf9c2cc8691afa3c94fc3d2ed5394af",
-   "name": "2027학년도 일반고(후기) 신입생 강원외국어고등학교 입학전형요강.hwp",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 64000,
-   "sha1": "6d5caec95d7c"
-  },
-  {
-   "url": "https://gf.gwe.hs.kr/boardCnts/fileDown.do?m=0401&s=gf&fileSeq=ff0ee818d7337627f241b880594a0f4a",
-   "name": "2027학년도 강원특별자치도 고등학교 입학전형 기본계획.hwp",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 218624,
-   "sha1": "3f4d0e36d4d8"
   }
  ],
  "lines": [
@@ -314,103 +286,6 @@
     "배정"
    ],
    "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTE4NTY5&type=bbs"
-  },
-  {
-   "text": "응시원서 접수 | 2026. 12.8.(화) ~ 12.10.(목) 15:00",
-   "dates": [
-    "2026-12-08",
-    "2026-12-10"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://gf.gwe.hs.kr/boardCnts/fileDown.do?m=0401&s=gf&fileSeq=8cf9c2cc8691afa3c94fc3d2ed5394af"
-  },
-  {
-   "text": "합격자 발표 | 2026. 12. 15.(화) 14:00",
-   "dates": [
-    "2026-12-15"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://gf.gwe.hs.kr/boardCnts/fileDown.do?m=0401&s=gf&fileSeq=8cf9c2cc8691afa3c94fc3d2ed5394af"
-  },
-  {
-   "text": "합격자 발표 시 해당자 명단을 공고하고 개별 통지한다(공고 인원은 학교장이 정한다.). | ※ 후보 합격의 유효기간은 등록을 마친 후부터 추가모집 마감일까지(2027. 1. 19.(화))이며, 그 이후에는 적용하지 않는다.",
-   "dates": [
-    "2027-01-19"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://gf.gwe.hs.kr/boardCnts/fileDown.do?m=0401&s=gf&fileSeq=8cf9c2cc8691afa3c94fc3d2ed5394af"
-  },
-  {
-   "text": "8. 추가 모집: 정원 미달 시 추가 모집 실시(추가 모집 원서 접수 : 2027. 1. 18.(월)~1. 19.(화) 15:00까지)",
-   "dates": [
-    "2027-01-18",
-    "2027-01-19"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://gf.gwe.hs.kr/boardCnts/fileDown.do?m=0401&s=gf&fileSeq=8cf9c2cc8691afa3c94fc3d2ed5394af"
-  },
-  {
-   "text": "비평준화교 합격자 발표 | 2026. 12. 15.(화)",
-   "dates": [
-    "2026-12-15"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://gf.gwe.hs.kr/boardCnts/fileDown.do?m=0401&s=gf&fileSeq=ff0ee818d7337627f241b880594a0f4a"
-  },
-  {
-   "text": "평준화교 합격자 발표 | 2027. 1. 8.(금)",
-   "dates": [
-    "2027-01-08"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://gf.gwe.hs.kr/boardCnts/fileDown.do?m=0401&s=gf&fileSeq=ff0ee818d7337627f241b880594a0f4a"
-  },
-  {
-   "text": "평준화교 배정결과 발표 | 2027. 1. 15.(금)",
-   "dates": [
-    "2027-01-15"
-   ],
-   "words": [
-    "발표",
-    "배정"
-   ],
-   "src": "https://gf.gwe.hs.kr/boardCnts/fileDown.do?m=0401&s=gf&fileSeq=ff0ee818d7337627f241b880594a0f4a"
-  },
-  {
-   "text": "1) 접수시기 : 2027. 2. 10.(수)∼ 2. 12.(금)까지(그 이후에는 3월에 전학 처리)",
-   "dates": [
-    "2027-02-10",
-    "2027-02-12"
-   ],
-   "words": [
-    "접수"
-   ],
-   "src": "https://gf.gwe.hs.kr/boardCnts/fileDown.do?m=0401&s=gf&fileSeq=ff0ee818d7337627f241b880594a0f4a"
-  },
-  {
-   "text": "※ 평준화지역 추첨 및 배정 발표 : 2027. 2. 17.(수)",
-   "dates": [
-    "2027-02-17"
-   ],
-   "words": [
-    "발표",
-    "배정"
-   ],
-   "src": "https://gf.gwe.hs.kr/boardCnts/fileDown.do?m=0401&s=gf&fileSeq=ff0ee818d7337627f241b880594a0f4a"
   }
  ],
  "status": "dates",

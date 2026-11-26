@@ -2,7 +2,7 @@
  "id": "n37",
  "org": "충북 고입",
  "what": "앞으로 120일 안 일정 7단계",
- "checkedAt": "2026-11-26T08:38:25+09:00",
+ "checkedAt": "2026-11-27T02:38:32+09:00",
  "opened": [
   {
    "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1579190",
@@ -17,19 +17,23 @@
    "status": "ok"
   },
   {
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1583041",
+   "status": "ok"
+  },
+  {
    "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1582546",
    "status": "ok"
   },
   {
    "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1582247",
    "status": "ok"
-  },
-  {
-   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1581862",
-   "status": "ok"
   }
  ],
  "notices": [
+  {
+   "title": "새글 N 2027학년도 충청북도 교육감전형 고등학교(평준화고) 소개자료",
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1583041"
+  },
   {
    "title": "2027학년도 단양고등학교 입학전형 시행 요강(수정)",
    "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1582546"
@@ -37,10 +41,6 @@
   {
    "title": "2027학년도 충주공업고등학교 입학전형 시행요강 (수정)",
    "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1582247"
-  },
-  {
-   "title": "2027학년도 충북예술고등학교 추가모집 요강",
-   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1581862"
   }
  ],
  "ged": [],
@@ -54,15 +54,15 @@
    "title": "2027학년도 고입전형<진학안내<알림마당<대제중학교"
   },
   {
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1583041",
+   "title": "고입시"
+  },
+  {
    "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1582546",
    "title": "고입시"
   },
   {
    "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1582247",
-   "title": "고입시"
-  },
-  {
-   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1581862",
    "title": "고입시"
   }
  ],

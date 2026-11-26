@@ -1,6 +1,6 @@
 {
  "note": "robots 판정 파일(scripts/robots_status.py)이 targets·sources 말고 더 읽을 누리집 — ipsi-site .claude/settings.json 허락 목록과 2026-11-17 낮 작업 예약 글 robots 목록(tools/robots_urls.py)에서 옮김. 새 기관은 여기에 한 줄(scheme://host).",
- "updated": "2026-11-23",
+ "updated": "2026-11-26",
  "hosts": [
   "https://adm-u.postech.ac.kr",
   "https://admission.csia.hs.kr",
@@ -150,6 +150,7 @@
   "https://www.hscredit.kr",
   "https://www.ice.go.kr",
   "https://www.index.go.kr",
+  "https://www.inuisge.kr",
   "https://www.jbe.go.kr",
   "https://www.jbnu.ac.kr",
   "https://www.jge.go.kr",

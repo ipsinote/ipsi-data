@@ -2,7 +2,7 @@
  "id": "n43",
  "org": "북일고",
  "what": "2027 입학전형 요강(요강 파일·입학 공지)",
- "checkedAt": "2026-11-27T08:01:21+09:00",
+ "checkedAt": "2026-11-28T02:02:09+09:00",
  "opened": [
   {
    "url": "https://www.bugil.hs.kr/admission/guideline.php",
@@ -40,16 +40,16 @@
    "name": "입학요강 다운로드",
    "status": "ok",
    "type": "pdf",
-   "bytes": 1688353,
-   "sha1": "fedfffb0b020"
+   "bytes": 1688369,
+   "sha1": "04254eb96e6e"
   },
   {
    "url": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1",
-   "name": "2027학년도 북일고등학교 입학전형 요강.pdf",
+   "name": "2027학년도+북일고등학교+입학전형+요강.pdf",
    "status": "ok",
    "type": "pdf",
-   "bytes": 1688353,
-   "sha1": "fedfffb0b020"
+   "bytes": 1688369,
+   "sha1": "04254eb96e6e"
   }
  ],
  "lines": [

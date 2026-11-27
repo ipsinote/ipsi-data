@@ -2,19 +2,22 @@
  "id": "n47",
  "org": "강원 고입",
  "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-11-27T08:17:13+09:00",
+ "checkedAt": "2026-11-28T02:15:57+09:00",
  "opened": [
   {
    "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=55051&key=m2307210603513",
-   "status": "ok"
+   "status": "robots",
+   "why": "unreachable"
   },
   {
    "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
-   "status": "ok"
+   "status": "robots",
+   "why": "unreachable"
   },
   {
    "url": "https://www.gwe.go.kr/main/sub.do?key=bTIzMDcyMTA1ODg1NjU%3D",
-   "status": "ok"
+   "status": "robots",
+   "why": "unreachable"
   },
   {
    "url": "https://gf.gwe.hs.kr/boardCnts/list.do?boardID=19809&m=0401&s=gf",
@@ -24,270 +27,9 @@
  ],
  "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=55051&key=m2307210603513",
-   "title": "강원특별자치도교육청 - 고입자료실"
-  },
-  {
-   "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
-   "title": "강원특별자치도교육청 - 고입자료실"
-  },
-  {
-   "url": "https://www.gwe.go.kr/main/content.do?key=bTIzMDkxODI5OTg2OTc=",
-   "title": "강원특별자치도교육청 - 일반고"
-  }
- ],
- "files": [
-  {
-   "url": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3MjY5&type=bbs",
-   "name": "(공고제2026-109호)2027학년도 강원특별자치도교육감 입학전형 고등학교 신입생 전형요강.hwpx",
-   "status": "ok",
-   "type": "hwpx",
-   "bytes": 145602,
-   "sha1": "173542612eaf"
-  },
-  {
-   "url": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3Mjcw&type=bbs",
-   "name": "2027학년도 강원특별자치도교육감 입학전형 고등학교 체육특기자 전형 계획.hwpx",
-   "status": "ok",
-   "type": "hwpx",
-   "bytes": 110553,
-   "sha1": "c7f6701b37e3"
-  },
-  {
-   "url": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI4NTg2&type=bbs",
-   "name": "체육특기자 학부모 동의서 및 선수서약서.hwp",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 74240,
-   "sha1": "6c95ad5f6028"
-  },
-  {
-   "url": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTE4NTY5&type=bbs",
-   "name": "2027학년도 강원특별자치도 고등학교 입학전형 기본계획(공고).hwp",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 219136,
-   "sha1": "b74f96640178"
-  }
- ],
- "lines": [
-  {
-   "text": "나. 원서접수기간: 2026. 12. 8.(화)~12. 10.(목) 15:00까지",
-   "dates": [
-    "2026-12-08",
-    "2026-12-10"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=55051&key=m2307210603513"
-  },
-  {
-   "text": "- 강원특별자치도교육감 입학전형 지역 읍·면 단위 농어촌의 작은학교(재적60명이하중학교:2026.10.30.(금) 기준)에 입학(3월 1일 입학)하여 3년 동안 재학한 졸업(예정)자 중 농어촌 특별전형으로 대학을 진학하고자 하는 학생이 농어촌 특별전형 조건이 되는 학교군 내 고등학…",
-   "dates": [
-    "2026-10-30",
-    "2027-03-01"
-   ],
-   "words": [
-    "배정"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3MjY5&type=bbs"
-  },
-  {
-   "text": "2) 우선 배정 대상 중학교(10교, 2026.10.30.(금) 기준 재적수에 따라 대상학교 변동 가능)",
-   "dates": [
-    "2026-10-30"
-   ],
-   "words": [
-    "배정"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3MjY5&type=bbs"
-  },
-  {
-   "text": "가. 원서 작성 및 제출 기간: 2026. 12. 8.(화) ~ 12. 10.(목) 15:00까지",
-   "dates": [
-    "2026-12-08",
-    "2026-12-10"
-   ],
-   "words": [
-    "원서"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3MjY5&type=bbs"
-  },
-  {
-   "text": " 원서 제출 마감일(2026.12.10.(목)) 15:00 정각에 원서접수 시스템이 자동으로 마감 처리하므로 지원자는 사전에 충분한 시간을 가지고 원서를 작성해야 합니다.",
-   "dates": [
-    "2026-12-10"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3MjY5&type=bbs"
-  },
-  {
-   "text": "1) 강원특별자치도교육감 입학전형 지역 농어촌 읍면단위 작은학교(재적 60명 이하 중학교: 2026. 10. 30.(금) 기준) 입학하여 3년 동안 재학한 졸업(예정)자 중 지역별 농어촌 읍면단위 고등학교 배정을 희망할 경우",
-   "dates": [
-    "2026-10-30"
-   ],
-   "words": [
-    "배정"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3MjY5&type=bbs"
-  },
-  {
-   "text": "가. 발표 일시: 2027. 1. 8.(금) 14:00 예정",
-   "dates": [
-    "2027-01-08"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3MjY5&type=bbs"
-  },
-  {
-   "text": "가. 발표 일시: 2027. 1. 15.(금) 16:00 예정",
-   "dates": [
-    "2027-01-15"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3MjY5&type=bbs"
-  },
-  {
-   "text": "- 배정된 고등학교 학교홈페이지에 학교별 안내사항 탑재 또는 별도 공지 | 가. 기간: 2027. 1. 20.(수)~1. 22.(금)",
-   "dates": [
-    "2027-01-20",
-    "2027-01-22"
-   ],
-   "words": [
-    "배정"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3MjY5&type=bbs"
-  },
-  {
-   "text": "다. 지원서 접수 기간: 2027. 2. 10.(수) ~ 2. 12.(금)",
-   "dates": [
-    "2027-02-10",
-    "2027-02-12"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3MjY5&type=bbs"
-  },
-  {
-   "text": "마. 추첨 및 배정 발표 일시: 2027. 2. 17.(수)",
-   "dates": [
-    "2027-02-17"
-   ],
-   "words": [
-    "발표",
-    "배정"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3MjY5&type=bbs"
-  },
-  {
-   "text": " 강원특별자치도 체육특기자 배정 및 선발에 관한 규칙 | [강원특별자치도교육규칙 제888호, (시행 2023. 6. 11.)]",
-   "dates": [
-    "2023-06-11"
-   ],
-   "words": [
-    "배정"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3Mjcw&type=bbs"
-  },
-  {
-   "text": "가. 교부 및 접수 기간 : 2026. 10. 1.(목) ～ 10. 6.(월)",
-   "dates": [
-    "2026-10-01",
-    "2026-10-06"
-   ],
-   "words": [
-    "접수"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3Mjcw&type=bbs"
-  },
-  {
-   "text": "나. 중학교장은 제출 학생의 심사원서와 증빙 서류를 대조‧확인하고, 공문으로 2026. 10. 6.(월)까지 해당 고등학교장에게 송부한다. 원본은 우편(또는 인편)으로 제출한다.",
-   "dates": [
-    "2026-10-06"
-   ],
-   "words": [
-    "원서"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3Mjcw&type=bbs"
-  },
-  {
-   "text": "다. 고등학교장은 접수된 심사원서를 취합하고, 종목별, 남녀별로 추천 순위를 정하여 공문으로 2026. 10. 16.(금)까지 강원특별자치도교육청 중등교육과로 제출한다.",
-   "dates": [
-    "2026-10-16"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3Mjcw&type=bbs"
-  },
-  {
-   "text": "비평준화교 합격자 발표 | 2026. 12. 15.(화)",
-   "dates": [
-    "2026-12-15"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTE4NTY5&type=bbs"
-  },
-  {
-   "text": "평준화교 합격자 발표 | 2027. 1. 8.(금)",
-   "dates": [
-    "2027-01-08"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTE4NTY5&type=bbs"
-  },
-  {
-   "text": "평준화교 배정결과 발표 | 2027. 1. 15.(금)",
-   "dates": [
-    "2027-01-15"
-   ],
-   "words": [
-    "발표",
-    "배정"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTE4NTY5&type=bbs"
-  },
-  {
-   "text": "1) 접수시기 : 2027. 2. 10.(수)∼ 2. 12.(금)까지(그 이후에는 3월에 전학 처리)",
-   "dates": [
-    "2027-02-10",
-    "2027-02-12"
-   ],
-   "words": [
-    "접수"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTE4NTY5&type=bbs"
-  },
-  {
-   "text": "※ 평준화지역 추첨 및 배정 발표 : 2027. 2. 17.(수)",
-   "dates": [
-    "2027-02-17"
-   ],
-   "words": [
-    "발표",
-    "배정"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTE4NTY5&type=bbs"
-  }
- ],
- "status": "dates",
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "robots",
  "route": 1
 }

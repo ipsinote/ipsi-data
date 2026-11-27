@@ -2,11 +2,12 @@
  "id": "n39",
  "org": "충북대 영재원",
  "what": "앞으로 120일 안 일정 2단계",
- "checkedAt": "2026-11-27T08:17:05+09:00",
+ "checkedAt": "2026-11-28T02:15:47+09:00",
  "opened": [
   {
    "url": "https://school.cbe.go.kr/dongseong-m/M010301/view/5847323",
-   "status": "ok"
+   "status": "robots",
+   "why": "unreachable"
   },
   {
    "url": "https://gifted.cbnu.ac.kr",
@@ -21,20 +22,9 @@
  ],
  "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "https://school.cbe.go.kr/dongseong-m/M010301/view/5847323",
-   "title": "공지사항<학교소식<동성중학교"
-  }
- ],
- "files": [
-  {
-   "url": "https://school.cbe.go.kr/_cmm/fileDownload/dongseong-m/M010301/25932b1344ebe6b45b4a2be6b5f4f025",
-   "name": "과학영재교육원 과학영재교육원_2027학년도_충북대학교_과학영재교육원_상반기_선교육대상자_전형요강.pdf",
-   "status": "limit"
-  }
- ],
+ "titles": [],
+ "files": [],
  "lines": [],
- "status": "found-no-dates",
+ "status": "robots",
  "route": 1
 }

@@ -1,9 +1,14 @@
 {
- "at": "2026-11-27T08:23:40+09:00",
+ "at": "2026-11-28T02:22:11+09:00",
  "targets": 89,
- "withDates": 44,
+ "withDates": 34,
  "blockedAll": [
+  "n10",
+  "n11",
+  "n13",
   "n80",
+  "n12",
+  "n31",
   "n33",
   "n69",
   "n83",
@@ -64,14 +69,15 @@
   {
    "id": "n09",
    "org": "인천 융합영재교육원",
-   "status": "dates",
-   "lines": 1,
+   "status": "robots",
+   "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 3,
    "route": 1,
    "tried": null,
    "robotsWhy": [
-    "rules"
+    "ambiguous",
+    "html"
    ]
   },
   {
@@ -156,12 +162,15 @@
   {
    "id": "n45",
    "org": "강원 교육지원청 영재원",
-   "status": "dates",
-   "lines": 60,
-   "files": 7,
-   "opened": 8,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
    "route": 1,
-   "tried": null
+   "tried": null,
+   "robotsWhy": [
+    "unreachable"
+   ]
   },
   {
    "id": "n46",
@@ -239,31 +248,53 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "dates",
-   "lines": 6,
-   "files": 5,
-   "opened": 6,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
+   ],
+   "robotsWhy": [
+    "ambiguous"
    ]
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "dates",
-   "lines": 7,
-   "files": 3,
-   "opened": 6,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
+   ],
+   "robotsWhy": [
+    "ambiguous"
    ]
   },
   {
@@ -292,11 +323,12 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 8,
+   "opened": 5,
    "route": 1,
    "tried": null,
    "robotsWhy": [
-    "rules"
+    "rules",
+    "unreachable"
    ]
   },
   {
@@ -305,26 +337,38 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 8,
+   "opened": 5,
    "route": 1,
    "tried": null,
    "robotsWhy": [
-    "rules"
+    "rules",
+    "unreachable"
    ]
   },
   {
    "id": "n13",
    "org": "인천하늘고",
-   "status": "found-no-dates",
+   "status": "blocked-all",
    "lines": 0,
    "files": 0,
-   "opened": 8,
+   "opened": 2,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
+   ],
+   "robotsWhy": [
+    "ambiguous"
    ]
   },
   {
@@ -362,7 +406,7 @@
    "org": "민족사관고",
    "status": "dates",
    "lines": 1,
-   "files": 3,
+   "files": 2,
    "opened": 5,
    "route": 1,
    "tried": [
@@ -370,6 +414,9 @@
      "rank": 1,
      "status": "dates"
     }
+   ],
+   "robotsWhy": [
+    "unreachable"
    ]
   },
   {
@@ -388,12 +435,15 @@
   {
    "id": "n35",
    "org": "충북 교육청 영재원",
-   "status": "dates",
-   "lines": 28,
-   "files": 4,
-   "opened": 4,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
    "route": 1,
-   "tried": null
+   "tried": null,
+   "robotsWhy": [
+    "unreachable"
+   ]
   },
   {
    "id": "n61",
@@ -503,9 +553,9 @@
    "id": "n17",
    "org": "경기 교육지원청 영재교육원",
    "status": "dates",
-   "lines": 2,
+   "lines": 4,
    "files": 0,
-   "opened": 3,
+   "opened": 4,
    "route": 1,
    "tried": null
   },
@@ -538,16 +588,27 @@
   {
    "id": "n12",
    "org": "인천 고입",
-   "status": "dates",
-   "lines": 2,
+   "status": "blocked-all",
+   "lines": 0,
    "files": 0,
-   "opened": 5,
+   "opened": 2,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
+   ],
+   "robotsWhy": [
+    "ambiguous"
    ]
   },
   {
@@ -606,19 +667,28 @@
   {
    "id": "n31",
    "org": "충남대 영재원",
-   "status": "dates",
-   "lines": 33,
-   "files": 8,
-   "opened": 9,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 4,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ],
    "robotsWhy": [
-    "html"
+    "html",
+    "unreachable"
    ]
   },
   {
@@ -650,22 +720,28 @@
   {
    "id": "n36",
    "org": "충북과학고",
-   "status": "dates",
-   "lines": 5,
-   "files": 1,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
    "opened": 4,
    "route": 1,
-   "tried": null
+   "tried": null,
+   "robotsWhy": [
+    "unreachable"
+   ]
   },
   {
    "id": "n37",
    "org": "충북 고입",
-   "status": "dates",
-   "lines": 8,
+   "status": "robots",
+   "lines": 0,
    "files": 0,
-   "opened": 6,
+   "opened": 3,
    "route": 1,
-   "tried": null
+   "tried": null,
+   "robotsWhy": [
+    "unreachable"
+   ]
   },
   {
    "id": "n38",
@@ -683,9 +759,9 @@
   {
    "id": "n39",
    "org": "충북대 영재원",
-   "status": "found-no-dates",
+   "status": "robots",
    "lines": 0,
-   "files": 1,
+   "files": 0,
    "opened": 3,
    "route": 1,
    "tried": null,
@@ -728,9 +804,9 @@
   {
    "id": "n47",
    "org": "강원 고입",
-   "status": "dates",
-   "lines": 20,
-   "files": 4,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
    "opened": 4,
    "route": 1,
    "tried": null,
@@ -808,7 +884,7 @@
    "id": "n56",
    "org": "전북 고입",
    "status": "dates",
-   "lines": 31,
+   "lines": 60,
    "files": 4,
    "opened": 4,
    "route": 1,
@@ -818,7 +894,7 @@
    "id": "n57",
    "org": "상산고",
    "status": "dates",
-   "lines": 6,
+   "lines": 46,
    "files": 1,
    "opened": 2,
    "route": 1,
@@ -1130,7 +1206,7 @@
     },
     {
      "rank": 2,
-     "status": "error"
+     "status": "robots"
     },
     {
      "rank": 3,
@@ -1204,10 +1280,10 @@
   "http://dongbu.ice.go.kr": {
    "http": 200,
    "bytes": 68,
-   "sha": "3b579ef7",
-   "rules": 1,
-   "disallow": 1,
-   "kind": "rules",
+   "sha": "2a849da1",
+   "rules": 0,
+   "disallow": 0,
+   "kind": "ambiguous",
    "blockAt": "2026-11-27"
   },
   "http://gbgt.daegu.ac.kr": {
@@ -1217,7 +1293,7 @@
    "rules": 5,
    "disallow": 4,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "http://gbit.daegu.ac.kr": {
    "http": 200,
@@ -1226,7 +1302,7 @@
    "rules": 5,
    "disallow": 4,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "http://www.cnfl.cnehs.kr": {
    "http": 200,
@@ -1235,7 +1311,7 @@
    "rules": 1,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "http://www.cnsh.cnehs.kr": {
    "http": 200,
@@ -1244,7 +1320,7 @@
    "rules": 1,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "http://www.dge.go.kr": {
    "http": "error",
@@ -1284,7 +1360,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://bdja-h.goesn.kr": {
    "http": 200,
@@ -1296,11 +1372,11 @@
   },
   "https://bukbu.ice.go.kr": {
    "http": 200,
-   "bytes": 412,
-   "sha": "309ee8b9",
+   "bytes": 68,
+   "sha": "2a849da1",
    "rules": 0,
    "disallow": 0,
-   "kind": "rules"
+   "kind": "html"
   },
   "https://csge.jnu.ac.kr": {
    "http": 403,
@@ -1321,7 +1397,7 @@
    "rules": 16,
    "disallow": 16,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://daewon.ms.kr": {
    "http": "error",
@@ -1335,7 +1411,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://dei.djsch.kr": {
    "http": 200,
@@ -1344,7 +1420,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://dgist.ac.kr": {
    "http": "error",
@@ -1362,7 +1438,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://dongpyung.dge.es.kr": {
    "http": 200,
@@ -1371,7 +1447,7 @@
    "rules": 14,
    "disallow": 14,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://dswes.djsch.kr": {
    "http": 200,
@@ -1380,7 +1456,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://dwfl.hs.kr": {
    "http": 200,
@@ -1405,7 +1481,7 @@
    "rules": 26,
    "disallow": 25,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://gasuwones.djsch.kr": {
    "http": 200,
@@ -1414,7 +1490,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://gf.gwe.hs.kr": {
    "http": "error",
@@ -1433,12 +1509,9 @@
    "blockAt": "2026-11-18"
   },
   "https://gifted.cnu.ac.kr": {
-   "http": 200,
-   "bytes": 68,
-   "sha": "c2312af1",
-   "rules": 4,
-   "disallow": 3,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='gifted.cnu.ac.kr', port=443): Read timed out. (read timeout=30)",
+   "kind": "unreachable",
    "blockAt": "2026-11-27"
   },
   "https://gifted.dnue.ac.kr": {
@@ -1495,7 +1568,7 @@
    "rules": 15,
    "disallow": 15,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://gwangcheol.hs.jne.kr": {
    "http": "error",
@@ -1510,21 +1583,18 @@
    "blockAt": "2026-11-17"
   },
   "https://gwgned.gwe.go.kr": {
-   "http": 200,
-   "bytes": 113,
-   "sha": "db895613",
-   "rules": 3,
-   "disallow": 2,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='gwgned.gwe.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(S",
+   "kind": "unreachable",
    "blockAt": "2026-11-27"
   },
   "https://haneul.icehs.kr": {
    "http": 200,
-   "bytes": 391,
-   "sha": "c8f83538",
-   "rules": 13,
-   "disallow": 13,
-   "kind": "rules",
+   "bytes": 77,
+   "sha": "20246313",
+   "rules": 0,
+   "disallow": 0,
+   "kind": "ambiguous",
    "blockAt": "2026-11-27"
   },
   "https://hansol.dge.es.kr": {
@@ -1534,7 +1604,7 @@
    "rules": 14,
    "disallow": 14,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://highschool.gne.go.kr": {
    "http": 404,
@@ -1551,7 +1621,7 @@
    "rules": 79,
    "disallow": 79,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://hyfl.sen.hs.kr": {
    "http": 200,
@@ -1560,34 +1630,49 @@
    "rules": 5,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://i-science.icehs.kr": {
    "http": 200,
-   "bytes": 391,
-   "sha": "c8f83538",
-   "rules": 13,
-   "disallow": 13,
-   "kind": "rules",
+   "bytes": 77,
+   "sha": "20246313",
+   "rules": 0,
+   "disallow": 0,
+   "kind": "ambiguous",
    "blockAt": "2026-11-27"
   },
   "https://ice.go.kr": {
    "http": 200,
-   "final": "https://www.ice.go.kr/robots.txt",
-   "bytes": 602,
-   "sha": "d15cec9c",
-   "rules": 17,
-   "disallow": 16,
-   "kind": "rules",
+   "bytes": 77,
+   "sha": "20246313",
+   "rules": 0,
+   "disallow": 0,
+   "kind": "ambiguous",
    "blockAt": "2026-11-27"
+  },
+  "https://icf.icehs.kr": {
+   "http": 200,
+   "bytes": 77,
+   "sha": "20246313",
+   "rules": 0,
+   "disallow": 0,
+   "kind": "html"
+  },
+  "https://ii.icehs.kr": {
+   "http": 200,
+   "bytes": 77,
+   "sha": "20246313",
+   "rules": 0,
+   "disallow": 0,
+   "kind": "html"
   },
   "https://ijss.icehs.kr": {
    "http": 200,
-   "bytes": 391,
-   "sha": "c8f83538",
-   "rules": 13,
-   "disallow": 13,
-   "kind": "rules",
+   "bytes": 77,
+   "sha": "20246313",
+   "rules": 0,
+   "disallow": 0,
+   "kind": "ambiguous",
    "blockAt": "2026-11-27"
   },
   "https://jinhak.sen.go.kr": {
@@ -1605,7 +1690,7 @@
    "rules": 16,
    "disallow": 16,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://kangwon-sh.gwe.hs.kr": {
    "http": "error",
@@ -1620,12 +1705,9 @@
    "blockAt": "2026-11-17"
   },
   "https://kwthe.gwe.go.kr": {
-   "http": 200,
-   "bytes": 113,
-   "sha": "db895613",
-   "rules": 3,
-   "disallow": 2,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='kwthe.gwe.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SS",
+   "kind": "unreachable",
    "blockAt": "2026-11-27"
   },
   "https://mped.jne.go.kr": {
@@ -1641,11 +1723,16 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://plus.cnu.ac.kr": {
-   "blockAt": "2026-11-26",
-   "kept": true
+   "http": 200,
+   "bytes": 122,
+   "sha": "77782a62",
+   "rules": 2,
+   "disallow": 2,
+   "kind": "rules",
+   "blockAt": "2026-11-28"
   },
   "https://portal.gnue.ac.kr": {
    "http": 404,
@@ -1658,7 +1745,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://sced.jge.go.kr": {
    "http": "error",
@@ -1668,7 +1755,7 @@
   },
   "https://sced.jne.go.kr": {
    "http": "error",
-   "error": "HTTPSConnectionPool(host='sced.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeo",
+   "error": "HTTPSConnectionPool(host='sced.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResoluti",
    "kind": "unreachable"
   },
   "https://school.busanedu.net": {
@@ -1678,15 +1765,12 @@
    "rules": 22,
    "disallow": 22,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://school.cbe.go.kr": {
-   "http": 200,
-   "bytes": 1421,
-   "sha": "330efb72",
-   "rules": 3,
-   "disallow": 3,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='school.cbe.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTim",
+   "kind": "unreachable",
    "blockAt": "2026-11-27"
   },
   "https://school.gyo6.net": {
@@ -1696,7 +1780,7 @@
    "rules": 1,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://school.jbedu.kr": {
    "http": 200,
@@ -1705,7 +1789,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://school.jje.go.kr": {
    "http": 200,
@@ -1714,7 +1798,7 @@
    "rules": 9,
    "disallow": 8,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://school.use.go.kr": {
    "http": 200,
@@ -1735,7 +1819,7 @@
    "rules": 15,
    "disallow": 14,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://use.go.kr": {
    "http": "error",
@@ -1743,12 +1827,9 @@
    "kind": "unreachable"
   },
   "https://wjgift.gwe.go.kr": {
-   "http": 200,
-   "bytes": 113,
-   "sha": "db895613",
-   "rules": 3,
-   "disallow": 2,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='wjgift.gwe.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(S",
+   "kind": "unreachable",
    "blockAt": "2026-11-27"
   },
   "https://www.bugil.hs.kr": {
@@ -1758,15 +1839,12 @@
    "rules": 6,
    "disallow": 4,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.cbe.go.kr": {
-   "http": 200,
-   "bytes": 457,
-   "sha": "7bc13474",
-   "rules": 19,
-   "disallow": 18,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='www.cbe.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeou",
+   "kind": "unreachable",
    "blockAt": "2026-11-27"
   },
   "https://www.cncae.go.kr": {
@@ -1782,7 +1860,7 @@
    "rules": 1,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.dge.go.kr": {
    "http": 200,
@@ -1791,7 +1869,7 @@
    "rules": 14,
    "disallow": 14,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.dgist.ac.kr": {
    "http": 200,
@@ -1800,7 +1878,7 @@
    "rules": 1,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.dje.go.kr": {
    "http": 200,
@@ -1809,7 +1887,7 @@
    "rules": 4,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.edurang.net": {
    "http": 200,
@@ -1818,7 +1896,7 @@
    "rules": 3,
    "disallow": 3,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.gbe.kr": {
    "http": 200,
@@ -1835,7 +1913,7 @@
    "rules": 18,
    "disallow": 17,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.gifted.ac.kr": {
    "http": 404,
@@ -1853,7 +1931,7 @@
    "rules": 16,
    "disallow": 16,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.goe.go.kr": {
    "http": 200,
@@ -1862,7 +1940,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.goesn.kr": {
    "http": 200,
@@ -1873,12 +1951,9 @@
    "kind": "rules"
   },
   "https://www.gwe.go.kr": {
-   "http": 200,
-   "bytes": 41,
-   "sha": "4681bb17",
-   "rules": 1,
-   "disallow": 1,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='www.gwe.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLC",
+   "kind": "unreachable",
    "blockAt": "2026-11-27"
   },
   "https://www.hana.hs.kr": {
@@ -1892,15 +1967,15 @@
    "rules": 1,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.ice.go.kr": {
    "http": 200,
-   "bytes": 602,
-   "sha": "d15cec9c",
-   "rules": 17,
-   "disallow": 16,
-   "kind": "rules",
+   "bytes": 77,
+   "sha": "20246313",
+   "rules": 0,
+   "disallow": 0,
+   "kind": "ambiguous",
    "blockAt": "2026-11-27"
   },
   "https://www.jbe.go.kr": {
@@ -1926,11 +2001,11 @@
    "rules": 3,
    "disallow": 1,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.jne.go.kr": {
    "http": "error",
-   "error": "HTTPSConnectionPool(host='www.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeou",
+   "error": "HTTPSConnectionPool(host='www.jne.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutio",
    "kind": "unreachable"
   },
   "https://www.minjok.hs.kr": {
@@ -1942,12 +2017,9 @@
    "kind": "rules"
   },
   "https://www.pen.go.kr": {
-   "http": 200,
-   "bytes": 1116,
-   "sha": "2f9f61b1",
-   "rules": 40,
-   "disallow": 39,
-   "kind": "rules",
+   "http": "error",
+   "error": "HTTPSConnectionPool(host='www.pen.go.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLC",
+   "kind": "unreachable",
    "blockAt": "2026-11-27"
   },
   "https://www.posef.or.kr": {
@@ -1961,7 +2033,7 @@
    "rules": 2,
    "disallow": 2,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.seit.kr": {
    "http": 200,
@@ -1979,7 +2051,7 @@
    "rules": 38,
    "disallow": 4,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://www.sje.go.kr": {
    "http": "error",
@@ -1998,7 +2070,7 @@
    "rules": 3,
    "disallow": 3,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://younghoon.ms.kr": {
    "http": 200,
@@ -2007,7 +2079,7 @@
    "rules": 3,
    "disallow": 3,
    "kind": "rules",
-   "blockAt": "2026-11-27"
+   "blockAt": "2026-11-28"
   },
   "https://ysed.jge.go.kr": {
    "http": "error",

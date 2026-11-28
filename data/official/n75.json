@@ -2,7 +2,7 @@
  "id": "n75",
  "org": "대구 교육청 영재원",
  "what": "GED 원서 접수",
- "checkedAt": "2026-11-28T08:01:28+09:00",
+ "checkedAt": "2026-11-29T00:50:38+09:00",
  "opened": [
   {
    "url": "ged",
@@ -32,8 +32,19 @@
   },
   {
    "url": "https://hansol.dge.es.kr/hansole/main.do?sysId=hansole",
-   "status": "robots",
-   "why": "unreachable"
+   "status": "ok"
+  },
+  {
+   "url": "https://hansol.dge.es.kr/hansole/na/ntt/selectNttList.do?mi=10099184&bbsId=10099184",
+   "status": "ok"
+  },
+  {
+   "url": "https://hansol.dge.es.kr/hansole/na/ntt/selectNttList.do?mi=10099184&bbsId=10099184",
+   "status": "ok"
+  },
+  {
+   "url": "https://hansol.dge.es.kr/hansole/na/ntt/selectNttList.do?mi=10099243&bbsId=10099243",
+   "status": "ok"
   },
   {
    "url": "https://www.dge.go.kr/main/na/ntt/selectNttList.do?mi=1491&bbsId=1046",
